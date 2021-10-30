@@ -1,0 +1,2781 @@
+[
+    {
+        "name": "The Gnasher",
+        "set": "",
+        "type": "Hand Axe",
+        "reqLvl": 5,
+        "rarity": "unique"
+    },
+    {
+        "name": "Deathspade",
+        "set": "",
+        "type": "Axe",
+        "reqLvl": 9,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bladebone",
+        "set": "",
+        "type": "Double Axe",
+        "reqLvl": 15,
+        "rarity": "unique"
+    },
+    {
+        "name": "Mindrend",
+        "set": "",
+        "type": "Military Pick",
+        "reqLvl": 21,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rakescar",
+        "set": "",
+        "type": "War Axe",
+        "reqLvl": 27,
+        "rarity": "unique"
+    },
+    {
+        "name": "Fechmars Axe",
+        "set": "",
+        "type": "Large Axe",
+        "reqLvl": 8,
+        "rarity": "unique"
+    },
+    {
+        "name": "Goreshovel",
+        "set": "",
+        "type": "Broad Axe",
+        "reqLvl": 14,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Chieftan",
+        "set": "",
+        "type": "Battle Axe",
+        "reqLvl": 19,
+        "rarity": "unique"
+    },
+    {
+        "name": "Brainhew",
+        "set": "",
+        "type": "Great Axe",
+        "reqLvl": 25,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Humongous",
+        "set": "",
+        "type": "Giant Axe",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Iros Torch",
+        "set": "",
+        "type": "Wand",
+        "reqLvl": 5,
+        "rarity": "unique"
+    },
+    {
+        "name": "Maelstromwrath",
+        "set": "",
+        "type": "Yew Wand",
+        "reqLvl": 14,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gravenspine",
+        "set": "",
+        "type": "Bone Wand",
+        "reqLvl": 20,
+        "rarity": "unique"
+    },
+    {
+        "name": "Umes Lament",
+        "set": "",
+        "type": "Grim Wand",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Felloak",
+        "set": "",
+        "type": "Club",
+        "reqLvl": 3,
+        "rarity": "unique"
+    },
+    {
+        "name": "Knell Striker",
+        "set": "",
+        "type": "Scepter",
+        "reqLvl": 5,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rusthandle",
+        "set": "",
+        "type": "Grand Scepter",
+        "reqLvl": 17,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stormeye",
+        "set": "",
+        "type": "War Scepter",
+        "reqLvl": 23,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stoutnail",
+        "set": "",
+        "type": "Spiked Club",
+        "reqLvl": 5,
+        "rarity": "unique"
+    },
+    {
+        "name": "Crushflange",
+        "set": "",
+        "type": "Mace",
+        "reqLvl": 9,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bloodrise",
+        "set": "",
+        "type": "Morning Star",
+        "reqLvl": 15,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Generals Tan Do Li Ga",
+        "set": "",
+        "type": "Flail",
+        "reqLvl": 21,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ironstone",
+        "set": "",
+        "type": "War Hammer",
+        "reqLvl": 27,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bonesob",
+        "set": "",
+        "type": "Maul",
+        "reqLvl": 24,
+        "rarity": "unique"
+    },
+    {
+        "name": "Steeldriver",
+        "set": "",
+        "type": "Great Maul",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rixots Keen",
+        "set": "",
+        "type": "Short Sword",
+        "reqLvl": 2,
+        "rarity": "unique"
+    },
+    {
+        "name": "Blood Crescent",
+        "set": "",
+        "type": "Scimitar",
+        "reqLvl": 7,
+        "rarity": "unique"
+    },
+    {
+        "name": "Krintizs Skewer",
+        "set": "",
+        "type": "Saber",
+        "reqLvl": 10,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gleamscythe",
+        "set": "",
+        "type": "Falchion",
+        "reqLvl": 13,
+        "rarity": "unique"
+    },
+    {
+        "name": "Azurewrath",
+        "set": "",
+        "type": "Crystal Sword",
+        "reqLvl": 13,
+        "rarity": "unique"
+    },
+    {
+        "name": "Griswolds Edge",
+        "set": "",
+        "type": "Broad Sword",
+        "reqLvl": 17,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hellplague",
+        "set": "",
+        "type": "Long Sword",
+        "reqLvl": 22,
+        "rarity": "unique"
+    },
+    {
+        "name": "Culwens Point",
+        "set": "",
+        "type": "War Sword",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Shadowfang",
+        "set": "",
+        "type": "2-Handed Sword",
+        "reqLvl": 12,
+        "rarity": "unique"
+    },
+    {
+        "name": "Soulflay",
+        "set": "",
+        "type": "Claymore",
+        "reqLvl": 19,
+        "rarity": "unique"
+    },
+    {
+        "name": "Kinemils Awl",
+        "set": "",
+        "type": "Giant Sword",
+        "reqLvl": 23,
+        "rarity": "unique"
+    },
+    {
+        "name": "Blacktongue",
+        "set": "",
+        "type": "Bastard Sword",
+        "reqLvl": 26,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ripsaw",
+        "set": "",
+        "type": "Flamberge",
+        "reqLvl": 26,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Patriarch",
+        "set": "",
+        "type": "Great Sword",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gull",
+        "set": "",
+        "type": "Dagger",
+        "reqLvl": 4,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Diggler",
+        "set": "",
+        "type": "Dirk",
+        "reqLvl": 11,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Jade Tan Do",
+        "set": "",
+        "type": "Kris",
+        "reqLvl": 19,
+        "rarity": "unique"
+    },
+    {
+        "name": "Irices Shard",
+        "set": "",
+        "type": "Blade",
+        "reqLvl": 25,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Dragon Chang",
+        "set": "",
+        "type": "Spear",
+        "reqLvl": 8,
+        "rarity": "unique"
+    },
+    {
+        "name": "Razortine",
+        "set": "",
+        "type": "Trident",
+        "reqLvl": 12,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bloodthief",
+        "set": "",
+        "type": "Brandistock",
+        "reqLvl": 17,
+        "rarity": "unique"
+    },
+    {
+        "name": "Lance of Yaggai",
+        "set": "",
+        "type": "Spetum",
+        "reqLvl": 22,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Tannr Gorerod",
+        "set": "",
+        "type": "Pike",
+        "reqLvl": 27,
+        "rarity": "unique"
+    },
+    {
+        "name": "Dimoaks Hew",
+        "set": "",
+        "type": "Bardiche",
+        "reqLvl": 8,
+        "rarity": "unique"
+    },
+    {
+        "name": "Steelgoad",
+        "set": "",
+        "type": "Voulge",
+        "reqLvl": 14,
+        "rarity": "unique"
+    },
+    {
+        "name": "Soul Harvest",
+        "set": "",
+        "type": "Scythe",
+        "reqLvl": 19,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Battlebranch",
+        "set": "",
+        "type": "Poleaxe",
+        "reqLvl": 25,
+        "rarity": "unique"
+    },
+    {
+        "name": "Woestave",
+        "set": "",
+        "type": "Halberd",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Grim Reaper",
+        "set": "",
+        "type": "War Scythe",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bane Ash",
+        "set": "",
+        "type": "Short Staff",
+        "reqLvl": 5,
+        "rarity": "unique"
+    },
+    {
+        "name": "Serpent Lord",
+        "set": "",
+        "type": "Long Staff",
+        "reqLvl": 9,
+        "rarity": "unique"
+    },
+    {
+        "name": "Lazarus Spire",
+        "set": "",
+        "type": "Gnarled Staff",
+        "reqLvl": 18,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Salamander",
+        "set": "",
+        "type": "Battle Staff",
+        "reqLvl": 21,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Iron Jang Bong",
+        "set": "",
+        "type": "War Staff",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Pluckeye",
+        "set": "",
+        "type": "Short Bow",
+        "reqLvl": 7,
+        "rarity": "unique"
+    },
+    {
+        "name": "Witherstring",
+        "set": "",
+        "type": "Hunter�s Bow",
+        "reqLvl": 13,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rimeraven",
+        "set": "",
+        "type": "Long Bow",
+        "reqLvl": 15,
+        "rarity": "unique"
+    },
+    {
+        "name": "Piercerib",
+        "set": "",
+        "type": "Composite Bow",
+        "reqLvl": 20,
+        "rarity": "unique"
+    },
+    {
+        "name": "Pullspite",
+        "set": "",
+        "type": "Short Battle Bow",
+        "reqLvl": 25,
+        "rarity": "unique"
+    },
+    {
+        "name": "Wizendraw",
+        "set": "",
+        "type": "Long Battle Bow",
+        "reqLvl": 26,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hellclap",
+        "set": "",
+        "type": "Short War Bow",
+        "reqLvl": 27,
+        "rarity": "unique"
+    },
+    {
+        "name": "Blastbark",
+        "set": "",
+        "type": "Long War Bow",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Leadcrow",
+        "set": "",
+        "type": "Light Crossbow",
+        "reqLvl": 9,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ichorsting",
+        "set": "",
+        "type": "Crossbow",
+        "reqLvl": 18,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hellcast",
+        "set": "",
+        "type": "Heavy Crossbow",
+        "reqLvl": 27,
+        "rarity": "unique"
+    },
+    {
+        "name": "Doomspittle",
+        "set": "",
+        "type": "Repeating Crossbow",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "War Bonnet",
+        "set": "",
+        "type": "Cap",
+        "reqLvl": 3,
+        "rarity": "unique"
+    },
+    {
+        "name": "Tarnhelm",
+        "set": "",
+        "type": "Skull Cap",
+        "reqLvl": 15,
+        "rarity": "unique"
+    },
+    {
+        "name": "Coif of Glory",
+        "set": "",
+        "type": "Helm",
+        "reqLvl": 14,
+        "rarity": "unique"
+    },
+    {
+        "name": "Duskdeep",
+        "set": "",
+        "type": "Full Helm",
+        "reqLvl": 17,
+        "rarity": "unique"
+    },
+    {
+        "name": "Wormskull",
+        "set": "",
+        "type": "Bone Helm",
+        "reqLvl": 21,
+        "rarity": "unique"
+    },
+    {
+        "name": "Howltusk",
+        "set": "",
+        "type": "Great Helm",
+        "reqLvl": 25,
+        "rarity": "unique"
+    },
+    {
+        "name": "Undead Crown",
+        "set": "",
+        "type": "Crown",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Face of Horror",
+        "set": "",
+        "type": "Mask",
+        "reqLvl": 20,
+        "rarity": "unique"
+    },
+    {
+        "name": "Greyform",
+        "set": "",
+        "type": "Quilted Armor",
+        "reqLvl": 7,
+        "rarity": "unique"
+    },
+    {
+        "name": "Blinkbats Form",
+        "set": "",
+        "type": "Leather Armor",
+        "reqLvl": 12,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Centurion",
+        "set": "",
+        "type": "Hard Leather",
+        "reqLvl": 14,
+        "rarity": "unique"
+    },
+    {
+        "name": "Twitchthroe",
+        "set": "",
+        "type": "Studded Leather",
+        "reqLvl": 16,
+        "rarity": "unique"
+    },
+    {
+        "name": "Darkglow",
+        "set": "",
+        "type": "Ring Mail",
+        "reqLvl": 14,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hawkmail",
+        "set": "",
+        "type": "Scale Mail",
+        "reqLvl": 15,
+        "rarity": "unique"
+    },
+    {
+        "name": "Sparking Mail",
+        "set": "",
+        "type": "Chain Mail",
+        "reqLvl": 17,
+        "rarity": "unique"
+    },
+    {
+        "name": "Venomsward",
+        "set": "",
+        "type": "Breast Plate",
+        "reqLvl": 20,
+        "rarity": "unique"
+    },
+    {
+        "name": "Iceblink",
+        "set": "",
+        "type": "Splint Mail",
+        "reqLvl": 22,
+        "rarity": "unique"
+    },
+    {
+        "name": "Boneflesh",
+        "set": "",
+        "type": "Plate Mail",
+        "reqLvl": 26,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rockfleece",
+        "set": "",
+        "type": "Field Plate",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rattlecage",
+        "set": "",
+        "type": "Gothic Plate",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Goldskin",
+        "set": "",
+        "type": "Full Plate Mail",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Victors Silk",
+        "set": "",
+        "type": "AncientArmor",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Heavenly Garb",
+        "set": "",
+        "type": "Light Plate",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Pelta Lunata",
+        "set": "",
+        "type": "Buckler",
+        "reqLvl": 2,
+        "rarity": "unique"
+    },
+    {
+        "name": "Umbral Disk",
+        "set": "",
+        "type": "Small Shield",
+        "reqLvl": 9,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stormguild",
+        "set": "",
+        "type": "Large Shield",
+        "reqLvl": 13,
+        "rarity": "unique"
+    },
+    {
+        "name": "Wall of the Eyeless",
+        "set": "",
+        "type": "Bone Shield",
+        "reqLvl": 20,
+        "rarity": "unique"
+    },
+    {
+        "name": "Swordback Hold",
+        "set": "",
+        "type": "Spiked Shield",
+        "reqLvl": 15,
+        "rarity": "unique"
+    },
+    {
+        "name": "Steelclash",
+        "set": "",
+        "type": "Kite Shield",
+        "reqLvl": 17,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bverrit Keep",
+        "set": "",
+        "type": "Tower Shield",
+        "reqLvl": 19,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Ward",
+        "set": "",
+        "type": "Gothic Shield",
+        "reqLvl": 26,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Hand of Broc",
+        "set": "",
+        "type": "Gloves",
+        "reqLvl": 5,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bloodfist",
+        "set": "",
+        "type": "Heavy Gloves",
+        "reqLvl": 9,
+        "rarity": "unique"
+    },
+    {
+        "name": "Chance Guards",
+        "set": "",
+        "type": "Bracers",
+        "reqLvl": 15,
+        "rarity": "unique"
+    },
+    {
+        "name": "Magefist",
+        "set": "",
+        "type": "Light Gauntlets",
+        "reqLvl": 23,
+        "rarity": "unique"
+    },
+    {
+        "name": "Frostburn",
+        "set": "",
+        "type": "Gauntlets",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hotspur",
+        "set": "",
+        "type": "Leather Boots",
+        "reqLvl": 5,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gorefoot",
+        "set": "",
+        "type": "Heavy Boots",
+        "reqLvl": 9,
+        "rarity": "unique"
+    },
+    {
+        "name": "Treads of Cthon",
+        "set": "",
+        "type": "Chain Boots",
+        "reqLvl": 15,
+        "rarity": "unique"
+    },
+    {
+        "name": "Goblin Toe",
+        "set": "",
+        "type": "Light Plate Boots",
+        "reqLvl": 22,
+        "rarity": "unique"
+    },
+    {
+        "name": "Tearhaunch",
+        "set": "",
+        "type": "Plate Boots",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Lenyms Cord",
+        "set": "",
+        "type": "Sash",
+        "reqLvl": 7,
+        "rarity": "unique"
+    },
+    {
+        "name": "Snakecord",
+        "set": "",
+        "type": "Light Belt",
+        "reqLvl": 12,
+        "rarity": "unique"
+    },
+    {
+        "name": "Nightsmoke",
+        "set": "",
+        "type": "Belt",
+        "reqLvl": 20,
+        "rarity": "unique"
+    },
+    {
+        "name": "Goldwrap",
+        "set": "",
+        "type": "Heavy Belt",
+        "reqLvl": 27,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bladebuckle",
+        "set": "",
+        "type": "Girdle",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Nokozan Relic",
+        "set": "",
+        "type": "Amulet",
+        "reqLvl": 10,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Eye of Etlich",
+        "set": "",
+        "type": "Amulet",
+        "reqLvl": 15,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Mahim-Oak Curio",
+        "set": "",
+        "type": "Amulet",
+        "reqLvl": 25,
+        "rarity": "unique"
+    },
+    {
+        "name": "Nagelring",
+        "set": "",
+        "type": "Ring",
+        "reqLvl": 7,
+        "rarity": "unique"
+    },
+    {
+        "name": "Manald Heal",
+        "set": "",
+        "type": "Ring",
+        "reqLvl": 15,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Stone of Jordan",
+        "set": "",
+        "type": "Ring",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Amulet of the Viper",
+        "set": "",
+        "type": "Amulet",
+        "rarity": "unique"
+    },
+    {
+        "name": "Staff of Kings",
+        "set": "",
+        "type": "Staff",
+        "rarity": "unique"
+    },
+    {
+        "name": "Horadric Staff",
+        "set": "",
+        "type": "Staff",
+        "rarity": "unique"
+    },
+    {
+        "name": "Hell Forge Hammer",
+        "set": "",
+        "type": "Hammer",
+        "rarity": "unique"
+    },
+    {
+        "name": "KhalimFlail",
+        "set": "",
+        "type": "Flail",
+        "rarity": "unique"
+    },
+    {
+        "name": "SuperKhalimFlail",
+        "set": "",
+        "type": "Flail",
+        "rarity": "unique"
+    },
+    {
+        "name": "Expansion",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Coldkill",
+        "set": "",
+        "type": "Hatchet",
+        "reqLvl": 36,
+        "rarity": "unique"
+    },
+    {
+        "name": "Butcher's Pupil",
+        "set": "",
+        "type": "Cleaver",
+        "reqLvl": 39,
+        "rarity": "unique"
+    },
+    {
+        "name": "Islestrike",
+        "set": "",
+        "type": "Twin Axe",
+        "reqLvl": 43,
+        "rarity": "unique"
+    },
+    {
+        "name": "Pompe's Wrath",
+        "set": "",
+        "type": "Crowbill",
+        "reqLvl": 45,
+        "rarity": "unique"
+    },
+    {
+        "name": "Guardian Naga",
+        "set": "",
+        "type": "Naga",
+        "reqLvl": 48,
+        "rarity": "unique"
+    },
+    {
+        "name": "Warlord's Trust",
+        "set": "",
+        "type": "Military Axe",
+        "reqLvl": 35,
+        "rarity": "unique"
+    },
+    {
+        "name": "Spellsteel",
+        "set": "",
+        "type": "Bearded Axe",
+        "reqLvl": 39,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stormrider",
+        "set": "",
+        "type": "Tabar",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "Boneslayer Blade",
+        "set": "",
+        "type": "Gothic Axe",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Minataur",
+        "set": "",
+        "type": "Ancient Axe",
+        "reqLvl": 45,
+        "rarity": "unique"
+    },
+    {
+        "name": "Suicide Branch",
+        "set": "",
+        "type": "Burnt Wand",
+        "reqLvl": 33,
+        "rarity": "unique"
+    },
+    {
+        "name": "Carin Shard",
+        "set": "",
+        "type": "Petrified Wand",
+        "reqLvl": 35,
+        "rarity": "unique"
+    },
+    {
+        "name": "Arm of King Leoric",
+        "set": "",
+        "type": "Tomb Wand",
+        "reqLvl": 36,
+        "rarity": "unique"
+    },
+    {
+        "name": "Blackhand Key",
+        "set": "",
+        "type": "Grave Wand",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "Dark Clan Crusher",
+        "set": "",
+        "type": "Cudgel",
+        "reqLvl": 34,
+        "rarity": "unique"
+    },
+    {
+        "name": "Zakarum's Hand",
+        "set": "",
+        "type": "Rune Scepter",
+        "reqLvl": 37,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Fetid Sprinkler",
+        "set": "",
+        "type": "Holy Water Sprinkler",
+        "reqLvl": 38,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hand of Blessed Light",
+        "set": "",
+        "type": "Divine Scepter",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Fleshrender",
+        "set": "",
+        "type": "Barbed Club",
+        "reqLvl": 38,
+        "rarity": "unique"
+    },
+    {
+        "name": "Sureshrill Frost",
+        "set": "",
+        "type": "Flanged Mace",
+        "reqLvl": 39,
+        "rarity": "unique"
+    },
+    {
+        "name": "Moonfall",
+        "set": "",
+        "type": "Jagged Star",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Baezil's Vortex",
+        "set": "",
+        "type": "Knout",
+        "reqLvl": 45,
+        "rarity": "unique"
+    },
+    {
+        "name": "Earthshaker",
+        "set": "",
+        "type": "Battle Hammer",
+        "reqLvl": 43,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bloodtree Stump",
+        "set": "",
+        "type": "War Club",
+        "reqLvl": 48,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Gavel of Pain",
+        "set": "",
+        "type": "Martel de Fer",
+        "reqLvl": 45,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bloodletter",
+        "set": "",
+        "type": "Gladius",
+        "reqLvl": 30,
+        "rarity": "unique"
+    },
+    {
+        "name": "Coldsteel Eye",
+        "set": "",
+        "type": "Cutlass",
+        "reqLvl": 31,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hexfire",
+        "set": "",
+        "type": "Shamshir",
+        "reqLvl": 33,
+        "rarity": "unique"
+    },
+    {
+        "name": "Blade of Ali Baba",
+        "set": "",
+        "type": "Tulwar",
+        "reqLvl": 35,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ginther's Rift",
+        "set": "",
+        "type": "Dimensional Blade",
+        "reqLvl": 37,
+        "rarity": "unique"
+    },
+    {
+        "name": "Headstriker",
+        "set": "",
+        "type": "Battle Sword",
+        "reqLvl": 39,
+        "rarity": "unique"
+    },
+    {
+        "name": "Plague Bearer",
+        "set": "",
+        "type": "Rune Sword",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Atlantian",
+        "set": "",
+        "type": "Ancient Sword",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Crainte Vomir",
+        "set": "",
+        "type": "Espadon",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bing Sz Wang",
+        "set": "",
+        "type": "Dacian Falx",
+        "reqLvl": 43,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Vile Husk",
+        "set": "",
+        "type": "Tusk Sword",
+        "reqLvl": 44,
+        "rarity": "unique"
+    },
+    {
+        "name": "Cloudcrack",
+        "set": "",
+        "type": "Gothic Sword",
+        "reqLvl": 45,
+        "rarity": "unique"
+    },
+    {
+        "name": "Todesfaelle Flamme",
+        "set": "",
+        "type": "Zweihander",
+        "reqLvl": 46,
+        "rarity": "unique"
+    },
+    {
+        "name": "Swordguard",
+        "set": "",
+        "type": "Executioner Sword",
+        "reqLvl": 48,
+        "rarity": "unique"
+    },
+    {
+        "name": "Spineripper",
+        "set": "",
+        "type": "Poignard",
+        "reqLvl": 32,
+        "rarity": "unique"
+    },
+    {
+        "name": "Heart Carver",
+        "set": "",
+        "type": "Rondel",
+        "reqLvl": 36,
+        "rarity": "unique"
+    },
+    {
+        "name": "Blackbog's Sharp",
+        "set": "",
+        "type": "Cinquedeas",
+        "reqLvl": 38,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stormspike",
+        "set": "",
+        "type": "Stilleto",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Impaler",
+        "set": "",
+        "type": "War Spear",
+        "reqLvl": 31,
+        "rarity": "unique"
+    },
+    {
+        "name": "Kelpie Snare",
+        "set": "",
+        "type": "Fuscina",
+        "reqLvl": 33,
+        "rarity": "unique"
+    },
+    {
+        "name": "Soulfeast Tine",
+        "set": "",
+        "type": "War Fork",
+        "reqLvl": 35,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hone Sundan",
+        "set": "",
+        "type": "Yari",
+        "reqLvl": 37,
+        "rarity": "unique"
+    },
+    {
+        "name": "Spire of Honor",
+        "set": "",
+        "type": "Lance",
+        "reqLvl": 39,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Meat Scraper",
+        "set": "",
+        "type": "Lochaber Axe",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "Blackleach Blade",
+        "set": "",
+        "type": "Bill",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Athena's Wrath",
+        "set": "",
+        "type": "Battle Scythe",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Pierre Tombale Couant",
+        "set": "",
+        "type": "Partizan",
+        "reqLvl": 43,
+        "rarity": "unique"
+    },
+    {
+        "name": "Husoldal Evo",
+        "set": "",
+        "type": "Bec-de-Corbin",
+        "reqLvl": 44,
+        "rarity": "unique"
+    },
+    {
+        "name": "Grim's Burning Dead",
+        "set": "",
+        "type": "Grim Scythe",
+        "reqLvl": 45,
+        "rarity": "unique"
+    },
+    {
+        "name": "Razorswitch",
+        "set": "",
+        "type": "Jo Stalf",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ribcracker",
+        "set": "",
+        "type": "Quarterstaff",
+        "reqLvl": 31,
+        "rarity": "unique"
+    },
+    {
+        "name": "Chromatic Ire",
+        "set": "",
+        "type": "Cedar Staff",
+        "reqLvl": 35,
+        "rarity": "unique"
+    },
+    {
+        "name": "Warpspear",
+        "set": "",
+        "type": "Gothic Staff",
+        "reqLvl": 39,
+        "rarity": "unique"
+    },
+    {
+        "name": "Skullcollector",
+        "set": "",
+        "type": "Rune Staff",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "Skystrike",
+        "set": "",
+        "type": "Edge Bow",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Riphook",
+        "set": "",
+        "type": "Razor Bow",
+        "reqLvl": 31,
+        "rarity": "unique"
+    },
+    {
+        "name": "Kuko Shakaku",
+        "set": "",
+        "type": "CedarBow",
+        "reqLvl": 33,
+        "rarity": "unique"
+    },
+    {
+        "name": "Endlesshail",
+        "set": "",
+        "type": "Double Bow",
+        "reqLvl": 36,
+        "rarity": "unique"
+    },
+    {
+        "name": "Whichwild String",
+        "set": "",
+        "type": "Short Siege Bow",
+        "reqLvl": 39,
+        "rarity": "unique"
+    },
+    {
+        "name": "Cliffkiller",
+        "set": "",
+        "type": "Long Siege Bow",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "Magewrath",
+        "set": "",
+        "type": "Rune Bow",
+        "reqLvl": 43,
+        "rarity": "unique"
+    },
+    {
+        "name": "Godstrike Arch",
+        "set": "",
+        "type": "Gothic Bow",
+        "reqLvl": 46,
+        "rarity": "unique"
+    },
+    {
+        "name": "Langer Briser",
+        "set": "",
+        "type": "Arbalest",
+        "reqLvl": 32,
+        "rarity": "unique"
+    },
+    {
+        "name": "Pus Spiter",
+        "set": "",
+        "type": "Siege Crossbow",
+        "reqLvl": 36,
+        "rarity": "unique"
+    },
+    {
+        "name": "Buriza-Do Kyanon",
+        "set": "",
+        "type": "Balista",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "Demon Machine",
+        "set": "",
+        "type": "Chu-Ko-Nu",
+        "reqLvl": 49,
+        "rarity": "unique"
+    },
+    {
+        "name": "Armor",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Peasent Crown",
+        "set": "",
+        "type": "War Hat",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rockstopper",
+        "set": "",
+        "type": "Sallet",
+        "reqLvl": 31,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stealskull",
+        "set": "",
+        "type": "Casque",
+        "reqLvl": 35,
+        "rarity": "unique"
+    },
+    {
+        "name": "Darksight Helm",
+        "set": "",
+        "type": "Basinet",
+        "reqLvl": 38,
+        "rarity": "unique"
+    },
+    {
+        "name": "Valkiry Wing",
+        "set": "",
+        "type": "Winged Helm",
+        "reqLvl": 44,
+        "rarity": "unique"
+    },
+    {
+        "name": "Crown of Thieves",
+        "set": "",
+        "type": "Grand Crown",
+        "reqLvl": 49,
+        "rarity": "unique"
+    },
+    {
+        "name": "Blackhorn's Face",
+        "set": "",
+        "type": "Death Mask",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "Vampiregaze",
+        "set": "",
+        "type": "Grim Helm",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Spirit Shroud",
+        "set": "",
+        "type": "Ghost Armor",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Skin of the Vipermagi",
+        "set": "",
+        "type": "SerpentSkin Armor",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Skin of the Flayerd One",
+        "set": "",
+        "type": "Demonhide Armor",
+        "reqLvl": 31,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ironpelt",
+        "set": "",
+        "type": "Tresllised Armor",
+        "reqLvl": 33,
+        "rarity": "unique"
+    },
+    {
+        "name": "Spiritforge",
+        "set": "",
+        "type": "Linked Mail",
+        "reqLvl": 35,
+        "rarity": "unique"
+    },
+    {
+        "name": "Crow Caw",
+        "set": "",
+        "type": "Tigulated Mail",
+        "reqLvl": 37,
+        "rarity": "unique"
+    },
+    {
+        "name": "Shaftstop",
+        "set": "",
+        "type": "Mesh Armor",
+        "reqLvl": 38,
+        "rarity": "unique"
+    },
+    {
+        "name": "Duriel's Shell",
+        "set": "",
+        "type": "Cuirass",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "Skullder's Ire",
+        "set": "",
+        "type": "Russet Armor",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Guardian Angel",
+        "set": "",
+        "type": "Templar Coat",
+        "reqLvl": 45,
+        "rarity": "unique"
+    },
+    {
+        "name": "Toothrow",
+        "set": "",
+        "type": "Sharktooth Armor",
+        "reqLvl": 48,
+        "rarity": "unique"
+    },
+    {
+        "name": "Atma's Wail",
+        "set": "",
+        "type": "Embossed Plate",
+        "reqLvl": 51,
+        "rarity": "unique"
+    },
+    {
+        "name": "Black Hades",
+        "set": "",
+        "type": "Chaos Armor",
+        "reqLvl": 53,
+        "rarity": "unique"
+    },
+    {
+        "name": "Corpsemourn",
+        "set": "",
+        "type": "Ornate Armor",
+        "reqLvl": 55,
+        "rarity": "unique"
+    },
+    {
+        "name": "Que-Hegan's Wisdon",
+        "set": "",
+        "type": "Mage Plate",
+        "reqLvl": 51,
+        "rarity": "unique"
+    },
+    {
+        "name": "Visceratuant",
+        "set": "",
+        "type": "Defender",
+        "reqLvl": 28,
+        "rarity": "unique"
+    },
+    {
+        "name": "Mosers Blessed Circle",
+        "set": "",
+        "type": "Round Shield",
+        "reqLvl": 31,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stormchaser",
+        "set": "",
+        "type": "Scutum",
+        "reqLvl": 35,
+        "rarity": "unique"
+    },
+    {
+        "name": "Tiamat's Rebuke",
+        "set": "",
+        "type": "Dragon Shield",
+        "reqLvl": 38,
+        "rarity": "unique"
+    },
+    {
+        "name": "Kerke's Sanctuary",
+        "set": "",
+        "type": "Pavise",
+        "reqLvl": 44,
+        "rarity": "unique"
+    },
+    {
+        "name": "Radimant's Sphere",
+        "set": "",
+        "type": "Ancient Shield",
+        "reqLvl": 50,
+        "rarity": "unique"
+    },
+    {
+        "name": "Lidless Wall",
+        "set": "",
+        "type": "Grim Shield",
+        "reqLvl": 41,
+        "rarity": "unique"
+    },
+    {
+        "name": "Lance Guard",
+        "set": "",
+        "type": "Barbed Shield",
+        "reqLvl": 35,
+        "rarity": "unique"
+    },
+    {
+        "name": "Venom Grip",
+        "set": "",
+        "type": "Demonhide Gloves",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gravepalm",
+        "set": "",
+        "type": "Sharkskin Gloves",
+        "reqLvl": 32,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ghoulhide",
+        "set": "",
+        "type": "Heavy Bracers",
+        "reqLvl": 36,
+        "rarity": "unique"
+    },
+    {
+        "name": "Lavagout",
+        "set": "",
+        "type": "Battle Guantlets",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hellmouth",
+        "set": "",
+        "type": "War Gauntlets",
+        "reqLvl": 47,
+        "rarity": "unique"
+    },
+    {
+        "name": "Infernostride",
+        "set": "",
+        "type": "Demonhide Boots",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Waterwalk",
+        "set": "",
+        "type": "Sharkskin Boots",
+        "reqLvl": 32,
+        "rarity": "unique"
+    },
+    {
+        "name": "Silkweave",
+        "set": "",
+        "type": "Mesh Boots",
+        "reqLvl": 36,
+        "rarity": "unique"
+    },
+    {
+        "name": "Wartraveler",
+        "set": "",
+        "type": "Battle Boots",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gorerider",
+        "set": "",
+        "type": "War Boots",
+        "reqLvl": 47,
+        "rarity": "unique"
+    },
+    {
+        "name": "String of Ears",
+        "set": "",
+        "type": "Demonhide Sash",
+        "reqLvl": 29,
+        "rarity": "unique"
+    },
+    {
+        "name": "Razortail",
+        "set": "",
+        "type": "Sharkskin Belt",
+        "reqLvl": 32,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gloomstrap",
+        "set": "",
+        "type": "Mesh Belt",
+        "reqLvl": 36,
+        "rarity": "unique"
+    },
+    {
+        "name": "Snowclash",
+        "set": "",
+        "type": "Battle Belt",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Thudergod's Vigor",
+        "set": "",
+        "type": "War Belt",
+        "reqLvl": 47,
+        "rarity": "unique"
+    },
+    {
+        "name": "Elite Uniques",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Harlequin Crest",
+        "set": "",
+        "type": "Shako",
+        "reqLvl": 62,
+        "rarity": "unique"
+    },
+    {
+        "name": "Veil of Steel",
+        "set": "",
+        "type": "Spired Helm",
+        "reqLvl": 73,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Gladiator's Bane",
+        "set": "",
+        "type": "Wire Fleece",
+        "reqLvl": 85,
+        "rarity": "unique"
+    },
+    {
+        "name": "Arkaine's Valor",
+        "set": "",
+        "type": "Balrog Skin",
+        "reqLvl": 85,
+        "rarity": "unique"
+    },
+    {
+        "name": "Blackoak Shield",
+        "set": "",
+        "type": "Luna",
+        "reqLvl": 61,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stormshield",
+        "set": "",
+        "type": "Monarch",
+        "reqLvl": 73,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hellslayer",
+        "set": "",
+        "type": "Decapitator",
+        "reqLvl": 66,
+        "rarity": "unique"
+    },
+    {
+        "name": "Messerschmidt's Reaver",
+        "set": "",
+        "type": "Champion Axe",
+        "reqLvl": 70,
+        "rarity": "unique"
+    },
+    {
+        "name": "Baranar's Star",
+        "set": "",
+        "type": "Devil Star",
+        "reqLvl": 65,
+        "rarity": "unique"
+    },
+    {
+        "name": "Schaefer's Hammer",
+        "set": "",
+        "type": "Legendary Mallet",
+        "reqLvl": 79,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Cranium Basher",
+        "set": "",
+        "type": "Thunder Maul",
+        "reqLvl": 87,
+        "rarity": "unique"
+    },
+    {
+        "name": "Lightsabre",
+        "set": "",
+        "type": "Phase Blade",
+        "reqLvl": 58,
+        "rarity": "unique"
+    },
+    {
+        "name": "Doombringer",
+        "set": "",
+        "type": "Champion Sword",
+        "reqLvl": 69,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Grandfather",
+        "set": "",
+        "type": "Colossus Blade",
+        "reqLvl": 81,
+        "rarity": "unique"
+    },
+    {
+        "name": "Wizardspike",
+        "set": "",
+        "type": "Bone Knife",
+        "reqLvl": 61,
+        "rarity": "unique"
+    },
+    {
+        "name": "Constricting Ring",
+        "set": "",
+        "type": "Ring",
+        "reqLvl": 95,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stormspire",
+        "set": "",
+        "type": "Giant Thresher",
+        "reqLvl": 70,
+        "rarity": "unique"
+    },
+    {
+        "name": "Eaglehorn",
+        "set": "",
+        "type": "Crusader Bow",
+        "reqLvl": 69,
+        "rarity": "unique"
+    },
+    {
+        "name": "Windforce",
+        "set": "",
+        "type": "Hydra Bow",
+        "reqLvl": 73,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rings",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Bul Katho's Wedding Band",
+        "set": "",
+        "type": "Ring",
+        "reqLvl": 58,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Cat's Eye",
+        "set": "",
+        "type": "Amulet",
+        "reqLvl": 50,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Rising Sun",
+        "set": "",
+        "type": "Amulet",
+        "reqLvl": 65,
+        "rarity": "unique"
+    },
+    {
+        "name": "Crescent Moon",
+        "set": "",
+        "type": "Amulet",
+        "reqLvl": 50,
+        "rarity": "unique"
+    },
+    {
+        "name": "Mara's Kaleidoscope",
+        "set": "",
+        "type": "Amulet",
+        "reqLvl": 67,
+        "rarity": "unique"
+    },
+    {
+        "name": "Atma's Scarab",
+        "set": "",
+        "type": "Amulet",
+        "reqLvl": 60,
+        "rarity": "unique"
+    },
+    {
+        "name": "Dwarf Star",
+        "set": "",
+        "type": "Ring",
+        "reqLvl": 45,
+        "rarity": "unique"
+    },
+    {
+        "name": "Raven Frost",
+        "set": "",
+        "type": "Ring",
+        "reqLvl": 45,
+        "rarity": "unique"
+    },
+    {
+        "name": "Highlord's Wrath",
+        "set": "",
+        "type": "Amulet",
+        "reqLvl": 65,
+        "rarity": "unique"
+    },
+    {
+        "name": "Saracen's Chance",
+        "set": "",
+        "type": "Amulet",
+        "reqLvl": 47,
+        "rarity": "unique"
+    },
+    {
+        "name": "Class Specific",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Arreat's Face",
+        "set": "",
+        "type": "Slayer Guard",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Homunculus",
+        "set": "",
+        "type": "Heirophant Trophy",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Titan's Revenge",
+        "set": "",
+        "type": "Ceremonial Javelin",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Lycander's Aim",
+        "set": "",
+        "type": "Ceremonial Bow",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Lycander's Flank",
+        "set": "",
+        "type": "Ceremonial Pike",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Oculus",
+        "set": "",
+        "type": "Swirling Crystal",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Herald of Zakarum",
+        "set": "",
+        "type": "Aerin Shield",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Cutthroat1",
+        "set": "",
+        "type": "Runic Talons",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "Jalal's Mane",
+        "set": "",
+        "type": "Dream Spirit",
+        "reqLvl": 42,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Scalper",
+        "set": "",
+        "type": "Francisca",
+        "reqLvl": 57,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bloodmoon",
+        "set": "",
+        "type": "elegant blade",
+        "reqLvl": 61,
+        "rarity": "unique"
+    },
+    {
+        "name": "Djinnslayer",
+        "set": "",
+        "type": "ataghan",
+        "reqLvl": 65,
+        "rarity": "unique"
+    },
+    {
+        "name": "Deathbit",
+        "set": "",
+        "type": "battle dart",
+        "reqLvl": 44,
+        "rarity": "unique"
+    },
+    {
+        "name": "Warshrike",
+        "set": "",
+        "type": "winged knife",
+        "reqLvl": 75,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gutsiphon",
+        "set": "",
+        "type": "demon crossbow",
+        "reqLvl": 71,
+        "rarity": "unique"
+    },
+    {
+        "name": "Razoredge",
+        "set": "",
+        "type": "tomahawk",
+        "reqLvl": 67,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gore Ripper",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Demonlimb",
+        "set": "",
+        "type": "tyrant club",
+        "reqLvl": 63,
+        "rarity": "unique"
+    },
+    {
+        "name": "Steelshade",
+        "set": "",
+        "type": "armet",
+        "reqLvl": 62,
+        "rarity": "unique"
+    },
+    {
+        "name": "Tomb Reaver",
+        "set": "",
+        "type": "cryptic axe",
+        "reqLvl": 84,
+        "rarity": "unique"
+    },
+    {
+        "name": "Deaths's Web",
+        "set": "",
+        "type": "unearthed wand",
+        "reqLvl": 66,
+        "rarity": "unique"
+    },
+    {
+        "name": "Nature's Peace",
+        "set": "",
+        "type": "ring",
+        "reqLvl": 69,
+        "rarity": "unique"
+    },
+    {
+        "name": "Azurewrath",
+        "set": "",
+        "type": "phase blade",
+        "reqLvl": 85,
+        "rarity": "unique"
+    },
+    {
+        "name": "Seraph's Hymn",
+        "set": "",
+        "type": "amulet",
+        "reqLvl": 65,
+        "rarity": "unique"
+    },
+    {
+        "name": "Zakarum's Salvation",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Fleshripper",
+        "set": "",
+        "type": "fanged knife",
+        "reqLvl": 68,
+        "rarity": "unique"
+    },
+    {
+        "name": "Odium",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Horizon's Tornado",
+        "set": "",
+        "type": "scourge",
+        "reqLvl": 64,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stone Crusher",
+        "set": "",
+        "type": "legendary mallet",
+        "reqLvl": 68,
+        "rarity": "unique"
+    },
+    {
+        "name": "Jadetalon",
+        "set": "",
+        "type": "wrist sword",
+        "reqLvl": 66,
+        "rarity": "unique"
+    },
+    {
+        "name": "Shadowdancer",
+        "set": "",
+        "type": "myrmidon greaves",
+        "reqLvl": 71,
+        "rarity": "unique"
+    },
+    {
+        "name": "Cerebus",
+        "set": "",
+        "type": "blood spirit",
+        "reqLvl": 63,
+        "rarity": "unique"
+    },
+    {
+        "name": "Tyrael's Might",
+        "set": "",
+        "type": "sacred armor",
+        "reqLvl": 84,
+        "rarity": "unique"
+    },
+    {
+        "name": "Souldrain",
+        "set": "",
+        "type": "vambraces",
+        "reqLvl": 74,
+        "rarity": "unique"
+    },
+    {
+        "name": "Runemaster",
+        "set": "",
+        "type": "ettin axe",
+        "reqLvl": 72,
+        "rarity": "unique"
+    },
+    {
+        "name": "Deathcleaver",
+        "set": "",
+        "type": "berserker axe",
+        "reqLvl": 70,
+        "rarity": "unique"
+    },
+    {
+        "name": "Executioner's Justice",
+        "set": "",
+        "type": "glorious axe",
+        "reqLvl": 75,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stoneraven",
+        "set": "",
+        "type": "matriarchal spear",
+        "reqLvl": 64,
+        "rarity": "unique"
+    },
+    {
+        "name": "Leviathan",
+        "set": "",
+        "type": "kraken shell",
+        "reqLvl": 65,
+        "rarity": "unique"
+    },
+    {
+        "name": "Larzuk's Champion",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Wisp",
+        "set": "",
+        "type": "ring",
+        "reqLvl": 76,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gargoyle's Bite",
+        "set": "",
+        "type": "winged harpoon",
+        "reqLvl": 70,
+        "rarity": "unique"
+    },
+    {
+        "name": "Lacerator",
+        "set": "",
+        "type": "winged axe",
+        "reqLvl": 68,
+        "rarity": "unique"
+    },
+    {
+        "name": "Mang Song's Lesson",
+        "set": "",
+        "type": "archon staff",
+        "reqLvl": 82,
+        "rarity": "unique"
+    },
+    {
+        "name": "Viperfork",
+        "set": "",
+        "type": "war fork",
+        "reqLvl": 71,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ethereal Edge",
+        "set": "",
+        "type": "silver-edged axe",
+        "reqLvl": 74,
+        "rarity": "unique"
+    },
+    {
+        "name": "Demonhorn's Edge",
+        "set": "",
+        "type": "destroyer helm",
+        "reqLvl": 61,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Reaper's Toll",
+        "set": "",
+        "type": "thresher",
+        "reqLvl": 75,
+        "rarity": "unique"
+    },
+    {
+        "name": "Spiritkeeper",
+        "set": "",
+        "type": "earth spirit",
+        "reqLvl": 67,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hellrack",
+        "set": "",
+        "type": "colossus crossbow",
+        "reqLvl": 76,
+        "rarity": "unique"
+    },
+    {
+        "name": "Alma Negra",
+        "set": "",
+        "type": "sacred rondache",
+        "reqLvl": 77,
+        "rarity": "unique"
+    },
+    {
+        "name": "Darkforge Spawn",
+        "set": "",
+        "type": "bloodlord skull",
+        "reqLvl": 64,
+        "rarity": "unique"
+    },
+    {
+        "name": "Widowmaker",
+        "set": "",
+        "type": "ward bow",
+        "reqLvl": 65,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bloodraven's Charge",
+        "set": "",
+        "type": "matriarchal bow",
+        "reqLvl": 71,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ghostflame",
+        "set": "",
+        "type": "legend spike",
+        "reqLvl": 62,
+        "rarity": "unique"
+    },
+    {
+        "name": "Shadowkiller",
+        "set": "",
+        "type": "battle cestus",
+        "reqLvl": 78,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gimmershred",
+        "set": "",
+        "type": "flying axe",
+        "reqLvl": 70,
+        "rarity": "unique"
+    },
+    {
+        "name": "Griffon's Eye",
+        "set": "",
+        "type": "diadem",
+        "reqLvl": 76,
+        "rarity": "unique"
+    },
+    {
+        "name": "Windhammer",
+        "set": "",
+        "type": "ogre maul",
+        "reqLvl": 68,
+        "rarity": "unique"
+    },
+    {
+        "name": "Thunderstroke",
+        "set": "",
+        "type": "matriarchal javelin",
+        "reqLvl": 69,
+        "rarity": "unique"
+    },
+    {
+        "name": "Giantmaimer",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Demon's Arch",
+        "set": "",
+        "type": "balrog spear",
+        "reqLvl": 68,
+        "rarity": "unique"
+    },
+    {
+        "name": "Boneflame",
+        "set": "",
+        "type": "succubae skull",
+        "reqLvl": 72,
+        "rarity": "unique"
+    },
+    {
+        "name": "Steelpillar",
+        "set": "",
+        "type": "war pike",
+        "reqLvl": 69,
+        "rarity": "unique"
+    },
+    {
+        "name": "Nightwing's Veil",
+        "set": "",
+        "type": "spired helm",
+        "reqLvl": 67,
+        "rarity": "unique"
+    },
+    {
+        "name": "Crown of Ages",
+        "set": "",
+        "type": "corona",
+        "reqLvl": 82,
+        "rarity": "unique"
+    },
+    {
+        "name": "Andariel's Visage",
+        "set": "",
+        "type": "demonhead",
+        "reqLvl": 83,
+        "rarity": "unique"
+    },
+    {
+        "name": "Darkfear",
+        "set": "",
+        "type": "armet",
+        "rarity": "unique"
+    },
+    {
+        "name": "Dragonscale",
+        "set": "",
+        "type": "zakarum shield",
+        "reqLvl": 80,
+        "rarity": "unique"
+    },
+    {
+        "name": "Steel Carapice",
+        "set": "",
+        "type": "shadow plate",
+        "reqLvl": 66,
+        "rarity": "unique"
+    },
+    {
+        "name": "Medusa's Gaze",
+        "set": "",
+        "type": "aegis",
+        "reqLvl": 76,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ravenlore",
+        "set": "",
+        "type": "sky spirit",
+        "reqLvl": 74,
+        "rarity": "unique"
+    },
+    {
+        "name": "Boneshade",
+        "set": "",
+        "type": "lich wand",
+        "reqLvl": 79,
+        "rarity": "unique"
+    },
+    {
+        "name": "Nethercrow",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Flamebellow",
+        "set": "",
+        "type": "balrog blade",
+        "reqLvl": 71,
+        "rarity": "unique"
+    },
+    {
+        "name": "Fathom",
+        "set": "",
+        "type": "dimensional shard",
+        "reqLvl": 73,
+        "rarity": "unique"
+    },
+    {
+        "name": "Wolfhowl",
+        "set": "",
+        "type": "fury visor",
+        "reqLvl": 79,
+        "rarity": "unique"
+    },
+    {
+        "name": "Spirit Ward",
+        "set": "",
+        "type": "ward",
+        "reqLvl": 68,
+        "rarity": "unique"
+    },
+    {
+        "name": "Kira's Guardian",
+        "set": "",
+        "type": "tiara",
+        "reqLvl": 77,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ormus' Robes",
+        "set": "",
+        "type": "dusk shroud",
+        "reqLvl": 75,
+        "rarity": "unique"
+    },
+    {
+        "name": "Gheed's Fortune",
+        "set": "",
+        "type": "charm",
+        "reqLvl": 62,
+        "rarity": "unique"
+    },
+    {
+        "name": "Stormlash",
+        "set": "",
+        "type": "scourge",
+        "reqLvl": 82,
+        "rarity": "unique"
+    },
+    {
+        "name": "Halaberd's Reign",
+        "set": "",
+        "type": "conqueror crown",
+        "reqLvl": 77,
+        "rarity": "unique"
+    },
+    {
+        "name": "Warriv's Warder",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Spike Thorn",
+        "set": "",
+        "type": "blade barrier",
+        "reqLvl": 70,
+        "rarity": "unique"
+    },
+    {
+        "name": "Dracul's Grasp",
+        "set": "",
+        "type": "vampirebone gloves",
+        "reqLvl": 76,
+        "rarity": "unique"
+    },
+    {
+        "name": "Frostwind",
+        "set": "",
+        "type": "cryptic sword",
+        "reqLvl": 70,
+        "rarity": "unique"
+    },
+    {
+        "name": "Templar's Might",
+        "set": "",
+        "type": "sacred armor",
+        "reqLvl": 74,
+        "rarity": "unique"
+    },
+    {
+        "name": "Eschuta's temper",
+        "set": "",
+        "type": "eldritch orb",
+        "reqLvl": 72,
+        "rarity": "unique"
+    },
+    {
+        "name": "Firelizard's Talons",
+        "set": "",
+        "type": "feral claws",
+        "reqLvl": 67,
+        "rarity": "unique"
+    },
+    {
+        "name": "Sandstorm Trek",
+        "set": "",
+        "type": "scarabshell boots",
+        "reqLvl": 64,
+        "rarity": "unique"
+    },
+    {
+        "name": "Marrowwalk",
+        "set": "",
+        "type": "boneweave boots",
+        "reqLvl": 66,
+        "rarity": "unique"
+    },
+    {
+        "name": "Heaven's Light",
+        "set": "",
+        "type": "mighty scepter",
+        "reqLvl": 61,
+        "rarity": "unique"
+    },
+    {
+        "name": "Merman's Speed",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Arachnid Mesh",
+        "set": "",
+        "type": "spiderweb sash",
+        "reqLvl": 80,
+        "rarity": "unique"
+    },
+    {
+        "name": "Nosferatu's Coil",
+        "set": "",
+        "type": "vampirefang belt",
+        "reqLvl": 51,
+        "rarity": "unique"
+    },
+    {
+        "name": "Metalgrid",
+        "set": "",
+        "type": "amulet",
+        "reqLvl": 81,
+        "rarity": "unique"
+    },
+    {
+        "name": "Verdugo's Hearty Cord",
+        "set": "",
+        "type": "mithril coil",
+        "reqLvl": 63,
+        "rarity": "unique"
+    },
+    {
+        "name": "Sigurd's Staunch",
+        "set": "",
+        "rarity": "unique"
+    },
+    {
+        "name": "Carrion Wind",
+        "set": "",
+        "type": "ring",
+        "reqLvl": 60,
+        "rarity": "unique"
+    },
+    {
+        "name": "Giantskull",
+        "set": "",
+        "type": "bone visage",
+        "reqLvl": 65,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ironward",
+        "set": "",
+        "type": "caduceus",
+        "reqLvl": 60,
+        "rarity": "unique"
+    },
+    {
+        "name": "Annihilus",
+        "set": "",
+        "type": "charm",
+        "reqLvl": 70,
+        "rarity": "unique"
+    },
+    {
+        "name": "Arioc's Needle",
+        "set": "",
+        "type": "hyperion spear",
+        "reqLvl": 81,
+        "rarity": "unique"
+    },
+    {
+        "name": "Cranebeak",
+        "set": "",
+        "type": "war spike",
+        "reqLvl": 63,
+        "rarity": "unique"
+    },
+    {
+        "name": "Nord's Tenderizer",
+        "set": "",
+        "type": "truncheon",
+        "reqLvl": 68,
+        "rarity": "unique"
+    },
+    {
+        "name": "Earthshifter",
+        "set": "",
+        "type": "thunder maul",
+        "reqLvl": 69,
+        "rarity": "unique"
+    },
+    {
+        "name": "Wraithflight",
+        "set": "",
+        "type": "ghost glaive",
+        "reqLvl": 76,
+        "rarity": "unique"
+    },
+    {
+        "name": "Bonehew",
+        "set": "",
+        "type": "ogre axe",
+        "reqLvl": 64,
+        "rarity": "unique"
+    },
+    {
+        "name": "Ondal's Wisdom",
+        "set": "",
+        "type": "elder staff",
+        "reqLvl": 66,
+        "rarity": "unique"
+    },
+    {
+        "name": "The Reedeemer",
+        "set": "",
+        "type": "mighty scepter",
+        "reqLvl": 72,
+        "rarity": "unique"
+    },
+    {
+        "name": "Headhunter's Glory",
+        "set": "",
+        "type": "troll nest",
+        "reqLvl": 75,
+        "rarity": "unique"
+    },
+    {
+        "name": "Steelrend",
+        "set": "",
+        "type": "ogre gauntlets",
+        "reqLvl": 70,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rainbow Facet",
+        "set": "",
+        "type": "jewel",
+        "reqLvl": 49,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rainbow Facet",
+        "set": "",
+        "type": "jewel",
+        "reqLvl": 49,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rainbow Facet",
+        "set": "",
+        "type": "jewel",
+        "reqLvl": 49,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rainbow Facet",
+        "set": "",
+        "type": "jewel",
+        "reqLvl": 49,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rainbow Facet",
+        "set": "",
+        "type": "jewel",
+        "reqLvl": 49,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rainbow Facet",
+        "set": "",
+        "type": "jewel",
+        "reqLvl": 49,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rainbow Facet",
+        "set": "",
+        "type": "jewel",
+        "reqLvl": 49,
+        "rarity": "unique"
+    },
+    {
+        "name": "Rainbow Facet",
+        "set": "",
+        "type": "jewel",
+        "reqLvl": 49,
+        "rarity": "unique"
+    },
+    {
+        "name": "Hellfire Torch",
+        "set": "",
+        "type": "charm",
+        "reqLvl": 75,
+        "rarity": "unique"
+    }
+]
