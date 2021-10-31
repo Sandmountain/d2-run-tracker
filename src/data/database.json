@@ -4056,6 +4056,62 @@
     "rarity": "magic"
   },
   {
+    "name": "Twisted Essence of Suffering",
+    "url": "twisted_essence_of_suffering",
+    "set": "",
+    "type": "crafting",
+    "reqLvl": "",
+    "rarity": "crafting"
+  },
+  {
+    "name": "Charged Essence of Hatred",
+    "url": "charged_essence_of_hatred",
+    "set": "",
+    "type": "crafting",
+    "reqLvl": "",
+    "rarity": "crafting"
+  },
+  {
+    "name": "Burning Essence of Terror",
+    "url": "burning_essence_of_terror",
+    "set": "",
+    "type": "crafting",
+    "reqLvl": "",
+    "rarity": "crafting"
+  },
+  {
+    "name": "Festering Essence of Destruction",
+    "url": "festering_essence_of_destruction",
+    "set": "",
+    "type": "crafting",
+    "reqLvl": "",
+    "rarity": "crafting"
+  },
+  {
+    "name": "Key of Destruction",
+    "url": "key_of",
+    "set": "",
+    "type": "crafting",
+    "reqLvl": "",
+    "rarity": "crafting"
+  },
+  {
+    "name": "Key of Terror",
+    "url": "key_of",
+    "set": "",
+    "type": "crafting",
+    "reqLvl": "",
+    "rarity": "crafting"
+  },
+  {
+    "name": "Key of Hate",
+    "url": "key_of",
+    "set": "",
+    "type": "crafting",
+    "reqLvl": "",
+    "rarity": "crafting"
+  },
+  {
     "name": "Amn Rune",
     "url": "amn_rune",
     "set": "",
