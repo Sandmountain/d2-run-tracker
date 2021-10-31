@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef } from "react";
 
 const useTimer = (initialState = 0) => {
   const [timer, setTimer] = useState(initialState);

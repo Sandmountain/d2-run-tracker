@@ -1,0 +1,23 @@
+.unique {
+  color: #a59263;
+  font-weight: bold;
+}
+
+.set {
+  color: green;
+  font-weight: bold;
+}
+
+.rune {
+  color: #ffa500;
+  font-weight: bold;
+}
+
+.crafting {
+  color: #ffa500;
+  font-weight: bold;
+}
+
+.magic {
+  color: #4169e1;
+}
