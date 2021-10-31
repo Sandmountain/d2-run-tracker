@@ -3,18 +3,16 @@ import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { Button, ButtonGroup, Tooltip } from "@mui/material";
 
-import "./runview.css";
+import "./run-view.css";
 
 import PauseIcon from "@mui/icons-material/Pause";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
-import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
-import useTimer from "../timer/useTimer.js";
+import useTimer from "../hooks/useTimer.js";
 import { formatTime } from "../../utils/utils.js";
 
-import ItemDialog from "../dialogs/ItemDialog";
-import ExitRunDialog from "../dialogs/ExitRunDialog";
-import CooldownDialog from "../dialogs/CooldownDialog";
+import ItemDialog from "../Dialogs/ItemDialog";
+import CooldownDialog from "../Dialogs/CooldownDialog";
 
 export default function RunView(props) {
   const { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset } = useTimer(0);
@@ -27,6 +25,11 @@ export default function RunView(props) {
   const [dialogItems, setDialogItems] = useState([]);
 
   const [runHistory, setRunHistory] = useState([]);
+
+  const [openNewRunDialog, setOpenNewRunDialog] = useState(false);
+
+  const [openCooldownDialog, setOpenCooldownDialog] = useState(false);
+  const [timeleft, setTimeLeft] = useState(10);
 
   const onNewRun = () => {
     setTotalTime(totaltTime + timer);
@@ -47,20 +50,6 @@ export default function RunView(props) {
     handleReset();
     handleStart();
     setDialogItems([]);
-  };
-
-  const [openExitDialog, setOpenExitDialog] = useState(false);
-  const [openNewRunDialog, setOpenNewRunDialog] = useState(false);
-
-  const [openCooldownDialog, setOpenCooldownDialog] = useState(false);
-  const [timeleft, setTimeLeft] = useState(10);
-
-  const handleOpenExitDialog = () => {
-    setOpenExitDialog(true);
-  };
-
-  const handleCloseExitDialog = () => {
-    setOpenExitDialog(false);
   };
 
   const handleNewRunDialog = () => {
@@ -108,8 +97,10 @@ export default function RunView(props) {
           padding: "0 15px",
           textAlign: "center",
         }}>
-        <p className="count-text diablo-text">Run {currentRun}</p>
-        <div>
+        <p className="count-text diablo-text" style={{ width: "33%", textAlign: "start" }}>
+          Run {currentRun}
+        </p>
+        <div style={{ width: "33%" }}>
           <ButtonGroup variant="contained" aria-label="">
             {!isActive ? <Button onClick={handleStart}>Start Run</Button> : <Button onClick={handleNewRunDialog}>Next Run</Button>}
 
@@ -128,17 +119,16 @@ export default function RunView(props) {
             )}
           </ButtonGroup>
         </div>
-
-        <Typography variant="h6" className="diablo-text">
+        <Typography variant="h6" className="diablo-text" style={{ width: "33%", textAlign: "end" }}>
           {formatTime(timer)}
         </Typography>
       </Paper>
 
-      <ExitRunDialog openExitDialog={openExitDialog} handleCloseExitDialog={handleCloseExitDialog}></ExitRunDialog>
       <ItemDialog
         openNewRunDialog={openNewRunDialog}
         handleCloseNewRunDialog={handleCloseNewRunDialog}
-        setDialogItems={setDialogItems}></ItemDialog>
+        setDialogItems={setDialogItems}
+        dialogItems={dialogItems}></ItemDialog>
       <CooldownDialog openCooldownDialog={openCooldownDialog} timeleft={timeleft}></CooldownDialog>
     </div>
   );

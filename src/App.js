@@ -1,20 +1,20 @@
-import './App.css';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
+import "./App.css";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
 
-import MainLayout from './components/layout/MainLayout';
+import MainLayout from "./components/Layout/MainLayout";
 
 const theme = createTheme({
   palette: {
-    mode: 'dark',
+    mode: "dark",
     primary: {
-      main: '#7D0B0D',
+      main: "#7D0B0D",
     },
     secondary: {
-      main: '#fbce50',
+      main: "#fbce50",
     },
     info: {
-      main: "#ffffff"
-    }
+      main: "#ffffff",
+    },
   },
 });
 

@@ -5,17 +5,23 @@ import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 
 import DirectionsIcon from "@mui/icons-material/Directions";
-export default function RunCreator() {
+
+import NewGameDialog from "../Dialogs/NewGameDialog";
+
+export default function RunCreator(props) {
+  const { setGameData } = props;
+
+  const [openExtrasDialog, setOpenExtrasDialog] = React.useState(false);
+  const [runName, setRunName] = useState("");
+
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(runName);
+    setOpenExtrasDialog(true);
   };
 
   const onChange = (e) => {
     setRunName(e.target.value);
   };
-
-  const [runName, setRunName] = useState("");
 
   return (
     <div>
@@ -34,6 +40,11 @@ export default function RunCreator() {
           <DirectionsIcon />
         </IconButton>
       </Paper>
+
+      <NewGameDialog
+        openExtrasDialog={openExtrasDialog}
+        setOpenExtrasDialog={setOpenExtrasDialog}
+        setGameData={setGameData}></NewGameDialog>
     </div>
   );
 }

@@ -1,24 +1,37 @@
 import React from "react";
 
-import "./mainlayout.css";
+import "./main-layout.css";
 import img from "./pngegg.png";
-import RunCreator from "../run-creator/RunCreator";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
 import Avatar from "@mui/material/Avatar";
-import RunView from "../run-view/RunView";
-import Button from "@mui/material/Button";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
-import RunList from "../run-list/RunList";
 import Fab from "@mui/material/Fab";
 import Tooltip from "@mui/material/Tooltip";
 
+import RunView from "../RunView/RunView";
+import RunList from "../RunList/RunList";
+import RunCreator from "../RunCreator/RunCreator";
+import ExitRunDialog from "../Dialogs/ExitRunDialog";
+import RunTimer from "../RunTimer/RunTimer";
+import GenerateSocketImage from "../GenerateSocketImage/GenerateSocketImage";
+
 export default function MainLayout() {
   const [runData, setRunData] = React.useState([]);
+
+  const [isActiveGame, setIsActiveGame] = React.useState(true);
+  const [openExitDialog, setOpenExitDialog] = React.useState(false);
+  const [gameData, setGameData] = React.useState({});
+
+  const handleOpenExitDialog = () => {
+    setOpenExitDialog(true);
+  };
+
+  const handleCloseExitDialog = () => {
+    setOpenExitDialog(false);
+  };
 
   return (
     <>
@@ -29,21 +42,33 @@ export default function MainLayout() {
               <Avatar alt="Remy Sharp" src={img} style={{ marginRight: "10px" }} />
               <span className="diablo-text shadow">Diablo Runtracker</span>
             </Typography>
+            {isActiveGame && <RunTimer></RunTimer>}
           </Toolbar>
         </AppBar>
       </Box>
       <div className="container">
-        {/* <RunCreator hidden></RunCreator> */}
-        <RunView setRunData={setRunData} runData={runData}></RunView>
-        <div className="runList-container">
-          <RunList runData={runData}></RunList>
-        </div>
+        {!isActiveGame ? (
+          <RunCreator setGameData={setGameData}></RunCreator>
+        ) : (
+          <>
+            <RunView setRunData={setRunData} runData={runData}></RunView>
+            <div className="runList-container">
+              <RunList runData={runData}></RunList>
+            </div>
 
-        <Tooltip title="Exit Run">
-          <Fab color="primary" style={{ position: "absolute", top: 63, right: 13 }}>
-            <ExitToAppIcon></ExitToAppIcon>
-          </Fab>
-        </Tooltip>
+            <Tooltip title="Exit Run">
+              <Fab
+                color="primary"
+                onClick={handleOpenExitDialog}
+                style={{ position: "absolute", top: 63, right: 15 }}
+                onClick={handleOpenExitDialog}>
+                <ExitToAppIcon></ExitToAppIcon>
+              </Fab>
+            </Tooltip>
+
+            <ExitRunDialog openExitDialog={openExitDialog} handleCloseExitDialog={handleCloseExitDialog}></ExitRunDialog>
+          </>
+        )}
       </div>
     </>
   );

@@ -2,16 +2,16 @@ import React from "react";
 
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from "@mui/material";
 
-import AutoComplete from "../auto-complete/AutoComplete";
+import AutoComplete from "../AutoComplete/AutoComplete";
 
 export default function ItemDialog(props) {
-  const { openNewRunDialog, handleCloseNewRunDialog, setDialogItems } = props;
+  const { openNewRunDialog, handleCloseNewRunDialog, setDialogItems, dialogItems } = props;
   return (
-    <Dialog open={openNewRunDialog} onClose={handleCloseNewRunDialog}>
+    <Dialog fullWidth maxWidth="sm" open={openNewRunDialog} onClose={handleCloseNewRunDialog}>
       <DialogTitle className="diablo-text">FOUND ANYTHING OF INTEREST?</DialogTitle>
       <DialogContent>
         <DialogContentText>Add items down below.</DialogContentText>
-        <AutoComplete setDialogItems={setDialogItems}></AutoComplete>
+        <AutoComplete setDialogItems={setDialogItems} dialogItems={dialogItems}></AutoComplete>
       </DialogContent>
 
       <DialogActions>

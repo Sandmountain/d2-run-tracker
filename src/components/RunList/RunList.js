@@ -5,10 +5,12 @@ import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import { styled } from "@mui/material/styles";
 import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
-import "../run-view/runview.css";
+import "../RunView/run-view.css";
 import "./run-list.css";
+import "../GenerateSocketImage/generate-socket-image.css";
 
 import { formatTime, getColor } from "../../utils/utils.js";
+import GenerateSocketImage from "../GenerateSocketImage/GenerateSocketImage";
 
 const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} square {...props} />)(({ theme }) => ({
   border: `1px solid ${theme.palette.divider}`,
@@ -21,7 +23,11 @@ const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} s
 }));
 
 const AccordionSummary = styled((props) => (
-  <MuiAccordionSummary style={{}} expandIcon={props.useDropdown && <ArrowForwardIosSharpIcon sx={{ fontSize: "0.9rem" }} />} {...props} />
+  <MuiAccordionSummary
+    style={{}}
+    expandIcon={props.hasitems === "true" && <ArrowForwardIosSharpIcon sx={{ fontSize: "0.9rem" }} />}
+    {...props}
+  />
 ))(({ theme }) => ({
   backgroundColor: theme.palette.mode === "dark" ? "rgba(255, 255, 255, .05)" : "rgba(0, 0, 0, .03)",
   flexDirection: "row-reverse",
@@ -40,7 +46,6 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 export default function RunList(props) {
   const { runData } = props;
-  console.log(runData);
 
   const [expanded, setExpanded] = React.useState(false);
 
@@ -55,10 +60,11 @@ export default function RunList(props) {
       set: 0,
       rune: 0,
       crafting: 0,
+      normal: 0,
     };
 
     loot.forEach((item) => {
-      switch (item.rarity) {
+      switch (item?.rarity) {
         case "set":
           found.set = found.set + 1;
           break;
@@ -75,36 +81,39 @@ export default function RunList(props) {
           found.crafting = found.crafting + 1;
           break;
         default:
+          found.normal = found.normal + 1;
           break;
       }
     });
 
     return (
       <span style={{ opacity: 0.6 }}>
-        {found.magic > 0 && <span class="magic">{found.magic} Magic </span>}
-        {found.set > 0 && <span class="set">{found.set} Set </span>}
-        {found.unique > 0 && <span class="unique">{found.unique} Unique </span>}
-        {found.rune > 0 && <span class="rune">{found.rune} Rune</span>}
-        {found.crafting > 0 && <span class="crafting">{found.rune} Mat</span>}
+        {found.magic > 0 && <span className="magic">{found.magic} Magic </span>}
+        {found.set > 0 && <span className="set">{found.set} Set </span>}
+        {found.unique > 0 && <span className="unique">{found.unique} Unique </span>}
+        {found.rune > 0 && <span className="rune">{found.rune} Rune</span>}
+        {found.crafting > 0 && <span className="crafting">{found.crafting} Mat</span>}
+        {found.normal > 0 && <span className="normal">{found.normal} Base</span>}
       </span>
     );
   };
 
-  const generateInfoLoot = (item) => {
+  const generateInfoLoot = (item, idx) => {
     return (
-      <div className="lootItem-container">
-        <img loading="lazy" height="60" src={require(`../../images/${item.url}.png`).default} alt="" />
-        <span className="lootItem-text" style={{ color: getColor(item.rarity) }}>
+      <div key={idx} className="lootItem-container">
+        {item.url && <img loading="lazy" height="60" src={require(`../../images/${item.url}.png`).default} alt="" />}
+        {!item.url ? <GenerateSocketImage sockets={item.sockets}></GenerateSocketImage> : <div></div>}
+        <span className="lootItem-text" style={{ color: getColor(item) }}>
           {item.name}
         </span>
       </div>
     );
   };
 
-  const generateListItem = (runItem) => {
+  const generateListItem = (runItem, index) => {
     return (
-      <Accordion expanded={expanded === runItem.name} onChange={handleChange(runItem.name)}>
-        <AccordionSummary useDropdown={runItem.loot.length > 0} aria-controls="panel1bh-content" id="panel1bh-header">
+      <Accordion key={index} expanded={expanded === runItem.name} onChange={handleChange(runItem.name)}>
+        <AccordionSummary hasitems={(runItem.loot.length > 0).toString()} aria-controls="panel1bh-content" id="panel1bh-header">
           <Typography className="diablo-text" sx={{ width: "33%", flexShrink: 0, fontWeight: "bold" }}>
             {runItem.name}
           </Typography>
@@ -121,7 +130,8 @@ export default function RunList(props) {
         {runItem.loot.length > 0 && (
           <AccordionDetails>
             <div className="accordation-details-container">
-              <div className="loot-container">{runItem.loot.map((item) => generateInfoLoot(item))}</div>
+              <div className="loot-container">{runItem.loot.map((item, idx) => generateInfoLoot(item, idx))}</div>
+
               <div className="diablo-text">{formatTime(runItem.time)}</div>
             </div>
           </AccordionDetails>
@@ -130,7 +140,9 @@ export default function RunList(props) {
     );
   };
 
-  return <div style={{ width: "40vw", position: "relative" }}>{runData && runData.map((item) => generateListItem(item))}</div>;
+  return (
+    <div style={{ width: "40vw", position: "relative" }}>{runData && runData.map((item, index) => generateListItem(item, index))}</div>
+  );
 }
 
 const mockData = [

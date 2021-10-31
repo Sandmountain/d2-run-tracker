@@ -1,0 +1,30 @@
+.one-socket {
+  flex: 0 0 20px; /* explanation below */
+  margin: 3px;
+  display: block;
+  min-block-size: 10px;
+  max-width: 10px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(84, 84, 84, 0) 0%, rgba(32, 32, 32, 0.3) 60%, rgba(22, 22, 22, 0.4) 100%);
+  border: 1px solid rgba(180, 180, 180, 0.377);
+}
+
+.socket-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.background-image {
+  position: relative;
+  height: 60px;
+  width: 40px;
+  background-image: url("../../images/no_image.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

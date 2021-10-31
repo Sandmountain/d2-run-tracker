@@ -6,8 +6,8 @@ export const formatTime = (timer) => {
   return `${getMinutes}:${getSeconds}`;
 };
 
-export const getColor = (rarity) => {
-  switch (rarity) {
+export const getColor = (option) => {
+  switch (option?.rarity) {
     case "set":
       return "green";
     case "unique":
@@ -19,6 +19,6 @@ export const getColor = (rarity) => {
     case "crafting":
       return "#FFA500";
     default:
-      break;
+      return "#FFF";
   }
 };
