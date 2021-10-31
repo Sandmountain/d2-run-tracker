@@ -116,7 +116,9 @@ export default function AutoComplete(props) {
 
       {noDataInput && (
         <div style={{ marginTop: 15 }}>
-          <List sx={{ width: "100%" }}>{noDataInput.map((item, index) => generateNoDataItem(item, index))}</List>
+          <List dense sx={{ width: "100%" }}>
+            {noDataInput.map((item, index) => generateNoDataItem(item, index))}
+          </List>
         </div>
       )}
     </>

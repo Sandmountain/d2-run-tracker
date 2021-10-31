@@ -1,5 +1,5 @@
 import React from "react";
-import { ListItem, ListItemText, IconButton, Popover, Slider } from "@mui/material";
+import { ListItem, ListItemText, IconButton, Popover, Slider, Tooltip } from "@mui/material";
 import CommentIcon from "@mui/icons-material/Comment";
 
 export default function CustomItemList(props) {
@@ -36,9 +36,11 @@ export default function CustomItemList(props) {
     <ListItem
       secondaryAction={
         <>
-          <IconButton onClick={handleClick} aria-describedby={id}>
-            <CommentIcon />
-          </IconButton>
+          <Tooltip title="Add sockets to item">
+            <IconButton onClick={handleClick} aria-describedby={id}>
+              <CommentIcon />
+            </IconButton>
+          </Tooltip>
           <Popover
             id={id}
             open={openPopover}
@@ -73,12 +75,13 @@ export default function CustomItemList(props) {
       }>
       <ListItemText
         primary={
-          <p style={{ width: "100%" }}>
-            {newInputValue.name}{" "}
-            <span style={{ textAlign: "center" }} hidden={!(newInputValue.sockets > 0)}>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <p style={{ width: "33%" }}>{newInputValue.name} </p>
+            <p style={{ width: "33%", textAlign: "center", color: "gray" }} hidden={!(newInputValue.sockets > 0)}>
               {"sockets: " + newInputValue.sockets}
-            </span>
-          </p>
+            </p>
+            <div style={{ width: "33%" }}></div>
+          </div>
         }
       />
     </ListItem>
