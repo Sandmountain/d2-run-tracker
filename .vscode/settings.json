@@ -1,0 +1,8 @@
+{
+	"editor.tabSize": 2,
+	"editor.useTabStops": true,
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"files.insertFinalNewline": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
+}
