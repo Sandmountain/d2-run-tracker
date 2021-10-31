@@ -1,10 +1,7 @@
 import React, { useState } from "react";
-import Paper from "@mui/material/Paper";
-import InputBase from "@mui/material/InputBase";
-import Divider from "@mui/material/Divider";
-import IconButton from "@mui/material/IconButton";
-
+import { Typography, IconButton, Divider, InputBase, Paper } from "@mui/material";
 import DirectionsIcon from "@mui/icons-material/Directions";
+import "./run-creator.css";
 
 import NewGameDialog from "../Dialogs/NewGameDialog";
 
@@ -25,6 +22,9 @@ export default function RunCreator(props) {
 
   return (
     <div>
+      <div className="emblem-parent">
+        <div className="emblem"></div>
+      </div>
       <Paper
         component="form"
         sx={{

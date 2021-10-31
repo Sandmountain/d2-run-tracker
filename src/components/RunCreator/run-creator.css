@@ -1,0 +1,17 @@
+.emblem {
+  background-image: url("./emblem.png");
+  height: 330px;
+  background-position-x: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 821.1px;
+  position: relative;
+
+  z-index: -1;
+}
+.emblem-parent {
+  position: absolute;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 215px;
+}
