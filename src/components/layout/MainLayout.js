@@ -21,9 +21,9 @@ import GenerateSocketImage from "../GenerateSocketImage/GenerateSocketImage";
 export default function MainLayout() {
   const [runData, setRunData] = React.useState([]);
 
-  const [isActiveGame, setIsActiveGame] = React.useState(true);
+  const [isActiveGame, setIsActiveGame] = React.useState(false);
   const [openExitDialog, setOpenExitDialog] = React.useState(false);
-  const [gameData, setGameData] = React.useState({});
+  const [gameData, setGameData] = React.useState(undefined);
 
   const handleOpenExitDialog = () => {
     setOpenExitDialog(true);
@@ -32,6 +32,12 @@ export default function MainLayout() {
   const handleCloseExitDialog = () => {
     setOpenExitDialog(false);
   };
+
+  React.useEffect(() => {
+    if (gameData) {
+      setIsActiveGame(true);
+    }
+  }, [gameData]);
 
   return (
     <>
@@ -47,6 +53,11 @@ export default function MainLayout() {
         </AppBar>
       </Box>
       <div className="container">
+        {!isActiveGame && (
+          <h2 className="diablo-text" style={{ position: "absolute", bottom: "70%", color: "white" }}>
+            START NEW RUN
+          </h2>
+        )}
         {!isActiveGame ? (
           <RunCreator setGameData={setGameData}></RunCreator>
         ) : (

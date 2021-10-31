@@ -18,10 +18,11 @@ import {
 } from "@mui/material";
 
 export default function NewGameDialog(props) {
-  const { openExtrasDialog, setOpenExtrasDialog, setGameData } = props;
+  const { openExtrasDialog, setOpenExtrasDialog, setGameData, runName } = props;
 
   const [role, setRole] = React.useState("");
   const [level, setLevel] = React.useState(undefined);
+  const [errorLevel, setErrorLevel] = React.useState(false);
   const [runType, setRunType] = React.useState("");
   const [cooldownTimer, setCooldownTimer] = React.useState(15);
 
@@ -37,7 +38,7 @@ export default function NewGameDialog(props) {
     "The Catacombs",
     "The Countess",
     "The Pit",
-    "Andariel Boss",
+    "Andariel",
     "Ancient Tunnels",
     "Arcane Sanctuary",
     "Tomb Runs",
@@ -58,6 +59,7 @@ export default function NewGameDialog(props) {
     "Diablo",
     "Frigid Highlands (Shenk & Eldritch)",
     "Pindleskin",
+    "Shenk, Eldritch and Pindleskin",
     "Halls of Pain & Halls of Anguish",
     "Nihlathak & Halls of Vaught",
     "World Stone Keep",
@@ -75,6 +77,34 @@ export default function NewGameDialog(props) {
         {role}
       </MenuItem>
     );
+  };
+
+  const handleRunType = (_, e) => {
+    setRunType(e);
+  };
+
+  const handleSetLevel = (e) => {
+    const pattern = new RegExp("^\\d*$");
+    if (!e.target.value.match(pattern)) {
+      setErrorLevel(true);
+    } else {
+      setErrorLevel(false);
+      setLevel(e.target.value);
+    }
+  };
+
+  const onSubmitGameData = () => {
+    if (!errorLevel) {
+      setGameData({
+        name: runName,
+        class: role,
+        level: level,
+        runType: runType,
+        cooldownTimer: cooldownTimer,
+      });
+
+      handleCloseNewGameDialog();
+    }
   };
 
   return (
@@ -98,7 +128,16 @@ export default function NewGameDialog(props) {
               onChange={handleRoleChange}>
               {classes.map((role, idx) => generateSelectItems(role, idx))}
             </Select>
-            <TextField style={{ width: "30%" }} size="small" color="info" id="outlined-basic" label="Level" variant="filled" />
+            <TextField
+              error={errorLevel}
+              style={{ width: "30%" }}
+              size="small"
+              color="info"
+              id="outlined-basic"
+              label="Level"
+              variant="filled"
+              onChange={handleSetLevel}
+            />
           </FormControl>
         </Box>
         <Box style={{ marginTop: 15 }}>
@@ -106,25 +145,27 @@ export default function NewGameDialog(props) {
             onSubmit={(e, v) => console.log(e, v)}
             freeSolo
             id="combo-box-demo"
+            onChange={(e, choices) => handleRunType(e, choices)}
             options={runs}
             renderInput={(params) => <TextField {...params} color="info" variant="filled" label="Select run" />}
           />
         </Box>
         <Box style={{ marginTop: 15 }}>
-          <Typography>Choose cooldown time between runs:</Typography>
+          <Typography>Choose cooldown time between runs (default 15s):</Typography>
           <Slider
             size="small"
             aria-label="Small"
             valueLabelDisplay="auto"
             valueLabelFormat={(val) => val + "s"}
             min={1}
+            defaultValue={15}
             max={120}
             onChangeCommitted={(_, val) => setCooldownTimer(val)}></Slider>
         </Box>
       </DialogContent>
 
       <DialogActions>
-        <Button variant="contained" onClick={handleCloseNewGameDialog}>
+        <Button variant="contained" onClick={onSubmitGameData}>
           Start New Game
         </Button>
       </DialogActions>

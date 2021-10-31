@@ -21,7 +21,7 @@ export default function RunCreator(props) {
   };
 
   return (
-    <div>
+    <div style={{ display: "flex", justifyContent: "center" }}>
       <div className="emblem-parent">
         <div className="emblem"></div>
       </div>
@@ -44,7 +44,8 @@ export default function RunCreator(props) {
       <NewGameDialog
         openExtrasDialog={openExtrasDialog}
         setOpenExtrasDialog={setOpenExtrasDialog}
-        setGameData={setGameData}></NewGameDialog>
+        setGameData={setGameData}
+        runName={runName}></NewGameDialog>
     </div>
   );
 }
