@@ -6,6 +6,16 @@
   white-space: nowrap;
 }
 
+.runList-container {
+  display: flex;
+  max-height: 394px;
+  margin-top: 15px;
+  position: absolute;
+  justify-content: center;
+  bottom: 15px;
+  overflow: auto;
+}
+
 .lootItem-text {
   font-size: 10px;
   margin-top: 5px;

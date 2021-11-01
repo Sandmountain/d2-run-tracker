@@ -63,8 +63,6 @@ export default function AutoComplete(props) {
     }
   };
 
-  const showEditItem = (item) => {};
-
   const generateNoDataItem = (newInputValue, index) => {
     return (
       <CustomItemList key={index} newInputValue={newInputValue} dialogItems={dialogItems} setDialogItems={setDialogItems}></CustomItemList>

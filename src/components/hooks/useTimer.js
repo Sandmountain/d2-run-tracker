@@ -33,7 +33,11 @@ const useTimer = (initialState = 0) => {
     setTimer(0);
   };
 
-  return { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset };
+  const clearInterval = () => {
+    clearInterval(countRef.current);
+  };
+
+  return { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset, clearInterval };
 };
 
 export default useTimer;

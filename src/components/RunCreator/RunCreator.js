@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Typography, IconButton, Divider, InputBase, Paper } from "@mui/material";
+import { IconButton, Divider, InputBase, Paper } from "@mui/material";
 import DirectionsIcon from "@mui/icons-material/Directions";
 import "./run-creator.css";
 

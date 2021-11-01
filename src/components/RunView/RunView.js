@@ -7,29 +7,31 @@ import "./run-view.css";
 
 import PauseIcon from "@mui/icons-material/Pause";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
+import StopIcon from "@mui/icons-material/Stop";
 
 import useTimer from "../hooks/useTimer.js";
 import { formatTime } from "../../utils/utils.js";
 
 import ItemDialog from "../Dialogs/ItemDialog";
 import CooldownDialog from "../Dialogs/CooldownDialog";
+import EndRunDialog from "../Dialogs/EndRunDialog";
 
 export default function RunView(props) {
   const { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset } = useTimer(0);
 
-  const { setRunData, runData, gameData } = props;
+  const { setRunData, runData, gameData, setShowSummary, setIsActiveGame } = props;
 
   const [currentRun, setCurrentRun] = useState(1);
   const [totaltTime, setTotalTime] = useState(0);
 
   const [dialogItems, setDialogItems] = useState([]);
 
-  const [runHistory, setRunHistory] = useState([]);
-
   const [openNewRunDialog, setOpenNewRunDialog] = useState(false);
 
   const [openCooldownDialog, setOpenCooldownDialog] = useState(false);
   const [timeleft, setTimeLeft] = useState(gameData.cooldownTimer);
+
+  const [openEndRunDialog, setOpenEndRunDialog] = useState(false);
 
   const onNewRun = () => {
     setTotalTime(totaltTime + timer);
@@ -78,6 +80,10 @@ export default function RunView(props) {
     }, 1000);
   };
 
+  const handleShowSummary = () => {
+    setOpenEndRunDialog(true);
+  };
+
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
@@ -117,6 +123,11 @@ export default function RunView(props) {
                 </Button>
               </Tooltip>
             )}
+            <Tooltip title="End run and show summary">
+              <Button onClick={handleShowSummary}>
+                <StopIcon></StopIcon>
+              </Button>
+            </Tooltip>
           </ButtonGroup>
         </div>
         <Typography variant="h6" className="diablo-text" style={{ width: "33%", textAlign: "end" }}>
@@ -130,6 +141,11 @@ export default function RunView(props) {
         setDialogItems={setDialogItems}
         dialogItems={dialogItems}></ItemDialog>
       <CooldownDialog openCooldownDialog={openCooldownDialog} timeleft={timeleft}></CooldownDialog>
+      <EndRunDialog
+        openEndRunDialog={openEndRunDialog}
+        setOpenEndRunDialog={setOpenEndRunDialog}
+        setShowSummary={setShowSummary}
+        setIsActiveGame={setIsActiveGame}></EndRunDialog>
     </div>
   );
 }

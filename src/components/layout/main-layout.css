@@ -26,13 +26,3 @@
 .count-text {
   font-size: 20pt;
 }
-
-.runList-container {
-  display: flex;
-  max-height: 385px;
-  margin-top: 15px;
-  position: absolute;
-  justify-content: center;
-  bottom: 15px;
-  overflow: auto;
-}
