@@ -17,7 +17,7 @@ import CooldownDialog from "../Dialogs/CooldownDialog";
 export default function RunView(props) {
   const { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset } = useTimer(0);
 
-  const { setRunData, runData } = props;
+  const { setRunData, runData, gameData } = props;
 
   const [currentRun, setCurrentRun] = useState(1);
   const [totaltTime, setTotalTime] = useState(0);
@@ -29,7 +29,7 @@ export default function RunView(props) {
   const [openNewRunDialog, setOpenNewRunDialog] = useState(false);
 
   const [openCooldownDialog, setOpenCooldownDialog] = useState(false);
-  const [timeleft, setTimeLeft] = useState(10);
+  const [timeleft, setTimeLeft] = useState(gameData.cooldownTimer);
 
   const onNewRun = () => {
     setTotalTime(totaltTime + timer);
@@ -82,7 +82,7 @@ export default function RunView(props) {
     <div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <Typography variant="h6" color="primary" className="diablo-text shadow">
-          Mephisto 100
+          {gameData.name}
         </Typography>
         <Typography variant="body2" color="gray" style={{ alignSelf: "self-end" }}>
           Total time: {formatTime(totaltTime)}

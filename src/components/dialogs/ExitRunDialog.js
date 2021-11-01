@@ -3,7 +3,7 @@ import React from "react";
 import { Button, Dialog, DialogActions, DialogTitle } from "@mui/material";
 
 export default function ExitRunDialog(props) {
-  const { openExitDialog, handleCloseExitDialog } = props;
+  const { openExitDialog, handleCloseExitDialog, handleExitGame } = props;
 
   return (
     <Dialog
@@ -17,7 +17,7 @@ export default function ExitRunDialog(props) {
         <Button color="primary" onClick={handleCloseExitDialog} autoFocus>
           Go back
         </Button>
-        <Button variant="contained" color="primary" onClick={handleCloseExitDialog}>
+        <Button variant="contained" color="primary" onClick={handleExitGame}>
           Exit
         </Button>
       </DialogActions>

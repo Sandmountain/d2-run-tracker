@@ -29,6 +29,14 @@ export default function MainLayout() {
     setOpenExitDialog(true);
   };
 
+  const handleExitGame = () => {
+    setOpenExitDialog(false);
+    setIsActiveGame(false);
+
+    //TODO: Save game data
+    setGameData(undefined);
+  };
+
   const handleCloseExitDialog = () => {
     setOpenExitDialog(false);
   };
@@ -62,7 +70,7 @@ export default function MainLayout() {
           <RunCreator setGameData={setGameData}></RunCreator>
         ) : (
           <>
-            <RunView setRunData={setRunData} runData={runData}></RunView>
+            <RunView setRunData={setRunData} runData={runData} gameData={gameData}></RunView>
             <div className="runList-container">
               <RunList runData={runData}></RunList>
             </div>
@@ -77,7 +85,10 @@ export default function MainLayout() {
               </Fab>
             </Tooltip>
 
-            <ExitRunDialog openExitDialog={openExitDialog} handleCloseExitDialog={handleCloseExitDialog}></ExitRunDialog>
+            <ExitRunDialog
+              openExitDialog={openExitDialog}
+              handleCloseExitDialog={handleCloseExitDialog}
+              handleExitGame={handleExitGame}></ExitRunDialog>
           </>
         )}
       </div>
