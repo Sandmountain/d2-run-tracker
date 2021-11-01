@@ -30,7 +30,7 @@ export default function NewGameDialog(props) {
     setRole(event.target.value);
   };
 
-  const classes = ["Amazon", "Assassin", "Necromancer", "Barbarian", "Paladin", "Sorcerer", "Druid"];
+  const classes = ["Amazon", "Assassin", "Necromancer", "Barbarian", "Paladin", "Sorceress", "Druid"];
   const runs = [
     "Crypt",
     "Mausoleum",

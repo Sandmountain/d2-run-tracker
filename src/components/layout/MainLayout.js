@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./main-layout.css";
-import img from "./pngegg.png";
+import img from "./logo.png";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -15,12 +15,11 @@ import RunView from "../RunView/RunView";
 import RunList from "../RunList/RunList";
 import RunCreator from "../RunCreator/RunCreator";
 import ExitRunDialog from "../Dialogs/ExitRunDialog";
-import RunTimer from "../RunTimer/RunTimer";
 import SummaryView from "../SummaryView/SummaryView";
 
 const mockGameData = {
   name: "Random Name",
-  class: "Sorcerer",
+  class: "Sorceress",
   level: "67",
   runType: "Mephisto",
   cooldownTimer: 15,
@@ -162,7 +161,7 @@ export default function MainLayout() {
 
   const [runData, setRunData] = React.useState(mockData);
   const [gameData, setGameData] = React.useState(mockGameData);
-  const [totalTime, setTotalTime] = React.useState(0);
+  const [gameTime, setGameTime] = React.useState(0);
 
   const handleExitGame = () => {
     setOpenExitDialog(false);
@@ -186,7 +185,7 @@ export default function MainLayout() {
 
   const renderConditionalView = () => {
     if (showSummary) {
-      return <SummaryView runData={runData} gameData={gameData} totalTime={totalTime}></SummaryView>;
+      return <SummaryView runData={runData} gameData={gameData} gameTime={gameTime}></SummaryView>;
     }
 
     if (isActiveGame) {
@@ -196,6 +195,7 @@ export default function MainLayout() {
             setRunData={setRunData}
             runData={runData}
             gameData={gameData}
+            setGameTime={setGameTime}
             setShowSummary={setShowSummary}
             setIsActiveGame={setIsActiveGame}></RunView>
           <div className="runList-container">
@@ -230,7 +230,6 @@ export default function MainLayout() {
               <Avatar alt="Remy Sharp" src={img} style={{ marginRight: "10px" }} />
               <span className="diablo-text shadow">Diablo Runtracker</span>
             </Typography>
-            {isActiveGame && <RunTimer setTotalTime={setTotalTime} showSummary={showSummary}></RunTimer>}
           </Toolbar>
         </AppBar>
       </Box>

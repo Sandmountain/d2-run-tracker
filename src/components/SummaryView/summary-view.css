@@ -1,0 +1,92 @@
+.summaryView-container {
+  margin-top: 111px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.runStats-container {
+  display: flex;
+  position: relative;
+  gap: 30px;
+}
+
+.charImg {
+  position: relative;
+  z-index: 1;
+}
+
+.charShadow {
+  border-radius: 50%;
+  background: rgb(14, 14, 14);
+  filter: blur(7px);
+  position: absolute;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.charShadow.amazon {
+  bottom: -3px;
+  margin-left: 18px;
+  width: 60px;
+  height: 20px;
+}
+.charShadow.assassin {
+  bottom: -1px;
+  margin-left: -3px;
+  width: 75px;
+  height: 25px;
+  opacity: 0.5;
+}
+
+.charShadow.barbarian {
+  bottom: -3px;
+  margin-left: 0px;
+  width: 80px;
+  height: 20px;
+}
+
+.charShadow.druid {
+  bottom: -3px;
+  margin-left: 0px;
+  width: 60px;
+  height: 20px;
+}
+
+.charShadow.necromancer {
+  bottom: -3px;
+  margin-left: 10px;
+  width: 60px;
+  height: 20px;
+}
+
+.charShadow.paladin {
+  bottom: 0px;
+  margin-left: 10px;
+  width: 80px;
+  height: 35px;
+}
+
+.charShadow.sorceress {
+  bottom: -4px;
+  margin-left: -2px;
+  width: 60px;
+  height: 20px;
+}
+
+.alignData {
+  text-align: end;
+}
+
+.runStats-data {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+.dataTable {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: auto;
+}
