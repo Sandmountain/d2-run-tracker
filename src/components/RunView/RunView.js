@@ -60,7 +60,7 @@ export default function RunView(props) {
   const handleCloseNewRunDialog = () => {
     setOpenNewRunDialog(false);
     setOpenCooldownDialog(true);
-    startCooldown(2);
+    startCooldown(gameData.cooldownTimer);
   };
 
   const startCooldown = (countdownTime) => {
@@ -85,7 +85,7 @@ export default function RunView(props) {
           {gameData.name}
         </Typography>
         <Typography variant="body2" color="gray" style={{ alignSelf: "self-end" }}>
-          Total time: {formatTime(totaltTime)}
+          Total run time: {formatTime(totaltTime)}
         </Typography>
       </div>
       <Paper

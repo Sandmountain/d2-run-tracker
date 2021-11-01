@@ -75,7 +75,7 @@ export default function MainLayout() {
               <RunList runData={runData}></RunList>
             </div>
 
-            <Tooltip title="Exit Run">
+            <Tooltip title="Exit Run and show summary">
               <Fab
                 color="primary"
                 onClick={handleOpenExitDialog}
