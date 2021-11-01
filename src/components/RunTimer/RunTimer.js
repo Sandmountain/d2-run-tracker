@@ -5,24 +5,27 @@ import { formatTime } from "../../utils/utils.js";
 import Typography from "@mui/material/Typography";
 
 export default function RunTimer(props) {
-  const { setTotalTime, showSummary } = props;
+  const { setGameTime, showSummary } = props;
 
-  const { timer, isActive, handleStart, clearInterval } = useTimer(0);
+  const { timer, isActive, handleStart, handlePause } = useTimer(0);
 
+  // Memory leak here, but the useTimer hook is crap so nvm.
   useEffect(() => {
     if (!isActive) {
       handleStart();
     }
 
     if (showSummary) {
-      clearInterval();
-      setTotalTime(timer);
+      setGameTime(timer);
+      handlePause();
     }
-  }, [handleStart, isActive, setTotalTime, showSummary, timer, clearInterval]);
+  }, [setGameTime, showSummary, timer, handlePause, handleStart, isActive]);
 
   return (
-    <Typography variant="body2" color="gray" style={{ marginLeft: "auto" }}>
-      Total time: {formatTime(timer)}
-    </Typography>
+    <>
+      <Typography variant="body2" color="gray" style={{ marginLeft: "auto" }}>
+        Game time: {formatTime(timer)}
+      </Typography>
+    </>
   );
 }
