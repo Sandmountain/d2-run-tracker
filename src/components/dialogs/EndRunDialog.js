@@ -4,19 +4,33 @@ import { Button, Dialog, DialogActions, DialogTitle, DialogContent, DialogConten
 import { DoubleArrow } from "@mui/icons-material";
 
 export default function EndRunDialog(props) {
-  const { openEndRunDialog, setOpenEndRunDialog, setShowSummary, setIsActiveGame } = props;
+  const {
+    openEndRunDialog,
+    setOpenEndRunDialog,
+    setShowSummary,
+    setIsActiveGame,
+    handleGoBackSummaryCooldown,
+    openCooldownDialog,
+    handleStart,
+  } = props;
 
   const handleShowSummary = () => {
     setIsActiveGame(false);
     setShowSummary(true);
   };
 
+  const handleGoBack = () => {
+    if (openCooldownDialog) {
+      setOpenEndRunDialog(false);
+      handleGoBackSummaryCooldown();
+    } else {
+      handleStart();
+      setOpenEndRunDialog(false);
+    }
+  };
+
   return (
-    <Dialog
-      open={openEndRunDialog}
-      onClose={() => setOpenEndRunDialog(false)}
-      aria-labelledby="alert-dialog-title"
-      aria-describedby="alert-dialog-description">
+    <Dialog open={openEndRunDialog} onClose={handleGoBack} aria-labelledby="alert-dialog-title" aria-describedby="alert-dialog-description">
       <DialogTitle className="diablo-text" id="alert-dialog-title">
         {"ARE YOU SURE YOU WANT TO END THE RUN?"}
       </DialogTitle>
@@ -28,7 +42,7 @@ export default function EndRunDialog(props) {
       </DialogContent>
 
       <DialogActions>
-        <Button color="info" onClick={() => setOpenEndRunDialog(false)} autoFocus>
+        <Button color="info" onClick={handleGoBack} autoFocus>
           Go back
         </Button>
         <Button endIcon={<DoubleArrow></DoubleArrow>} variant="contained" color="secondary" onClick={handleShowSummary}>

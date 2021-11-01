@@ -11,15 +11,18 @@ import StopIcon from "@mui/icons-material/Stop";
 
 import useTimer from "../hooks/useTimer.js";
 import { formatTime } from "../../utils/utils.js";
+import RunTimer from "../RunTimer/RunTimer.js";
 
 import ItemDialog from "../Dialogs/ItemDialog";
 import CooldownDialog from "../Dialogs/CooldownDialog";
 import EndRunDialog from "../Dialogs/EndRunDialog";
 
+let cooldownRef = undefined;
+
 export default function RunView(props) {
   const { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset } = useTimer(0);
 
-  const { setRunData, runData, gameData, setShowSummary, setIsActiveGame } = props;
+  const { setRunData, runData, gameData, setShowSummary, setIsActiveGame, setGameTime } = props;
 
   const [currentRun, setCurrentRun] = useState(1);
   const [totaltTime, setTotalTime] = useState(0);
@@ -36,14 +39,9 @@ export default function RunView(props) {
   const onNewRun = () => {
     setTotalTime(totaltTime + timer);
 
-    setRunData([
-      ...runData,
-      {
-        name: "Run " + currentRun,
-        loot: dialogItems,
-        time: timer,
-      },
-    ]);
+    if (runData[runData.length - 1].name !== "Run " + currentRun) {
+      addData();
+    }
 
     setCurrentRun(currentRun + 1);
 
@@ -52,6 +50,17 @@ export default function RunView(props) {
     handleReset();
     handleStart();
     setDialogItems([]);
+  };
+
+  const addData = () => {
+    setRunData([
+      ...runData,
+      {
+        name: "Run " + currentRun,
+        loot: dialogItems,
+        time: timer,
+      },
+    ]);
   };
 
   const handleNewRunDialog = () => {
@@ -69,10 +78,24 @@ export default function RunView(props) {
     let time = countdownTime;
     setTimeLeft(time);
 
-    var downloadTimer = setInterval(() => {
+    cooldownRef = setInterval(() => {
       if (time <= 1) {
         setOpenCooldownDialog(false);
-        clearInterval(downloadTimer);
+        clearInterval(cooldownRef);
+        onNewRun();
+      }
+      time -= 1;
+      setTimeLeft(time);
+    }, 1000);
+  };
+
+  const handleGoBackSummaryCooldown = () => {
+    let time = timeleft;
+
+    cooldownRef = setInterval(() => {
+      if (time <= 1) {
+        setOpenCooldownDialog(false);
+        clearInterval(cooldownRef);
         onNewRun();
       }
       time -= 1;
@@ -81,17 +104,26 @@ export default function RunView(props) {
   };
 
   const handleShowSummary = () => {
+    handlePause();
+    clearTimeout(cooldownRef);
+    // Prevent data from being added multiple times if going back and fourth.
+    if (runData[runData.length - 1].name !== "Run " + currentRun) {
+      addData();
+    }
     setOpenEndRunDialog(true);
   };
 
   return (
     <div>
+      <div className="totalRunTime">
+        <RunTimer setGameTime={setGameTime}></RunTimer>
+      </div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <Typography variant="h6" color="primary" className="diablo-text shadow">
           {gameData.name}
         </Typography>
         <Typography variant="body2" color="gray" style={{ alignSelf: "self-end" }}>
-          Total run time: {formatTime(totaltTime)}
+          Total time: {formatTime(totaltTime)}
         </Typography>
       </div>
       <Paper
@@ -140,12 +172,15 @@ export default function RunView(props) {
         handleCloseNewRunDialog={handleCloseNewRunDialog}
         setDialogItems={setDialogItems}
         dialogItems={dialogItems}></ItemDialog>
-      <CooldownDialog openCooldownDialog={openCooldownDialog} timeleft={timeleft}></CooldownDialog>
+      <CooldownDialog openCooldownDialog={openCooldownDialog} timeleft={timeleft} handleShowSummary={handleShowSummary}></CooldownDialog>
       <EndRunDialog
         openEndRunDialog={openEndRunDialog}
         setOpenEndRunDialog={setOpenEndRunDialog}
+        handleGoBackSummaryCooldown={handleGoBackSummaryCooldown}
+        openCooldownDialog={openCooldownDialog}
         setShowSummary={setShowSummary}
-        setIsActiveGame={setIsActiveGame}></EndRunDialog>
+        setIsActiveGame={setIsActiveGame}
+        handleStart={handleStart}></EndRunDialog>
     </div>
   );
 }

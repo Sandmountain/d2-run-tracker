@@ -21,3 +21,10 @@
 .magic {
   color: #4169e1;
 }
+
+.totalRunTime {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1101;
+}
