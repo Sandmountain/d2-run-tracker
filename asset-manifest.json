@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/d2-run-tracker/static/css/main.8de74ff8.chunk.css",
-    "main.js": "/d2-run-tracker/static/js/main.58c3ceb9.chunk.js",
-    "main.js.map": "/d2-run-tracker/static/js/main.58c3ceb9.chunk.js.map",
+    "main.css": "/d2-run-tracker/static/css/main.5f5bff47.chunk.css",
+    "main.js": "/d2-run-tracker/static/js/main.effa728c.chunk.js",
+    "main.js.map": "/d2-run-tracker/static/js/main.effa728c.chunk.js.map",
     "runtime-main.js": "/d2-run-tracker/static/js/runtime-main.77ad657e.js",
     "runtime-main.js.map": "/d2-run-tracker/static/js/runtime-main.77ad657e.js.map",
     "static/js/2.a28f643b.chunk.js": "/d2-run-tracker/static/js/2.a28f643b.chunk.js",
     "static/js/2.a28f643b.chunk.js.map": "/d2-run-tracker/static/js/2.a28f643b.chunk.js.map",
     "index.html": "/d2-run-tracker/index.html",
-    "static/css/main.8de74ff8.chunk.css.map": "/d2-run-tracker/static/css/main.8de74ff8.chunk.css.map",
+    "static/css/main.5f5bff47.chunk.css.map": "/d2-run-tracker/static/css/main.5f5bff47.chunk.css.map",
     "static/js/2.a28f643b.chunk.js.LICENSE.txt": "/d2-run-tracker/static/js/2.a28f643b.chunk.js.LICENSE.txt",
     "static/media/aldurs_deception.png": "/d2-run-tracker/static/media/aldurs_deception.62438f8d.png",
     "static/media/aldurs_stony_gaze.png": "/d2-run-tracker/static/media/aldurs_stony_gaze.875aeb70.png",
@@ -165,7 +165,7 @@
   "entrypoints": [
     "static/js/runtime-main.77ad657e.js",
     "static/js/2.a28f643b.chunk.js",
-    "static/css/main.8de74ff8.chunk.css",
-    "static/js/main.58c3ceb9.chunk.js"
+    "static/css/main.5f5bff47.chunk.css",
+    "static/js/main.effa728c.chunk.js"
   ]
 }
