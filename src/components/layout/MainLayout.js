@@ -51,7 +51,7 @@ export default function MainLayout() {
   };
 
   React.useEffect(() => {
-    if (gameData) {
+    if (gameData.length > 0) {
       setIsActiveGame(true);
     }
   }, [gameData]);
