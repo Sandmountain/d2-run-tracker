@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Dialog, DialogActions, DialogTitle, DialogContent, DialogContentText } from "@mui/material";
+import { Button, Dialog, DialogActions, DialogTitle, DialogContent, DialogContentText, Alert } from "@mui/material";
 import { DoubleArrow } from "@mui/icons-material";
 
 export default function EndRunDialog(props) {
@@ -35,10 +35,13 @@ export default function EndRunDialog(props) {
         {"ARE YOU SURE YOU WANT TO END THE RUN?"}
       </DialogTitle>
       <DialogContent>
-        <DialogContentText></DialogContentText>
-        <DialogContentText style={{ marginTop: 15 }}>
-          This is a permanent move, and you can't continue your run after procceding. Are you sure you wish to continue?
-        </DialogContentText>
+        <Alert severity="info">
+          This action will end your run. Make sure that you have added the loot from your last round before going to the summary.
+        </Alert>
+        <DialogContent style={{ marginTop: 15 }}>
+          Once the run is ended, you can't proceed and add more data to this run.
+          <p style={{ margin: "15px 0 0", fontWeight: "bold" }}> Are you sure you wish to continue?</p>
+        </DialogContent>
       </DialogContent>
 
       <DialogActions>
