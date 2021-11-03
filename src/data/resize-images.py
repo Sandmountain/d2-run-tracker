@@ -1,7 +1,8 @@
+# Script to resize images
 from PIL import Image
 import os
 
-path = "c:/Users/Natteravn 2.0/Desktop/d2-run-tracker/src/images/"
+path = "d2-run-tracker/src/images/"
 resize_ratio = 0.1  # where 0.5 is half size, 2 is double size
 
 def resize_aspect_fit():

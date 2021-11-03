@@ -1976,6 +1976,14 @@
     "rarity": "unique"
   },
   {
+    "name": "Wisp Projector",
+    "url": "stone_of_jordan",
+    "set": "",
+    "type": "Ring",
+    "reqLvl": 7,
+    "rarity": "unique"
+  },
+  {
     "name": "Manald Heal",
     "url": "manald_heal",
     "set": "",
@@ -4324,6 +4332,14 @@
     "url": "sur_rune",
     "set": "",
     "type": "Sur rune",
+    "reqLvl": "",
+    "rarity": "rune"
+  },
+  {
+    "name": "Lo",
+    "url": "lo_rune",
+    "set": "",
+    "type": "Lo rune",
     "reqLvl": "",
     "rarity": "rune"
   },

@@ -1,5 +1,7 @@
-const json = require('./data.json');
-const FileSystem = require('fs');
+/* File to create initial database */
+
+const json = require("./database.json");
+const FileSystem = require("fs");
 // const arrayOfElm = Object.values(json);
 // console.log(arrayOfElm[0]);
 // const obj = Object.fromEntries(
@@ -14,19 +16,19 @@ const FileSystem = require('fs');
 // );
 
 const fixName = (name) => {
-  return name.replaceAll(' ', '_').replace("'", '').replace('.png', '').toLowerCase();
+  return name.replaceAll(" ", "_").replace("'", "").replace(".png", "").toLowerCase();
 };
 
 const getRarity = (set, type) => {
   console.log(set, type);
-  if (set !== '') return 'set';
+  if (set !== "") return "set";
 
-  if (type.includes('rune')) {
-    return 'rune';
-  } else if (type.includes('charm')) {
-    return 'magic';
+  if (type.includes("rune")) {
+    return "rune";
+  } else if (type.includes("charm")) {
+    return "magic";
   } else {
-    return 'unique';
+    return "unique";
   }
 };
 
@@ -39,6 +41,6 @@ const arrayOfObj = Object.entries(json).map((e) => ({
   rarity: getRarity(e[1].set, e[1].type),
 }));
 
-FileSystem.writeFile('database.json', JSON.stringify(arrayOfObj), (error) => {
+FileSystem.writeFile("database.json", JSON.stringify(arrayOfObj), (error) => {
   if (error) throw error;
 });
