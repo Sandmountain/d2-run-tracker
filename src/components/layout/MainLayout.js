@@ -33,7 +33,7 @@ export default function MainLayout() {
   const [openExitDialog, setOpenExitDialog] = React.useState(false);
 
   const [runData, setRunData] = React.useState([]);
-  const [gameData, setGameData] = React.useState([]);
+  const [gameData, setGameData] = React.useState({});
   const [gameTime, setGameTime] = React.useState(0);
 
   const handleExitGame = () => {
@@ -51,7 +51,7 @@ export default function MainLayout() {
   };
 
   React.useEffect(() => {
-    if (gameData.length > 0) {
+    if (Object.keys(gameData).length > 0) {
       setIsActiveGame(true);
     }
   }, [gameData]);
