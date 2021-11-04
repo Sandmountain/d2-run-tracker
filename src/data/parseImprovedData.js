@@ -48,6 +48,7 @@ newest.forEach((item, index) => {
       stats: [],
       setName: "",
       image: "",
+      name: "",
     };
 
     const requirements = [];
@@ -100,12 +101,13 @@ newest.forEach((item, index) => {
 
     const res = old.find((oldItem) => oldItem.name.toLowerCase() === item.name.toLowerCase());
 
-    struct.image = "/image/" + res.url + ".png";
+    struct.image = res.url;
     struct.rarity = res.rarity;
     struct.setName = item.setName ?? "";
     struct.category = item.category ?? "";
     struct.classSpecificSet = item.classSpecificSet ?? "";
     struct.type = item.type ?? "";
+    struct.name = item.name;
 
     newData.push(struct);
   }

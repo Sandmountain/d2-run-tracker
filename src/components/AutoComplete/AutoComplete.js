@@ -4,7 +4,7 @@ import { TextField, Autocomplete, Box, Chip, Typography, List } from "@mui/mater
 import { getColor } from "../../utils/utils.js";
 import "./auto-complete.css";
 import CustomItemList from "../CustomItemList/CustomItemList.js";
-const data = require("../../data/database.json");
+const data = require("../../data/data.json");
 
 export default function AutoComplete(props) {
   const { setDialogItems, dialogItems } = props;
@@ -87,7 +87,7 @@ export default function AutoComplete(props) {
           renderOption={(props, option) => (
             <Box component="li" sx={{ "& > img": { mr: 2, flexShrink: 0 } }} {...props}>
               <div className="listImage-container">
-                <img loading="lazy" width="25" src={require(`../../images/${option.url}.png`).default} alt="" />
+                <img loading="lazy" width="25" src={require(`../../images/${option.image}.png`).default} alt="" />
               </div>
               <Typography className={`${option.rarity} list-shadow`}>{option.name}</Typography>
             </Box>

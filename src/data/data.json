@@ -13,7 +13,8 @@
       { "detail": "15-30% Better Chance of Getting Magic Items", "varies": true }
     ],
     "setName": "",
-    "image": "/image/nagelring.png"
+    "image": "nagelring",
+    "name": "Nagelring"
   },
   {
     "classSpecificSet": "",
@@ -29,7 +30,8 @@
       { "detail": "+20 To Life", "varies": false }
     ],
     "setName": "",
-    "image": "/image/manald_heal.png"
+    "image": "manald_heal",
+    "name": "Manald Heal"
   },
   {
     "classSpecificSet": "",
@@ -45,7 +47,8 @@
       { "detail": "+20 To Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stone_of_jordan.png"
+    "image": "stone_of_jordan",
+    "name": "Stone of Jordan"
   },
   {
     "classSpecificSet": "",
@@ -63,7 +66,8 @@
       { "detail": "100% Extra Gold From Monsters", "varies": false }
     ],
     "setName": "",
-    "image": "/image/dwarf_star.png"
+    "image": "dwarf_star",
+    "name": "Dwarf Star"
   },
   {
     "classSpecificSet": "",
@@ -81,7 +85,8 @@
       { "detail": "Cold Absorb 20%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/raven_frost.png"
+    "image": "raven_frost",
+    "name": "Raven Frost"
   },
   {
     "classSpecificSet": "",
@@ -97,7 +102,8 @@
       { "detail": "+50 Maximum Stamina", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bul-kathos_wedding_band.png"
+    "image": "bul-kathos_wedding_band",
+    "name": "Bul-Kathos' Wedding Band"
   },
   {
     "classSpecificSet": "",
@@ -116,7 +122,8 @@
       { "detail": "Level 21 Poison Creeper (15 Charges)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/carrion_wind.png"
+    "image": "carrion_wind",
+    "name": "Carrion Wind"
   },
   {
     "classSpecificSet": "",
@@ -134,7 +141,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/natures_peace.png"
+    "image": "natures_peace",
+    "name": "Nature's Peace"
   },
   {
     "classSpecificSet": "",
@@ -152,7 +160,8 @@
       { "detail": "Level 2 Oak Sage (15 charges)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stone_of_jordan.png"
+    "image": "stone_of_jordan",
+    "name": "Wisp Projector"
   },
   {
     "classSpecificSet": "",
@@ -169,7 +178,8 @@
       { "detail": "+3 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/nokozan_relic.png"
+    "image": "nokozan_relic",
+    "name": "Nokozan Relic"
   },
   {
     "classSpecificSet": "",
@@ -187,7 +197,8 @@
       { "detail": "+10-40 Defense vs. Missile *", "varies": true }
     ],
     "setName": "",
-    "image": "/image/the_eye_of_etlich.png"
+    "image": "the_eye_of_etlich",
+    "name": "The Eye of Etlich"
   },
   {
     "classSpecificSet": "",
@@ -204,7 +215,8 @@
       { "detail": "+10 To All Attributes", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_mahim-oak_curio.png"
+    "image": "the_mahim-oak_curio",
+    "name": "The Mahim-Oak Curio"
   },
   {
     "classSpecificSet": "",
@@ -219,7 +231,8 @@
       { "detail": "+12 To All Attributes", "varies": false }
     ],
     "setName": "",
-    "image": "/image/saracens_chance.png"
+    "image": "saracens_chance",
+    "name": "Saracen's Chance"
   },
   {
     "classSpecificSet": "",
@@ -236,7 +249,8 @@
       { "detail": "+25 To Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_cats_eye.png"
+    "image": "the_cats_eye",
+    "name": "The Cat's Eye"
   },
   {
     "classSpecificSet": "",
@@ -254,7 +268,8 @@
       { "detail": "-2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/maras_kaleidoscope.png"
+    "image": "maras_kaleidoscope",
+    "name": "Crescent Moon"
   },
   {
     "classSpecificSet": "",
@@ -272,7 +287,8 @@
       { "detail": "Attacker Takes Damage of 5", "varies": false }
     ],
     "setName": "",
-    "image": "/image/atmas_scarab.png"
+    "image": "atmas_scarab",
+    "name": "Atma's Scarab"
   },
   {
     "classSpecificSet": "",
@@ -290,7 +306,8 @@
       { "detail": "+4 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_rising_sun.png"
+    "image": "the_rising_sun",
+    "name": "The Rising Sun"
   },
   {
     "classSpecificSet": "",
@@ -308,7 +325,8 @@
       { "detail": "Attacker Takes Lightning Damage Of 15", "varies": false }
     ],
     "setName": "",
-    "image": "/image/highlords_wrath.png"
+    "image": "highlords_wrath",
+    "name": "Highlord's Wrath"
   },
   {
     "classSpecificSet": "",
@@ -323,7 +341,8 @@
       { "detail": "+5 To All Attributes", "varies": false }
     ],
     "setName": "",
-    "image": "/image/maras_kaleidoscope.png"
+    "image": "maras_kaleidoscope",
+    "name": "Mara's Kaleidoscope"
   },
   {
     "classSpecificSet": "",
@@ -343,7 +362,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/seraphs_hymn.png"
+    "image": "seraphs_hymn",
+    "name": "Seraph's Hymn"
   },
   {
     "classSpecificSet": "",
@@ -361,7 +381,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/metalgrid.png"
+    "image": "metalgrid",
+    "name": "Metalgrid"
   },
   {
     "classSpecificSet": "",
@@ -377,7 +398,8 @@
       { "detail": "+5-10% To Experience Gained", "varies": true }
     ],
     "setName": "",
-    "image": "/image/annihilus.png"
+    "image": "annihilus",
+    "name": "Annihilus"
   },
   {
     "classSpecificSet": "",
@@ -393,7 +415,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gheeds_fortune.png"
+    "image": "gheeds_fortune",
+    "name": "Gheed's Fortune"
   },
   {
     "classSpecificSet": "",
@@ -411,7 +434,8 @@
       { "detail": "Level 30 Hydra (10 charges)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hellfire_torch.png"
+    "image": "hellfire_torch",
+    "name": "Hellfire Torch"
   },
   {
     "classSpecificSet": "",
@@ -427,7 +451,8 @@
       { "detail": "-(3-5)% To Enemy Fire Resistance", "varies": true }
     ],
     "setName": "",
-    "image": "/image/rainbow_facet_fire_level-up.png"
+    "image": "rainbow_facet_fire_level-up",
+    "name": "Rainbow Facet Fire Level-up"
   },
   {
     "classSpecificSet": "",
@@ -443,7 +468,8 @@
       { "detail": "-(3-5)% To Enemy Cold Resistance", "varies": true }
     ],
     "setName": "",
-    "image": "/image/rainbow_facet_cold_level-up.png"
+    "image": "rainbow_facet_cold_level-up",
+    "name": "Rainbow Facet Cold Level-up"
   },
   {
     "classSpecificSet": "",
@@ -459,7 +485,8 @@
       { "detail": "-(3-5)% To Enemy Lightning Resistance", "varies": true }
     ],
     "setName": "",
-    "image": "/image/rainbow_facet_lightning_level-up.png"
+    "image": "rainbow_facet_lightning_level-up",
+    "name": "Rainbow Facet Lightning Level-up"
   },
   {
     "classSpecificSet": "",
@@ -475,7 +502,8 @@
       { "detail": "-(3-5)% To Enemy Poison Resistance", "varies": true }
     ],
     "setName": "",
-    "image": "/image/rainbow_facet_poison_level-up.png"
+    "image": "rainbow_facet_poison_level-up",
+    "name": "Rainbow Facet Poison Level-up"
   },
   {
     "classSpecificSet": "",
@@ -491,7 +519,8 @@
       { "detail": "-(3-5)% To Enemy Fire Resistance", "varies": true }
     ],
     "setName": "",
-    "image": "/image/rainbow_facet_fire_death.png"
+    "image": "rainbow_facet_fire_death",
+    "name": "Rainbow Facet Fire Death"
   },
   {
     "classSpecificSet": "",
@@ -507,7 +536,8 @@
       { "detail": "-(3-5)% To Enemy Cold Resistance", "varies": true }
     ],
     "setName": "",
-    "image": "/image/rainbow_facet_cold_death.png"
+    "image": "rainbow_facet_cold_death",
+    "name": "Rainbow Facet Cold Death"
   },
   {
     "classSpecificSet": "",
@@ -523,7 +553,8 @@
       { "detail": "-(3-5)% To Enemy Lightning Resistance", "varies": true }
     ],
     "setName": "",
-    "image": "/image/rainbow_facet_lightning_death.png"
+    "image": "rainbow_facet_lightning_death",
+    "name": "Rainbow Facet Lightning Death"
   },
   {
     "classSpecificSet": "",
@@ -539,7 +570,8 @@
       { "detail": "-(3-5)% To Enemy Poison Resistance", "varies": true }
     ],
     "setName": "",
-    "image": "/image/rainbow_facet_poison_death.png"
+    "image": "rainbow_facet_poison_death",
+    "name": "Rainbow Facet Poison Death"
   },
   {
     "classSpecificSet": "",
@@ -556,7 +588,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/kiras_guardian.png"
+    "image": "kiras_guardian",
+    "name": "Kira's Guardian"
   },
   {
     "classSpecificSet": "",
@@ -574,7 +607,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/griffons_eye.png"
+    "image": "griffons_eye",
+    "name": "Griffon's Eye"
   },
   {
     "classSpecificSet": "",
@@ -598,7 +632,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stoneraven.png"
+    "image": "stoneraven",
+    "name": "Stoneraven"
   },
   {
     "classSpecificSet": "",
@@ -625,7 +660,8 @@
       { "detail": "+2 To Javelin and Spear Skills (Amazon Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lycanders_flank.png"
+    "image": "lycanders_flank",
+    "name": "Lycander's Flank"
   },
   {
     "classSpecificSet": "",
@@ -651,7 +687,8 @@
       { "detail": "+2 To Bow And Crossbow Skills (Amazon Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lycanders_aim.png"
+    "image": "lycanders_aim",
+    "name": "Lycander's Aim"
   },
   {
     "classSpecificSet": "",
@@ -680,7 +717,8 @@
       { "detail": "+2 To Javelin and Spear Skills (Amazon Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/titans_revenge.png"
+    "image": "titans_revenge",
+    "name": "Titan's Revenge"
   },
   {
     "classSpecificSet": "",
@@ -707,7 +745,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/thunderstroke.png"
+    "image": "thunderstroke",
+    "name": "Thunderstroke"
   },
   {
     "classSpecificSet": "",
@@ -729,7 +768,8 @@
       { "detail": "+2-4 To Bow And Crossbow Skills (Amazon Only)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/blood_ravens_charge.png"
+    "image": "blood_ravens_charge",
+    "name": "Blood Raven's Charge"
   },
   {
     "classSpecificSet": "",
@@ -754,7 +794,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/shadow_killer.png"
+    "image": "shadow_killer",
+    "name": "Shadow Killer"
   },
   {
     "classSpecificSet": "",
@@ -781,7 +822,8 @@
       { "detail": "+1 To Martial Arts Skills (Assassin Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bartucs_cut-throat.png"
+    "image": "bartucs_cut-throat",
+    "name": "Bartuc's Cut-Throat"
   },
   {
     "classSpecificSet": "",
@@ -805,7 +847,8 @@
       { "detail": "All Resistances +40-50", "varies": true }
     ],
     "setName": "",
-    "image": "/image/jade_talon.png"
+    "image": "jade_talon",
+    "name": "Jade Talon"
   },
   {
     "classSpecificSet": "",
@@ -830,7 +873,8 @@
       { "detail": "Fire Resist +40-70%", "varies": true }
     ],
     "setName": "",
-    "image": "/image/firelizards_talons.png"
+    "image": "firelizards_talons",
+    "name": "Firelizard's Talons"
   },
   {
     "classSpecificSet": "",
@@ -857,7 +901,8 @@
       { "detail": "+2 To Curses Skills (Necromancer Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/homunculus.png"
+    "image": "homunculus",
+    "name": "Homunculus"
   },
   {
     "classSpecificSet": "",
@@ -876,7 +921,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/darkforce_spawn.png"
+    "image": "darkforce_spawn",
+    "name": "Darkforce Spawn"
   },
   {
     "classSpecificSet": "",
@@ -893,7 +939,8 @@
       { "detail": "15% Chance To Cast Level 3 Terror When Struck", "varies": false }
     ],
     "setName": "",
-    "image": "/image/boneflame.png"
+    "image": "boneflame",
+    "name": "Boneflame"
   },
   {
     "classSpecificSet": "",
@@ -914,7 +961,8 @@
       { "detail": "+2 To Combat Skills (Barbarian Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/arreats_face.png"
+    "image": "arreats_face",
+    "name": "Arreat's Face"
   },
   {
     "classSpecificSet": "",
@@ -935,7 +983,8 @@
       { "detail": "Level 15 Summon Dire Wolf (18 Charges)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/wolfhowl.png"
+    "image": "wolfhowl",
+    "name": "Wolfhowl"
   },
   {
     "classSpecificSet": "",
@@ -955,7 +1004,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/demonhorns_edge.png"
+    "image": "demonhorns_edge",
+    "name": "Demonhorn's Edge"
   },
   {
     "classSpecificSet": "",
@@ -974,7 +1024,8 @@
       { "detail": "+1-2 To Battle Orders (Barbarian Only)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/halaberds_reign.png"
+    "image": "halaberds_reign",
+    "name": "Halaberd's Reign"
   },
   {
     "classSpecificSet": "",
@@ -995,7 +1046,8 @@
       { "detail": "50% Better Chance Of Getting Magic Items", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_oculus.png"
+    "image": "the_oculus",
+    "name": "The Oculus"
   },
   {
     "classSpecificSet": "",
@@ -1012,7 +1064,8 @@
       { "detail": "+20-30 To Energy", "varies": true }
     ],
     "setName": "",
-    "image": "/image/eschutas_temper.png"
+    "image": "eschutas_temper",
+    "name": "Eschuta's Temper"
   },
   {
     "classSpecificSet": "",
@@ -1030,7 +1083,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/deaths_fathom.png"
+    "image": "deaths_fathom",
+    "name": "Death's Fathom"
   },
   {
     "classSpecificSet": "",
@@ -1051,7 +1105,8 @@
       { "detail": "+2 To Shape Shifting Skills (Druid Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/jalals_mane.png"
+    "image": "jalals_mane",
+    "name": "Jalal's Mane"
   },
   {
     "classSpecificSet": "",
@@ -1070,7 +1125,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/cerebus_bite.png"
+    "image": "cerebus_bite",
+    "name": "Cerebus' Bite"
   },
   {
     "classSpecificSet": "",
@@ -1088,7 +1144,8 @@
       { "detail": "All Resistances +15-25", "varies": true }
     ],
     "setName": "",
-    "image": "/image/ravenlore.png"
+    "image": "ravenlore",
+    "name": "Ravenlore"
   },
   {
     "classSpecificSet": "",
@@ -1107,7 +1164,8 @@
       { "detail": "Cold Absorb 15-25%", "varies": true }
     ],
     "setName": "",
-    "image": "/image/spirit_keeper.png"
+    "image": "spirit_keeper",
+    "name": "Spirit Keeper"
   },
   {
     "classSpecificSet": "",
@@ -1132,7 +1190,8 @@
       { "detail": "Magic Damage Reduced By 5-9", "varies": true }
     ],
     "setName": "",
-    "image": "/image/alma_negra.png"
+    "image": "alma_negra",
+    "name": "Alma Negra"
   },
   {
     "classSpecificSet": "",
@@ -1159,7 +1218,8 @@
       { "detail": "+2 To Combat Skills (Paladin Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/herald_of_zakarum.png"
+    "image": "herald_of_zakarum",
+    "name": "Herald Of Zakarum"
   },
   {
     "classSpecificSet": "",
@@ -1184,7 +1244,8 @@
       { "detail": "Fire Absorb 10-20%", "varies": true }
     ],
     "setName": "",
-    "image": "/image/dragonscale.png"
+    "image": "dragonscale",
+    "name": "Dragonscale"
   },
   {
     "classSpecificSet": "",
@@ -1201,7 +1262,8 @@
       { "detail": "+15 To Life", "varies": false }
     ],
     "setName": "",
-    "image": "/image/biggins_bonnet.png"
+    "image": "biggins_bonnet",
+    "name": "Biggin's Bonnet"
   },
   {
     "classSpecificSet": "",
@@ -1216,7 +1278,8 @@
       { "detail": "75% Extra Gold From Monsters", "varies": false }
     ],
     "setName": "",
-    "image": "/image/tarnhelm.png"
+    "image": "tarnhelm",
+    "name": "Tarnhelm"
   },
   {
     "classSpecificSet": "",
@@ -1233,7 +1296,8 @@
       { "detail": "+100 Defense vs. Missile*", "varies": false }
     ],
     "setName": "",
-    "image": "/image/coif_of_glory.png"
+    "image": "coif_of_glory",
+    "name": "Coif of Glory"
   },
   {
     "classSpecificSet": "",
@@ -1251,7 +1315,8 @@
       { "detail": "-2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/duskdeep.png"
+    "image": "duskdeep",
+    "name": "Duskdeep"
   },
   {
     "classSpecificSet": "",
@@ -1269,7 +1334,8 @@
       { "detail": "Hit Causes Monster To Flee 25%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/howltusk.png"
+    "image": "howltusk",
+    "name": "Howltusk"
   },
   {
     "classSpecificSet": "",
@@ -1286,7 +1352,8 @@
       { "detail": "+20 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_face_of_horror.png"
+    "image": "the_face_of_horror",
+    "name": "The Face of Horror"
   },
   {
     "classSpecificSet": "",
@@ -1306,7 +1373,8 @@
       { "detail": "+3 To Skeleton Mastery (Necromancer Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/undead_crown.png"
+    "image": "undead_crown",
+    "name": "Undead Crown"
   },
   {
     "classSpecificSet": "",
@@ -1323,7 +1391,8 @@
       { "detail": "+10 To Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/wormskull.png"
+    "image": "wormskull",
+    "name": "Wormskull"
   },
   {
     "classSpecificSet": "",
@@ -1341,7 +1410,8 @@
       { "detail": "+20 To Vitality", "varies": false }
     ],
     "setName": "",
-    "image": "/image/peasant_crown.png"
+    "image": "peasant_crown",
+    "name": "Peasant Crown"
   },
   {
     "classSpecificSet": "",
@@ -1360,7 +1430,8 @@
       { "detail": "+15 To Vitality", "varies": false }
     ],
     "setName": "",
-    "image": "/image/rockstopper.png"
+    "image": "rockstopper",
+    "name": "Rockstopper"
   },
   {
     "classSpecificSet": "",
@@ -1378,7 +1449,8 @@
       { "detail": "30-50% Better Chance of Getting Magic Items", "varies": true }
     ],
     "setName": "",
-    "image": "/image/stealskull.png"
+    "image": "stealskull",
+    "name": "Stealskull"
   },
   {
     "classSpecificSet": "",
@@ -1397,7 +1469,8 @@
       { "detail": "-4 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/darksight_helm.png"
+    "image": "darksight_helm",
+    "name": "Darksight Helm"
   },
   {
     "classSpecificSet": "",
@@ -1414,7 +1487,8 @@
       { "detail": "+2-4 To Mana After Each Kill", "varies": true }
     ],
     "setName": "",
-    "image": "/image/valkyrie_wing.png"
+    "image": "valkyrie_wing",
+    "name": "Valkyrie Wing"
   },
   {
     "classSpecificSet": "",
@@ -1432,7 +1506,8 @@
       { "detail": "Lightning Resist +15%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/blackhorns_face.png"
+    "image": "blackhorns_face",
+    "name": "Blackhorn's Face"
   },
   {
     "classSpecificSet": "",
@@ -1451,7 +1526,8 @@
       { "detail": "80-100% Extra Gold From Monsters", "varies": true }
     ],
     "setName": "",
-    "image": "/image/crown_of_thieves.png"
+    "image": "crown_of_thieves",
+    "name": "Crown of Thieves"
   },
   {
     "classSpecificSet": "",
@@ -1470,7 +1546,8 @@
       { "detail": "Magic Damage Reduced By 10-15", "varies": true }
     ],
     "setName": "",
-    "image": "/image/vampire_gaze.png"
+    "image": "vampire_gaze",
+    "name": "Vampire Gaze"
   },
   {
     "classSpecificSet": "",
@@ -1488,7 +1565,8 @@
       { "detail": "+2 To All Attributes", "varies": false }
     ],
     "setName": "",
-    "image": "/image/harlequin_crest.png"
+    "image": "harlequin_crest",
+    "name": "Harlequin Crest"
   },
   {
     "classSpecificSet": "",
@@ -1504,7 +1582,8 @@
       { "detail": "+5-11 Fire Absorb", "varies": true }
     ],
     "setName": "",
-    "image": "/image/steel_shade.png"
+    "image": "steel_shade",
+    "name": "Steel Shade"
   },
   {
     "classSpecificSet": "",
@@ -1522,7 +1601,8 @@
       { "detail": "-4 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/veil_of_steel.png"
+    "image": "veil_of_steel",
+    "name": "Veil of Steel"
   },
   {
     "classSpecificSet": "",
@@ -1541,7 +1621,8 @@
       { "detail": "Requirements -50%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/nightwings_veil.png"
+    "image": "nightwings_veil",
+    "name": "Nightwing's Veil"
   },
   {
     "classSpecificSet": "",
@@ -1564,7 +1645,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/andariels_visage.png"
+    "image": "andariels_visage",
+    "name": "Andariel's Visage"
   },
   {
     "classSpecificSet": "",
@@ -1584,7 +1666,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/crown_of_ages.png"
+    "image": "crown_of_ages",
+    "name": "Crown of Ages"
   },
   {
     "classSpecificSet": "",
@@ -1601,7 +1684,8 @@
       { "detail": "Socketed (1-2)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/giant_skull.png"
+    "image": "giant_skull",
+    "name": "Giant Skull"
   },
   {
     "classSpecificSet": "",
@@ -1619,7 +1703,8 @@
       { "detail": "+10 To Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/greyform.png"
+    "image": "greyform",
+    "name": "Greyform"
   },
   {
     "classSpecificSet": "",
@@ -1636,7 +1721,8 @@
       { "detail": "Adds 3-6 Fire Damage", "varies": false }
     ],
     "setName": "",
-    "image": "/image/blinkbats_form.png"
+    "image": "blinkbats_form",
+    "name": "Blinkbat's Form"
   },
   {
     "classSpecificSet": "",
@@ -1656,7 +1742,8 @@
       { "detail": "Damage Reduced By 2", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_centurion.png"
+    "image": "the_centurion",
+    "name": "The Centurion"
   },
   {
     "classSpecificSet": "",
@@ -1674,7 +1761,8 @@
       { "detail": "+10 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/twitchthroe.png"
+    "image": "twitchthroe",
+    "name": "Twitchthroe"
   },
   {
     "classSpecificSet": "",
@@ -1695,7 +1783,8 @@
       { "detail": "+3 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/darkglow.png"
+    "image": "darkglow",
+    "name": "Darkglow"
   },
   {
     "classSpecificSet": "",
@@ -1712,7 +1801,8 @@
       { "detail": "Cannot Be Frozen", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hawkmail.png"
+    "image": "hawkmail",
+    "name": "Hawkmail"
   },
   {
     "classSpecificSet": "",
@@ -1729,7 +1819,8 @@
       { "detail": "Poison Length Reduced By 50%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/venom_ward.png"
+    "image": "venom_ward",
+    "name": "Venom Ward"
   },
   {
     "classSpecificSet": "",
@@ -1745,7 +1836,8 @@
       { "detail": "Adds 1-20 Lightning Damage", "varies": false }
     ],
     "setName": "",
-    "image": "/image/sparking_mail.png"
+    "image": "sparking_mail",
+    "name": "Sparking Mail"
   },
   {
     "classSpecificSet": "",
@@ -1762,7 +1854,8 @@
       { "detail": "+4 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/iceblink.png"
+    "image": "iceblink",
+    "name": "Iceblink"
   },
   {
     "classSpecificSet": "",
@@ -1780,7 +1873,8 @@
       { "detail": "+100 To Attack Rating Against Undead", "varies": false }
     ],
     "setName": "",
-    "image": "/image/heavenly_garb.png"
+    "image": "heavenly_garb",
+    "name": "Heavenly Garb"
   },
   {
     "classSpecificSet": "",
@@ -1797,7 +1891,8 @@
       { "detail": "Damage Reduced By 5", "varies": false }
     ],
     "setName": "",
-    "image": "/image/rockfleece.png"
+    "image": "rockfleece",
+    "name": "Rockfleece"
   },
   {
     "classSpecificSet": "",
@@ -1813,7 +1908,8 @@
       { "detail": "+35 To Attack Rating", "varies": false }
     ],
     "setName": "",
-    "image": "/image/boneflesh.png"
+    "image": "boneflesh",
+    "name": "Boneflesh"
   },
   {
     "classSpecificSet": "",
@@ -1829,7 +1925,8 @@
       { "detail": "+45 To Attack Rating", "varies": false }
     ],
     "setName": "",
-    "image": "/image/rattlecage.png"
+    "image": "rattlecage",
+    "name": "Rattlecage"
   },
   {
     "classSpecificSet": "",
@@ -1846,7 +1943,8 @@
       { "detail": "100% Extra Gold From Monsters", "varies": false }
     ],
     "setName": "",
-    "image": "/image/goldskin.png"
+    "image": "goldskin",
+    "name": "Goldskin"
   },
   {
     "classSpecificSet": "",
@@ -1862,7 +1960,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/silks_of_the_victor.png"
+    "image": "silks_of_the_victor",
+    "name": "Silks of the Victor"
   },
   {
     "classSpecificSet": "",
@@ -1879,7 +1978,8 @@
       { "detail": "Magic Damage Reduced By 7-11", "varies": true }
     ],
     "setName": "",
-    "image": "/image/the_spirit_shroud.png"
+    "image": "the_spirit_shroud",
+    "name": "The Spirit Shroud"
   },
   {
     "classSpecificSet": "",
@@ -1896,7 +1996,8 @@
       { "detail": "All Resistances +20-35", "varies": true }
     ],
     "setName": "",
-    "image": "/image/skin_of_the_vipermagi.png"
+    "image": "skin_of_the_vipermagi",
+    "name": "Skin of the Vipermagi"
   },
   {
     "classSpecificSet": "",
@@ -1913,7 +2014,8 @@
       { "detail": "Attacker Takes Damage of 15", "varies": false }
     ],
     "setName": "",
-    "image": "/image/skin_of_the_flayed_one.png"
+    "image": "skin_of_the_flayed_one",
+    "name": "Skin of the Flayed One"
   },
   {
     "classSpecificSet": "",
@@ -1930,7 +2032,8 @@
       { "detail": "+25 To Life", "varies": false }
     ],
     "setName": "",
-    "image": "/image/iron_pelt.png"
+    "image": "iron_pelt",
+    "name": "Iron Pelt"
   },
   {
     "classSpecificSet": "",
@@ -1947,7 +2050,8 @@
       { "detail": "+15 Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/crow_caw.png"
+    "image": "crow_caw",
+    "name": "Crow Caw"
   },
   {
     "classSpecificSet": "",
@@ -1966,7 +2070,8 @@
       { "detail": "+4 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/spirit_forge.png"
+    "image": "spirit_forge",
+    "name": "Spirit Forge"
   },
   {
     "classSpecificSet": "",
@@ -1987,7 +2092,8 @@
       { "detail": "+15 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/duriels_shell.png"
+    "image": "duriels_shell",
+    "name": "Duriel's Shell"
   },
   {
     "classSpecificSet": "",
@@ -2003,7 +2109,8 @@
       { "detail": "+60 To Life", "varies": false }
     ],
     "setName": "",
-    "image": "/image/shaftstop.png"
+    "image": "shaftstop",
+    "name": "Shaftstop"
   },
   {
     "classSpecificSet": "",
@@ -2023,7 +2130,8 @@
       { "detail": "Magic Damage Reduced By 10", "varies": false }
     ],
     "setName": "",
-    "image": "/image/skullders_ire.png"
+    "image": "skullders_ire",
+    "name": "Skullder's Ire"
   },
   {
     "classSpecificSet": "",
@@ -2042,7 +2150,8 @@
       { "detail": "+15 To Energy", "varies": false }
     ],
     "setName": "",
-    "image": "/image/que-hegans_wisdom.png"
+    "image": "que-hegans_wisdom",
+    "name": "Que-Hegan's Wisdom"
   },
   {
     "classSpecificSet": "",
@@ -2060,7 +2169,8 @@
       { "detail": "Attacker Takes Damage of 20-40", "varies": true }
     ],
     "setName": "",
-    "image": "/image/toothrow.png"
+    "image": "toothrow",
+    "name": "Toothrow"
   },
   {
     "classSpecificSet": "",
@@ -2082,7 +2192,8 @@
       { "detail": "15% To Maximum Fire Resist", "varies": false }
     ],
     "setName": "",
-    "image": "/image/guardian_angel.png"
+    "image": "guardian_angel",
+    "name": "Guardian Angel"
   },
   {
     "classSpecificSet": "",
@@ -2101,7 +2212,8 @@
       { "detail": "+20% Better Chance Of Getting Magic Items", "varies": false }
     ],
     "setName": "",
-    "image": "/image/atmas_wail.png"
+    "image": "atmas_wail",
+    "name": "Atma's Wail"
   },
   {
     "classSpecificSet": "",
@@ -2119,7 +2231,8 @@
       { "detail": "-2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/black_hades.png"
+    "image": "black_hades",
+    "name": "Black Hades"
   },
   {
     "classSpecificSet": "",
@@ -2138,7 +2251,8 @@
       { "detail": "+8 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/corpsemourn.png"
+    "image": "corpsemourn",
+    "name": "Corpsemourn"
   },
   {
     "classSpecificSet": "",
@@ -2157,7 +2271,8 @@
       { "detail": "Regenerate Mana 10-15%", "varies": true }
     ],
     "setName": "",
-    "image": "/image/ormus_robes.png"
+    "image": "ormus_robes",
+    "name": "Ormus' Robes"
   },
   {
     "classSpecificSet": "",
@@ -2177,7 +2292,8 @@
       { "detail": "Magic Damage Reduced By 15-20", "varies": true }
     ],
     "setName": "",
-    "image": "/image/the_gladiators_bane.png"
+    "image": "the_gladiators_bane",
+    "name": "The Gladiator's Bane"
   },
   {
     "classSpecificSet": "",
@@ -2194,7 +2310,8 @@
       { "detail": "Damage Reduced By 10-15", "varies": true }
     ],
     "setName": "",
-    "image": "/image/arkaines_valor.png"
+    "image": "arkaines_valor",
+    "name": "Arkaine's Valor"
   },
   {
     "classSpecificSet": "",
@@ -2212,7 +2329,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/leviathan.png"
+    "image": "leviathan",
+    "name": "Leviathan"
   },
   {
     "classSpecificSet": "",
@@ -2231,7 +2349,8 @@
       { "detail": "8% Chance To Cast Level 6 Iron Maiden When Struck", "varies": false }
     ],
     "setName": "",
-    "image": "/image/steel_carapace.png"
+    "image": "steel_carapace",
+    "name": "Steel Carapace"
   },
   {
     "classSpecificSet": "",
@@ -2250,7 +2369,8 @@
       { "detail": "+1-2 To Offensive Auras (Paladin Only)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/templars_might.png"
+    "image": "templars_might",
+    "name": "Templar's Might"
   },
   {
     "classSpecificSet": "",
@@ -2272,7 +2392,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/tyraels_might.png"
+    "image": "tyraels_might",
+    "name": "Tyrael's Might"
   },
   {
     "classSpecificSet": "",
@@ -2297,7 +2418,8 @@
       { "detail": "+2 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/pelta_lunata.png"
+    "image": "pelta_lunata",
+    "name": "Pelta Lunata"
   },
   {
     "classSpecificSet": "",
@@ -2323,7 +2445,8 @@
       { "detail": "+10-15 Durability", "varies": true }
     ],
     "setName": "",
-    "image": "/image/umbral_disk.png"
+    "image": "umbral_disk",
+    "name": "Umbral Disk"
   },
   {
     "classSpecificSet": "",
@@ -2348,7 +2471,8 @@
       { "detail": "Magic Damage Reduced By 1", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stormguild.png"
+    "image": "stormguild",
+    "name": "Stormguild"
   },
   {
     "classSpecificSet": "",
@@ -2374,7 +2498,8 @@
       { "detail": "Damage Reduced By 3", "varies": false }
     ],
     "setName": "",
-    "image": "/image/steelclash.png"
+    "image": "steelclash",
+    "name": "Steelclash"
   },
   {
     "classSpecificSet": "",
@@ -2397,7 +2522,8 @@
       { "detail": "Attacker Takes Damage of 10", "varies": false }
     ],
     "setName": "",
-    "image": "/image/swordback_hold.png"
+    "image": "swordback_hold",
+    "name": "Swordback Hold"
   },
   {
     "classSpecificSet": "",
@@ -2421,7 +2547,8 @@
       { "detail": "Magic Damage Reduced By 5", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bverrit_keep.png"
+    "image": "bverrit_keep",
+    "name": "Bverrit Keep"
   },
   {
     "classSpecificSet": "",
@@ -2445,7 +2572,8 @@
       { "detail": "Poison Resist +20%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/wall_of_the_eyeless.png"
+    "image": "wall_of_the_eyeless",
+    "name": "Wall of the Eyeless"
   },
   {
     "classSpecificSet": "",
@@ -2469,7 +2597,8 @@
       { "detail": "+10 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_ward.png"
+    "image": "the_ward",
+    "name": "The Ward"
   },
   {
     "classSpecificSet": "",
@@ -2492,7 +2621,8 @@
       { "detail": "Attacker Takes Lightning Damage of 10", "varies": false }
     ],
     "setName": "",
-    "image": "/image/visceratuant.png"
+    "image": "visceratuant",
+    "name": "Visceratuant"
   },
   {
     "classSpecificSet": "",
@@ -2515,7 +2645,8 @@
       { "detail": "Socketed (2)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/mosers_blessed_circle.png"
+    "image": "mosers_blessed_circle",
+    "name": "Moser's Blessed Circle"
   },
   {
     "classSpecificSet": "",
@@ -2542,7 +2673,8 @@
       { "detail": "Adds 1-60 Lightning Damage", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stormchaser.png"
+    "image": "stormchaser",
+    "name": "Stormchaser"
   },
   {
     "classSpecificSet": "",
@@ -2568,7 +2700,8 @@
       { "detail": "All Resistances +25-35%", "varies": true }
     ],
     "setName": "",
-    "image": "/image/tiamats_rebuke.png"
+    "image": "tiamats_rebuke",
+    "name": "Tiamat's Rebuke"
   },
   {
     "classSpecificSet": "",
@@ -2592,7 +2725,8 @@
       { "detail": "Attacker Takes Damage of 47", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lance_guard.png"
+    "image": "lance_guard",
+    "name": "Lance Guard"
   },
   {
     "classSpecificSet": "",
@@ -2616,7 +2750,8 @@
       { "detail": "Magic Damage Reduced By 14-18", "varies": true }
     ],
     "setName": "",
-    "image": "/image/gerkes_sanctuary.png"
+    "image": "gerkes_sanctuary",
+    "name": "Gerke's Sanctuary"
   },
   {
     "classSpecificSet": "",
@@ -2641,7 +2776,8 @@
       { "detail": "+1 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lidless_wall.png"
+    "image": "lidless_wall",
+    "name": "Lidless Wall"
   },
   {
     "classSpecificSet": "",
@@ -2666,7 +2802,8 @@
       { "detail": "+80 Poison Damage Over 4 Seconds", "varies": false }
     ],
     "setName": "",
-    "image": "/image/radaments_sphere.png"
+    "image": "radaments_sphere",
+    "name": "Radament's Sphere"
   },
   {
     "classSpecificSet": "",
@@ -2691,7 +2828,8 @@
       { "detail": "Half Freeze Duration", "varies": false }
     ],
     "setName": "",
-    "image": "/image/blackoak_shield.png"
+    "image": "blackoak_shield",
+    "name": "Blackoak Shield"
   },
   {
     "classSpecificSet": "",
@@ -2717,7 +2855,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stormshield.png"
+    "image": "stormshield",
+    "name": "Stormshield"
   },
   {
     "classSpecificSet": "",
@@ -2740,7 +2879,8 @@
       { "detail": "Socketed (1)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/spike_thorn.png"
+    "image": "spike_thorn",
+    "name": "Spike Thorn"
   },
   {
     "classSpecificSet": "",
@@ -2764,7 +2904,8 @@
       { "detail": "100% Chance To Cast Level 44 Nova When You Die", "varies": false }
     ],
     "setName": "",
-    "image": "/image/medusas_gaze.png"
+    "image": "medusas_gaze",
+    "name": "Medusa's Gaze"
   },
   {
     "classSpecificSet": "",
@@ -2788,7 +2929,8 @@
       { "detail": "Socketed (1-3)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/head_hunters_glory.png"
+    "image": "head_hunters_glory",
+    "name": "Head Hunter's Glory"
   },
   {
     "classSpecificSet": "",
@@ -2811,7 +2953,8 @@
       { "detail": "5% Chance To Cast Level 8 Fade When Struck", "varies": false }
     ],
     "setName": "",
-    "image": "/image/spirit_ward.png"
+    "image": "spirit_ward",
+    "name": "Spirit Ward"
   },
   {
     "classSpecificSet": "",
@@ -2829,7 +2972,8 @@
       { "detail": "+20 To Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_hand_of_broc.png"
+    "image": "the_hand_of_broc",
+    "name": "The Hand of Broc"
   },
   {
     "classSpecificSet": "",
@@ -2847,7 +2991,8 @@
       { "detail": "+5 To Min Damage", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bloodfist.png"
+    "image": "bloodfist",
+    "name": "Bloodfist"
   },
   {
     "classSpecificSet": "",
@@ -2865,7 +3010,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/chance_guards.png"
+    "image": "chance_guards",
+    "name": "Chance Guards"
   },
   {
     "classSpecificSet": "",
@@ -2883,7 +3029,8 @@
       { "detail": "Adds 1-6 Fire Damage", "varies": false }
     ],
     "setName": "",
-    "image": "/image/magefist.png"
+    "image": "magefist",
+    "name": "Magefist"
   },
   {
     "classSpecificSet": "",
@@ -2900,7 +3047,8 @@
       { "detail": "Adds 1-6 Cold Damage, Cold Duration: 2 Seconds", "varies": false }
     ],
     "setName": "",
-    "image": "/image/frostburn.png"
+    "image": "frostburn",
+    "name": "Frostburn"
   },
   {
     "classSpecificSet": "",
@@ -2919,7 +3067,8 @@
       { "detail": "Poison Resist +30%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/venom_grip.png"
+    "image": "venom_grip",
+    "name": "Venom Grip"
   },
   {
     "classSpecificSet": "",
@@ -2936,7 +3085,8 @@
       { "detail": "+10 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gravepalm.png"
+    "image": "gravepalm",
+    "name": "Gravepalm"
   },
   {
     "classSpecificSet": "",
@@ -2953,7 +3103,8 @@
       { "detail": "+20 To Life", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ghoulhide.png"
+    "image": "ghoulhide",
+    "name": "Ghoulhide"
   },
   {
     "classSpecificSet": "",
@@ -2971,7 +3122,8 @@
       { "detail": "Fire Resist +24%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lava_gout.png"
+    "image": "lava_gout",
+    "name": "Lava Gout"
   },
   {
     "classSpecificSet": "",
@@ -2988,7 +3140,8 @@
       { "detail": "Adds 15-72 Fire Damage", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hellmouth.png"
+    "image": "hellmouth",
+    "name": "Hellmouth"
   },
   {
     "classSpecificSet": "",
@@ -3006,7 +3159,8 @@
       { "detail": "5% Chance To Cast Level 10 Life Tap On Striking", "varies": false }
     ],
     "setName": "",
-    "image": "/image/draculs_grasp.png"
+    "image": "draculs_grasp",
+    "name": "Dracul's Grasp"
   },
   {
     "classSpecificSet": "",
@@ -3023,7 +3177,8 @@
       { "detail": "8% Chance To Cast Level 3 Weaken On Striking", "varies": false }
     ],
     "setName": "",
-    "image": "/image/soul_drainer.png"
+    "image": "soul_drainer",
+    "name": "Soul Drainer"
   },
   {
     "classSpecificSet": "",
@@ -3039,7 +3194,8 @@
       { "detail": "+15-20 To Strength", "varies": true }
     ],
     "setName": "",
-    "image": "/image/steelrend.png"
+    "image": "steelrend",
+    "name": "Steelrend"
   },
   {
     "classSpecificSet": "",
@@ -3057,7 +3213,8 @@
       { "detail": "+15 To Life", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hotspur.png"
+    "image": "hotspur",
+    "name": "Hotspur"
   },
   {
     "classSpecificSet": "",
@@ -3075,7 +3232,8 @@
       { "detail": "+2 To Leap (Barbarian Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gorefoot.png"
+    "image": "gorefoot",
+    "name": "Gorefoot"
   },
   {
     "classSpecificSet": "",
@@ -3093,7 +3251,8 @@
       { "detail": "+10 To Life", "varies": false }
     ],
     "setName": "",
-    "image": "/image/treads_of_cthon.png"
+    "image": "treads_of_cthon",
+    "name": "Treads of Cthon"
   },
   {
     "classSpecificSet": "",
@@ -3111,7 +3270,8 @@
       { "detail": "+15 Defense", "varies": false }
     ],
     "setName": "",
-    "image": "/image/goblin_toe.png"
+    "image": "goblin_toe",
+    "name": "Goblin Toe"
   },
   {
     "classSpecificSet": "",
@@ -3130,7 +3290,8 @@
       { "detail": "+2 To Vigor (Paladin Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/tearhaunch.png"
+    "image": "tearhaunch",
+    "name": "Tearhaunch"
   },
   {
     "classSpecificSet": "",
@@ -3151,7 +3312,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/infernostride.png"
+    "image": "infernostride",
+    "name": "Infernostride"
   },
   {
     "classSpecificSet": "",
@@ -3171,7 +3333,8 @@
       { "detail": "+45-65 To Life", "varies": true }
     ],
     "setName": "",
-    "image": "/image/waterwalk.png"
+    "image": "waterwalk",
+    "name": "Waterwalk"
   },
   {
     "classSpecificSet": "",
@@ -3188,7 +3351,8 @@
       { "detail": "+200 Defense VS. Missile", "varies": false }
     ],
     "setName": "",
-    "image": "/image/silkweave.png"
+    "image": "silkweave",
+    "name": "Silkweave"
   },
   {
     "classSpecificSet": "",
@@ -3208,7 +3372,8 @@
       { "detail": "30-50% Better Chance of Getting Magic Items", "varies": true }
     ],
     "setName": "",
-    "image": "/image/war_traveler.png"
+    "image": "war_traveler",
+    "name": "War Traveler"
   },
   {
     "classSpecificSet": "",
@@ -3227,7 +3392,8 @@
       { "detail": "+20 Maximum Stamina", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gore_rider.png"
+    "image": "gore_rider",
+    "name": "Gore Rider"
   },
   {
     "classSpecificSet": "",
@@ -3248,7 +3414,8 @@
       { "detail": "Repairs 1 Durability In 20 Seconds", "varies": false }
     ],
     "setName": "",
-    "image": "/image/sandstorm_trek.png"
+    "image": "sandstorm_trek",
+    "name": "Sandstorm Trek"
   },
   {
     "classSpecificSet": "",
@@ -3270,7 +3437,8 @@
       { "detail": "Level 12 Life Tap (10 Charges)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/marrowwalk.png"
+    "image": "marrowwalk",
+    "name": "Marrowwalk"
   },
   {
     "classSpecificSet": "",
@@ -3289,7 +3457,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/shadow_dancer.png"
+    "image": "shadow_dancer",
+    "name": "Shadow Dancer"
   },
   {
     "classSpecificSet": "",
@@ -3305,7 +3474,8 @@
       { "detail": "+1 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lenymo.png"
+    "image": "lenymo",
+    "name": "Lenymo"
   },
   {
     "classSpecificSet": "",
@@ -3323,7 +3493,8 @@
       { "detail": "+12 Poison Damage Over 3 Seconds", "varies": false }
     ],
     "setName": "",
-    "image": "/image/snakecord.png"
+    "image": "snakecord",
+    "name": "Snakecord"
   },
   {
     "classSpecificSet": "",
@@ -3341,7 +3512,8 @@
       { "detail": "+20 To Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/nightsmoke.png"
+    "image": "nightsmoke",
+    "name": "Nightsmoke"
   },
   {
     "classSpecificSet": "",
@@ -3359,7 +3531,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/goldwrap.png"
+    "image": "goldwrap",
+    "name": "Goldwrap"
   },
   {
     "classSpecificSet": "",
@@ -3378,7 +3551,8 @@
       { "detail": "Attacker Takes Damage of 8*", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bladebuckle.png"
+    "image": "bladebuckle",
+    "name": "Bladebuckle"
   },
   {
     "classSpecificSet": "",
@@ -3395,7 +3569,8 @@
       { "detail": "Magic Damage Reduced 10-15", "varies": true }
     ],
     "setName": "",
-    "image": "/image/string_of_ears.png"
+    "image": "string_of_ears",
+    "name": "String of Ears"
   },
   {
     "classSpecificSet": "",
@@ -3413,7 +3588,8 @@
       { "detail": "Attacker Takes Damage of (1 Per Character Level) 1-99 (Based On Character Level)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/razortail.png"
+    "image": "razortail",
+    "name": "Razortail"
   },
   {
     "classSpecificSet": "",
@@ -3431,7 +3607,8 @@
       { "detail": "-3 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/glooms_trap.png"
+    "image": "glooms_trap",
+    "name": "Gloom's Trap"
   },
   {
     "classSpecificSet": "",
@@ -3451,7 +3628,8 @@
       { "detail": "+3 To Glacial Spike (Sorceress Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/snowclash.png"
+    "image": "snowclash",
+    "name": "Snowclash"
   },
   {
     "classSpecificSet": "",
@@ -3472,7 +3650,8 @@
       { "detail": "+3 To Lightning Strike (Amazon Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/thundergods_vigor.png"
+    "image": "thundergods_vigor",
+    "name": "Thundergod's Vigor"
   },
   {
     "classSpecificSet": "",
@@ -3490,7 +3669,8 @@
       { "detail": "Level 3 Venom (11 Charges)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/arachnid_mesh.png"
+    "image": "arachnid_mesh",
+    "name": "Arachnid Mesh"
   },
   {
     "classSpecificSet": "",
@@ -3508,7 +3688,8 @@
       { "detail": "-3 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/nosferatus_coil.png"
+    "image": "nosferatus_coil",
+    "name": "Nosferatu's Coil"
   },
   {
     "classSpecificSet": "",
@@ -3526,7 +3707,8 @@
       { "detail": "Damage Reduced By 10-15%", "varies": true }
     ],
     "setName": "",
-    "image": "/image/verdungos_hearty_cord.png"
+    "image": "verdungos_hearty_cord",
+    "name": "Verdungo's Hearty Cord"
   },
   {
     "classSpecificSet": "",
@@ -3542,7 +3724,8 @@
       { "detail": "+8 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_gnasher.png"
+    "image": "the_gnasher",
+    "name": "The Gnasher"
   },
   {
     "classSpecificSet": "",
@@ -3559,7 +3742,8 @@
       { "detail": "+4 points of Mana after each kill", "varies": false }
     ],
     "setName": "",
-    "image": "/image/deathspade.png"
+    "image": "deathspade",
+    "name": "Deathspade"
   },
   {
     "classSpecificSet": "",
@@ -3577,7 +3761,8 @@
       { "detail": "+20 Defense", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bladebone.png"
+    "image": "bladebone",
+    "name": "Bladebone"
   },
   {
     "classSpecificSet": "",
@@ -3601,7 +3786,8 @@
       { "detail": "Regenerate Mana 20%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/tancreds_crowbill.png"
+    "image": "tancreds_crowbill",
+    "name": "Skull Splitter"
   },
   {
     "classSpecificSet": "",
@@ -3623,7 +3809,8 @@
       { "detail": "Poison resist +50%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/rakescar.png"
+    "image": "rakescar",
+    "name": "Rakescar"
   },
   {
     "classSpecificSet": "",
@@ -3644,7 +3831,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/axe_of_fechmar.png"
+    "image": "axe_of_fechmar",
+    "name": "Axe of Fechmar"
   },
   {
     "classSpecificSet": "",
@@ -3666,7 +3854,8 @@
       { "detail": "+25 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/goreshovel.png"
+    "image": "goreshovel",
+    "name": "Goreshovel"
   },
   {
     "classSpecificSet": "",
@@ -3683,7 +3872,8 @@
       { "detail": "+6 To Mana After Each Kill", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_chieftain.png"
+    "image": "the_chieftain",
+    "name": "The Chieftain"
   },
   {
     "classSpecificSet": "",
@@ -3707,7 +3897,8 @@
       { "detail": "+4 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/brainhew.png"
+    "image": "brainhew",
+    "name": "Brainhew"
   },
   {
     "classSpecificSet": "",
@@ -3729,7 +3920,8 @@
       { "detail": "+20-30 to Strength", "varies": true }
     ],
     "setName": "",
-    "image": "/image/humongous.png"
+    "image": "humongous",
+    "name": "Humongous"
   },
   {
     "classSpecificSet": "",
@@ -3756,7 +3948,8 @@
       { "detail": "Cold Resist +15%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/coldkill.png"
+    "image": "coldkill",
+    "name": "Coldkill"
   },
   {
     "classSpecificSet": "",
@@ -3779,7 +3972,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/butchers_pupil.png"
+    "image": "butchers_pupil",
+    "name": "Butcher's Pupil"
   },
   {
     "classSpecificSet": "",
@@ -3804,7 +3998,8 @@
       { "detail": "+1 Maul (Druid Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/islestrike.png"
+    "image": "islestrike",
+    "name": "Islestrike"
   },
   {
     "classSpecificSet": "",
@@ -3828,7 +4023,8 @@
       { "detail": "Knockback", "varies": false }
     ],
     "setName": "",
-    "image": "/image/pompeiis_wrath.png"
+    "image": "pompeiis_wrath",
+    "name": "Pompeii's Wrath"
   },
   {
     "classSpecificSet": "",
@@ -3852,7 +4048,8 @@
       { "detail": "Attacker Takes Damage of 15", "varies": false }
     ],
     "setName": "",
-    "image": "/image/guardian_naga.png"
+    "image": "guardian_naga",
+    "name": "Guardian Naga"
   },
   {
     "classSpecificSet": "",
@@ -3876,7 +4073,8 @@
       { "detail": "+75 Defense", "varies": false }
     ],
     "setName": "",
-    "image": "/image/warlords_trust.png"
+    "image": "warlords_trust",
+    "name": "Warlord's Trust"
   },
   {
     "classSpecificSet": "",
@@ -3904,7 +4102,8 @@
       { "detail": "Magic Damage Reduced By 12-15", "varies": true }
     ],
     "setName": "",
-    "image": "/image/spellsteel.png"
+    "image": "spellsteel",
+    "name": "Spellsteel"
   },
   {
     "classSpecificSet": "",
@@ -3929,7 +4128,8 @@
       { "detail": "Attacker Takes Lightning Damage Of 15", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stormrider.png"
+    "image": "stormrider",
+    "name": "Stormrider"
   },
   {
     "classSpecificSet": "",
@@ -3956,7 +4156,8 @@
       { "detail": "+8 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/boneslayer_blade.png"
+    "image": "boneslayer_blade",
+    "name": "Boneslayer Blade"
   },
   {
     "classSpecificSet": "",
@@ -3981,7 +4182,8 @@
       { "detail": "+15-20 To Strength", "varies": true }
     ],
     "setName": "",
-    "image": "/image/the_minotaur.png"
+    "image": "the_minotaur",
+    "name": "The Minotaur"
   },
   {
     "classSpecificSet": "",
@@ -4004,7 +4206,8 @@
       { "detail": "50% Chance of Open Wounds", "varies": false }
     ],
     "setName": "",
-    "image": "/image/razors_edge.png"
+    "image": "razors_edge",
+    "name": "Razor's Edge"
   },
   {
     "classSpecificSet": "",
@@ -4027,7 +4230,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/rune_master.png"
+    "image": "rune_master",
+    "name": "Rune Master"
   },
   {
     "classSpecificSet": "",
@@ -4051,7 +4255,8 @@
       { "detail": "Level 8 Raven (15 charges)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/cranebeak.png"
+    "image": "cranebeak",
+    "name": "Cranebeak"
   },
   {
     "classSpecificSet": "",
@@ -4075,7 +4280,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/death_cleaver.png"
+    "image": "death_cleaver",
+    "name": "Death Cleaver"
   },
   {
     "classSpecificSet": "",
@@ -4100,7 +4306,8 @@
       { "detail": "Ethereal (Cannot Be Repaired)*", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ethereal_edge.png"
+    "image": "ethereal_edge",
+    "name": "Ethereal Edge"
   },
   {
     "classSpecificSet": "",
@@ -4125,7 +4332,8 @@
       { "detail": "10% Chance To Cast Level 16-20 Fireball On Attack", "varies": true }
     ],
     "setName": "",
-    "image": "/image/hellslayer.png"
+    "image": "hellslayer",
+    "name": "Hellslayer"
   },
   {
     "classSpecificSet": "",
@@ -4148,7 +4356,8 @@
       { "detail": "+15 To All Attributes", "varies": false }
     ],
     "setName": "",
-    "image": "/image/messerschmidts_reaver.png"
+    "image": "messerschmidts_reaver",
+    "name": "Messerschmidt's Reaver"
   },
   {
     "classSpecificSet": "",
@@ -4172,7 +4381,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/executioners_justice.png"
+    "image": "executioners_justice",
+    "name": "Executioner's Justice"
   },
   {
     "classSpecificSet": "",
@@ -4190,7 +4400,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/pluckeye.png"
+    "image": "pluckeye",
+    "name": "Pluckeye"
   },
   {
     "classSpecificSet": "",
@@ -4207,7 +4418,8 @@
       { "detail": "+50 To Attack Rating", "varies": false }
     ],
     "setName": "",
-    "image": "/image/witherstring.png"
+    "image": "witherstring",
+    "name": "Witherstring"
   },
   {
     "classSpecificSet": "",
@@ -4229,7 +4441,8 @@
       { "detail": "+3 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/raven_claw.png"
+    "image": "raven_claw",
+    "name": "Raven Claw"
   },
   {
     "classSpecificSet": "",
@@ -4252,7 +4465,8 @@
       { "detail": "All Resistances +10", "varies": false }
     ],
     "setName": "",
-    "image": "/image/rogues_bow.png"
+    "image": "rogues_bow",
+    "name": "Rogue's Bow"
   },
   {
     "classSpecificSet": "",
@@ -4275,7 +4489,8 @@
       { "detail": "+8 to Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stormstrike.png"
+    "image": "stormstrike",
+    "name": "Stormstrike"
   },
   {
     "classSpecificSet": "",
@@ -4300,7 +4515,8 @@
       { "detail": "-(20-35)% To Enemy Cold Resistance", "varies": true }
     ],
     "setName": "",
-    "image": "/image/wizendraw.png"
+    "image": "wizendraw",
+    "name": "Wizendraw"
   },
   {
     "classSpecificSet": "",
@@ -4324,7 +4540,8 @@
       { "detail": "+12 to Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hellclap.png"
+    "image": "hellclap",
+    "name": "Hellclap"
   },
   {
     "classSpecificSet": "",
@@ -4346,7 +4563,8 @@
       { "detail": "+2 To Exploding Arrow (Amazon Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/blastbark.png"
+    "image": "blastbark",
+    "name": "Blastbark"
   },
   {
     "classSpecificSet": "",
@@ -4370,7 +4588,8 @@
       { "detail": "+10 to Energy", "varies": false }
     ],
     "setName": "",
-    "image": "/image/skystrike.png"
+    "image": "skystrike",
+    "name": "Skystrike"
   },
   {
     "classSpecificSet": "",
@@ -4393,7 +4612,8 @@
       { "detail": "+35 To Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/riphook.png"
+    "image": "riphook",
+    "name": "Riphook"
   },
   {
     "classSpecificSet": "",
@@ -4416,7 +4636,8 @@
       { "detail": "+3 To Bow And Crossbow Skills (Amazon Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/kuko_shakaku.png"
+    "image": "kuko_shakaku",
+    "name": "Kuko Shakaku"
   },
   {
     "classSpecificSet": "",
@@ -4439,7 +4660,8 @@
       { "detail": "+3-5 To Strafe (Amazon Only)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/endlesshail.png"
+    "image": "endlesshail",
+    "name": "Endlesshail"
   },
   {
     "classSpecificSet": "",
@@ -4462,7 +4684,8 @@
       { "detail": "Sockets (2)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/witchwild_string.png"
+    "image": "witchwild_string",
+    "name": "Witchwild String"
   },
   {
     "classSpecificSet": "",
@@ -4485,7 +4708,8 @@
       { "detail": "Knockback", "varies": false }
     ],
     "setName": "",
-    "image": "/image/cliffkiller.png"
+    "image": "cliffkiller",
+    "name": "Cliffkiller"
   },
   {
     "classSpecificSet": "",
@@ -4511,7 +4735,8 @@
       { "detail": "+3 Guided Arrow (Amazon Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/magewrath.png"
+    "image": "magewrath",
+    "name": "Magewrath"
   },
   {
     "classSpecificSet": "",
@@ -4535,7 +4760,8 @@
       { "detail": "+100-150% Bonus To Attack Rating", "varies": true }
     ],
     "setName": "",
-    "image": "/image/goldstrike_arch.png"
+    "image": "goldstrike_arch",
+    "name": "Goldstrike Arch"
   },
   {
     "classSpecificSet": "",
@@ -4558,7 +4784,8 @@
       { "detail": "Ignores Target's Defense", "varies": false }
     ],
     "setName": "",
-    "image": "/image/eaglehorn.png"
+    "image": "eaglehorn",
+    "name": "Eaglehorn"
   },
   {
     "classSpecificSet": "",
@@ -4581,7 +4808,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/widowmaker.png"
+    "image": "widowmaker",
+    "name": "Widowmaker"
   },
   {
     "classSpecificSet": "",
@@ -4606,7 +4834,8 @@
       { "detail": "Knockback", "varies": false }
     ],
     "setName": "",
-    "image": "/image/windforce.png"
+    "image": "windforce",
+    "name": "Windforce"
   },
   {
     "classSpecificSet": "",
@@ -4624,7 +4853,8 @@
       { "detail": "+10 to Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/leadcrow.png"
+    "image": "leadcrow",
+    "name": "Leadcrow"
   },
   {
     "classSpecificSet": "",
@@ -4642,7 +4872,8 @@
       { "detail": "+20 to Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ichorsting.png"
+    "image": "ichorsting",
+    "name": "Ichorsting"
   },
   {
     "classSpecificSet": "",
@@ -4666,7 +4897,8 @@
       { "detail": "Fire Resist +15%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hellcast.png"
+    "image": "hellcast",
+    "name": "Hellcast"
   },
   {
     "classSpecificSet": "",
@@ -4688,7 +4920,8 @@
       { "detail": "+15 To Life", "varies": false }
     ],
     "setName": "",
-    "image": "/image/doomslinger.png"
+    "image": "doomslinger",
+    "name": "Doomslinger"
   },
   {
     "classSpecificSet": "",
@@ -4712,7 +4945,8 @@
       { "detail": "30-60% Better Chance Of Getting Magic Items", "varies": true }
     ],
     "setName": "",
-    "image": "/image/langer_briser.png"
+    "image": "langer_briser",
+    "name": "Langer Briser"
   },
   {
     "classSpecificSet": "",
@@ -4737,7 +4971,8 @@
       { "detail": "+2 To Necromancer Skill Levels", "varies": false }
     ],
     "setName": "",
-    "image": "/image/pus_spitter.png"
+    "image": "pus_spitter",
+    "name": "Pus Spitter"
   },
   {
     "classSpecificSet": "",
@@ -4762,7 +4997,8 @@
       { "detail": "80% Increased Attack Speed", "varies": false }
     ],
     "setName": "",
-    "image": "/image/buriza-do_kyanon.png"
+    "image": "buriza-do_kyanon",
+    "name": "Buriza-Do Kyanon"
   },
   {
     "classSpecificSet": "",
@@ -4781,7 +5017,8 @@
       { "detail": "+36 To Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/demon_machine.png"
+    "image": "demon_machine",
+    "name": "Demon Machine"
   },
   {
     "classSpecificSet": "",
@@ -4806,7 +5043,8 @@
       { "detail": "Socketed (2)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hellrack.png"
+    "image": "hellrack",
+    "name": "Hellrack"
   },
   {
     "classSpecificSet": "",
@@ -4828,7 +5066,8 @@
       { "detail": "Slows Target by 25%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gut_siphon.png"
+    "image": "gut_siphon",
+    "name": "Gut Siphon"
   },
   {
     "classSpecificSet": "",
@@ -4843,7 +5082,8 @@
       { "detail": "-5 to Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gull.png"
+    "image": "gull",
+    "name": "Gull"
   },
   {
     "classSpecificSet": "",
@@ -4861,7 +5101,8 @@
       { "detail": "+10 To Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_diggler.png"
+    "image": "the_diggler",
+    "name": "The Diggler"
   },
   {
     "classSpecificSet": "",
@@ -4878,7 +5119,8 @@
       { "detail": "Cannot Be Frozen", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_jade_tan_do.png"
+    "image": "the_jade_tan_do",
+    "name": "The Jade Tan Do"
   },
   {
     "classSpecificSet": "",
@@ -4900,7 +5142,8 @@
       { "detail": "+50 To Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/spectral_shard.png"
+    "image": "spectral_shard",
+    "name": "Spectral Shard"
   },
   {
     "classSpecificSet": "",
@@ -4925,7 +5168,8 @@
       { "detail": "+10 To Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/spineripper.png"
+    "image": "spineripper",
+    "name": "Spineripper"
   },
   {
     "classSpecificSet": "",
@@ -4950,7 +5194,8 @@
       { "detail": "+4 To Find Potion (Barbarian Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/heart_carver.png"
+    "image": "heart_carver",
+    "name": "Heart Carver"
   },
   {
     "classSpecificSet": "",
@@ -4976,7 +5221,8 @@
       { "detail": "+5 To Poison Dagger (Necromancer Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/blackbogs_sharp.png"
+    "image": "blackbogs_sharp",
+    "name": "Blackbog's Sharp"
   },
   {
     "classSpecificSet": "",
@@ -4999,7 +5245,8 @@
       { "detail": "Attacker Takes Lightning Damage of 20", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stormspike.png"
+    "image": "stormspike",
+    "name": "Stormspike"
   },
   {
     "classSpecificSet": "",
@@ -5017,7 +5264,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/wizardspike.png"
+    "image": "wizardspike",
+    "name": "Wizardspike"
   },
   {
     "classSpecificSet": "",
@@ -5042,7 +5290,8 @@
       { "detail": "Slows Target By 20%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/fleshripper.png"
+    "image": "fleshripper",
+    "name": "Fleshripper"
   },
   {
     "classSpecificSet": "",
@@ -5066,7 +5315,8 @@
       { "detail": "Ethereal (Cannot Be Repaired)*", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ghostflame.png"
+    "image": "ghostflame",
+    "name": "Ghostflame"
   },
   {
     "classSpecificSet": "",
@@ -5091,7 +5341,8 @@
       { "detail": "Replenishes Quantity [1 in 3 sec.]", "varies": false }
     ],
     "setName": "",
-    "image": "/image/demons_arch.png"
+    "image": "demons_arch",
+    "name": "Demon's Arch"
   },
   {
     "classSpecificSet": "",
@@ -5116,7 +5367,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/wraith_flight.png"
+    "image": "wraith_flight",
+    "name": "Wraith Flight"
   },
   {
     "classSpecificSet": "",
@@ -5140,7 +5392,8 @@
       { "detail": "Replenishes Quantity [1 in 3 sec.]", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gargoyles_bite.png"
+    "image": "gargoyles_bite",
+    "name": "Gargoyle's Bite"
   },
   {
     "classSpecificSet": "",
@@ -5158,7 +5411,8 @@
       { "detail": "Fire Resist +20%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/felloak.png"
+    "image": "felloak",
+    "name": "Felloak"
   },
   {
     "classSpecificSet": "",
@@ -5175,7 +5429,8 @@
       { "detail": "Magic Damage Reduced By 2", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stoutnail.png"
+    "image": "stoutnail",
+    "name": "Stoutnail"
   },
   {
     "classSpecificSet": "",
@@ -5194,7 +5449,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/crushflange.png"
+    "image": "crushflange",
+    "name": "Crushflange"
   },
   {
     "classSpecificSet": "",
@@ -5214,7 +5470,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bloodrise.png"
+    "image": "bloodrise",
+    "name": "Bloodrise"
   },
   {
     "classSpecificSet": "",
@@ -5239,7 +5496,8 @@
       { "detail": "+25 Defense", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_generals_tan_do_li_ga.png"
+    "image": "the_generals_tan_do_li_ga",
+    "name": "The General's Tan Do Li Ga"
   },
   {
     "classSpecificSet": "",
@@ -5261,7 +5519,8 @@
       { "detail": "+10 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ironstone.png"
+    "image": "ironstone",
+    "name": "Ironstone"
   },
   {
     "classSpecificSet": "",
@@ -5283,7 +5542,8 @@
       { "detail": "Fire Resist +30%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bonesnap.png"
+    "image": "bonesnap",
+    "name": "Bonesnap"
   },
   {
     "classSpecificSet": "",
@@ -5305,7 +5565,8 @@
       { "detail": "Heal Stamina plus 25%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/steeldriver.png"
+    "image": "steeldriver",
+    "name": "Steeldriver"
   },
   {
     "classSpecificSet": "",
@@ -5324,7 +5585,8 @@
       { "detail": "+2 To Druid Skill Levels", "varies": false }
     ],
     "setName": "",
-    "image": "/image/dark_clan_crusher.png"
+    "image": "dark_clan_crusher",
+    "name": "Dark Clan Crusher"
   },
   {
     "classSpecificSet": "",
@@ -5350,7 +5612,8 @@
       { "detail": "Prevent Monster Heal", "varies": false }
     ],
     "setName": "",
-    "image": "/image/fleshrender.png"
+    "image": "fleshrender",
+    "name": "Fleshrender"
   },
   {
     "classSpecificSet": "",
@@ -5374,7 +5637,8 @@
       { "detail": "Cannot Be Frozen", "varies": false }
     ],
     "setName": "",
-    "image": "/image/sureshrill_frost.png"
+    "image": "sureshrill_frost",
+    "name": "Sureshrill Frost"
   },
   {
     "classSpecificSet": "",
@@ -5399,7 +5663,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/moonfall.png"
+    "image": "moonfall",
+    "name": "Moonfall"
   },
   {
     "classSpecificSet": "",
@@ -5425,7 +5690,8 @@
       { "detail": "+100 To Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/baezils_vortex.png"
+    "image": "baezils_vortex",
+    "name": "Baezil's Vortex"
   },
   {
     "classSpecificSet": "",
@@ -5444,7 +5710,8 @@
       { "detail": "+3 To Elemental Skills (Druid Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/earthshaker.png"
+    "image": "earthshaker",
+    "name": "Earthshaker"
   },
   {
     "classSpecificSet": "",
@@ -5468,7 +5735,8 @@
       { "detail": "+3 To Mace Masteries (Barbarian Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bloodtree_stump.png"
+    "image": "bloodtree_stump",
+    "name": "Bloodtree Stump"
   },
   {
     "classSpecificSet": "",
@@ -5488,7 +5756,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_gavel_of_pain.png"
+    "image": "the_gavel_of_pain",
+    "name": "The Gavel Of Pain"
   },
   {
     "classSpecificSet": "",
@@ -5514,7 +5783,8 @@
       { "detail": "+150-180% Bonus To Attack Rating", "varies": true }
     ],
     "setName": "",
-    "image": "/image/nords_tenderizer.png"
+    "image": "nords_tenderizer",
+    "name": "Nord's Tenderizer"
   },
   {
     "classSpecificSet": "",
@@ -5539,7 +5809,8 @@
       { "detail": "Repairs 1 Durability in 20 Seconds", "varies": false }
     ],
     "setName": "",
-    "image": "/image/demon_limb.png"
+    "image": "demon_limb",
+    "name": "Demon Limb"
   },
   {
     "classSpecificSet": "",
@@ -5566,7 +5837,8 @@
       { "detail": "+15 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/baranars_star.png"
+    "image": "baranars_star",
+    "name": "Baranar's Star"
   },
   {
     "classSpecificSet": "",
@@ -5590,7 +5862,8 @@
       { "detail": "Requirements -20%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/horizons_tornado.png"
+    "image": "horizons_tornado",
+    "name": "Horizon's Tornado"
   },
   {
     "classSpecificSet": "",
@@ -5617,7 +5890,8 @@
       { "detail": "Attacker Takes Lightning Damage of 30", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stormlash.png"
+    "image": "stormlash",
+    "name": "Stormlash"
   },
   {
     "classSpecificSet": "",
@@ -5641,7 +5915,8 @@
       { "detail": "+20-30 To Strength", "varies": true }
     ],
     "setName": "",
-    "image": "/image/stone_crusher.png"
+    "image": "stone_crusher",
+    "name": "Stone Crusher"
   },
   {
     "classSpecificSet": "",
@@ -5664,7 +5939,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/schaefers_hammer.png"
+    "image": "schaefers_hammer",
+    "name": "Schaefer's Hammer"
   },
   {
     "classSpecificSet": "",
@@ -5686,7 +5962,8 @@
       { "detail": "+50% Damage To Undead", "varies": false }
     ],
     "setName": "",
-    "image": "/image/windhammer.png"
+    "image": "windhammer",
+    "name": "Windhammer"
   },
   {
     "classSpecificSet": "",
@@ -5711,7 +5988,8 @@
       { "detail": "Level 14 Volcano (30 charges)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/earth_shifter.png"
+    "image": "earth_shifter",
+    "name": "Earth Shifter"
   },
   {
     "classSpecificSet": "",
@@ -5733,7 +6011,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_cranium_basher.png"
+    "image": "the_cranium_basher",
+    "name": "The Cranium Basher"
   },
   {
     "classSpecificSet": "",
@@ -5749,7 +6028,8 @@
       { "detail": "-8 Defense", "varies": false }
     ],
     "setName": "",
-    "image": "/image/dimoaks_hew.png"
+    "image": "dimoaks_hew",
+    "name": "Dimoak's Hew"
   },
   {
     "classSpecificSet": "",
@@ -5771,7 +6051,8 @@
       { "detail": "Hit Causes monster to flee 75%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/steelgoad.png"
+    "image": "steelgoad",
+    "name": "Steelgoad"
   },
   {
     "classSpecificSet": "",
@@ -5795,7 +6076,8 @@
       { "detail": "All Resistances +20", "varies": false }
     ],
     "setName": "",
-    "image": "/image/soul_harvest.png"
+    "image": "soul_harvest",
+    "name": "Soul Harvest"
   },
   {
     "classSpecificSet": "",
@@ -5817,7 +6099,8 @@
       { "detail": "+10 To Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_battlebranch.png"
+    "image": "the_battlebranch",
+    "name": "The Battlebranch"
   },
   {
     "classSpecificSet": "",
@@ -5843,7 +6126,8 @@
       { "detail": "-3 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/woestave.png"
+    "image": "woestave",
+    "name": "Woestave"
   },
   {
     "classSpecificSet": "",
@@ -5866,7 +6150,8 @@
       { "detail": "Prevent Monster Heal", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_grim_reaper.png"
+    "image": "the_grim_reaper",
+    "name": "The Grim Reaper"
   },
   {
     "classSpecificSet": "",
@@ -5889,7 +6174,8 @@
       { "detail": "+3 To Masteries (Barbarian Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_meat_scraper.png"
+    "image": "the_meat_scraper",
+    "name": "The Meat Scraper"
   },
   {
     "classSpecificSet": "",
@@ -5912,7 +6198,8 @@
       { "detail": "8% Life Stolen Per Hit", "varies": false }
     ],
     "setName": "",
-    "image": "/image/blackleach_blade.png"
+    "image": "blackleach_blade",
+    "name": "Blackleach Blade"
   },
   {
     "classSpecificSet": "",
@@ -5936,7 +6223,8 @@
       { "detail": "+15 To Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/athenas_wrath.png"
+    "image": "athenas_wrath",
+    "name": "Athena's Wrath"
   },
   {
     "classSpecificSet": "",
@@ -5961,7 +6249,8 @@
       { "detail": "30% Faster Hit Recovery", "varies": false }
     ],
     "setName": "",
-    "image": "/image/pierre_tombale_couant.png"
+    "image": "pierre_tombale_couant",
+    "name": "Pierre Tombale Couant"
   },
   {
     "classSpecificSet": "",
@@ -5985,7 +6274,8 @@
       { "detail": "Replenish Life +20", "varies": false }
     ],
     "setName": "",
-    "image": "/image/husoldal_evo.png"
+    "image": "husoldal_evo",
+    "name": "Husoldal Evo"
   },
   {
     "classSpecificSet": "",
@@ -6012,7 +6302,8 @@
       { "detail": "Attacker Takes Damage of 8", "varies": false }
     ],
     "setName": "",
-    "image": "/image/grims_burning_dead.png"
+    "image": "grims_burning_dead",
+    "name": "Grim's Burning Dead"
   },
   {
     "classSpecificSet": "",
@@ -6036,7 +6327,8 @@
       { "detail": "Socketed (2)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bonehew.png"
+    "image": "bonehew",
+    "name": "Bonehew"
   },
   {
     "classSpecificSet": "",
@@ -6062,7 +6354,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_reapers_toll.png"
+    "image": "the_reapers_toll",
+    "name": "The Reaper's Toll"
   },
   {
     "classSpecificSet": "",
@@ -6091,7 +6384,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/tomb_reaver.png"
+    "image": "tomb_reaver",
+    "name": "Tomb Reaver"
   },
   {
     "classSpecificSet": "",
@@ -6117,7 +6411,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/stormspire.png"
+    "image": "stormspire",
+    "name": "Stormspire"
   },
   {
     "classSpecificSet": "",
@@ -6136,7 +6431,8 @@
       { "detail": "+15 To Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/knell_striker.png"
+    "image": "knell_striker",
+    "name": "Knell Striker"
   },
   {
     "classSpecificSet": "",
@@ -6156,7 +6452,8 @@
       { "detail": "+1-3 To Vengeance (Paladin Only)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/rusthandle.png"
+    "image": "rusthandle",
+    "name": "Rusthandle"
   },
   {
     "classSpecificSet": "",
@@ -6181,7 +6478,8 @@
       { "detail": "+3-5 To Resist Lightning (Paladin Only)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/stormeye.png"
+    "image": "stormeye",
+    "name": "Stormeye"
   },
   {
     "classSpecificSet": "",
@@ -6208,7 +6506,8 @@
       { "detail": "+2 To Holy Freeze (Paladin Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/zakarums_hand.png"
+    "image": "zakarums_hand",
+    "name": "Zakarum's Hand"
   },
   {
     "classSpecificSet": "",
@@ -6233,7 +6532,8 @@
       { "detail": "+150-200 To Attack Rating", "varies": true }
     ],
     "setName": "",
-    "image": "/image/the_fetid_sprinkler.png"
+    "image": "the_fetid_sprinkler",
+    "name": "The Fetid Sprinkler"
   },
   {
     "classSpecificSet": "",
@@ -6261,7 +6561,8 @@
       { "detail": "+4 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hand_of_blessed_light.png"
+    "image": "hand_of_blessed_light",
+    "name": "Hand of Blessed Light"
   },
   {
     "classSpecificSet": "",
@@ -6290,7 +6591,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/heavens_light.png"
+    "image": "heavens_light",
+    "name": "Heaven's Light"
   },
   {
     "classSpecificSet": "",
@@ -6319,7 +6621,8 @@
       { "detail": "Requirements -60%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_redeemer.png"
+    "image": "the_redeemer",
+    "name": "The Redeemer"
   },
   {
     "classSpecificSet": "",
@@ -6347,7 +6650,8 @@
       { "detail": "150-200% Bonus To Attack Rating", "varies": true }
     ],
     "setName": "",
-    "image": "/image/astreons_iron_ward.png"
+    "image": "astreons_iron_ward",
+    "name": "Astreon's Iron Ward"
   },
   {
     "classSpecificSet": "",
@@ -6364,7 +6668,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_dragon_chang.png"
+    "image": "the_dragon_chang",
+    "name": "The Dragon Chang"
   },
   {
     "classSpecificSet": "",
@@ -6388,7 +6693,8 @@
       { "detail": "+15 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/razortine.png"
+    "image": "razortine",
+    "name": "Razortine"
   },
   {
     "classSpecificSet": "",
@@ -6411,7 +6717,8 @@
       { "detail": "+10 to Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bloodthief.png"
+    "image": "bloodthief",
+    "name": "Bloodthief"
   },
   {
     "classSpecificSet": "",
@@ -6433,7 +6740,8 @@
       { "detail": "Attacker takes damage of 8", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lance_of_yaggai.png"
+    "image": "lance_of_yaggai",
+    "name": "Lance of Yaggai"
   },
   {
     "classSpecificSet": "",
@@ -6458,7 +6766,8 @@
       { "detail": "+3 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_tannr_gorerod.png"
+    "image": "the_tannr_gorerod",
+    "name": "The Tannr Gorerod"
   },
   {
     "classSpecificSet": "",
@@ -6484,7 +6793,8 @@
       { "detail": "+3 To Power Strike (Amazon Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_impaler.png"
+    "image": "the_impaler",
+    "name": "The Impaler"
   },
   {
     "classSpecificSet": "",
@@ -6508,7 +6818,8 @@
       { "detail": "+10 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/kelpie_snare.png"
+    "image": "kelpie_snare",
+    "name": "Kelpie Snare"
   },
   {
     "classSpecificSet": "",
@@ -6532,7 +6843,8 @@
       { "detail": "20% Slower Stamina Drain", "varies": false }
     ],
     "setName": "",
-    "image": "/image/soulfeast_tine.png"
+    "image": "soulfeast_tine",
+    "name": "Soulfeast Tine"
   },
   {
     "classSpecificSet": "",
@@ -6554,7 +6866,8 @@
       { "detail": "Socketed (3)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hone_sundan.png"
+    "image": "hone_sundan",
+    "name": "Hone Sundan"
   },
   {
     "classSpecificSet": "",
@@ -6581,7 +6894,8 @@
       { "detail": "+3 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/spire_of_honor.png"
+    "image": "spire_of_honor",
+    "name": "Spire of Honor"
   },
   {
     "classSpecificSet": "",
@@ -6605,7 +6919,8 @@
       { "detail": "Ignore Target's Defense", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ariocs_needle.png"
+    "image": "ariocs_needle",
+    "name": "Arioc's Needle"
   },
   {
     "classSpecificSet": "",
@@ -6629,7 +6944,8 @@
       { "detail": "15% Chance To Cast Level 9 Poison Explosion On Striking", "varies": false }
     ],
     "setName": "",
-    "image": "/image/viperfork.png"
+    "image": "viperfork",
+    "name": "Viperfork"
   },
   {
     "classSpecificSet": "",
@@ -6652,7 +6968,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/steel_pillar.png"
+    "image": "steel_pillar",
+    "name": "Steel Pillar"
   },
   {
     "classSpecificSet": "",
@@ -6672,7 +6989,8 @@
       { "detail": "+2 To Warmth (Sorceress Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bane_ash.png"
+    "image": "bane_ash",
+    "name": "Bane Ash"
   },
   {
     "classSpecificSet": "",
@@ -6692,7 +7010,8 @@
       { "detail": "-1 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/serpent_lord.png"
+    "image": "serpent_lord",
+    "name": "Serpent Lord"
   },
   {
     "classSpecificSet": "",
@@ -6714,7 +7033,8 @@
       { "detail": "Lightning Resist +75%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/spire_of_lazarus.png"
+    "image": "spire_of_lazarus",
+    "name": "Spire of Lazarus"
   },
   {
     "classSpecificSet": "",
@@ -6733,7 +7053,8 @@
       { "detail": "+1 To Fire Wall (Sorceress Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_salamander.png"
+    "image": "the_salamander",
+    "name": "The Salamander"
   },
   {
     "classSpecificSet": "",
@@ -6754,7 +7075,8 @@
       { "detail": "+30 Defense", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_iron_jang_bong.png"
+    "image": "the_iron_jang_bong",
+    "name": "The Iron Jang Bong"
   },
   {
     "classSpecificSet": "",
@@ -6774,7 +7096,8 @@
       { "detail": "Attacker Takes Damage Of 15", "varies": false }
     ],
     "setName": "",
-    "image": "/image/razorswitch.png"
+    "image": "razorswitch",
+    "name": "Razorswitch"
   },
   {
     "classSpecificSet": "",
@@ -6800,7 +7123,8 @@
       { "detail": "+15 To Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ribcracker.png"
+    "image": "ribcracker",
+    "name": "Ribcracker"
   },
   {
     "classSpecificSet": "",
@@ -6821,7 +7145,8 @@
       { "detail": "+1 To Fire Mastery (Sorceress Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/chromatic_ire.png"
+    "image": "chromatic_ire",
+    "name": "Chromatic Ire"
   },
   {
     "classSpecificSet": "",
@@ -6840,7 +7165,8 @@
       { "detail": "+3 To Teleport (Sorceress Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/warpspear.png"
+    "image": "warpspear",
+    "name": "Warpspear"
   },
   {
     "classSpecificSet": "",
@@ -6857,7 +7183,8 @@
       { "detail": "+2 To All Skills", "varies": false }
     ],
     "setName": "",
-    "image": "/image/skull_collector.png"
+    "image": "skull_collector",
+    "name": "Skull Collector"
   },
   {
     "classSpecificSet": "",
@@ -6883,7 +7210,8 @@
       { "detail": "+50% Damage To Undead", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ondals_wisdom.png"
+    "image": "ondals_wisdom",
+    "name": "Ondal's Wisdom"
   },
   {
     "classSpecificSet": "",
@@ -6903,7 +7231,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/mang_songs_lesson.png"
+    "image": "mang_songs_lesson",
+    "name": "Mang Song's Lesson"
   },
   {
     "classSpecificSet": "",
@@ -6921,7 +7250,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/rixots_keen.png"
+    "image": "rixots_keen",
+    "name": "Rixot's Keen"
   },
   {
     "classSpecificSet": "",
@@ -6940,7 +7270,8 @@
       { "detail": "+4 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/blood_crescent.png"
+    "image": "blood_crescent",
+    "name": "Blood Crescent"
   },
   {
     "classSpecificSet": "",
@@ -6964,7 +7295,8 @@
       { "detail": "+10 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/skewer_of_krintiz.png"
+    "image": "skewer_of_krintiz",
+    "name": "Skewer of Krintiz"
   },
   {
     "classSpecificSet": "",
@@ -6987,7 +7319,8 @@
       { "detail": "+3 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gleamscythe.png"
+    "image": "gleamscythe",
+    "name": "Gleamscythe"
   },
   {
     "classSpecificSet": "",
@@ -7010,7 +7343,8 @@
       { "detail": "Knockback", "varies": false }
     ],
     "setName": "",
-    "image": "/image/griswolds_edge.png"
+    "image": "griswolds_edge",
+    "name": "Griswold's Edge"
   },
   {
     "classSpecificSet": "",
@@ -7034,7 +7368,8 @@
       { "detail": "5% Mana Stolen Per Hit", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hellplague.png"
+    "image": "hellplague",
+    "name": "Hellplague"
   },
   {
     "classSpecificSet": "",
@@ -7058,7 +7393,8 @@
       { "detail": "+60 to Attack Rating", "varies": false }
     ],
     "setName": "",
-    "image": "/image/culwens_point.png"
+    "image": "culwens_point",
+    "name": "Culwen's Point"
   },
   {
     "classSpecificSet": "",
@@ -7083,7 +7419,8 @@
       { "detail": "-2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/shadowfang.png"
+    "image": "shadowfang",
+    "name": "Shadowfang"
   },
   {
     "classSpecificSet": "",
@@ -7106,7 +7443,8 @@
       { "detail": "All Resistances +5", "varies": false }
     ],
     "setName": "",
-    "image": "/image/soulflay.png"
+    "image": "soulflay",
+    "name": "Soulflay"
   },
   {
     "classSpecificSet": "",
@@ -7130,7 +7468,8 @@
       { "detail": "+6 To Holy Fire (Paladin Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/kinemils_awl.png"
+    "image": "kinemils_awl",
+    "name": "Kinemil's Awl"
   },
   {
     "classSpecificSet": "",
@@ -7153,7 +7492,8 @@
       { "detail": "Poison Resist +50%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/blacktongue.png"
+    "image": "blacktongue",
+    "name": "Blacktongue"
   },
   {
     "classSpecificSet": "",
@@ -7176,7 +7516,8 @@
       { "detail": "6% Mana stolen per hit", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ripsaw.png"
+    "image": "ripsaw",
+    "name": "Ripsaw"
   },
   {
     "classSpecificSet": "",
@@ -7201,7 +7542,8 @@
       { "detail": "Damage Reduced By 3", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_patriarch.png"
+    "image": "the_patriarch",
+    "name": "The Patriarch"
   },
   {
     "classSpecificSet": "",
@@ -7221,7 +7563,8 @@
       { "detail": "+2-4 To Sword Mastery (Barbarian Only)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/bloodletter.png"
+    "image": "bloodletter",
+    "name": "Bloodletter"
   },
   {
     "classSpecificSet": "",
@@ -7245,7 +7588,8 @@
       { "detail": "Hit Blinds Target", "varies": false }
     ],
     "setName": "",
-    "image": "/image/coldsteel_eye.png"
+    "image": "coldsteel_eye",
+    "name": "Coldsteel Eye"
   },
   {
     "classSpecificSet": "",
@@ -7270,7 +7614,8 @@
       { "detail": "10% To Maximum Fire Resist", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hexfire.png"
+    "image": "hexfire",
+    "name": "Hexfire"
   },
   {
     "classSpecificSet": "",
@@ -7294,7 +7639,8 @@
       { "detail": "Socketed (2)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/blade_of_ali_baba.png"
+    "image": "blade_of_ali_baba",
+    "name": "Blade Of Ali Baba"
   },
   {
     "classSpecificSet": "",
@@ -7317,7 +7663,8 @@
       { "detail": "Repairs 1 Durability in 5 Seconds", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ginthers_rift.png"
+    "image": "ginthers_rift",
+    "name": "Ginther's Rift"
   },
   {
     "classSpecificSet": "",
@@ -7340,7 +7687,8 @@
       { "detail": "+15 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/headstriker.png"
+    "image": "headstriker",
+    "name": "Headstriker"
   },
   {
     "classSpecificSet": "",
@@ -7364,7 +7712,8 @@
       { "detail": "+5 To Rabies (Druid Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/plague_bearer.png"
+    "image": "plague_bearer",
+    "name": "Plague Bearer"
   },
   {
     "classSpecificSet": "",
@@ -7389,7 +7738,8 @@
       { "detail": "+16 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_atlantean.png"
+    "image": "the_atlantean",
+    "name": "The Atlantean"
   },
   {
     "classSpecificSet": "",
@@ -7414,7 +7764,8 @@
       { "detail": "Damage Reduced By 10%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/crainte_vomir.png"
+    "image": "crainte_vomir",
+    "name": "Crainte Vomir"
   },
   {
     "classSpecificSet": "",
@@ -7439,7 +7790,8 @@
       { "detail": "+20 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bing_sz_wang.png"
+    "image": "bing_sz_wang",
+    "name": "Bing Sz Wang"
   },
   {
     "classSpecificSet": "",
@@ -7461,7 +7813,8 @@
       { "detail": "+ (10 Per Character Level) 10-990 To Attack Rating against Undead (Based On Character Level)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_vile_husk.png"
+    "image": "the_vile_husk",
+    "name": "The Vile Husk"
   },
   {
     "classSpecificSet": "",
@@ -7489,7 +7842,8 @@
       { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/cloudcrack.png"
+    "image": "cloudcrack",
+    "name": "Cloudcrack"
   },
   {
     "classSpecificSet": "",
@@ -7515,7 +7869,8 @@
       { "detail": "Fire Resist +40%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/todesfaelle_flamme.png"
+    "image": "todesfaelle_flamme",
+    "name": "Todesfaelle Flamme"
   },
   {
     "classSpecificSet": "",
@@ -7543,7 +7898,8 @@
       { "detail": "+200 Defense vs. Melee", "varies": false }
     ],
     "setName": "",
-    "image": "/image/swordguard.png"
+    "image": "swordguard",
+    "name": "Swordguard"
   },
   {
     "classSpecificSet": "",
@@ -7569,7 +7925,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/djinn_slayer.png"
+    "image": "djinn_slayer",
+    "name": "Djinn Slayer"
   },
   {
     "classSpecificSet": "",
@@ -7592,7 +7949,8 @@
       { "detail": "Level 15 Blood Golem (9 charges)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/bloodmoon.png"
+    "image": "bloodmoon",
+    "name": "Bloodmoon"
   },
   {
     "classSpecificSet": "",
@@ -7619,7 +7977,8 @@
       { "detail": "+7 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lightsabre.png"
+    "image": "lightsabre",
+    "name": "Lightsabre"
   },
   {
     "classSpecificSet": "",
@@ -7645,7 +8004,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/azurewrath.png"
+    "image": "azurewrath",
+    "name": "Azurewrath"
   },
   {
     "classSpecificSet": "",
@@ -7669,7 +8029,8 @@
       { "detail": "+25% Increased Attack Speed", "varies": false }
     ],
     "setName": "",
-    "image": "/image/frostwind.png"
+    "image": "frostwind",
+    "name": "Frostwind"
   },
   {
     "classSpecificSet": "",
@@ -7695,7 +8056,8 @@
       { "detail": "Fire Absorb 20-30%", "varies": true }
     ],
     "setName": "",
-    "image": "/image/flamebellow.png"
+    "image": "flamebellow",
+    "name": "Flamebellow"
   },
   {
     "classSpecificSet": "",
@@ -7720,7 +8082,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/doombringer.png"
+    "image": "doombringer",
+    "name": "Doombringer"
   },
   {
     "classSpecificSet": "",
@@ -7744,7 +8107,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_grandfather.png"
+    "image": "the_grandfather",
+    "name": "The Grandfather"
   },
   {
     "classSpecificSet": "",
@@ -7769,7 +8133,8 @@
       { "detail": "Replenishes Quantity [1 in 4 sec.]", "varies": false }
     ],
     "setName": "",
-    "image": "/image/deathbit.png"
+    "image": "deathbit",
+    "name": "Deathbit"
   },
   {
     "classSpecificSet": "",
@@ -7795,7 +8160,8 @@
       { "detail": "Replenishes Quantity [1 in 3 sec.]", "varies": false }
     ],
     "setName": "",
-    "image": "/image/the_scalper.png"
+    "image": "the_scalper",
+    "name": "The Scalper"
   },
   {
     "classSpecificSet": "",
@@ -7821,7 +8187,8 @@
       { "detail": "(Ladder Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/warshrike.png"
+    "image": "warshrike",
+    "name": "Warshrike"
   },
   {
     "classSpecificSet": "",
@@ -7846,7 +8213,8 @@
       { "detail": "Increased Stack Size [60]", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gimmershred.png"
+    "image": "gimmershred",
+    "name": "Gimmershred"
   },
   {
     "classSpecificSet": "",
@@ -7872,7 +8240,8 @@
       { "detail": "Replenishes Quantity [1 in 4 sec.]", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lacerator.png"
+    "image": "lacerator",
+    "name": "Lacerator"
   },
   {
     "classSpecificSet": "",
@@ -7891,7 +8260,8 @@
       { "detail": "+3 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/torch_of_iro.png"
+    "image": "torch_of_iro",
+    "name": "Torch of Iro"
   },
   {
     "classSpecificSet": "",
@@ -7912,7 +8282,8 @@
       { "detail": "+1-3 to Corpse Explosion (Necromancer Only)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/maelstrom.png"
+    "image": "maelstrom",
+    "name": "Maelstrom"
   },
   {
     "classSpecificSet": "",
@@ -7931,7 +8302,8 @@
       { "detail": "+10 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gravenspine.png"
+    "image": "gravenspine",
+    "name": "Gravenspine"
   },
   {
     "classSpecificSet": "",
@@ -7950,7 +8322,8 @@
       { "detail": "+3 To Terror (Necromancer Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/umes_lament.png"
+    "image": "umes_lament",
+    "name": "Ume's Lament"
   },
   {
     "classSpecificSet": "",
@@ -7969,7 +8342,8 @@
       { "detail": "Attacker Takes Damage of 25", "varies": false }
     ],
     "setName": "",
-    "image": "/image/suicide_branch.png"
+    "image": "suicide_branch",
+    "name": "Suicide Branch"
   },
   {
     "classSpecificSet": "",
@@ -7989,7 +8363,8 @@
       { "detail": "Replenish Life +5", "varies": false }
     ],
     "setName": "",
-    "image": "/image/carin_shard.png"
+    "image": "carin_shard",
+    "name": "Carin Shard"
   },
   {
     "classSpecificSet": "",
@@ -8012,7 +8387,8 @@
       { "detail": "+2 To Poison And Bone Skills (Necromancer Only)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/arm_of_king_leoric.png"
+    "image": "arm_of_king_leoric",
+    "name": "Arm of King Leoric"
   },
   {
     "classSpecificSet": "",
@@ -8033,7 +8409,8 @@
       { "detail": "-2 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/blackhand_key.png"
+    "image": "blackhand_key",
+    "name": "Blackhand Key"
   },
   {
     "classSpecificSet": "",
@@ -8053,7 +8430,8 @@
       { "detail": "+25% Faster Cast Rate", "varies": false }
     ],
     "setName": "",
-    "image": "/image/boneshade.png"
+    "image": "boneshade",
+    "name": "Boneshade"
   },
   {
     "classSpecificSet": "",
@@ -8071,7 +8449,8 @@
       { "detail": "+1-2 To Poison And Bone Skills (Necromancer Only)", "varies": true }
     ],
     "setName": "",
-    "image": "/image/deaths_web.png"
+    "image": "deaths_web",
+    "name": "Death's Web"
   },
   {
     "classSpecificSet": "",
@@ -8087,7 +8466,8 @@
       { "detail": "Fire Resist +50% (3 Set Items)", "varies": false }
     ],
     "setName": "Angelic Raiment",
-    "image": "/image/angelic_mantle.png"
+    "image": "angelic_mantle",
+    "name": "Angelic Mantle"
   },
   {
     "classSpecificSet": "",
@@ -8110,7 +8490,8 @@
       { "detail": "30% Increased Attack Speed (3 Set Items)", "varies": false }
     ],
     "setName": "Angelic Raiment",
-    "image": "/image/angelic_sickle.png"
+    "image": "angelic_sickle",
+    "name": "Angelic Sickle"
   },
   {
     "classSpecificSet": "",
@@ -8126,7 +8507,8 @@
       { "detail": "+50% Better Chance Of Getting Magic Items (3 Set Items)", "varies": false }
     ],
     "setName": "Angelic Raiment",
-    "image": "/image/angelic_halo.png"
+    "image": "angelic_halo",
+    "name": "Angelic Halo"
   },
   {
     "classSpecificSet": "",
@@ -8142,7 +8524,8 @@
       { "detail": "+1 To All Skills (3 Set Items)", "varies": false }
     ],
     "setName": "Angelic Raiment",
-    "image": "/image/angelic_wings.png"
+    "image": "angelic_wings",
+    "name": "Angelic Wings"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -8158,7 +8541,8 @@
       { "detail": "Lightning Resist +15% (3 Set Items)", "varies": false }
     ],
     "setName": "Arcanna's Tricks",
-    "image": "/image/arcannas_head.png"
+    "image": "arcannas_head",
+    "name": "Arcanna's Head"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -8174,7 +8558,8 @@
       { "detail": "+10 Energy (3 Set Items)", "varies": false }
     ],
     "setName": "Arcanna's Tricks",
-    "image": "/image/arcannas_flesh.png"
+    "image": "arcannas_flesh",
+    "name": "Arcanna's Flesh"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -8191,7 +8576,8 @@
       { "detail": "Regenerate Mana +5% (3 Set Items)", "varies": false }
     ],
     "setName": "Arcanna's Tricks",
-    "image": "/image/arcannas_deathwand.png"
+    "image": "arcannas_deathwand",
+    "name": "Arcanna's Deathwand"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -8207,7 +8593,8 @@
       { "detail": "Fire Resist +20% (3 Set Items)", "varies": false }
     ],
     "setName": "Arcanna's Tricks",
-    "image": "/image/arcannas_sign.png"
+    "image": "arcannas_sign",
+    "name": "Arcanna's Sign"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -8228,7 +8615,8 @@
       { "detail": "Cold Resist +15% (3 Set Items)", "varies": false }
     ],
     "setName": "Arctic Gear",
-    "image": "/image/arctic_furs.png"
+    "image": "arctic_furs",
+    "name": "Arctic Furs"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -8244,7 +8632,8 @@
       { "detail": "Cold Resist +10% (3 Set Items)", "varies": false }
     ],
     "setName": "Arctic Gear",
-    "image": "/image/arctic_binding.png"
+    "image": "arctic_binding",
+    "name": "Arctic Binding"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -8260,7 +8649,8 @@
       { "detail": "+10 To Dexterity (3 Set Items)", "varies": false }
     ],
     "setName": "Arctic Gear",
-    "image": "/image/arctic_mitts.png"
+    "image": "arctic_mitts",
+    "name": "Arctic Mitts"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -8276,7 +8666,8 @@
       { "detail": "+20-30 Cold Damage, 3 sec. Duration (Normal) (3 Set Items)", "varies": false }
     ],
     "setName": "Arctic Gear",
-    "image": "/image/arctic_horn.png"
+    "image": "arctic_horn",
+    "name": "Arctic Horn"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -8291,7 +8682,8 @@
       { "detail": "+ (8 Per Character Level) 48-792 Attack Rating (Based On Character Level) (2 Set Items)", "varies": false }
     ],
     "setName": "Berserker's Arsenal",
-    "image": "/image/berserkers_headgear.png"
+    "image": "berserkers_headgear",
+    "name": "Berserker's Headgear"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -8306,7 +8698,8 @@
       { "detail": "+ (3 Per Character Level) 3-297 Defense (Based On Character Level) (2 Set Items)", "varies": false }
     ],
     "setName": "Berserker's Arsenal",
-    "image": "/image/berserkers_hauberk.png"
+    "image": "berserkers_hauberk",
+    "name": "Berserker's Hauberk"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -8327,7 +8720,8 @@
       { "detail": "+50% Enhanced Damage (2 Set Items)", "varies": false }
     ],
     "setName": "Berserker's Arsenal",
-    "image": "/image/berserkers_hatchet.png"
+    "image": "berserkers_hatchet",
+    "name": "Berserker's Hatchet"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -8342,7 +8736,8 @@
       { "detail": "+ (2 Per Character Level) 2-198 Defense (Based On Character Level) (2 Set Items)", "varies": false }
     ],
     "setName": "Cathan's Traps",
-    "image": "/image/cathans_visage.png"
+    "image": "cathans_visage",
+    "name": "Cathan's Visage"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -8358,7 +8753,8 @@
       { "detail": "Resist Fire +30% (3 Set Items)", "varies": false }
     ],
     "setName": "Cathan's Traps",
-    "image": "/image/cathans_mesh.png"
+    "image": "cathans_mesh",
+    "name": "Cathan's Mesh"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -8375,7 +8771,8 @@
       { "detail": "All Resistances +10 (3 Set Items)", "varies": false }
     ],
     "setName": "Cathan's Traps",
-    "image": "/image/cathans_rule.png"
+    "image": "cathans_rule",
+    "name": "Cathan's Rule"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -8391,7 +8788,8 @@
       { "detail": "+25% Better Chance of Finding Magic Items (3 Set Items)", "varies": false }
     ],
     "setName": "Cathan's Traps",
-    "image": "/image/cathans_sigil.png"
+    "image": "cathans_sigil",
+    "name": "Cathan's Sigil"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -8406,7 +8804,8 @@
       { "detail": "+10 Strength (2 Set Items)", "varies": false }
     ],
     "setName": "Cathan's Traps",
-    "image": "/image/cathans_seal.png"
+    "image": "cathans_seal",
+    "name": "Cathan's Seal"
   },
   {
     "classSpecificSet": "",
@@ -8422,7 +8821,8 @@
       { "detail": "+75 to Attack Rating", "varies": false }
     ],
     "setName": "Civerb's Vestments",
-    "image": "/image/civerbs_cudgel.png"
+    "image": "civerbs_cudgel",
+    "name": "Civerb's Cudgel"
   },
   {
     "classSpecificSet": "",
@@ -8438,7 +8838,8 @@
       { "detail": "+25 Defense (Complete Set)", "varies": false }
     ],
     "setName": "Civerb's Vestments",
-    "image": "/image/civerbs_icon.png"
+    "image": "civerbs_icon",
+    "name": "Civerb's Icon"
   },
   {
     "classSpecificSet": "",
@@ -8460,7 +8861,8 @@
       { "detail": "Poison Resist +25-26% (Civerb's Cudgel)", "varies": true }
     ],
     "setName": "Civerb's Vestments",
-    "image": "/image/civerbs_ward.png"
+    "image": "civerbs_ward",
+    "name": "Civerb's Ward"
   },
   {
     "classSpecificSet": "",
@@ -8482,7 +8884,8 @@
       { "detail": "+ (1.25 Per Character Level) +1-123 To Maximum Damage (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Cleglaw's Brace",
-    "image": "/image/cleglaws_tooth.png"
+    "image": "cleglaws_tooth",
+    "name": "Cleglaw's Tooth"
   },
   {
     "classSpecificSet": "",
@@ -8497,7 +8900,8 @@
       { "detail": "+ (10 Per Character Level) 10-990 Attack Rating (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Cleglaw's Brace",
-    "image": "/image/cleglaws_pincers.png"
+    "image": "cleglaws_pincers",
+    "name": "Cleglaw's Pincers"
   },
   {
     "classSpecificSet": "",
@@ -8518,7 +8922,8 @@
       { "detail": "All Resistances +15 (2 Items)", "varies": false }
     ],
     "setName": "Cleglaw's Brace",
-    "image": "/image/cleglaws_claw.png"
+    "image": "cleglaws_claw",
+    "name": "Cleglaw's Claw"
   },
   {
     "classSpecificSet": "",
@@ -8539,7 +8944,8 @@
       { "detail": "Adds 25-75 Cold Damage, 3 sec. Duration (Normal) (2 Items)", "varies": false }
     ],
     "setName": "Death's Disguise",
-    "image": "/image/deaths_touch.png"
+    "image": "deaths_touch",
+    "name": "Death's Touch"
   },
   {
     "classSpecificSet": "",
@@ -8554,7 +8960,8 @@
       { "detail": "30% Increased Attack Speed (2 Items)", "varies": false }
     ],
     "setName": "Death's Disguise",
-    "image": "/image/deaths_hand.png"
+    "image": "deaths_hand",
+    "name": "Death's Hand"
   },
   {
     "classSpecificSet": "",
@@ -8569,7 +8976,8 @@
       { "detail": "All Resistances +15 (2 Items)", "varies": false }
     ],
     "setName": "Death's Disguise",
-    "image": "/image/deaths_guard.png"
+    "image": "deaths_guard",
+    "name": "Death's Guard"
   },
   {
     "classSpecificSet": "",
@@ -8591,7 +8999,8 @@
       { "detail": "+ (2.5 Per Character Level) 2-247 Defense (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Hsarus' Defense",
-    "image": "/image/hsarus_iron_fist.png"
+    "image": "hsarus_iron_fist",
+    "name": "Hsarus' Iron Fist"
   },
   {
     "classSpecificSet": "",
@@ -8606,7 +9015,8 @@
       { "detail": "+ (2.5 Per Character Level) 2-247 Defense (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Hsarus' Defense",
-    "image": "/image/hsarus_iron_stay.png"
+    "image": "hsarus_iron_stay",
+    "name": "Hsarus' Iron Stay"
   },
   {
     "classSpecificSet": "",
@@ -8621,7 +9031,8 @@
       { "detail": "+ (10 Per Character Level) 10-990 Attack Rating (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Hsarus' Defense",
-    "image": "/image/hsarus_iron_heel.png"
+    "image": "hsarus_iron_heel",
+    "name": "Hsarus' Iron Heel"
   },
   {
     "classSpecificSet": "Necromancer Set",
@@ -8636,7 +9047,8 @@
       { "detail": "+ (2 Per Character Level) 2-198 Defense (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Infernal Tools",
-    "image": "/image/infernal_cranium.png"
+    "image": "infernal_cranium",
+    "name": "Infernal Cranium"
   },
   {
     "classSpecificSet": "Necromancer Set",
@@ -8652,7 +9064,8 @@
       { "detail": "Half Freeze Duration (3 Items)", "varies": false }
     ],
     "setName": "Infernal Tools",
-    "image": "/image/infernal_sign.png"
+    "image": "infernal_sign",
+    "name": "Infernal Sign"
   },
   {
     "classSpecificSet": "Necromancer Set",
@@ -8668,7 +9081,8 @@
       { "detail": "+ (10 Per Character Level) 10-990 Attack Rating (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Infernal Tools",
-    "image": "/image/infernal_torch.png"
+    "image": "infernal_torch",
+    "name": "Infernal Torch"
   },
   {
     "classSpecificSet": "",
@@ -8683,7 +9097,8 @@
       { "detail": "+ (2 Per Character Level) 2-198 Defense (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Iratha's Finery",
-    "image": "/image/irathas_coil.png"
+    "image": "irathas_coil",
+    "name": "Iratha's Coil"
   },
   {
     "classSpecificSet": "",
@@ -8698,7 +9113,8 @@
       { "detail": "All Resistances +15 (2 Items)", "varies": false }
     ],
     "setName": "Iratha's Finery",
-    "image": "/image/irathas_collar.png"
+    "image": "irathas_collar",
+    "name": "Iratha's Collar"
   },
   {
     "classSpecificSet": "",
@@ -8713,7 +9129,8 @@
       { "detail": "+10 To Dexterity (2 Items)", "varies": false }
     ],
     "setName": "Iratha's Finery",
-    "image": "/image/irathas_cord.png"
+    "image": "irathas_cord",
+    "name": "Iratha's Cord"
   },
   {
     "classSpecificSet": "",
@@ -8728,7 +9145,8 @@
       { "detail": "20% Increased Attack Speed (2 Items)", "varies": false }
     ],
     "setName": "Iratha's Finery",
-    "image": "/image/irathas_cuff.png"
+    "image": "irathas_cuff",
+    "name": "Iratha's Cuff"
   },
   {
     "classSpecificSet": "",
@@ -8743,7 +9161,8 @@
       { "detail": "+ (5 Per Character Level) 5-495 Attack Rating (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Isenhart's Armory",
-    "image": "/image/isenharts_lightbrand.png"
+    "image": "isenharts_lightbrand",
+    "name": "Isenhart's Lightbrand"
   },
   {
     "classSpecificSet": "",
@@ -8758,7 +9177,8 @@
       { "detail": "All Resistances +8 (2 Items)", "varies": false }
     ],
     "setName": "Isenhart's Armory",
-    "image": "/image/isenharts_horns.png"
+    "image": "isenharts_horns",
+    "name": "Isenhart's Horns"
   },
   {
     "classSpecificSet": "",
@@ -8778,7 +9198,8 @@
       { "detail": "+ (2 Per Character Level) 2-198 Defense (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Isenhart's Armory",
-    "image": "/image/isenharts_case.png"
+    "image": "isenharts_case",
+    "name": "Isenhart's Case"
   },
   {
     "classSpecificSet": "",
@@ -8799,7 +9220,8 @@
       { "detail": "All Resistances +8 (2 Items)", "varies": false }
     ],
     "setName": "Isenhart's Armory",
-    "image": "/image/isenharts_parry.png"
+    "image": "isenharts_parry",
+    "name": "Isenhart's Parry"
   },
   {
     "classSpecificSet": "Paladin Set",
@@ -8814,7 +9236,8 @@
       { "detail": "Cold Resist +40% (2 Items)", "varies": false }
     ],
     "setName": "Milabrega's Regalia",
-    "image": "/image/milabregas_diadem.png"
+    "image": "milabregas_diadem",
+    "name": "Milabrega's Diadem"
   },
   {
     "classSpecificSet": "Paladin Set",
@@ -8834,7 +9257,8 @@
       { "detail": "+100% Enhanced Defense (2 Items)", "varies": false }
     ],
     "setName": "Milabrega's Regalia",
-    "image": "/image/milabregas_robe.png"
+    "image": "milabregas_robe",
+    "name": "Milabrega's Robe"
   },
   {
     "classSpecificSet": "Paladin Set",
@@ -8857,7 +9281,8 @@
       { "detail": "+50% Enhanced Defense (3 Items)", "varies": false }
     ],
     "setName": "Milabrega's Regalia",
-    "image": "/image/milabregas_orb.png"
+    "image": "milabregas_orb",
+    "name": "Milabrega's Orb"
   },
   {
     "classSpecificSet": "Paladin Set",
@@ -8873,7 +9298,8 @@
       { "detail": "+2 to Light Radius", "varies": false }
     ],
     "setName": "Milabrega's Regalia",
-    "image": "/image/milabregas_rod.png"
+    "image": "milabregas_rod",
+    "name": "Milabrega's Rod"
   },
   {
     "classSpecificSet": "",
@@ -8888,7 +9314,8 @@
       { "detail": "+ (8 Per Character Level) 8-792 To Attack Rating (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Sigon's Complete Steel",
-    "image": "/image/sigons_visor.png"
+    "image": "sigons_visor",
+    "name": "Sigon's Visor"
   },
   {
     "classSpecificSet": "",
@@ -8903,7 +9330,8 @@
       { "detail": "Attacker Takes Damage of 20 (2 Items)", "varies": false }
     ],
     "setName": "Sigon's Complete Steel",
-    "image": "/image/sigons_shelter.png"
+    "image": "sigons_shelter",
+    "name": "Sigon's Shelter"
   },
   {
     "classSpecificSet": "",
@@ -8919,7 +9347,8 @@
       { "detail": "+50% Better Chance To Find Magic Items (3 Items)", "varies": false }
     ],
     "setName": "Sigon's Complete Steel",
-    "image": "/image/sigons_sabot.png"
+    "image": "sigons_sabot",
+    "name": "Sigon's Sabot"
   },
   {
     "classSpecificSet": "",
@@ -8939,7 +9368,8 @@
       { "detail": "+20% Increased Chance To Block", "varies": false }
     ],
     "setName": "Sigon's Complete Steel",
-    "image": "/image/sigons_guard.png"
+    "image": "sigons_guard",
+    "name": "Sigon's Guard"
   },
   {
     "classSpecificSet": "",
@@ -8960,7 +9390,8 @@
       { "detail": "+ (2 Per Character Level) 2-198 To Defense (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Sigon's Complete Steel",
-    "image": "/image/sigons_wrap.png"
+    "image": "sigons_wrap",
+    "name": "Sigon's Wrap"
   },
   {
     "classSpecificSet": "",
@@ -8975,7 +9406,8 @@
       { "detail": "30% Increased Attack Speed (2 Items)", "varies": false }
     ],
     "setName": "Sigon's Complete Steel",
-    "image": "/image/sigons_gage.png"
+    "image": "sigons_gage",
+    "name": "Sigon's Gage"
   },
   {
     "classSpecificSet": "",
@@ -8990,7 +9422,8 @@
       { "detail": "All Resistances +10 (2 Items)", "varies": false }
     ],
     "setName": "Tancred's Battlegear",
-    "image": "/image/tancreds_skull.png"
+    "image": "tancreds_skull",
+    "name": "Tancred's Skull"
   },
   {
     "classSpecificSet": "",
@@ -9010,7 +9443,8 @@
       { "detail": "+ (2 Per Character Level) 2-198 Defense (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Tancred's Battlegear",
-    "image": "/image/tancreds_spine.png"
+    "image": "tancreds_spine",
+    "name": "Tancred's Spine"
   },
   {
     "classSpecificSet": "",
@@ -9026,7 +9460,8 @@
       { "detail": "+10 To Strength (3 Items)", "varies": false }
     ],
     "setName": "Tancred's Battlegear",
-    "image": "/image/tancreds_hobnails.png"
+    "image": "tancreds_hobnails",
+    "name": "Tancred's Hobnails"
   },
   {
     "classSpecificSet": "",
@@ -9048,7 +9483,8 @@
       { "detail": "20% Increased Attack Speed (3 Items)", "varies": false }
     ],
     "setName": "Tancred's Battlegear",
-    "image": "/image/tancreds_crowbill.png"
+    "image": "tancreds_crowbill",
+    "name": "Tancred's Crowbill"
   },
   {
     "classSpecificSet": "",
@@ -9064,7 +9500,8 @@
       { "detail": "+60 To Attack Rating (3 Items)", "varies": false }
     ],
     "setName": "Tancred's Battlegear",
-    "image": "/image/tancreds_weird.png"
+    "image": "tancreds_weird",
+    "name": "Tancred's Weird"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -9078,7 +9515,8 @@
       { "detail": "+ (8 Per Character Level) 8-792 To Attack Rating (Based On Character Level) (2 Items)", "varies": false }
     ],
     "setName": "Vidala's Rig",
-    "image": "/image/vidalas_barb.png"
+    "image": "vidalas_barb",
+    "name": "Vidala's Barb"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -9099,7 +9537,8 @@
       { "detail": "+ (2.5 Per Character Level) +2-247 Defense (Based On Character Level) (3 Items)", "varies": false }
     ],
     "setName": "Vidala's Rig",
-    "image": "/image/vidalas_ambush.png"
+    "image": "vidalas_ambush",
+    "name": "Vidala's Ambush"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -9114,7 +9553,8 @@
       { "detail": "All Resistances +8 (2 Items)", "varies": false }
     ],
     "setName": "Vidala's Rig",
-    "image": "/image/vidalas_fetlock.png"
+    "image": "vidalas_fetlock",
+    "name": "Vidala's Fetlock"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -9129,7 +9569,8 @@
       { "detail": "50% Better Chance Of Getting Magic Items (2 Items)", "varies": false }
     ],
     "setName": "Vidala's Rig",
-    "image": "/image/vidalas_snare.png"
+    "image": "vidalas_snare",
+    "name": "Vidala's Snare"
   },
   {
     "classSpecificSet": "Druid Set",
@@ -9151,7 +9592,8 @@
       { "detail": "+15 To Energy (Completed Set)", "varies": false }
     ],
     "setName": "Aldur's Watchtower",
-    "image": "/image/aldurs_stony_gaze.png"
+    "image": "aldurs_stony_gaze",
+    "name": "Aldur's Stony Gaze"
   },
   {
     "classSpecificSet": "Druid Set",
@@ -9173,7 +9615,8 @@
       { "detail": "+15 To Dexterity (Completed Set)", "varies": false }
     ],
     "setName": "Aldur's Watchtower",
-    "image": "/image/aldurs_advance.png"
+    "image": "aldurs_advance",
+    "name": "Aldur's Advance"
   },
   {
     "classSpecificSet": "Druid Set",
@@ -9195,7 +9638,8 @@
       { "detail": "+15 To Vitality (Completed Set)", "varies": false }
     ],
     "setName": "Aldur's Watchtower",
-    "image": "/image/aldurs_deception.png"
+    "image": "aldurs_deception",
+    "name": "Aldur's Deception"
   },
   {
     "classSpecificSet": "Druid Set",
@@ -9218,7 +9662,8 @@
       { "detail": "+15 To Strength (Completed Set)", "varies": false }
     ],
     "setName": "Aldur's Watchtower",
-    "image": "/image/aldurs_rhythm.png"
+    "image": "aldurs_rhythm",
+    "name": "Aldur's Rhythm"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -9242,7 +9687,8 @@
       { "detail": "Knockback", "varies": false }
     ],
     "setName": "Bul-Kathos' Children",
-    "image": "/image/bul-kathos_sacred_charge.png"
+    "image": "bul-kathos_sacred_charge",
+    "name": "Bul-Kathos' Sacred Charge"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -9265,7 +9711,8 @@
       { "detail": "+20% Increased Attack Speed", "varies": false }
     ],
     "setName": "Bul-Kathos' Children",
-    "image": "/image/bul-kathos_tribal_guardian.png"
+    "image": "bul-kathos_tribal_guardian",
+    "name": "Bul-Kathos' Tribal Guardian"
   },
   {
     "classSpecificSet": "",
@@ -9281,7 +9728,8 @@
       { "detail": "35% Damage Taken Goes To Mana", "varies": false }
     ],
     "setName": "Cow King's Leathers",
-    "image": "/image/cow_kings_horns.png"
+    "image": "cow_kings_horns",
+    "name": "Cow King's Horns"
   },
   {
     "classSpecificSet": "",
@@ -9297,7 +9745,8 @@
       { "detail": "+30 To Life", "varies": false }
     ],
     "setName": "Cow King's Leathers",
-    "image": "/image/cow_kings_hide.png"
+    "image": "cow_kings_hide",
+    "name": "Cow King's Hide"
   },
   {
     "classSpecificSet": "",
@@ -9314,7 +9763,8 @@
       { "detail": "25% Better Chance of Getting Magic Items", "varies": false }
     ],
     "setName": "Cow King's Leathers",
-    "image": "/image/cow_kings_hooves.png"
+    "image": "cow_kings_hooves",
+    "name": "Cow King's Hooves"
   },
   {
     "classSpecificSet": "",
@@ -9330,7 +9780,8 @@
       { "detail": "Attacker Takes Damage of 8-10", "varies": true }
     ],
     "setName": "The Disciple",
-    "image": "/image/telling_of_beads.png"
+    "image": "telling_of_beads",
+    "name": "Telling of Beads"
   },
   {
     "classSpecificSet": "",
@@ -9347,7 +9798,8 @@
       { "detail": "10% Chance To Cast Level 3 Holy Bolt On Striking", "varies": false }
     ],
     "setName": "The Disciple",
-    "image": "/image/laying_of_hands.png"
+    "image": "laying_of_hands",
+    "name": "Laying of Hands"
   },
   {
     "classSpecificSet": "",
@@ -9363,7 +9815,8 @@
       { "detail": "Adds 24-34 Poison Damage Over 2 Seconds", "varies": false }
     ],
     "setName": "The Disciple",
-    "image": "/image/dark_adherent.png"
+    "image": "dark_adherent",
+    "name": "Dark Adherent"
   },
   {
     "classSpecificSet": "",
@@ -9379,7 +9832,8 @@
       { "detail": "Half Freeze Duration", "varies": false }
     ],
     "setName": "The Disciple",
-    "image": "/image/rite_of_passage.png"
+    "image": "rite_of_passage",
+    "name": "Rite of Passage"
   },
   {
     "classSpecificSet": "",
@@ -9395,7 +9849,8 @@
       { "detail": "+10 To Strength", "varies": false }
     ],
     "setName": "The Disciple",
-    "image": "/image/credendum.png"
+    "image": "credendum",
+    "name": "Credendum"
   },
   {
     "classSpecificSet": "Paladin Set",
@@ -9412,7 +9867,8 @@
       { "detail": "Socketed (3)", "varies": false }
     ],
     "setName": "Griswold's Legacy",
-    "image": "/image/griswolds_heart.png"
+    "image": "griswolds_heart",
+    "name": "Griswold's Heart"
   },
   {
     "classSpecificSet": "Paladin Set",
@@ -9431,7 +9887,8 @@
       { "detail": "+2 To Offensive Auras (Paladin Only) (2 Items)", "varies": false }
     ],
     "setName": "Griswold's Legacy",
-    "image": "/image/griswolds_valor.png"
+    "image": "griswolds_valor",
+    "name": "Griswold's Valor"
   },
   {
     "classSpecificSet": "Paladin Set",
@@ -9459,7 +9916,8 @@
       { "detail": "Adds 10-20 Damage (Complete Set)", "varies": false }
     ],
     "setName": "Griswold's Legacy",
-    "image": "/image/griswolds_redemption.png"
+    "image": "griswolds_redemption",
+    "name": "Griswold's Redemption"
   },
   {
     "classSpecificSet": "Paladin Set",
@@ -9483,7 +9941,8 @@
       { "detail": "Socketed (3)", "varies": false }
     ],
     "setName": "Griswold's Legacy",
-    "image": "/image/griswolds_honor.png"
+    "image": "griswolds_honor",
+    "name": "Griswold's Honor"
   },
   {
     "classSpecificSet": "",
@@ -9500,7 +9959,8 @@
       { "detail": "+75 To Life", "varies": false }
     ],
     "setName": "Heaven's Brethren",
-    "image": "/image/haemosus_adamant.png"
+    "image": "haemosus_adamant",
+    "name": "Haemosu's Adamant"
   },
   {
     "classSpecificSet": "",
@@ -9523,7 +9983,8 @@
       { "detail": "Adds 20-30 Fire Damage", "varies": false }
     ],
     "setName": "Heaven's Brethren",
-    "image": "/image/dangoons_teaching.png"
+    "image": "dangoons_teaching",
+    "name": "Dangoon's Teaching"
   },
   {
     "classSpecificSet": "",
@@ -9547,7 +10008,8 @@
       { "detail": "Attacker Takes Damage of 30", "varies": false }
     ],
     "setName": "Heaven's Brethren",
-    "image": "/image/taebaeks_glory.png"
+    "image": "taebaeks_glory",
+    "name": "Taebaek's Glory"
   },
   {
     "classSpecificSet": "",
@@ -9565,7 +10027,8 @@
       { "detail": "+10 To Strength", "varies": false }
     ],
     "setName": "Heaven's Brethren",
-    "image": "/image/ondals_almighty.png"
+    "image": "ondals_almighty",
+    "name": "Ondal's Almighty"
   },
   {
     "classSpecificSet": "",
@@ -9581,7 +10044,8 @@
       { "detail": "Cold Resist +37%", "varies": false }
     ],
     "setName": "Hwanin's Majesty",
-    "image": "/image/hwanins_splendor.png"
+    "image": "hwanins_splendor",
+    "name": "Hwanin's Splendor"
   },
   {
     "classSpecificSet": "",
@@ -9599,7 +10063,8 @@
       { "detail": "10% Chance To Cast Level 3 Ice Blast On Striking", "varies": false }
     ],
     "setName": "Hwanin's Majesty",
-    "image": "/image/hwanins_justice.png"
+    "image": "hwanins_justice",
+    "name": "Hwanin's Justice"
   },
   {
     "classSpecificSet": "",
@@ -9615,7 +10080,8 @@
       { "detail": "+100 To Life", "varies": false }
     ],
     "setName": "Hwanin's Majesty",
-    "image": "/image/hwanins_refuge.png"
+    "image": "hwanins_refuge",
+    "name": "Hwanin's Refuge"
   },
   {
     "classSpecificSet": "",
@@ -9631,7 +10097,8 @@
       { "detail": "12% Damage Taken Goes To Mana", "varies": false }
     ],
     "setName": "Hwanin's Majesty",
-    "image": "/image/hwanins_blessing.png"
+    "image": "hwanins_blessing",
+    "name": "Hwanin's Blessing"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -9650,7 +10117,8 @@
       { "detail": "Socketed (2)", "varies": false }
     ],
     "setName": "Immortal King",
-    "image": "/image/immortal_kings_will.png"
+    "image": "immortal_kings_will",
+    "name": "Immortal King's Will"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -9674,7 +10142,8 @@
       { "detail": "Adds 250-361 Magic Damage (Complete Set)", "varies": false }
     ],
     "setName": "Immortal King",
-    "image": "/image/immortal_kings_stone_crusher.png"
+    "image": "immortal_kings_stone_crusher",
+    "name": "Immortal King's Stone Crusher"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -9700,7 +10169,8 @@
       { "detail": "+50% Enhanced Defense (Complete Set)", "varies": false }
     ],
     "setName": "Immortal King",
-    "image": "/image/immortal_kings_soul_cage.png"
+    "image": "immortal_kings_soul_cage",
+    "name": "Immortal King's Soul Cage"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -9728,7 +10198,8 @@
       { "detail": "+2 To Masteries (Barbarian Only) (Complete Set)", "varies": false }
     ],
     "setName": "Immortal King",
-    "image": "/image/immortal_kings_detail.png"
+    "image": "immortal_kings_detail",
+    "name": "Immortal King's Detail"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -9754,7 +10225,8 @@
       { "detail": "Freezes Target +2 (Complete Set)", "varies": false }
     ],
     "setName": "Immortal King",
-    "image": "/image/immortal_kings_forge.png"
+    "image": "immortal_kings_forge",
+    "name": "Immortal King's Forge"
   },
   {
     "classSpecificSet": "Barbarian Set",
@@ -9780,7 +10252,8 @@
       { "detail": "Half Freeze Duration (5 Items)", "varies": false }
     ],
     "setName": "Immortal King",
-    "image": "/image/immortal_kings_pillar.png"
+    "image": "immortal_kings_pillar",
+    "name": "Immortal King's Pillar"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -9799,7 +10272,8 @@
       { "detail": "All Resistances +25 (4 Items)", "varies": false }
     ],
     "setName": "M'avina's Battle Hymn",
-    "image": "/image/mavinas_true_sight.png"
+    "image": "mavinas_true_sight",
+    "name": "M'avina's True Sight"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -9819,7 +10293,8 @@
       { "detail": "+2 To Bow and Crossbow Skills (Amazon Only) (4 Items)", "varies": false }
     ],
     "setName": "M'avina's Battle Hymn",
-    "image": "/image/mavinas_caster.png"
+    "image": "mavinas_caster",
+    "name": "M'avina's Caster"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -9838,7 +10313,8 @@
       { "detail": "+30% Faster Hit Recovery (3 Items)", "varies": false }
     ],
     "setName": "M'avina's Battle Hymn",
-    "image": "/image/mavinas_embrace.png"
+    "image": "mavinas_embrace",
+    "name": "M'avina's Embrace"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -9858,7 +10334,8 @@
       { "detail": "+20% To Cold Skill Damage (Complete Set)", "varies": false }
     ],
     "setName": "M'avina's Battle Hymn",
-    "image": "/image/mavinas_icy_clutch.png"
+    "image": "mavinas_icy_clutch",
+    "name": "M'avina's Icy Clutch"
   },
   {
     "classSpecificSet": "Amazon Set",
@@ -9875,7 +10352,8 @@
       { "detail": "All Resistances +25 (4 Items)", "varies": false }
     ],
     "setName": "M'avina's Battle Hymn",
-    "image": "/image/mavinas_tenet.png"
+    "image": "mavinas_tenet",
+    "name": "M'avina's Tenet"
   },
   {
     "classSpecificSet": "Assassin Set",
@@ -9892,7 +10370,8 @@
       { "detail": "Magic Damage Reduced By 3", "varies": false }
     ],
     "setName": "Natalya's Odium",
-    "image": "/image/natalyas_totem.png"
+    "image": "natalyas_totem",
+    "name": "Natalya's Totem"
   },
   {
     "classSpecificSet": "Assassin Set",
@@ -9918,7 +10397,8 @@
       { "detail": "+50 Cold Damage, 4 sec. Duration (Normal)", "varies": false }
     ],
     "setName": "Natalya's Odium",
-    "image": "/image/natalyas_mark.png"
+    "image": "natalyas_mark",
+    "name": "Natalya's Mark"
   },
   {
     "classSpecificSet": "Assassin Set",
@@ -9936,7 +10416,8 @@
       { "detail": "Socketed (1-3)", "varies": true }
     ],
     "setName": "Natalya's Odium",
-    "image": "/image/natalyas_shadow.png"
+    "image": "natalyas_shadow",
+    "name": "Natalya's Shadow"
   },
   {
     "classSpecificSet": "Assassin Set",
@@ -9953,7 +10434,8 @@
       { "detail": "Lightning Resist +15-25%", "varies": true }
     ],
     "setName": "Natalya's Odium",
-    "image": "/image/natalyas_soul.png"
+    "image": "natalyas_soul",
+    "name": "Natalya's Soul"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -9970,7 +10452,8 @@
       { "detail": "+5 To Light Radius", "varies": false }
     ],
     "setName": "Naj's Ancient Vestige",
-    "image": "/image/najs_circlet.png"
+    "image": "najs_circlet",
+    "name": "Naj's Circlet"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -9988,7 +10471,8 @@
       { "detail": "+65 To Life", "varies": false }
     ],
     "setName": "Naj's Ancient Vestige",
-    "image": "/image/najs_light_plate.png"
+    "image": "najs_light_plate",
+    "name": "Naj's Light Plate"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -10014,7 +10498,8 @@
       { "detail": "Level 11 Teleport (69 Charges)", "varies": false }
     ],
     "setName": "Naj's Ancient Vestige",
-    "image": "/image/najs_puzzler.png"
+    "image": "najs_puzzler",
+    "name": "Naj's Puzzler"
   },
   {
     "classSpecificSet": "",
@@ -10031,7 +10516,8 @@
       { "detail": "+15 To Strength", "varies": false }
     ],
     "setName": "Orphan's Call",
-    "image": "/image/guillaumes_face.png"
+    "image": "guillaumes_face",
+    "name": "Guillaume's Face"
   },
   {
     "classSpecificSet": "",
@@ -10054,7 +10540,8 @@
       { "detail": "+5 To Light Radius", "varies": false }
     ],
     "setName": "Orphan's Call",
-    "image": "/image/whitstans_guard.png"
+    "image": "whitstans_guard",
+    "name": "Whitstan's Guard"
   },
   {
     "classSpecificSet": "",
@@ -10071,7 +10558,8 @@
       { "detail": "Fire Resist +15%", "varies": false }
     ],
     "setName": "Orphan's Call",
-    "image": "/image/magnus_skin.png"
+    "image": "magnus_skin",
+    "name": "Magnus' Skin"
   },
   {
     "classSpecificSet": "",
@@ -10087,7 +10575,8 @@
       { "detail": "Cold Resist +10%", "varies": false }
     ],
     "setName": "Orphan's Call",
-    "image": "/image/wilhelms_pride.png"
+    "image": "wilhelms_pride",
+    "name": "Wilhelm's Pride"
   },
   {
     "classSpecificSet": "",
@@ -10102,7 +10591,8 @@
       { "detail": "35% Better Chance of Getting Magic Items", "varies": false }
     ],
     "setName": "Sander's Folly",
-    "image": "/image/sanders_paragon.png"
+    "image": "sanders_paragon",
+    "name": "Sander's Paragon"
   },
   {
     "classSpecificSet": "",
@@ -10120,7 +10610,8 @@
       { "detail": "25-75 Cold Damage, 2 sec. Duration (Normal)", "varies": false }
     ],
     "setName": "Sander's Folly",
-    "image": "/image/sanders_superstition.png"
+    "image": "sanders_superstition",
+    "name": "Sander's Superstition"
   },
   {
     "classSpecificSet": "",
@@ -10136,7 +10627,8 @@
       { "detail": "+20% Increased Attack Speed", "varies": false }
     ],
     "setName": "Sander's Folly",
-    "image": "/image/sanders_taboo.png"
+    "image": "sanders_taboo",
+    "name": "Sander's Taboo"
   },
   {
     "classSpecificSet": "",
@@ -10152,7 +10644,8 @@
       { "detail": "+5 To Strength", "varies": false }
     ],
     "setName": "Sander's Folly",
-    "image": "/image/sanders_riprap.png"
+    "image": "sanders_riprap",
+    "name": "Sander's Riprap"
   },
   {
     "classSpecificSet": "",
@@ -10168,7 +10661,8 @@
       { "detail": "+100 Defense", "varies": false }
     ],
     "setName": "Sazabi's Grand Tribute",
-    "image": "/image/sazabis_mental_sheath.png"
+    "image": "sazabis_mental_sheath",
+    "name": "Sazabi's Mental Sheath"
   },
   {
     "classSpecificSet": "",
@@ -10187,7 +10681,8 @@
       { "detail": "+5 To Strength", "varies": false }
     ],
     "setName": "Sazabi's Grand Tribute",
-    "image": "/image/sazabis_cobalt_redeemer.png"
+    "image": "sazabis_cobalt_redeemer",
+    "name": "Sazabi's Cobalt Redeemer"
   },
   {
     "classSpecificSet": "",
@@ -10204,7 +10699,8 @@
       { "detail": "+50-75 To Life", "varies": true }
     ],
     "setName": "Sazabi's Grand Tribute",
-    "image": "/image/sazabis_ghost_liberator.png"
+    "image": "sazabis_ghost_liberator",
+    "name": "Sazabi's Ghost Liberator"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -10228,7 +10724,8 @@
       { "detail": "+15% To Cold Skills Damage (Complete Set)", "varies": false }
     ],
     "setName": "Tal Rasha's Wrappings",
-    "image": "/image/tal_rashas_lidless_eye.png"
+    "image": "tal_rashas_lidless_eye",
+    "name": "Tal Rasha's Lidless Eye"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -10246,7 +10743,8 @@
       { "detail": "+60 To Life", "varies": false }
     ],
     "setName": "Tal Rasha's Wrappings",
-    "image": "/image/tal_rashas_horadric_crest.png"
+    "image": "tal_rashas_horadric_crest",
+    "name": "Tal Rasha's Horadric Crest"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -10266,7 +10764,8 @@
       { "detail": "+10% Faster Cast Rate (2 Items)", "varies": false }
     ],
     "setName": "Tal Rasha's Wrappings",
-    "image": "/image/tal_rashas_guardianship.png"
+    "image": "tal_rashas_guardianship",
+    "name": "Tal Rasha's Guardianship"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -10285,7 +10784,8 @@
       { "detail": "+10% Faster Cast Rate (3 Items)", "varies": false }
     ],
     "setName": "Tal Rasha's Wrappings",
-    "image": "/image/tal_rashas_fine-spun_cloth.png"
+    "image": "tal_rashas_fine-spun_cloth",
+    "name": "Tal Rasha's Fine-Spun Cloth"
   },
   {
     "classSpecificSet": "Sorceress Set",
@@ -10303,7 +10803,8 @@
       { "detail": "+10% Faster Cast Rate (4 Items)", "varies": false }
     ],
     "setName": "Tal Rasha's Wrappings",
-    "image": "/image/tal_rashas_adjudication.png"
+    "image": "tal_rashas_adjudication",
+    "name": "Tal Rasha's Adjudication"
   },
   {
     "classSpecificSet": "Necromancer Set",
@@ -10320,7 +10821,8 @@
       { "detail": "Attacker Takes Damage of 20", "varies": false }
     ],
     "setName": "Trang-Oul's Avatar",
-    "image": "/image/trang-ouls_guise.png"
+    "image": "trang-ouls_guise",
+    "name": "Trang-Oul's Guise"
   },
   {
     "classSpecificSet": "Necromancer Set",
@@ -10340,7 +10842,8 @@
       { "detail": "Damage Reduced By 25% (Complete Set)", "varies": false }
     ],
     "setName": "Trang-Oul's Avatar",
-    "image": "/image/trang-ouls_scales.png"
+    "image": "trang-ouls_scales",
+    "name": "Trang-Oul's Scales"
   },
   {
     "classSpecificSet": "Necromancer Set",
@@ -10362,7 +10865,8 @@
       { "detail": "Replenish Life +15 (4 Items)", "varies": false }
     ],
     "setName": "Trang-Oul's Avatar",
-    "image": "/image/trang-ouls_wing.png"
+    "image": "trang-ouls_wing",
+    "name": "Trang-Oul's Wing"
   },
   {
     "classSpecificSet": "Necromancer Set",
@@ -10382,7 +10886,8 @@
       { "detail": "Cold Resist +40% (3 Items)", "varies": false }
     ],
     "setName": "Trang-Oul's Avatar",
-    "image": "/image/trang-ouls_girth.png"
+    "image": "trang-ouls_girth",
+    "name": "Trang-Oul's Girth"
   },
   {
     "classSpecificSet": "Necromancer Set",
@@ -10399,7 +10904,8 @@
       { "detail": "+2 To Curses (Necromancer Only)", "varies": false }
     ],
     "setName": "Trang-Oul's Avatar",
-    "image": "/image/trang-ouls_claws.png"
+    "image": "trang-ouls_claws",
+    "name": "Trang-Oul's Claws"
   },
   {
     "classSpecificSet": "",
@@ -10413,7 +10919,8 @@
       { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
-    "image": "/image/zod_rune.png"
+    "image": "zod_rune",
+    "name": "Zod"
   },
   {
     "classSpecificSet": "",
@@ -10427,7 +10934,8 @@
       { "detail": "Cannot Be Frozen", "varies": false }
     ],
     "setName": "",
-    "image": "/image/cham_rune.png"
+    "image": "cham_rune",
+    "name": "Cham"
   },
   {
     "classSpecificSet": "",
@@ -10441,7 +10949,8 @@
       { "detail": "Increase Maximum Life 5%/+50 Life (Shields)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/jah_rune.png"
+    "image": "jah_rune",
+    "name": "Jah"
   },
   {
     "classSpecificSet": "",
@@ -10455,7 +10964,8 @@
       { "detail": "Damage Reduced by 8%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ber_rune.png"
+    "image": "ber_rune",
+    "name": "Ber"
   },
   {
     "classSpecificSet": "",
@@ -10469,7 +10979,8 @@
       { "detail": "Maximum Mana 5%/+50 To Mana (Shields)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/sur_rune.png"
+    "image": "sur_rune",
+    "name": "Sur"
   },
   {
     "classSpecificSet": "",
@@ -10483,7 +10994,8 @@
       { "detail": "5% To Maximum Lightning Resist", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lo_rune.png"
+    "image": "lo_rune",
+    "name": "Lo"
   },
   {
     "classSpecificSet": "",
@@ -10497,7 +11009,8 @@
       { "detail": "5% To Maximum Cold Resist", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ohm_rune.png"
+    "image": "ohm_rune",
+    "name": "Ohm"
   },
   {
     "classSpecificSet": "",
@@ -10511,7 +11024,8 @@
       { "detail": "5% To Maximum Fire Resist", "varies": false }
     ],
     "setName": "",
-    "image": "/image/vex_rune.png"
+    "image": "vex_rune",
+    "name": "Vex"
   },
   {
     "classSpecificSet": "",
@@ -10525,7 +11039,8 @@
       { "detail": "5% To Maximum Poison Resist", "varies": false }
     ],
     "setName": "",
-    "image": "/image/gul_rune.png"
+    "image": "gul_rune",
+    "name": "Gul"
   },
   {
     "classSpecificSet": "",
@@ -10539,7 +11054,8 @@
       { "detail": "25% Better Chance of Getting Magic Items", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ist_rune.png"
+    "image": "ist_rune",
+    "name": "Ist"
   },
   {
     "classSpecificSet": "",
@@ -10553,7 +11069,8 @@
       { "detail": "Magic Damage Reduced By 7", "varies": false }
     ],
     "setName": "",
-    "image": "/image/mal_rune.png"
+    "image": "mal_rune",
+    "name": "Mal"
   },
   {
     "classSpecificSet": "",
@@ -10567,7 +11084,8 @@
       { "detail": "All Resistances +15(Armor/Helms) +22(Shields)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/um_rune.png"
+    "image": "um_rune",
+    "name": "Um"
   },
   {
     "classSpecificSet": "",
@@ -10581,7 +11099,8 @@
       { "detail": "+30% Enhanced Defense", "varies": false }
     ],
     "setName": "",
-    "image": "/image/pul_rune.png"
+    "image": "pul_rune",
+    "name": "Pul"
   },
   {
     "classSpecificSet": "",
@@ -10595,7 +11114,8 @@
       { "detail": "50% Extra Gold From Monsters", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lem_rune.png"
+    "image": "lem_rune",
+    "name": "Lem"
   },
   {
     "classSpecificSet": "",
@@ -10609,7 +11129,8 @@
       { "detail": "+10 To Strength", "varies": false }
     ],
     "setName": "",
-    "image": "/image/fal_rune.png"
+    "image": "fal_rune",
+    "name": "Fal"
   },
   {
     "classSpecificSet": "",
@@ -10623,7 +11144,8 @@
       { "detail": "+10 To Dexterity", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ko_rune.png"
+    "image": "ko_rune",
+    "name": "Ko"
   },
   {
     "classSpecificSet": "",
@@ -10637,7 +11159,8 @@
       { "detail": "+10 To Energy", "varies": false }
     ],
     "setName": "",
-    "image": "/image/lum_rune.png"
+    "image": "lum_rune",
+    "name": "Lum"
   },
   {
     "classSpecificSet": "",
@@ -10651,7 +11174,8 @@
       { "detail": "+10 To Vitality", "varies": false }
     ],
     "setName": "",
-    "image": "/image/io_rune.png"
+    "image": "io_rune",
+    "name": "Io"
   },
   {
     "classSpecificSet": "",
@@ -10665,7 +11189,8 @@
       { "detail": "Requirements -15%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/hel_rune.png"
+    "image": "hel_rune",
+    "name": "Hel"
   },
   {
     "classSpecificSet": "",
@@ -10679,7 +11204,8 @@
       { "detail": "Replenish Life +7", "varies": false }
     ],
     "setName": "",
-    "image": "/image/dol_rune.png"
+    "image": "dol_rune",
+    "name": "Dol"
   },
   {
     "classSpecificSet": "",
@@ -10693,7 +11219,8 @@
       { "detail": "20% Faster Hit Recovery/20% Faster Block Rate(Shields)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/shael_rune.png"
+    "image": "shael_rune",
+    "name": "Shael"
   },
   {
     "classSpecificSet": "",
@@ -10707,7 +11234,8 @@
       { "detail": "Damage Reduced By 7", "varies": false }
     ],
     "setName": "",
-    "image": "/image/sol_rune.png"
+    "image": "sol_rune",
+    "name": "Sol"
   },
   {
     "classSpecificSet": "",
@@ -10721,7 +11249,8 @@
       { "detail": "Attacker Takes Damage of 14", "varies": false }
     ],
     "setName": "",
-    "image": "/image/amn_rune.png"
+    "image": "amn_rune",
+    "name": "Amn"
   },
   {
     "classSpecificSet": "",
@@ -10735,7 +11264,8 @@
       { "detail": "Cold Resist 30%/Cold Resist 35%(Shields)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/thul_rune.png"
+    "image": "thul_rune",
+    "name": "Thul"
   },
   {
     "classSpecificSet": "",
@@ -10749,7 +11279,8 @@
       { "detail": "Lightning Resist 30%/Lightning Resist 35%(Shields)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ort_rune.png"
+    "image": "ort_rune",
+    "name": "Ort"
   },
   {
     "classSpecificSet": "",
@@ -10763,7 +11294,8 @@
       { "detail": "Fire Resist 30%/Fire Resist 35%(Shields)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ral_rune.png"
+    "image": "ral_rune",
+    "name": "Ral"
   },
   {
     "classSpecificSet": "",
@@ -10777,7 +11309,8 @@
       { "detail": "Poison Resist 30%/Poison Resist 35%(Shields)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/tal_rune.png"
+    "image": "tal_rune",
+    "name": "Tal"
   },
   {
     "classSpecificSet": "",
@@ -10791,7 +11324,8 @@
       { "detail": "15% Damage Taken Goes to Mana", "varies": false }
     ],
     "setName": "",
-    "image": "/image/ith_rune.png"
+    "image": "ith_rune",
+    "name": "Ith"
   },
   {
     "classSpecificSet": "",
@@ -10805,7 +11339,8 @@
       { "detail": "Regenerate Mana 15%", "varies": false }
     ],
     "setName": "",
-    "image": "/image/eth_rune.png"
+    "image": "eth_rune",
+    "name": "Eth"
   },
   {
     "classSpecificSet": "",
@@ -10819,7 +11354,8 @@
       { "detail": "+30 Defense Vs. Missile", "varies": false }
     ],
     "setName": "",
-    "image": "/image/nef_rune.png"
+    "image": "nef_rune",
+    "name": "Nef"
   },
   {
     "classSpecificSet": "",
@@ -10833,7 +11369,8 @@
       { "detail": "+2 To Mana After Each Kill", "varies": false }
     ],
     "setName": "",
-    "image": "/image/tir_rune.png"
+    "image": "tir_rune",
+    "name": "Tir"
   },
   {
     "classSpecificSet": "",
@@ -10847,7 +11384,8 @@
       { "detail": "15% Slower Stamina Drain/7% Increased Chance of Blocking(Shields)", "varies": false }
     ],
     "setName": "",
-    "image": "/image/eld_rune.png"
+    "image": "eld_rune",
+    "name": "Eld"
   },
   {
     "classSpecificSet": "",
@@ -10861,7 +11399,8 @@
       { "detail": "+15 Defense, +1 To Light Radius", "varies": false }
     ],
     "setName": "",
-    "image": "/image/el_rune.png"
+    "image": "el_rune",
+    "name": "El"
   },
   {
     "classSpecificSet": "",
@@ -10872,7 +11411,8 @@
     "requirements": [],
     "stats": [],
     "setName": "",
-    "image": "/image/twisted_essence_of_suffering.png"
+    "image": "twisted_essence_of_suffering",
+    "name": "Twisted Essence of Suffering"
   },
   {
     "classSpecificSet": "",
@@ -10883,7 +11423,8 @@
     "requirements": [],
     "stats": [],
     "setName": "",
-    "image": "/image/charged_essence_of_hatred.png"
+    "image": "charged_essence_of_hatred",
+    "name": "Charged Essence of Hatred"
   },
   {
     "classSpecificSet": "",
@@ -10894,7 +11435,8 @@
     "requirements": [],
     "stats": [],
     "setName": "",
-    "image": "/image/burning_essence_of_terror.png"
+    "image": "burning_essence_of_terror",
+    "name": "Burning Essence of Terror"
   },
   {
     "classSpecificSet": "",
@@ -10905,7 +11447,8 @@
     "requirements": [],
     "stats": [],
     "setName": "",
-    "image": "/image/festering_essence_of_destruction.png"
+    "image": "festering_essence_of_destruction",
+    "name": "Festering Essence of Destruction"
   },
   {
     "classSpecificSet": "",
@@ -10916,7 +11459,8 @@
     "requirements": [],
     "stats": [],
     "setName": "",
-    "image": "/image/key_of.png"
+    "image": "key_of",
+    "name": "Key of Destruction"
   },
   {
     "classSpecificSet": "",
@@ -10927,7 +11471,8 @@
     "requirements": [],
     "stats": [],
     "setName": "",
-    "image": "/image/key_of.png"
+    "image": "key_of",
+    "name": "Key of Terror"
   },
   {
     "classSpecificSet": "",
@@ -10938,7 +11483,8 @@
     "requirements": [],
     "stats": [],
     "setName": "",
-    "image": "/image/key_of.png"
+    "image": "key_of",
+    "name": "Key of Hate"
   },
   {
     "classSpecificSet": "",
@@ -10949,7 +11495,8 @@
     "requirements": [],
     "stats": [],
     "setName": "",
-    "image": "/image/small_charm.png"
+    "image": "small_charm",
+    "name": "Small Charm"
   },
   {
     "classSpecificSet": "",
@@ -10960,7 +11507,8 @@
     "requirements": [],
     "stats": [],
     "setName": "",
-    "image": "/image/large_charm.png"
+    "image": "large_charm",
+    "name": "Large Charm"
   },
   {
     "classSpecificSet": "",
@@ -10971,6 +11519,7 @@
     "requirements": [],
     "stats": [],
     "setName": "",
-    "image": "/image/grand_charm.png"
+    "image": "grand_charm",
+    "name": "Grand Charm"
   }
 ]

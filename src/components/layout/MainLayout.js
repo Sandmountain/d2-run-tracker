@@ -17,14 +17,13 @@ import RunCreator from "../RunCreator/RunCreator";
 import ExitRunDialog from "../Dialogs/ExitRunDialog";
 import SummaryView from "../SummaryView/SummaryView";
 
-const mockGameData = {
-  name: "Random Name",
-  class: "Sorceress",
-  level: "67",
-  runType: "Mephisto",
-  cooldownTimer: 15,
-};
-
+// const mockGameData = {
+//   name: "Random Name",
+//   class: "Sorceress",
+//   level: "67",
+//   runType: "Mephisto",
+//   cooldownTimer: 15,
+// };
 
 export default function MainLayout() {
   const [isActiveGame, setIsActiveGame] = React.useState(false);
@@ -51,7 +50,7 @@ export default function MainLayout() {
   };
 
   React.useEffect(() => {
-    if (Object.keys(gameData).length > 0) {
+    if (gameData && Object.entries(gameData).length > 0) {
       setIsActiveGame(true);
     }
   }, [gameData]);
