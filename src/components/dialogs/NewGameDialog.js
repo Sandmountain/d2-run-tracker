@@ -20,14 +20,14 @@ import {
 export default function NewGameDialog(props) {
   const { openExtrasDialog, setOpenExtrasDialog, setGameData, runName } = props;
 
-  const [role, setRole] = React.useState("");
-  const [level, setLevel] = React.useState(undefined);
-  const [errorLevel, setErrorLevel] = React.useState(false);
-  const [runType, setRunType] = React.useState("");
+  const [role, setRole] = React.useState({ role: "", error: false });
+  const [runType, setRunType] = React.useState({ runType: "", error: false });
+  const [level, setLevel] = React.useState({ level: undefined, error: false });
+
   const [cooldownTimer, setCooldownTimer] = React.useState(15);
 
   const handleRoleChange = (event) => {
-    setRole(event.target.value);
+    setRole({ role: event.target.value, error: false });
   };
 
   const classes = ["Amazon", "Assassin", "Necromancer", "Barbarian", "Paladin", "Sorceress", "Druid"];
@@ -79,22 +79,21 @@ export default function NewGameDialog(props) {
     );
   };
 
-  const handleRunType = (_, e) => {
-    setRunType(e);
+  const handleRunType = (e) => {
+    setRunType({ runType: e, error: false });
   };
 
   const handleSetLevel = (e) => {
     const pattern = new RegExp("^\\d*$");
     if (!e.target.value.match(pattern)) {
-      setErrorLevel(true);
+      setLevel({ level: undefined, error: true });
     } else {
-      setErrorLevel(false);
-      setLevel(e.target.value);
+      setLevel({ level: e.target.value, error: false });
     }
   };
 
   const onSubmitGameData = () => {
-    if (!errorLevel) {
+    if (role.role !== "" && runType.runType !== "" && level.level !== undefined) {
       setGameData({
         name: runName,
         class: role,
@@ -105,6 +104,15 @@ export default function NewGameDialog(props) {
 
       handleCloseNewGameDialog();
     }
+    if (role.role === "") {
+      setRole({ role: "", error: true });
+    }
+    if (runType.runType === "") {
+      setRunType({ runType: "", error: true });
+    }
+    if (level.level === undefined) {
+      setLevel({ level: undefined, error: true });
+    }
   };
 
   return (
@@ -114,22 +122,23 @@ export default function NewGameDialog(props) {
         <DialogContentText>Add additional information down below.</DialogContentText>
         <Box sx={{ marginTop: "15px", display: "flex", flexDirection: "row" }}>
           <FormControl variant="filled" style={{ display: "flex", flexDirection: "row", gap: "15px", width: "100%" }}>
-            <InputLabel style={{ width: "100%" }} size="small" color="info" id="demo-simple-select-label">
+            <InputLabel style={{ width: "100%" }} color="info" id="demo-simple-select-label">
               Choose Class
             </InputLabel>
             <Select
               style={{ width: "100%" }}
               size="small"
+              error={role.error}
               color="info"
               labelId="demo-simple-select-label"
               id="demo-simple-select"
-              value={role}
+              value={role.role}
               label="Choose Class"
               onChange={handleRoleChange}>
               {classes.map((role, idx) => generateSelectItems(role, idx))}
             </Select>
             <TextField
-              error={errorLevel}
+              error={level.error}
               style={{ width: "30%" }}
               size="small"
               color="info"
@@ -142,12 +151,12 @@ export default function NewGameDialog(props) {
         </Box>
         <Box style={{ marginTop: 15 }}>
           <Autocomplete
-            onSubmit={(e, v) => console.log(e, v)}
             freeSolo
             id="combo-box-demo"
-            onChange={(e, choices) => handleRunType(e, choices)}
+            onSubmit={(e) => handleRunType(e.target)}
+            onChange={(e, choice) => handleRunType(choice)}
             options={runs}
-            renderInput={(params) => <TextField {...params} color="info" variant="filled" label="Select run" />}
+            renderInput={(params) => <TextField {...params} error={runType.error} color="info" variant="filled" label="Select run" />}
           />
         </Box>
         <Box style={{ marginTop: 15 }}>
