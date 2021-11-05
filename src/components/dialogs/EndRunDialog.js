@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Dialog, DialogActions, DialogTitle, DialogContent, DialogContentText, Alert } from "@mui/material";
+import { Button, Dialog, DialogActions, DialogTitle, DialogContent, Alert } from "@mui/material";
 import { DoubleArrow } from "@mui/icons-material";
 
 export default function EndRunDialog(props) {

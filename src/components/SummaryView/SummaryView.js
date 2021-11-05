@@ -1,18 +1,20 @@
-import { Paper, Typography } from "@mui/material";
-import React from "react";
+import React, { useEffect } from "react";
+import { Paper, Typography, Tooltip, Fab } from "@mui/material";
 
 import GenerateSocketImage from "../GenerateSocketImage/GenerateSocketImage";
 import { formatTime, getColor } from "../../utils/utils.js";
 import ScrollContainer from "react-indiana-drag-scroll";
+import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
 import "./summary-view.css";
 
 export default function SummaryView(props) {
-  const { gameData, runData, totalTime } = props;
+  const { gameData, runData, totalTime, handleOpenExitDialog } = props;
   const [stucturedLoot, setStructuredLoot] = React.useState({});
 
-  React.useEffect(() => {
+  useEffect(() => {
     structureLootByRarity();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const calculateTotalTime = (data) => {
@@ -149,6 +151,12 @@ export default function SummaryView(props) {
           </ScrollContainer>
         </Paper>
       </div>
+
+      <Tooltip title="Return To Start">
+        <Fab color="primary" onClick={handleOpenExitDialog} style={{ position: "absolute", top: 63, right: 15 }}>
+          <ExitToAppIcon></ExitToAppIcon>
+        </Fab>
+      </Tooltip>
     </div>
   );
 }

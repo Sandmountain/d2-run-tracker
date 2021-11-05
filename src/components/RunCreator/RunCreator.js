@@ -27,6 +27,7 @@ export default function RunCreator(props) {
       </div>
       <Paper
         component="form"
+        elevation={5}
         sx={{
           p: "2px 4px",
           display: "flex",

@@ -1,12 +1,7 @@
 import React from "react";
 
 import "./main-layout.css";
-import img from "./logo.png";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Avatar from "@mui/material/Avatar";
+
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import Fab from "@mui/material/Fab";
 import Tooltip from "@mui/material/Tooltip";
@@ -17,6 +12,8 @@ import RunCreator from "../RunCreator/RunCreator";
 import ExitRunDialog from "../Dialogs/ExitRunDialog";
 import SummaryView from "../SummaryView/SummaryView";
 
+import { useHistory } from "react-router-dom";
+
 // const mockGameData = {
 //   name: "Random Name",
 //   class: "Sorceress",
@@ -25,7 +22,7 @@ import SummaryView from "../SummaryView/SummaryView";
 //   cooldownTimer: 15,
 // };
 
-export default function MainLayout() {
+export default function RunLayout() {
   const [isActiveGame, setIsActiveGame] = React.useState(false);
   const [showSummary, setShowSummary] = React.useState(false);
 
@@ -34,6 +31,8 @@ export default function MainLayout() {
   const [runData, setRunData] = React.useState([]);
   const [gameData, setGameData] = React.useState({});
   const [gameTime, setGameTime] = React.useState(0);
+
+  const history = useHistory();
 
   const handleExitGame = () => {
     setOpenExitDialog(false);
@@ -57,7 +56,9 @@ export default function MainLayout() {
 
   const renderConditionalView = () => {
     if (showSummary) {
-      return <SummaryView runData={runData} gameData={gameData} gameTime={gameTime}></SummaryView>;
+      return (
+        <SummaryView handleOpenExitDialog={handleOpenExitDialog} runData={runData} gameData={gameData} gameTime={gameTime}></SummaryView>
+      );
     }
 
     if (isActiveGame) {
@@ -95,16 +96,6 @@ export default function MainLayout() {
 
   return (
     <>
-      <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="fixed">
-          <Toolbar variant="dense">
-            <Typography variant="h6" color="inherit" component="div" display="flex" alignItems="center">
-              <Avatar alt="Remy Sharp" src={img} style={{ marginRight: "10px" }} />
-              <span className="diablo-text shadow">Diablo Runtracker</span>
-            </Typography>
-          </Toolbar>
-        </AppBar>
-      </Box>
       <div className="container">{renderConditionalView()}</div>
       <ExitRunDialog
         openExitDialog={openExitDialog}
