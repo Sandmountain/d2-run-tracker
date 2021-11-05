@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const useTimer = (initialState = 0) => {
   const [timer, setTimer] = useState(initialState);
@@ -32,6 +32,12 @@ const useTimer = (initialState = 0) => {
     setIsPaused(false);
     setTimer(0);
   };
+
+  useEffect(() => {
+    return () => {
+      handleReset();
+    };
+  }, []);
 
   return { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset };
 };
