@@ -1,6 +1,6 @@
 import { Button, Typography, Paper, CircularProgress } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import { app } from "../../Firebase/firebase"; // This import makes sure that firebase is initialized.
+import { app, initDatabase } from "../../Firebase/firebase"; // This import makes sure that firebase is initialized.
 import { getAuth, signInWithPopup, GoogleAuthProvider, GithubAuthProvider } from "firebase/auth";
 import GoogleIcon from "@mui/icons-material/Google";
 import GithubIcon from "@mui/icons-material/GitHub";
@@ -40,6 +40,8 @@ export default function SignIn(props) {
       const auth = getAuth();
       auth.onAuthStateChanged(async (user) => {
         if (user) {
+          console.log(user);
+          await initDatabase(user);
           setShowButtons(false);
           setLoggedIn(true);
           return;
@@ -55,7 +57,9 @@ export default function SignIn(props) {
       {!showButtons ? (
         <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           <CircularProgress />
-          <Typography className="diablo-text caps">Logging in...</Typography>
+          <Typography color="gray" className="diablo-text caps">
+            Logging in...
+          </Typography>
         </Box>
       ) : (
         <Box sx={{ height: "fit-content", padding: "30px" }} className="paper-design">

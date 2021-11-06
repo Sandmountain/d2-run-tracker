@@ -1,29 +1,27 @@
 import React, { useState } from "react";
-import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
-import { Button, ButtonGroup, Tooltip } from "@mui/material";
-
-import "./run-view.css";
-
+import { Button, ButtonGroup, Tooltip, Typography } from "@mui/material";
+import { Box } from "@mui/system";
 import PauseIcon from "@mui/icons-material/Pause";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import StopIcon from "@mui/icons-material/Stop";
 
 import useTimer from "../hooks/useTimer.js";
 import { formatTime } from "../../utils/utils.js";
-import RunTimer from "../RunTimer/RunTimer.js";
 
 import ItemDialog from "../Dialogs/ItemDialog";
 import CooldownDialog from "../Dialogs/CooldownDialog";
 import EndRunDialog from "../Dialogs/EndRunDialog";
-import { Box } from "@mui/system";
+
+import { addToActiveRun } from "../../Firebase/firebase.js";
+
+import "./run-view.css";
 
 let cooldownRef = undefined;
 
 export default function RunView(props) {
   const { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset } = useTimer(0);
 
-  const { setRunData, runData, gameData, setShowSummary, setIsActiveGame, setGameTime } = props;
+  const { setRunData, runData, gameData, setShowSummary, setIsActiveGame } = props;
 
   const [currentRun, setCurrentRun] = useState(1);
   const [totaltTime, setTotalTime] = useState(0);
@@ -62,7 +60,19 @@ export default function RunView(props) {
         time: timer,
       },
     ]);
+    // send to firestore
   };
+
+  React.useEffect(() => {
+    if (runData.length > 0) {
+      addToActiveRun({
+        gameData: gameData,
+        runData: runData,
+      });
+    }
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [runData]);
 
   const handleNewRunDialog = () => {
     handlePause();
