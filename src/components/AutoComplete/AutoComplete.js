@@ -1,9 +1,16 @@
 import React from "react";
-import { TextField, Autocomplete, Box, Chip, Typography, List } from "@mui/material";
+import { TextField, Autocomplete, Box, Chip, Typography, List, Tooltip, CircularProgress } from "@mui/material";
 
 import { getColor } from "../../utils/utils.js";
 import "./auto-complete.css";
 import CustomItemList from "../CustomItemList/CustomItemList.js";
+import { Badge } from "@mui/icons-material";
+
+// Use for new item
+import NewReleasesOutlinedIcon from "@mui/icons-material/NewReleasesOutlined";
+// Use for potential upgrade
+import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
+
 const data = require("../../data/data.json");
 
 export default function AutoComplete(props) {
@@ -96,6 +103,12 @@ export default function AutoComplete(props) {
             value.map((option, index) => (
               <Chip
                 variant="outlined"
+                icon={
+                  <Tooltip title="new item!">
+                    <NewReleasesOutlinedIcon />
+                    {/* <CircularProgress sx={{ height: "15px", width: "15px" }} /> */}
+                  </Tooltip>
+                }
                 style={{
                   color: getColor(option),
                   fontWeight: "bold",
