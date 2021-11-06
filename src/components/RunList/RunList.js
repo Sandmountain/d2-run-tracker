@@ -25,17 +25,14 @@ const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} s
 }));
 
 const AccordionSummary = styled((props) => (
-  <MuiAccordionSummary
-    style={{}}
-    expandIcon={props.hasitems === "true" && <ArrowForwardIosSharpIcon sx={{ fontSize: "0.9rem" }} />}
-    {...props}
-  />
-))(({ theme }) => ({
+  <MuiAccordionSummary expandIcon={props.hasitems === "true" && <ArrowForwardIosSharpIcon sx={{ fontSize: "0.9rem" }} />} {...props} />
+))(({ theme, randomize }) => ({
+  //randomize comes from the props to get the tiles look random in the list
   background: `url(${texture}), rgba(0, 0, 0, .6)`,
-  backgroundPositionX: Math.random() * 314, // to get the tiles look random
-  backgroundPositionY: Math.random() * 314,
-  transform: `rotateX(${Math.random() * 360})`,
-  boxShadow: "inset 0px 0px 2px 1px rgba(0,0,0, .3)",
+  backgroundPositionX: randomize,
+  backgroundPositionY: randomize,
+  transform: `rotateX(${randomize})`,
+  boxShadow: "inset 0px 0px 2px 1px rgba(0,0,0, .1)",
   flexDirection: "row-reverse",
   "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
     transform: "rotate(90deg)",
@@ -119,7 +116,11 @@ export default function RunList(props) {
   const generateListItem = (runItem, index) => {
     return (
       <Accordion key={index} expanded={expanded === runItem.name} onChange={handleChange(runItem.name)}>
-        <AccordionSummary hasitems={(runItem.loot.length > 0).toString()} aria-controls="panel1bh-content" id="panel1bh-header">
+        <AccordionSummary
+          randomize={index * 20}
+          hasitems={(runItem.loot.length > 0).toString()}
+          aria-controls="panel1bh-content"
+          id="panel1bh-header">
           <Typography className="diablo-text" sx={{ width: "33%", flexShrink: 0, fontWeight: "bold" }}>
             {runItem.name}
           </Typography>
