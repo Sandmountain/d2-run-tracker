@@ -16,8 +16,9 @@ import {
   Slider,
   Autocomplete,
 } from "@mui/material";
-import { RockButton } from "../../override-components/Button/Button";
 import { RockDialog } from "../../override-components/Dialog/Dialog";
+
+import "./new-game-dialog.css";
 
 export default function NewGameDialog(props) {
   const { openExtrasDialog, setOpenExtrasDialog, setGameData, runName } = props;
@@ -133,14 +134,15 @@ export default function NewGameDialog(props) {
               error={role.error}
               color="info"
               labelId="demo-simple-select-label"
-              id="demo-simple-select"
               value={role.role}
               label="Choose Class"
+              sx={{ borderRadius: 0, boxShadow: "0px 2px 3px 1px rgba(0,0,0,.2)" }}
               onChange={handleRoleChange}>
               {classes.map((role, idx) => generateSelectItems(role, idx))}
             </Select>
             <TextField
               error={level.error}
+              InputProps={{ sx: { borderRadius: 0, boxShadow: "0px 2px 3px 1px rgba(0,0,0,.2)" } }}
               style={{ width: "30%" }}
               size="small"
               color="info"
@@ -158,7 +160,9 @@ export default function NewGameDialog(props) {
             onSubmit={(e) => handleRunType(e.target)}
             onChange={(e, choice) => handleRunType(choice)}
             options={runs}
-            renderInput={(params) => <TextField {...params} error={runType.error} color="info" variant="filled" label="Select run" />}
+            renderInput={(params) => (
+              <TextField className="override-radius" {...params} error={runType.error} color="info" variant="filled" label="Select run" />
+            )}
           />
         </Box>
         <Box style={{ marginTop: 15 }}>

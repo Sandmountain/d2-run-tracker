@@ -1,6 +1,6 @@
 import React from "react";
 import img from "./logo.png";
-import { Avatar, Typography, Toolbar, Box, AppBar, Tabs, Tab, IconButton } from "@mui/material";
+import { Avatar, Typography, Toolbar, Box, AppBar, Tabs, Tab } from "@mui/material";
 import { withStyles } from "@mui/styles";
 
 import { Route, Link } from "react-router-dom";
@@ -41,7 +41,7 @@ export default function NavBar(props) {
                     <CustomTab
                       className="diablo-text shadow"
                       label="Run Analyze"
-                      value={allTabs[0]} // Hack to not need to add the tab for login
+                      value={allTabs[0]}
                       component={Link}
                       to={allTabs[0]}
                       disabled={!loggedIn}

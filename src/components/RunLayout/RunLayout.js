@@ -41,6 +41,7 @@ export default function RunLayout() {
     setOpenExitDialog(false);
     setIsActiveGame(false);
     setGameData(undefined);
+    setRunData([]);
   };
 
   const handleCloseExitDialog = () => {
