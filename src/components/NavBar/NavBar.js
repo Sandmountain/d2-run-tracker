@@ -22,7 +22,7 @@ export default function NavBar(props) {
 
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="sticky">
+      <AppBar position="sticky" sx={{ backgroundColor: "#12121200" }}>
         <Toolbar variant="dense">
           <Typography variant="h6" color="inherit" component="div" display="flex" alignItems="center">
             <Link to={allTabs[0]} className="header-link">
