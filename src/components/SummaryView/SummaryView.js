@@ -7,9 +7,10 @@ import ScrollContainer from "react-indiana-drag-scroll";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
 import "./summary-view.css";
+import { Box } from "@mui/system";
 
 export default function SummaryView(props) {
-  const { gameData, runData, totalTime, handleOpenExitDialog } = props;
+  const { gameData, runData, totalTime } = props;
   const [stucturedLoot, setStructuredLoot] = React.useState({});
 
   useEffect(() => {
@@ -56,15 +57,14 @@ export default function SummaryView(props) {
   };
 
   const generateLootItem = (item, run, index) => {
-    console.log(item.name);
     return (
       <div key={index} id={index} className="lootItem-container">
-        {item.image && <img loading="lazy" height="60" src={require(`../../images/${item.image}.png`).default} alt="" />}
-        {!item.image ? <GenerateSocketImage sockets={item.sockets} /> : <div />}
+        {item.image && <img loading="lazy" height="40" src={require(`../../images/${item.image}.png`).default} alt="" />}
+        {!item.image ? <GenerateSocketImage sockets={item.sockets} summary={true} /> : <div />}
         <span className="lootItem-text summary-text" style={{ color: getColor(item) }}>
           {item.name}
         </span>
-        <Typography variant="overline" className="diablo-text">
+        <Typography variant="overline" className="diablo-text" sx={{ lineHeight: 1 }}>
           {run}
         </Typography>
       </div>
@@ -82,8 +82,8 @@ export default function SummaryView(props) {
 
   return (
     <div className="summaryView-container">
-      <Paper style={{ width: "fit-content", margin: "0 auto", padding: 15 }}>
-        <div className="runStats-container" onDragStart={(e) => e.preventDefault()}>
+      <Paper className="runView-container" sx={{ width: "fit-content", margin: "0 auto" }}>
+        <div className="runStats-container" sx={{ padding: 15 }} onDragStart={(e) => e.preventDefault()}>
           <img height="150px" className="charImg" src={require(`../../gifs/${gameData.class.toLowerCase()}.gif`).default} alt="" />
           <div className={`charShadow ${gameData.class.toLowerCase()}`} />
           <div className="runStats-data">
@@ -91,16 +91,30 @@ export default function SummaryView(props) {
               {gameData.name}
             </Typography>
             <div className="dataTable">
-              <Typography className="diablo-text caps">Amount of runs:</Typography>
-              <Typography className="alignData diablo-text caps">{runData.length} runs</Typography>
-              <Typography className="diablo-text caps">Total game time:</Typography>
-              <Typography className="alignData diablo-text caps">{totalTime}</Typography>
-              <Typography className="diablo-text caps" style={{ width: "100%" }}>
+              <Typography variant="body2" className="diablo-text caps">
+                Amount of runs:
+              </Typography>
+              <Typography variant="body2" className="alignData diablo-text caps">
+                {runData.length} runs
+              </Typography>
+              <Typography variant="body2" className="diablo-text caps">
+                Total game time:
+              </Typography>
+              <Typography variant="body2" className="alignData diablo-text caps">
+                {totalTime}
+              </Typography>
+              <Typography variant="body2" className="diablo-text caps" style={{ width: "100%" }}>
                 Total run time:
               </Typography>
-              <Typography className="alignData diablo-text caps">{calculateTotalTime(runData)}</Typography>
-              <Typography className="diablo-text caps">Average run time:</Typography>
-              <Typography className="alignData diablo-text caps">{calculateAvgTime(runData)}</Typography>
+              <Typography variant="body2" className="alignData diablo-text caps">
+                {calculateTotalTime(runData)}
+              </Typography>
+              <Typography variant="body2" className="diablo-text caps">
+                Average run time:
+              </Typography>
+              <Typography variant="body2" className="alignData diablo-text caps">
+                {calculateAvgTime(runData)}
+              </Typography>
             </div>
           </div>
         </div>
@@ -115,48 +129,69 @@ export default function SummaryView(props) {
         <Typography color="primary" align="center" variant="h4" style={{ marginBottom: 25 }} className="diablo-text shadow caps">
           Loot Summary
         </Typography>
-        <Paper className="scrollableItem-container">
-          <Typography className="diablo-text shadow unique" style={{ width: "7%" }}>
-            Unique
-          </Typography>
-          <ScrollContainer style={{ display: "flex", width: "93%" }} onStartScroll={onStartScroll} onEndScroll={onEndScroll}>
-            {Object.keys(stucturedLoot).length > 0 &&
-              stucturedLoot.unique.map((item, index) => generateLootItem(item.item, item.run, index))}
-          </ScrollContainer>
-        </Paper>
-        <Paper className="scrollableItem-container">
-          <Typography className="diablo-text shadow set" style={{ width: "7%" }}>
-            Set{" "}
-          </Typography>
-          <ScrollContainer style={{ display: "flex", width: "93%" }} onStartScroll={onStartScroll} onEndScroll={onEndScroll}>
-            {Object.keys(stucturedLoot).length > 0 && stucturedLoot.set.map((item, index) => generateLootItem(item.item, item.run, index))}
-          </ScrollContainer>
-        </Paper>
-        <Paper className="scrollableItem-container">
-          <Typography className="diablo-text shadow crafting" style={{ width: "7%" }}>
-            Runes{" "}
-          </Typography>
-          <ScrollContainer style={{ display: "flex", width: "93%" }} onStartScroll={onStartScroll} onEndScroll={onEndScroll}>
-            {Object.keys(stucturedLoot).length > 0 &&
-              stucturedLoot.runes.map((item, index) => generateLootItem(item.item, item.run, index))}
-          </ScrollContainer>
-        </Paper>
-        <Paper className="scrollableItem-container">
-          <Typography className="diablo-text shadow" style={{ width: "7%" }}>
-            <span className="magic">Magic</span> & Normal
-          </Typography>
-          <ScrollContainer style={{ display: "flex", width: "93%" }} onStartScroll={onStartScroll} onEndScroll={onEndScroll}>
-            {Object.keys(stucturedLoot).length > 0 &&
-              stucturedLoot.uncategorized.map((item, index) => generateLootItem(item.item, item.run, index))}
-          </ScrollContainer>
-        </Paper>
+        <Box sx={{ display: "flex", gap: "15px", flexDirection: "column" }}>
+          {Object.keys(stucturedLoot).length > 0 && (
+            <Paper className="scrollableItem-container runView-container" sx={{ flex: 1 }}>
+              <Typography className="diablo-text shadow unique" style={{ width: "7%" }}>
+                Unique
+              </Typography>
+              <ScrollContainer
+                style={{ display: "flex", width: "93%" }}
+                vertical={false}
+                onStartScroll={onStartScroll}
+                onEndScroll={onEndScroll}>
+                {Object.keys(stucturedLoot).length > 0 &&
+                  stucturedLoot.unique.length > 0 &&
+                  stucturedLoot.unique.map((item, index) => generateLootItem(item.item, item.run, index))}
+              </ScrollContainer>
+            </Paper>
+          )}
+          {Object.keys(stucturedLoot).length > 0 && stucturedLoot.set.length > 0 && (
+            <Paper className="scrollableItem-container runView-container" sx={{ flex: 1, overflow: "hidden" }}>
+              <Typography className="diablo-text shadow set" style={{ width: "7%" }}>
+                Set{" "}
+              </Typography>
+              <ScrollContainer
+                style={{ display: "flex", width: "93%" }}
+                vertical={false}
+                onStartScroll={onStartScroll}
+                onEndScroll={onEndScroll}>
+                {stucturedLoot.set.map((item, index) => generateLootItem(item.item, item.run, index))}
+              </ScrollContainer>
+            </Paper>
+          )}
+          <Box className="itemBoxes-container">
+            {Object.keys(stucturedLoot).length > 0 && stucturedLoot.runes.length > 0 && (
+              <Paper className="scrollableItem-container runView-container" sx={{ flex: 1, overflow: "hidden" }}>
+                <Typography className="diablo-text shadow crafting" style={{ width: "7%" }}>
+                  Runes{" "}
+                </Typography>
+                <ScrollContainer
+                  style={{ display: "flex", width: "93%" }}
+                  vertical={false}
+                  onStartScroll={onStartScroll}
+                  onEndScroll={onEndScroll}>
+                  {stucturedLoot.runes.map((item, index) => generateLootItem(item.item, item.run, index))}
+                </ScrollContainer>
+              </Paper>
+            )}
+            {Object.keys(stucturedLoot).length > 0 && stucturedLoot.uncategorized.length > 0 && (
+              <Paper className="scrollableItem-container runView-container" sx={{ flex: 1, overflow: "hidden", paddingLeft: "-6px" }}>
+                <Typography className="diablo-text shadow" style={{ width: "10%" }}>
+                  <span className="magic">Magic</span> & Normal
+                </Typography>
+                <ScrollContainer
+                  style={{ display: "flex", width: "90%" }}
+                  vertical={false}
+                  onStartScroll={onStartScroll}
+                  onEndScroll={onEndScroll}>
+                  {stucturedLoot.uncategorized.map((item, index) => generateLootItem(item.item, item.run, index))}
+                </ScrollContainer>
+              </Paper>
+            )}
+          </Box>
+        </Box>
       </div>
-
-      <Tooltip title="Return To Start">
-        <Fab color="primary" onClick={handleOpenExitDialog} style={{ position: "absolute", top: 63, right: 15 }}>
-          <ExitToAppIcon></ExitToAppIcon>
-        </Fab>
-      </Tooltip>
     </div>
   );
 }
