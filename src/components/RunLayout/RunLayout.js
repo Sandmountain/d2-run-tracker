@@ -10,11 +10,11 @@ import RunView from "../RunView/RunView";
 import RunList from "../RunList/RunList";
 import RunCreator from "../RunCreator/RunCreator";
 import ExitRunDialog from "../Dialogs/ExitRunDialog";
+import ExitSummaryDialog from "../Dialogs/ExitSummaryDialog";
 import SummaryView from "../SummaryView/SummaryView";
 
 import { useHistory } from "react-router-dom";
 import { Box } from "@mui/system";
-import { RockButton } from "../../override-components/Button/Button";
 import RunTimer from "../RunTimer/RunTimer";
 
 // const mockGameData = {
@@ -30,18 +30,27 @@ export default function RunLayout() {
   const [showSummary, setShowSummary] = React.useState(false);
 
   const [openExitDialog, setOpenExitDialog] = React.useState(false);
+  const [openExitSummaryDialog, setOpenExitSummaryDialog] = React.useState(false);
 
   const [runData, setRunData] = React.useState([]);
   const [gameData, setGameData] = React.useState({});
   const [gameTime, setGameTime] = React.useState(0);
 
-  const history = useHistory();
+  //const history = useHistory();
 
   const handleExitGame = () => {
     setOpenExitDialog(false);
     setIsActiveGame(false);
+
     setGameData(undefined);
     setRunData([]);
+  };
+
+  const handleLeaveSummary = () => {
+    //Upload data
+    setOpenExitDialog(false);
+    setIsActiveGame(false);
+    setShowSummary(false);
   };
 
   const handleCloseExitDialog = () => {
@@ -49,7 +58,11 @@ export default function RunLayout() {
   };
 
   const handleOpenExitDialog = () => {
-    setOpenExitDialog(true);
+    if (showSummary) {
+      setOpenExitSummaryDialog(true);
+    } else {
+      setOpenExitDialog(true);
+    }
   };
 
   React.useEffect(() => {
@@ -60,9 +73,7 @@ export default function RunLayout() {
 
   const renderConditionalView = () => {
     if (showSummary) {
-      return (
-        <SummaryView handleOpenExitDialog={handleOpenExitDialog} runData={runData} gameData={gameData} gameTime={gameTime}></SummaryView>
-      );
+      return <SummaryView runData={runData} gameData={gameData} gameTime={gameTime}></SummaryView>;
     }
 
     if (isActiveGame) {
@@ -105,7 +116,7 @@ export default function RunLayout() {
     <>
       {renderConditionalView()}
       {(isActiveGame || showSummary) && (
-        <Tooltip title="Stop Run and show summary">
+        <Tooltip title={isActiveGame ? "Exit and end run" : "Exit to Main Screen"}>
           <Fab color="primary" onClick={handleOpenExitDialog} style={{ position: "absolute", top: 63, right: 15 }}>
             <ExitToAppIcon></ExitToAppIcon>
           </Fab>
@@ -113,13 +124,19 @@ export default function RunLayout() {
       )}
       {isActiveGame && (
         <div className="totalRunTime">
-          <RunTimer setGameTime={setGameTime} />
+          <RunTimer setGameTime={setGameTime} showSummary={showSummary} />
         </div>
       )}
       <ExitRunDialog
         openExitDialog={openExitDialog}
         handleCloseExitDialog={handleCloseExitDialog}
-        handleExitGame={handleExitGame}></ExitRunDialog>
+        handleExitGame={handleExitGame}
+        showSummary={showSummary}></ExitRunDialog>
+      <ExitSummaryDialog
+        setOpenExitSummaryDialog={setOpenExitSummaryDialog}
+        openExitSummaryDialog={openExitSummaryDialog}
+        handleLeaveSummary={handleLeaveSummary}
+      />
     </>
   );
 }
