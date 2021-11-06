@@ -13,6 +13,9 @@ import ExitRunDialog from "../Dialogs/ExitRunDialog";
 import SummaryView from "../SummaryView/SummaryView";
 
 import { useHistory } from "react-router-dom";
+import { Box } from "@mui/system";
+import { RockButton } from "../../override-components/Button/Button";
+import RunTimer from "../RunTimer/RunTimer";
 
 // const mockGameData = {
 //   name: "Random Name",
@@ -63,40 +66,51 @@ export default function RunLayout() {
 
     if (isActiveGame) {
       return (
-        <>
+        <Box
+          sx={{
+            position: "absolute",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            width: "100%",
+            height: "calc(100% - 48px)",
+          }}>
           <RunView
             setRunData={setRunData}
             runData={runData}
             gameData={gameData}
-            setGameTime={setGameTime}
             setShowSummary={setShowSummary}
             setIsActiveGame={setIsActiveGame}></RunView>
           <div className="runList-container">
             <RunList runData={runData}></RunList>
           </div>
-
-          <Tooltip title="Stop Run and show summary">
-            <Fab color="primary" onClick={handleOpenExitDialog} style={{ position: "absolute", top: 63, right: 15 }}>
-              <ExitToAppIcon></ExitToAppIcon>
-            </Fab>
-          </Tooltip>
-        </>
+        </Box>
       );
     } else {
       return (
-        <>
+        <div className="container">
           <h2 className="diablo-text" style={{ position: "absolute", bottom: "70%", color: "white" }}>
             START NEW RUN
           </h2>
           <RunCreator setGameData={setGameData}></RunCreator>
-        </>
+        </div>
       );
     }
   };
 
   return (
     <>
-      <div className="container">{renderConditionalView()}</div>
+      {renderConditionalView()}
+      {(isActiveGame || showSummary) && (
+        <Tooltip title="Stop Run and show summary">
+          <Fab color="primary" onClick={handleOpenExitDialog} style={{ position: "absolute", top: 63, right: 15 }}>
+            <ExitToAppIcon></ExitToAppIcon>
+          </Fab>
+        </Tooltip>
+      )}
+      <div className="totalRunTime">
+        <RunTimer setGameTime={setGameTime} />
+      </div>
       <ExitRunDialog
         openExitDialog={openExitDialog}
         handleCloseExitDialog={handleCloseExitDialog}

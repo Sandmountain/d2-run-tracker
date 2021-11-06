@@ -3,11 +3,12 @@ import React from "react";
 import { Button, Dialog, DialogActions, DialogContent, DialogContentText, DialogTitle } from "@mui/material";
 
 import AutoComplete from "../AutoComplete/AutoComplete";
+import { RockDialog } from "../../override-components/Dialog/Dialog";
 
 export default function ItemDialog(props) {
   const { openNewRunDialog, handleCloseNewRunDialog, setDialogItems, dialogItems } = props;
   return (
-    <Dialog fullWidth maxWidth="sm" open={openNewRunDialog} onClose={handleCloseNewRunDialog}>
+    <RockDialog fullWidth maxWidth="sm" open={openNewRunDialog} onClose={handleCloseNewRunDialog}>
       <DialogTitle className="diablo-text">FOUND ANYTHING OF INTEREST?</DialogTitle>
       <DialogContent>
         <DialogContentText>Add items down below.</DialogContentText>
@@ -22,6 +23,6 @@ export default function ItemDialog(props) {
           Add items
         </Button>
       </DialogActions>
-    </Dialog>
+    </RockDialog>
   );
 }

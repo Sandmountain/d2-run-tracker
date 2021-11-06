@@ -1,0 +1,14 @@
+.paper-design {
+  position: relative;
+  border-style: solid;
+  border-color: inherit;
+
+  /* border-image: url(https://images.blz-contentstack.com/v3/assets/blt45749e0fed8aa592/blte8df32260aa76d67/60192ff814a90a0bfc552b1d/frame.png)
+    140 repeat; */
+
+  border-image: url(./ram-test.png) 130 repeat;
+  border-image-width: 130px;
+  background-color: rgba(0, 0, 0, 0.24);
+  z-index: 0;
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0.35);
+}

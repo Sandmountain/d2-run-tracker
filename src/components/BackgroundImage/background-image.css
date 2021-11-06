@@ -1,0 +1,8 @@
+.bg {
+  position: absolute;
+  background-image: url(./bg-tile.png);
+  background-position: 0 0 0 0;
+  background-repeat: repeat;
+  z-index: -1;
+  opacity: 0.03;
+}

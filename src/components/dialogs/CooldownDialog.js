@@ -1,11 +1,12 @@
 import React from "react";
 import { Typography, Dialog, DialogTitle, DialogContent, Button, DialogActions } from "@mui/material";
+import { RockDialog } from "../../override-components/Dialog/Dialog";
 
 export default function CooldownDialog(props) {
   const { openCooldownDialog, timeleft, handleShowSummary } = props;
 
   return (
-    <Dialog open={openCooldownDialog}>
+    <RockDialog open={openCooldownDialog}>
       <DialogTitle className="diablo-text">NEXT ROUND STARTS IN:</DialogTitle>
       <DialogContent>
         <Typography className="diablo-text shadow" style={{ textAlign: "center", fontSize: "20px" }}>
@@ -13,10 +14,10 @@ export default function CooldownDialog(props) {
         </Typography>
       </DialogContent>
       <DialogActions>
-        <Button variant="contained" size="small" onClick={() => handleShowSummary()}>
+        <Button variant="text" size="small" onClick={() => handleShowSummary()}>
           End Run?
         </Button>
       </DialogActions>
-    </Dialog>
+    </RockDialog>
   );
 }

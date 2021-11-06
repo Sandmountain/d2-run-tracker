@@ -1,12 +1,13 @@
 import React from "react";
 
 import { Button, Dialog, DialogActions, DialogTitle, DialogContent, Alert, DialogContentText } from "@mui/material";
+import { RockDialog } from "../../override-components/Dialog/Dialog";
 
 export default function ExitRunDialog(props) {
   const { openExitDialog, handleCloseExitDialog, handleExitGame } = props;
 
   return (
-    <Dialog
+    <RockDialog
       open={openExitDialog}
       onClose={handleCloseExitDialog}
       aria-labelledby="alert-dialog-title"
@@ -23,10 +24,10 @@ export default function ExitRunDialog(props) {
         <Button color="info" onClick={handleCloseExitDialog} autoFocus>
           Go back
         </Button>
-        <Button variant="contained" color="primary" onClick={handleExitGame}>
+        <Button variant="text" color="primary" onClick={handleExitGame}>
           Exit
         </Button>
       </DialogActions>
-    </Dialog>
+    </RockDialog>
   );
 }

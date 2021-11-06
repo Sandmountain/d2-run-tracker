@@ -16,6 +16,8 @@ import {
   Slider,
   Autocomplete,
 } from "@mui/material";
+import { RockButton } from "../../override-components/Button/Button";
+import { RockDialog } from "../../override-components/Dialog/Dialog";
 
 export default function NewGameDialog(props) {
   const { openExtrasDialog, setOpenExtrasDialog, setGameData, runName } = props;
@@ -116,7 +118,7 @@ export default function NewGameDialog(props) {
   };
 
   return (
-    <Dialog fullWidth maxWidth="sm" open={openExtrasDialog} onClose={handleCloseNewGameDialog}>
+    <RockDialog fullWidth maxWidth="sm" open={openExtrasDialog} onClose={handleCloseNewGameDialog}>
       <DialogTitle className="diablo-text">ADD EXTRA GAME OPTIONS</DialogTitle>
       <DialogContent>
         <DialogContentText>Add additional information down below.</DialogContentText>
@@ -174,10 +176,8 @@ export default function NewGameDialog(props) {
       </DialogContent>
 
       <DialogActions>
-        <Button variant="contained" onClick={onSubmitGameData}>
-          Start New Game
-        </Button>
+        <Button onClick={onSubmitGameData}>Start New Game</Button>
       </DialogActions>
-    </Dialog>
+    </RockDialog>
   );
 }

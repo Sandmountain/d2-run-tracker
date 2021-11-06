@@ -2,6 +2,7 @@ import React from "react";
 
 import { Button, Dialog, DialogActions, DialogTitle, DialogContent, Alert } from "@mui/material";
 import { DoubleArrow } from "@mui/icons-material";
+import { RockDialog } from "../../override-components/Dialog/Dialog";
 
 export default function EndRunDialog(props) {
   const {
@@ -30,7 +31,11 @@ export default function EndRunDialog(props) {
   };
 
   return (
-    <Dialog open={openEndRunDialog} onClose={handleGoBack} aria-labelledby="alert-dialog-title" aria-describedby="alert-dialog-description">
+    <RockDialog
+      open={openEndRunDialog}
+      onClose={handleGoBack}
+      aria-labelledby="alert-dialog-title"
+      aria-describedby="alert-dialog-description">
       <DialogTitle className="diablo-text" id="alert-dialog-title">
         {"ARE YOU SURE YOU WANT TO END THE RUN?"}
       </DialogTitle>
@@ -48,10 +53,10 @@ export default function EndRunDialog(props) {
         <Button color="info" onClick={handleGoBack} autoFocus>
           Go back
         </Button>
-        <Button endIcon={<DoubleArrow></DoubleArrow>} variant="contained" color="secondary" onClick={handleShowSummary}>
+        <Button endIcon={<DoubleArrow></DoubleArrow>} variant="text" color="secondary" onClick={handleShowSummary}>
           GO TO Summary
         </Button>
       </DialogActions>
-    </Dialog>
+    </RockDialog>
   );
 }

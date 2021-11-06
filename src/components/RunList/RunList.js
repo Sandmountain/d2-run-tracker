@@ -9,11 +9,13 @@ import "../RunView/run-view.css";
 import "./run-list.css";
 import "../GenerateSocketImage/generate-socket-image.css";
 
+import texture from "../../override-components/Dialog/button-texture.png";
+
 import { formatTime, getColor } from "../../utils/utils.js";
 import GenerateSocketImage from "../GenerateSocketImage/GenerateSocketImage";
 
 const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} square {...props} />)(({ theme }) => ({
-  border: `1px solid ${theme.palette.divider}`,
+  border: `1px solid rgba(143, 107, 50, 0.3)`,
   "&:not(:last-child)": {
     borderBottom: 0,
   },
@@ -29,7 +31,11 @@ const AccordionSummary = styled((props) => (
     {...props}
   />
 ))(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "rgba(255, 255, 255, .05)" : "rgba(0, 0, 0, .03)",
+  background: `url(${texture}), rgba(0, 0, 0, .6)`,
+  backgroundPositionX: Math.random() * 314, // to get the tiles look random
+  backgroundPositionY: Math.random() * 314,
+  transform: `rotateX(${Math.random() * 360})`,
+  boxShadow: "inset 0px 0px 2px 1px rgba(0,0,0, .3)",
   flexDirection: "row-reverse",
   "& .MuiAccordionSummary-expandIconWrapper.Mui-expanded": {
     transform: "rotate(90deg)",
@@ -41,7 +47,7 @@ const AccordionSummary = styled((props) => (
 
 const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   padding: theme.spacing(2),
-  borderTop: "1px solid rgba(0, 0, 0, .125)",
+  borderTop: "1px solid rgba(143, 107, 50, .3)",
 }));
 
 export default function RunList(props) {

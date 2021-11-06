@@ -16,6 +16,7 @@ import RunTimer from "../RunTimer/RunTimer.js";
 import ItemDialog from "../Dialogs/ItemDialog";
 import CooldownDialog from "../Dialogs/CooldownDialog";
 import EndRunDialog from "../Dialogs/EndRunDialog";
+import { Box } from "@mui/system";
 
 let cooldownRef = undefined;
 
@@ -115,32 +116,28 @@ export default function RunView(props) {
   };
 
   return (
-    <div>
-      <div className="totalRunTime">
-        <RunTimer setGameTime={setGameTime} />
-      </div>
+    <Box sx={{ position: "relative", top: "30%" }}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <Typography variant="h6" color="primary" className="diablo-text shadow">
           {gameData.name}
         </Typography>
-        <Typography variant="body2" color="gray" style={{ alignSelf: "self-end" }}>
-          Total time: {formatTime(totaltTime)}
-        </Typography>
       </div>
-      <Paper
-        style={{
+      <Box
+        sx={{
+          height: "fit-content",
+          padding: "15px",
           width: "50vw",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          padding: "0 15px",
           textAlign: "center",
-        }}>
-        <p className="count-text diablo-text" style={{ width: "33%", textAlign: "start" }}>
+        }}
+        className="paper-design">
+        <Typography color="white" className="count-text diablo-text" style={{ width: "25%", textAlign: "start" }}>
           Run {currentRun}
-        </p>
-        <div style={{ width: "33%" }}>
-          <ButtonGroup variant="contained" aria-label="">
+        </Typography>
+        <div style={{ width: "50%" }}>
+          <ButtonGroup variant="text" aria-label="">
             {!isActive ? <Button onClick={handleStart}>Start Run</Button> : <Button onClick={handleNewRunDialog}>Next Run</Button>}
 
             {isPaused ? (
@@ -165,10 +162,10 @@ export default function RunView(props) {
             )}
           </ButtonGroup>
         </div>
-        <Typography variant="h6" className="diablo-text" style={{ width: "33%", textAlign: "end" }}>
+        <Typography color="white" variant="h6" className="diablo-text" style={{ width: "25%", textAlign: "end" }}>
           {formatTime(timer)}
         </Typography>
-      </Paper>
+      </Box>
 
       <ItemDialog
         openNewRunDialog={openNewRunDialog}
@@ -186,7 +183,7 @@ export default function RunView(props) {
         setIsActiveGame={setIsActiveGame}
         handleStart={handleStart}
       />
-    </div>
+    </Box>
   );
 }
 
