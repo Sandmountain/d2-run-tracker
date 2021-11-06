@@ -81,9 +81,11 @@ export default function RunLayout() {
             gameData={gameData}
             setShowSummary={setShowSummary}
             setIsActiveGame={setIsActiveGame}></RunView>
-          <div className="runList-container">
-            <RunList runData={runData}></RunList>
-          </div>
+          {runData.length > 0 && (
+            <div className="runList-container">
+              <RunList runData={runData}></RunList>
+            </div>
+          )}
         </Box>
       );
     } else {

@@ -71,7 +71,7 @@ export default function AutoComplete(props) {
 
   return (
     <>
-      <form onSubmit={handleDialogSubmit} style={{ marginTop: 10 }}>
+      <form onSubmit={handleDialogSubmit} style={{ marginTop: 10, overflow: "hidden" }}>
         <Autocomplete
           multiple
           fullWidth
@@ -115,7 +115,7 @@ export default function AutoComplete(props) {
       </form>
 
       {noDataInput && (
-        <div style={{ marginTop: 15 }}>
+        <div style={{ marginTop: 15, overflow: "auto", maxHeight: "350px" }}>
           <List dense sx={{ width: "100%" }}>
             {noDataInput.map((item, index) => generateNoDataItem(item, index))}
           </List>

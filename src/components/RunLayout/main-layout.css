@@ -41,3 +41,9 @@
   overflow: auto;
   box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
 }
+
+@media only screen and (max-height: 800px) {
+  .runList-container {
+    max-height: 300px;
+  }
+}

@@ -133,10 +133,10 @@ export default function RunView(props) {
           textAlign: "center",
         }}
         className="runView-container">
-        <Typography color="white" className="count-text diablo-text" style={{ width: "25%", textAlign: "start" }}>
+        <Typography color="white" className="count-text diablo-text" style={{ width: "33%", textAlign: "start" }}>
           Run {currentRun}
         </Typography>
-        <div style={{ width: "50%" }}>
+        <div style={{ width: "33%" }}>
           <ButtonGroup variant="text" aria-label="">
             {!isActive ? <Button onClick={handleStart}>Start Run</Button> : <Button onClick={handleNewRunDialog}>Next Run</Button>}
 
@@ -162,7 +162,7 @@ export default function RunView(props) {
             )}
           </ButtonGroup>
         </div>
-        <Typography color="white" variant="h6" className="diablo-text" style={{ width: "25%", textAlign: "end" }}>
+        <Typography color="white" variant="h6" className="diablo-text" style={{ width: "33%", textAlign: "end" }}>
           {formatTime(timer)}
         </Typography>
       </Box>
