@@ -9,6 +9,13 @@
   border: 1px solid rgba(180, 180, 180, 0.377);
 }
 
+.one-socket.summary {
+  flex: 0 0 6px;
+  margin: 1px;
+  min-block-size: 7px;
+  max-width: 6px;
+}
+
 .socket-container {
   display: flex;
   justify-content: center;
@@ -18,7 +25,7 @@
 
 .background-image {
   position: relative;
-  height: 60px;
+  height: 40px;
   width: 40px;
   background-image: url("../../images/no_image.png");
   background-size: contain;
