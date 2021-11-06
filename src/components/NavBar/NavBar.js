@@ -26,8 +26,10 @@ export default function NavBar(props) {
         <Toolbar variant="dense">
           <Typography variant="h6" color="inherit" component="div" display="flex" alignItems="center">
             <Link to={allTabs[0]} className="header-link">
-              <Avatar alt="Remy Sharp" src={img} style={{ marginRight: "10px" }} />
-              <span className="diablo-text shadow unique">D2tracker</span>
+              <Avatar alt="Remy Sharp" src={img} style={{ marginRight: "5px" }} />
+              <Typography color="primary" variant="h6" className="diablo-text shadow">
+                D2tracker
+              </Typography>
             </Link>
           </Typography>
           <Box sx={{ marginLeft: "50px" }}>
@@ -39,7 +41,7 @@ export default function NavBar(props) {
                     <CustomTab
                       className="diablo-text shadow"
                       label="Run Analyze"
-                      value={loggedIn ? allTabs[0] : "/login"} // Hack to not need to add the tab for login
+                      value={allTabs[0]} // Hack to not need to add the tab for login
                       component={Link}
                       to={allTabs[0]}
                       disabled={!loggedIn}
@@ -62,15 +64,10 @@ export default function NavBar(props) {
                       to={allTabs[2]}
                       disabled
                     />
-                    <CustomTab
-                      className="diablo-text shadow"
-                      label="🛠️ lgogin "
-                      style={{ textDecoration: "line-through" }}
-                      value="/login"
-                      component={Link}
-                      to={"/login"}
-                      disabled
-                    />
+
+                    {location.pathname === "/login" && (
+                      <CustomTab className="diablo-text shadow" label="Login" value="/login" component={Link} to={"/login"} disabled />
+                    )}
                   </Tabs>
                 </>
               )}

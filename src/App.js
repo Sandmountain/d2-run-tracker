@@ -28,7 +28,6 @@ function App() {
   const allTabs = ["/", "/holy-grail", "/mule"];
 
   const [loggedIn, setLoggedIn] = useState(false);
-  console.log(loggedIn);
   return (
     <BrowserRouter>
       <ThemeProvider theme={theme}>
@@ -41,7 +40,11 @@ function App() {
           <Route path={allTabs[1]} render={() => <div>hallo</div>} />
           <Route path={allTabs[2]} render={() => <div></div>} />
           <Route exact path={"/login"}>
-            <SignIn loggedIn={loggedIn} setLoggedIn={setLoggedIn}></SignIn>
+            {!loggedIn ? (
+              <SignIn loggedIn={loggedIn} setLoggedIn={setLoggedIn}></SignIn>
+            ) : (
+              <Redirect from="/login" to={{ pathname: "/" }} />
+            )}
           </Route>
         </Switch>
       </ThemeProvider>

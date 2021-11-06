@@ -11,7 +11,7 @@ export default function ItemDialog(props) {
     <RockDialog fullWidth maxWidth="sm" open={openNewRunDialog} onClose={handleCloseNewRunDialog}>
       <DialogTitle className="diablo-text">FOUND ANYTHING OF INTEREST?</DialogTitle>
       <DialogContent>
-        <DialogContentText>Add items down below.</DialogContentText>
+        <DialogContentText>Search for an item down below, or add a custom one by pressing return.</DialogContentText>
         <AutoComplete setDialogItems={setDialogItems} dialogItems={dialogItems}></AutoComplete>
       </DialogContent>
 

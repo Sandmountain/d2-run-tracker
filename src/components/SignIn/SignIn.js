@@ -24,7 +24,7 @@ export default function SignIn(props) {
         // const token = credential.accessToken;
         // // The signed-in user info.
         // const user = result.user;
-        console.log("setting it to true!");
+        //console.log("setting it to true!");
         setLoggedIn(true);
         setShowButtons(false);
 
@@ -32,14 +32,6 @@ export default function SignIn(props) {
       })
       .catch((error) => {
         console.log(error);
-        // Handle Errors here.
-        // const errorCode = error.code;
-        // const errorMessage = error.message;
-        // // The email of the user's account used.
-        // const email = error.email;
-        // // The AuthCredential type that was used.
-        // const credential = GoogleAuthProvider.credentialFromError(error);
-        // ...
       });
   };
 
@@ -66,10 +58,10 @@ export default function SignIn(props) {
           <Typography className="diablo-text caps">Logging in...</Typography>
         </Box>
       ) : (
-        <Box sx={{ height: "fit-content", padding: "15px" }} className="paper-design">
+        <Box sx={{ height: "fit-content", padding: "30px" }} className="paper-design">
           <Box sx={{ padding: "20px" }}>
-            <Typography color="white" variant="h4" className="diablo-text caps shadow">
-              Login to D2 tracker
+            <Typography color="white" variant="h4" className="diablo-text shadow" sx={{ marginLeft: "-4px" }}>
+              Login To D2tracker
             </Typography>
             <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "start", gap: "15px" }}>
               <Typography color="gray" variant="caption">

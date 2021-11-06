@@ -132,7 +132,7 @@ export default function RunView(props) {
           alignItems: "center",
           textAlign: "center",
         }}
-        className="paper-design">
+        className="runView-container">
         <Typography color="white" className="count-text diablo-text" style={{ width: "25%", textAlign: "start" }}>
           Run {currentRun}
         </Typography>

@@ -28,6 +28,7 @@ export default function RunCreator(props) {
       <Paper
         component="form"
         elevation={5}
+        className="paper-design"
         sx={{
           p: "2px 4px",
           display: "flex",

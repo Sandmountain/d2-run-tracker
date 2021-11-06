@@ -107,7 +107,9 @@ export default function AutoComplete(props) {
             ))
           }
           renderInput={(params) => (
-            <TextField helperText={"Find item in list or add custom item"} autoFocus color="info" {...params} label="Add Items" />
+            <Box className="autoComplete-container">
+              <TextField autoFocus color="primary" {...params} label="Add Items" />
+            </Box>
           )}
         />
       </form>

@@ -88,7 +88,7 @@ export default function RunLayout() {
       );
     } else {
       return (
-        <div className="container">
+        <div className="container ">
           <h2 className="diablo-text" style={{ position: "absolute", bottom: "70%", color: "white" }}>
             START NEW RUN
           </h2>
@@ -108,9 +108,11 @@ export default function RunLayout() {
           </Fab>
         </Tooltip>
       )}
-      <div className="totalRunTime">
-        <RunTimer setGameTime={setGameTime} />
-      </div>
+      {isActiveGame && (
+        <div className="totalRunTime">
+          <RunTimer setGameTime={setGameTime} />
+        </div>
+      )}
       <ExitRunDialog
         openExitDialog={openExitDialog}
         handleCloseExitDialog={handleCloseExitDialog}

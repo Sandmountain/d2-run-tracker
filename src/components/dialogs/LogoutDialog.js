@@ -2,12 +2,14 @@ import React from "react";
 
 import { Button, Dialog, DialogActions, DialogTitle, DialogContent, Alert } from "@mui/material";
 import Logout from "@mui/icons-material/Logout";
+import { RockButton } from "../../override-components/Button/Button";
+import { RockDialog } from "../../override-components/Dialog/Dialog";
 
 export default function LogoutDialog(props) {
   const { setOpenLogoutDialog, openLogoutDialog, logoutUser } = props;
 
   return (
-    <Dialog
+    <RockDialog
       open={openLogoutDialog}
       onClose={() => setOpenLogoutDialog(false)}
       aria-labelledby="alert-dialog-title"
@@ -29,10 +31,10 @@ export default function LogoutDialog(props) {
         <Button color="info" onClick={() => setOpenLogoutDialog(false)} autoFocus>
           Go back
         </Button>
-        <Button startIcon={<Logout></Logout>} variant="contained" color="primary" onClick={() => logoutUser()}>
+        <Button startIcon={<Logout></Logout>} variant="text" color="primary" onClick={() => logoutUser()}>
           Logout
         </Button>
       </DialogActions>
-    </Dialog>
+    </RockDialog>
   );
 }

@@ -1,8 +1,8 @@
-import { Button, Dialog } from "@mui/material";
+import { Dialog } from "@mui/material";
 import { styled } from "@mui/material/styles";
 
-import texture from "./button-texture.png";
-import border from "./ram-test.png";
+import texture from "../../graphic-assets/stone-texture.png";
+import border from "../../graphic-assets/custom-frame.png";
 
 export const RockDialog = styled((props) => <Dialog {...props} />)(({ theme }) => ({
   "& .MuiDialog-paper": {
