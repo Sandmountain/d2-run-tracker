@@ -4,31 +4,29 @@ import { Button, DialogActions, DialogTitle, DialogContent, Alert, DialogContent
 import { RockDialog } from "../../override-components/Dialog/Dialog";
 
 export default function ExitRunDialog(props) {
-  const { openExitDialog, handleCloseExitDialog, handleExitGame } = props;
+  const { openExitSummaryDialog, setOpenExitSummaryDialog, handleLeaveSummary } = props;
 
   return (
     <RockDialog
-      open={openExitDialog}
-      onClose={handleCloseExitDialog}
+      open={openExitSummaryDialog}
+      onClose={() => setOpenExitSummaryDialog(false)}
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description">
       <DialogTitle id="alert-dialog-title" className="diablo-text caps shadow">
-        {"Are you sure you want to exit the run?"}
+        {"Are you sure you want to return to the start?"}
       </DialogTitle>
       <DialogContent>
-        <Alert severity="error" variant="outlined">
-          Doing this action will lose all your run data and nothing will be saved.
+        <Alert severity="success" variant="outlined">
+          Your data has been saved, and you will be able to see return to this screen from the main screen.
         </Alert>
-        <DialogContentText style={{ marginTop: 15 }}>
-          <strong>All your rundata will be lost</strong>. Are you sure you wish to continue?
-        </DialogContentText>
+        <DialogContentText style={{ marginTop: 15 }}>Are you sure you wish to go back?</DialogContentText>
       </DialogContent>
 
       <DialogActions>
-        <Button color="info" onClick={handleCloseExitDialog} autoFocus>
+        <Button color="info" onClick={() => setOpenExitSummaryDialog(false)} autoFocus>
           Go back
         </Button>
-        <Button variant="contained" color="error" onClick={handleExitGame}>
+        <Button variant="text" color="primary" onClick={handleLeaveSummary}>
           Exit
         </Button>
       </DialogActions>

@@ -99,9 +99,9 @@ export default function NewGameDialog(props) {
     if (role.role !== "" && runType.runType !== "" && level.level !== undefined) {
       setGameData({
         name: runName,
-        class: role,
-        level: level,
-        runType: runType,
+        class: role.role,
+        level: level.level,
+        runType: runType.runType,
         cooldownTimer: cooldownTimer,
       });
 
