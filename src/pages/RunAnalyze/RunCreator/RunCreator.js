@@ -3,7 +3,7 @@ import { IconButton, Divider, InputBase, Paper } from "@mui/material";
 import DirectionsIcon from "@mui/icons-material/Directions";
 import "./run-creator.css";
 
-import NewGameDialog from "../Dialogs/NewGameDialog";
+import NewGameDialog from "../../../components/Dialogs/NewGameDialog";
 
 export default function RunCreator(props) {
   const { setGameData } = props;

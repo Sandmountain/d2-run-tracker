@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Button, Alert, DialogActions, DialogContent, DialogContentText, DialogTitle } from "@mui/material";
-import { RockDialog } from "../../override-components/Dialog/Dialog";
+import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
 
 export default function UnfinshiedRunDialog(props) {
   const { openUnfishiedRunDialog, handleUnfishiedRunClose, handleUnfishiedRunAccept, lostData } = props;

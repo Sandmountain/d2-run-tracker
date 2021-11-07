@@ -5,14 +5,14 @@ import PauseIcon from "@mui/icons-material/Pause";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 import StopIcon from "@mui/icons-material/Stop";
 
-import useTimer from "../hooks/useTimer.js";
-import { formatTime } from "../../utils/utils.js";
+import useTimer from "../../../hooks/useTimer.js";
+import { formatTime } from "../../../utils/utils.js";
 
-import ItemDialog from "../Dialogs/ItemDialog";
-import CooldownDialog from "../Dialogs/CooldownDialog";
-import EndRunDialog from "../Dialogs/EndRunDialog";
+import ItemDialog from "../../../components/Dialogs/ItemDialog";
+import CooldownDialog from "../../../components/Dialogs/CooldownDialog";
+import EndRunDialog from "../../../components/Dialogs/EndRunDialog";
 
-import { addToActiveRun } from "../../Firebase/firebase.js";
+import { addToActiveRun } from "../../../firebase/firebase.js";
 
 import "./run-view.css";
 
@@ -119,7 +119,7 @@ export default function RunView(props) {
     clearTimeout(cooldownRef);
     // Prevent data from being added multiple times if going back and fourth.
     // Also set a soft timer for 10s, this is if the user changes their mind when tracker is running
-    if (runData[runData.length - 1].name !== "Run " + 12 && timer > 10) {
+    if (runData[runData.length - 1]?.name !== "Run " + 12 && timer > 10) {
       addData();
     }
     setOpenEndRunDialog(true);

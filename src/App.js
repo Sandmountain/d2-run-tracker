@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import MainLayout from "./components/RunLayout/RunLayout.js";
+import MainLayout from "./pages/RunAnalyze/RunLayout/RunLayout.js";
 import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
-import SignIn from "./components/SignIn/SignIn";
+import SignIn from "./pages/SignIn/SignIn";
 import NavBar from "./components/NavBar/NavBar";
 
-import "./App.css";
+import "./styles/App.css";
 import BackgroundImage from "./components/BackgroundImage/BackgroundImage.js";
 
 const theme = createTheme({
@@ -25,7 +25,7 @@ const theme = createTheme({
 });
 
 function App() {
-  const allTabs = ["/", "/holy-grail", "/mule"];
+  const allTabs = ["/", "/holy-grail", "/database"];
 
   const [loggedIn, setLoggedIn] = useState(false);
   return (

@@ -137,8 +137,7 @@
       { "detail": "Prevent Monster Heal", "varies": false },
       { "detail": "Poison Resist +20-30%", "varies": true },
       { "detail": "Damage Reduced By 7-11", "varies": true },
-      { "detail": "Level 5 Oak Sage (27 charges)", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Level 5 Oak Sage (27 charges)", "varies": false }
     ],
     "setName": "",
     "image": "natures_peace",
@@ -358,8 +357,7 @@
       { "detail": "+150-250 To Attack Rating Against Demons", "varies": true },
       { "detail": "+25-50% Damage To Undead", "varies": true },
       { "detail": "+150-250 To Attack Rating Against Undead", "varies": true },
-      { "detail": "+2 To Light Radius", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
     "image": "seraphs_hymn",
@@ -377,8 +375,7 @@
       { "detail": "Level 22 Iron Golem (11 Charges)", "varies": false },
       { "detail": "Level 12 Iron Maiden (20 Charges)", "varies": false },
       { "detail": "All Resistances +25-35", "varies": true },
-      { "detail": "+300-350 Defense", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+300-350 Defense", "varies": true }
     ],
     "setName": "",
     "image": "metalgrid",
@@ -411,8 +408,7 @@
     "stats": [
       { "detail": "80-160% Extra Gold From Monsters", "varies": true },
       { "detail": "Reduces All Vendor Prices 10-15%", "varies": true },
-      { "detail": "20-40% Better Chance of Getting Magic Items", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "20-40% Better Chance of Getting Magic Items", "varies": true }
     ],
     "setName": "",
     "image": "gheeds_fortune",
@@ -584,8 +580,7 @@
       { "detail": "+50-120 Defense", "varies": true },
       { "detail": "+20% Faster Hit Recovery", "varies": false },
       { "detail": "Cannot Be Frozen", "varies": false },
-      { "detail": "All Resistances +50-70", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "All Resistances +50-70", "varies": true }
     ],
     "setName": "",
     "image": "kiras_guardian",
@@ -603,8 +598,7 @@
       { "detail": "+1 To All Skills", "varies": false },
       { "detail": "+25% Faster Cast Rate", "varies": false },
       { "detail": "-15-20% To Enemy Lightning Resistance", "varies": true },
-      { "detail": "+10-15% To Lightning Skill Damage", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+10-15% To Lightning Skill Damage", "varies": true }
     ],
     "setName": "",
     "image": "griffons_eye",
@@ -628,8 +622,7 @@
       { "detail": "Adds 101-187 Magic Damage", "varies": false },
       { "detail": "+400-600 Defense", "varies": true },
       { "detail": "All Resistances +30-50", "varies": true },
-      { "detail": "+1-3 To Javelin and Spear Skills (Amazon Only)", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+1-3 To Javelin and Spear Skills (Amazon Only)", "varies": true }
     ],
     "setName": "",
     "image": "stoneraven",
@@ -741,8 +734,7 @@
       { "detail": "-15% To Enemy Lightning Resistance", "varies": false },
       { "detail": "20% Chance To Cast Level 14 Lightning On Striking", "varies": false },
       { "detail": "+2-4 To Javelin and Spear Skills (Amazon Only)", "varies": true },
-      { "detail": "+3 To Lightning Bolt (Amazon Only)", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+3 To Lightning Bolt (Amazon Only)", "varies": false }
     ],
     "setName": "",
     "image": "thunderstroke",
@@ -790,8 +782,7 @@
       { "detail": "+10-15 To Mana After Each Kill", "varies": true },
       { "detail": "33% Chance To Cast Level 8 Frost Nova On Striking", "varies": false },
       { "detail": "Indestructible", "varies": false },
-      { "detail": "Ethereal (Cannot Be Repaired)*", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Ethereal (Cannot Be Repaired)*", "varies": false }
     ],
     "setName": "",
     "image": "shadow_killer",
@@ -917,8 +908,7 @@
       { "detail": "+1-3 To Poison And Bone Skills (Necromancer Only)", "varies": true },
       { "detail": "+1-3 To Curses (Necromancer Only)", "varies": true },
       { "detail": "+30% Faster Cast Rate", "varies": false },
-      { "detail": "Increase Maximum Mana 10%", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Increase Maximum Mana 10%", "varies": false }
     ],
     "setName": "",
     "image": "darkforce_spawn",
@@ -1000,8 +990,7 @@
       { "detail": "Attacker Takes Damage of 55-77", "varies": true },
       { "detail": "+1-3 To Warcries (Barbarian Only)", "varies": true },
       { "detail": "+1-3 To Masteries (Barbarian Only)", "varies": true },
-      { "detail": "+1-3 To Combat Skills (Barbarian Only)", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+1-3 To Combat Skills (Barbarian Only)", "varies": true }
     ],
     "setName": "",
     "image": "demonhorns_edge",
@@ -1079,8 +1068,7 @@
       { "detail": "+20% Faster Cast Rate", "varies": false },
       { "detail": "+15-30% To Cold Skill Damage", "varies": true },
       { "detail": "Lightning Resist +25-40%", "varies": true },
-      { "detail": "Fire Resist +25-40%", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Fire Resist +25-40%", "varies": true }
     ],
     "setName": "",
     "image": "deaths_fathom",
@@ -1121,8 +1109,7 @@
       { "detail": "7-10% Life Stolen Per Hit", "varies": true },
       { "detail": "33% Chance of Open Wounds", "varies": false },
       { "detail": "+2-4 To Shape Shifting Skills (Druid Only)", "varies": true },
-      { "detail": "+1-2 To Feral Rage (Druid Only)", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+1-2 To Feral Rage (Druid Only)", "varies": true }
     ],
     "setName": "",
     "image": "cerebus_bite",
@@ -1641,8 +1628,7 @@
       { "detail": "Fire Resist -30%", "varies": false },
       { "detail": "Poison Resist +70%", "varies": false },
       { "detail": "15% Chance To Cast Level 15 Poison Nova When Struck", "varies": false },
-      { "detail": "Level 3 Venom (20 charges)", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Level 3 Venom (20 charges)", "varies": false }
     ],
     "setName": "",
     "image": "andariels_visage",
@@ -2325,8 +2311,7 @@
       { "detail": "+100-150 Defense", "varies": true },
       { "detail": "+40-50 To Strength", "varies": true },
       { "detail": "Damage Reduced By 15-25%", "varies": true },
-      { "detail": "Indestructible", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
     "image": "leviathan",
@@ -2388,8 +2373,7 @@
       { "detail": "Cannot Be Frozen", "varies": false },
       { "detail": "Requirements -100%", "varies": false },
       { "detail": "Slain Monsters Rest in Peace", "varies": false },
-      { "detail": "Indestructible", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
     "image": "tyraels_might",
@@ -3453,8 +3437,7 @@
       { "detail": "+30% Faster Run/Walk", "varies": false },
       { "detail": "+30% Faster Hit Recovery", "varies": false },
       { "detail": "+15-25 To Dexterity", "varies": true },
-      { "detail": "Requirements -20%", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Requirements -20%", "varies": false }
     ],
     "setName": "",
     "image": "shadow_dancer",
@@ -4226,8 +4209,7 @@
       { "detail": "+220-270% Enhanced Damage", "varies": true },
       { "detail": "+5% To Maximum Cold Resist", "varies": false },
       { "detail": "Cannot Be Frozen", "varies": false },
-      { "detail": "Socketed (3-5)", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Socketed (3-5)", "varies": true }
     ],
     "setName": "",
     "image": "rune_master",
@@ -4276,8 +4258,7 @@
       { "detail": "+40% Increased Attack Speed", "varies": false },
       { "detail": "-33% Target Defense", "varies": false },
       { "detail": "66% Deadly Strike", "varies": false },
-      { "detail": "+6-9 Life After Each Kill", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+6-9 Life After Each Kill", "varies": true }
     ],
     "setName": "",
     "image": "death_cleaver",
@@ -4377,8 +4358,7 @@
       { "detail": "25% Chance Of Crushing Blow", "varies": false },
       { "detail": "30% Increased Attack Speed", "varies": false },
       { "detail": "-33% Target Defense", "varies": false },
-      { "detail": "50% Chance To Cast Level 6 Decrepify When You Kill An Enemy", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "50% Chance To Cast Level 6 Decrepify When You Kill An Enemy", "varies": false }
     ],
     "setName": "",
     "image": "executioners_justice",
@@ -4804,8 +4784,7 @@
       { "detail": "Ignore Target's Defense", "varies": false },
       { "detail": "33% Deadly Strike", "varies": false },
       { "detail": "+3-5 To Guided Arrow*", "varies": true },
-      { "detail": "Fires Magic Arrows [Level 11]", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Fires Magic Arrows [Level 11]", "varies": false }
     ],
     "setName": "",
     "image": "widowmaker",
@@ -5363,8 +5342,7 @@
       { "detail": "9-13% Life Stolen Per Hit", "varies": true },
       { "detail": "+15 To Mana After Each Kill", "varies": false },
       { "detail": "Replenishes Quantity [1 in 2 sec.]", "varies": false },
-      { "detail": "Ethereal (Cannot Be Repaired)*", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Ethereal (Cannot Be Repaired)*", "varies": false }
     ],
     "setName": "",
     "image": "wraith_flight",
@@ -6350,8 +6328,7 @@
       { "detail": "11-15% Life Stolen Per Hit", "varies": true },
       { "detail": "33% Deadly Strike", "varies": false },
       { "detail": "33% Chance To Cast Level 1 Decrepify On Striking", "varies": false },
-      { "detail": "Requirements -25%", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Requirements -25%", "varies": false }
     ],
     "setName": "",
     "image": "the_reapers_toll",
@@ -6380,8 +6357,7 @@
       { "detail": "+10-14 Life After Each Kill", "varies": true },
       { "detail": "+50-80% Better Chance of Getting Magic Items", "varies": true },
       { "detail": "+4 To Light Radius", "varies": false },
-      { "detail": "Socketed (1-3)", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Socketed (1-3)", "varies": true }
     ],
     "setName": "",
     "image": "tomb_reaver",
@@ -6587,8 +6563,7 @@
       { "detail": "+15-20 Life After Each Demon Kill", "varies": true },
       { "detail": "+2-3 To Paladin Skill Levels", "varies": true },
       { "detail": "+3 To Light Radius", "varies": false },
-      { "detail": "Socketed (1-2) *", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Socketed (1-2) *", "varies": true }
     ],
     "setName": "",
     "image": "heavens_light",
@@ -7227,8 +7202,7 @@
       { "detail": "-(7-15)% To Enemy Cold Resistances", "varies": true },
       { "detail": "-(7-15)% To Enemy Fire Resistances", "varies": true },
       { "detail": "Regenerate Mana 10%", "varies": false },
-      { "detail": "+50% Damage To Undead", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+50% Damage To Undead", "varies": false }
     ],
     "setName": "",
     "image": "mang_songs_lesson",
@@ -7921,8 +7895,7 @@
       { "detail": "3-6% Mana Stolen Per Hit", "varies": true },
       { "detail": "+3-7 Lightning Absorb", "varies": true },
       { "detail": "+200-300 To Attack Rating Against Demons", "varies": true },
-      { "detail": "Socketed (1-2)", "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Socketed (1-2)", "varies": true }
     ],
     "setName": "",
     "image": "djinn_slayer",
@@ -8000,8 +7973,7 @@
       { "detail": "+1 To All Skills", "varies": false },
       { "detail": "+5-10 To All Attributes", "varies": true },
       { "detail": "Level 10-13 Sanctuary Aura When Equipped", "varies": true },
-      { "detail": "+3 To Light Radius", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+3 To Light Radius", "varies": false }
     ],
     "setName": "",
     "image": "azurewrath",
@@ -8183,8 +8155,7 @@
       { "detail": "+30% Increased Attack Speed", "varies": false },
       { "detail": "Piercing Attack [50]", "varies": false },
       { "detail": "25% Chance To Cast Level 9 Nova On Striking", "varies": false },
-      { "detail": "Replenishes Quantity [1 in 3 sec.]", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Replenishes Quantity [1 in 3 sec.]", "varies": false }
     ],
     "setName": "",
     "image": "warshrike",

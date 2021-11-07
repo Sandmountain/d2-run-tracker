@@ -5,14 +5,13 @@ import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import { styled } from "@mui/material/styles";
 import ArrowForwardIosSharpIcon from "@mui/icons-material/ArrowForwardIosSharp";
-import "../RunView/run-view.css";
+//import "../RunView/run-view.css";
 import "./run-list.css";
-import "../GenerateSocketImage/generate-socket-image.css";
+//import "../../GenerateSocketImage/generate-socket-image.css";
+import texture from "../../../assets/graphic-assets/button-texture.png";
 
-import texture from "../../override-components/Dialog/button-texture.png";
-
-import { formatTime, getColor } from "../../utils/utils.js";
-import GenerateSocketImage from "../GenerateSocketImage/GenerateSocketImage";
+import { formatTime, getColor } from "../../../utils/utils.js";
+import GenerateSocketImage from "../../../components/GenerateSocketImage/GenerateSocketImage";
 
 const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} square {...props} />)(({ theme }) => ({
   border: `1px solid rgba(143, 107, 50, 0.3)`,
@@ -104,7 +103,7 @@ export default function RunList(props) {
   const generateInfoLoot = (item, idx) => {
     return (
       <div key={idx} className="lootItem-container">
-        {item.image && <img loading="lazy" height="60" src={require(`../../images/${item.image}.png`).default} alt="" />}
+        {item.image && <img loading="lazy" height="60" src={require(`../../../assets/item-art/${item.image}.png`).default} alt="" />}
         {!item.image ? <GenerateSocketImage sockets={item.sockets}></GenerateSocketImage> : <div></div>}
         <span className="lootItem-text" style={{ color: getColor(item) }}>
           {item.name}

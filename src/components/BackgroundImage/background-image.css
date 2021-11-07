@@ -1,6 +1,6 @@
 .bg {
   position: absolute;
-  background-image: url(./bg-tile.png);
+  background-image: url(../../assets/graphic-assets/bg-tile.png);
   background-position: 0 0 0 0;
   background-repeat: repeat;
   z-index: -1;

@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./logo.png";
+import img from "../../assets/logo.png";
 import { Avatar, Typography, Toolbar, Box, AppBar, Tabs, Tab } from "@mui/material";
 import { withStyles } from "@mui/styles";
 
@@ -15,7 +15,7 @@ const CustomTab = withStyles({
     opacity: 0.3,
   },
 })(Tab);
-const allTabs = ["/", "/holy-grail", "/mule"];
+const allTabs = ["/", "/holy-grail", "/database"];
 
 export default function NavBar(props) {
   const { loggedIn, setLoggedIn } = props;
@@ -55,15 +55,7 @@ export default function NavBar(props) {
                       to={allTabs[1]}
                       disabled
                     />
-                    <CustomTab
-                      className="diablo-text shadow"
-                      label="🛠️ Mules "
-                      style={{ textDecoration: "line-through" }}
-                      value="/mule"
-                      component={Link}
-                      to={allTabs[2]}
-                      disabled
-                    />
+                    <CustomTab className="diablo-text shadow" label="Database" value="/database" component={Link} to={allTabs[2]} />
 
                     {location.pathname === "/login" && (
                       <CustomTab className="diablo-text shadow" label="Login" value="/login" component={Link} to={"/login"} disabled />

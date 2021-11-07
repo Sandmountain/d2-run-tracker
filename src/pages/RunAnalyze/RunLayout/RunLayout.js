@@ -12,11 +12,11 @@ import RunList from "../RunList/RunList";
 import SummaryView from "../SummaryView/SummaryView";
 import RunCreator from "../RunCreator/RunCreator";
 
-import ExitRunDialog from "../Dialogs/ExitRunDialog";
-import ExitSummaryDialog from "../Dialogs/ExitSummaryDialog";
-import UnfinshiedRunDialog from "../Dialogs/UnfinishedRunDialog";
+import ExitRunDialog from "../../../components/Dialogs/ExitRunDialog";
+import ExitSummaryDialog from "../../../components/Dialogs/ExitSummaryDialog";
+import UnfinshiedRunDialog from "../../../components/Dialogs/UnfinishedRunDialog";
 
-import { fetchHistory, fetchActiveRun, clearActiveRun } from "../../Firebase/firebase.js";
+import { fetchHistory, fetchActiveRun, clearActiveRun } from "../../../firebase/firebase.js";
 
 import { useHistory } from "react-router-dom";
 import RunTimer from "../RunTimer/RunTimer";

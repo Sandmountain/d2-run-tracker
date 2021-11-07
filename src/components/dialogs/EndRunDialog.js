@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button, Dialog, DialogActions, DialogTitle, DialogContent, Alert } from "@mui/material";
 import { DoubleArrow } from "@mui/icons-material";
-import { RockDialog } from "../../override-components/Dialog/Dialog";
+import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
 
 export default function EndRunDialog(props) {
   const {

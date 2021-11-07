@@ -3,7 +3,7 @@ import { TextField, Autocomplete, Box, Chip, Typography, List, Tooltip, Circular
 
 import { getColor } from "../../utils/utils.js";
 import "./auto-complete.css";
-import CustomItemList from "../CustomItemList/CustomItemList.js";
+import CustomItemList from "../../pages/RunAnalyze/CustomItemList/CustomItemList.js";
 import { Badge } from "@mui/icons-material";
 
 // Use for new item
@@ -14,7 +14,7 @@ import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 const data = require("../../data/data.json");
 
 export default function AutoComplete(props) {
-  const { setDialogItems, dialogItems } = props;
+  const { setDialogItems, dialogItems, useList = true } = props;
 
   const [inputValue, setInputValue] = React.useState("");
   const [noDataInput, setNoDataInput] = React.useState([]);
@@ -94,7 +94,7 @@ export default function AutoComplete(props) {
           renderOption={(props, option) => (
             <Box component="li" sx={{ "& > img": { mr: 2, flexShrink: 0 } }} {...props}>
               <div className="listImage-container">
-                <img loading="lazy" width="25" src={require(`../../images/${option.image}.png`).default} alt="" />
+                <img loading="lazy" width="25" src={require(`../../assets/item-art/${option.image}.png`).default} alt="" />
               </div>
               <Typography className={`${option.rarity} list-shadow`}>{option.name}</Typography>
             </Box>
@@ -127,7 +127,7 @@ export default function AutoComplete(props) {
         />
       </form>
 
-      {noDataInput && (
+      {noDataInput && useList && (
         <div style={{ marginTop: 15, overflow: "auto", maxHeight: "350px" }}>
           <List dense sx={{ width: "100%" }}>
             {noDataInput.map((item, index) => generateNoDataItem(item, index))}

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Button, DialogActions, DialogTitle, DialogContent, Alert, DialogContentText } from "@mui/material";
-import { RockDialog } from "../../override-components/Dialog/Dialog";
+import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
 
 export default function ExitRunDialog(props) {
   const { openExitSummaryDialog, setOpenExitSummaryDialog, handleLeaveSummary } = props;
