@@ -8,12 +8,12 @@ import { getAuth } from "firebase/auth";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIRESTORE_API_KEY,
+  apiKey: "AIzaSyBcDKP-1pryjEQFgMSSbcZK6ZI3QsIezFk",
   authDomain: "d2-tracker.firebaseapp.com",
   projectId: "d2-tracker",
   storageBucket: "d2-tracker.appspot.com",
   messagingSenderId: "921822416104",
-  appId: process.env.REACT_APP_FIRESTORE_APP_ID,
+  appId: "1:921822416104:web:fc92a373b728c7706b4d5d",
 };
 
 const collectionStructure = {
@@ -97,15 +97,22 @@ const fetchActiveRun = async () => {
   if (querySnapshot.exists()) {
     return querySnapshot.data().runData.active;
   } else {
-    return [];
+    return {};
   }
+};
+
+const clearActiveRun = async () => {
+  const { uid } = auth.currentUser;
+  const dataRef = doc(db, "userData", uid);
+
+  await updateDoc(dataRef, {
+    "runData.active": [],
+  });
 };
 
 const addToActiveRun = async (data) => {
   const { uid } = auth.currentUser;
   const dataRef = doc(db, "userData", uid);
-
-  console.log();
 
   if (data.runData.length > 1) {
     await updateDoc(dataRef, {
@@ -125,4 +132,4 @@ const constructUserQuery = async () => {
   return await getDoc(dataRef);
 };
 
-export { app, initDatabase, addToActiveRun };
+export { app, initDatabase, addToActiveRun, addToHistory, fetchHistory, fetchActiveRun, clearActiveRun };

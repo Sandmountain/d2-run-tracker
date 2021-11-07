@@ -23,7 +23,7 @@ export default function RunView(props) {
 
   const { setRunData, runData, gameData, setShowSummary, setIsActiveGame } = props;
 
-  const [currentRun, setCurrentRun] = useState(1);
+  const [currentRun, setCurrentRun] = useState(!runData.length ? 1 : runData.length + 1);
   const [totaltTime, setTotalTime] = useState(0);
 
   const [dialogItems, setDialogItems] = useState([]);

@@ -5,16 +5,20 @@ import "./main-layout.css";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import Fab from "@mui/material/Fab";
 import Tooltip from "@mui/material/Tooltip";
+import { Box } from "@mui/system";
 
 import RunView from "../RunView/RunView";
 import RunList from "../RunList/RunList";
+import SummaryView from "../SummaryView/SummaryView";
 import RunCreator from "../RunCreator/RunCreator";
+
 import ExitRunDialog from "../Dialogs/ExitRunDialog";
 import ExitSummaryDialog from "../Dialogs/ExitSummaryDialog";
-import SummaryView from "../SummaryView/SummaryView";
+import UnfinshiedRunDialog from "../Dialogs/UnfinishedRunDialog";
+
+import { fetchHistory, fetchActiveRun, clearActiveRun } from "../../Firebase/firebase.js";
 
 import { useHistory } from "react-router-dom";
-import { Box } from "@mui/system";
 import RunTimer from "../RunTimer/RunTimer";
 
 // const mockGameData = {
@@ -31,10 +35,13 @@ export default function RunLayout() {
 
   const [openExitDialog, setOpenExitDialog] = React.useState(false);
   const [openExitSummaryDialog, setOpenExitSummaryDialog] = React.useState(false);
+  const [openUnfishiedRunDialog, setOpenUnfishiedRunDialog] = React.useState(false);
 
   const [runData, setRunData] = React.useState([]);
   const [gameData, setGameData] = React.useState({});
   const [gameTime, setGameTime] = React.useState(0);
+
+  const [retrivedData, setRetrivedData] = React.useState({});
 
   //const history = useHistory();
 
@@ -44,11 +51,12 @@ export default function RunLayout() {
 
     setGameData(undefined);
     setRunData([]);
+    clearActiveRun();
   };
 
   const handleLeaveSummary = () => {
     //Upload data
-    setOpenExitDialog(false);
+    setOpenExitSummaryDialog(false);
     setIsActiveGame(false);
     setShowSummary(false);
   };
@@ -57,6 +65,7 @@ export default function RunLayout() {
     setOpenExitDialog(false);
   };
 
+  // FAB that triggers this are in both screens
   const handleOpenExitDialog = () => {
     if (showSummary) {
       setOpenExitSummaryDialog(true);
@@ -65,11 +74,38 @@ export default function RunLayout() {
     }
   };
 
+  // Remove Active Data
+  const handleUnfishiedRunClose = () => {
+    clearActiveRun();
+    setOpenUnfishiedRunDialog(false);
+  };
+
+  // Remove active data and set temp data to the real data.
+  const handleUnfishiedRunAccept = () => {
+    clearActiveRun();
+    setOpenUnfishiedRunDialog(false);
+    setGameData(retrivedData.gameData);
+    setRunData(retrivedData.runData);
+    setIsActiveGame(true);
+  };
+
   React.useEffect(() => {
     if (gameData && Object.entries(gameData).length > 0) {
       setIsActiveGame(true);
     }
   }, [gameData]);
+
+  React.useEffect(() => {
+    async function getData() {
+      const data = await fetchActiveRun();
+
+      if (Object.keys(data).length > 0) {
+        setRetrivedData(data);
+        setOpenUnfishiedRunDialog(true);
+      }
+    }
+    getData();
+  }, []);
 
   const renderConditionalView = () => {
     if (showSummary) {
@@ -122,11 +158,11 @@ export default function RunLayout() {
           </Fab>
         </Tooltip>
       )}
-      {isActiveGame && (
-        <div className="totalRunTime">
-          <RunTimer setGameTime={setGameTime} showSummary={showSummary} />
-        </div>
-      )}
+
+      <div className="totalRunTime">
+        <RunTimer setGameTime={setGameTime} showSummary={showSummary} isActiveGame={isActiveGame} />
+      </div>
+
       <ExitRunDialog
         openExitDialog={openExitDialog}
         handleCloseExitDialog={handleCloseExitDialog}
@@ -136,6 +172,12 @@ export default function RunLayout() {
         setOpenExitSummaryDialog={setOpenExitSummaryDialog}
         openExitSummaryDialog={openExitSummaryDialog}
         handleLeaveSummary={handleLeaveSummary}
+      />
+      <UnfinshiedRunDialog
+        openUnfishiedRunDialog={openUnfishiedRunDialog}
+        handleUnfishiedRunClose={handleUnfishiedRunClose}
+        handleUnfishiedRunAccept={handleUnfishiedRunAccept}
+        lostData={retrivedData}
       />
     </>
   );

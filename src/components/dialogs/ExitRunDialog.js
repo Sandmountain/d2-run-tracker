@@ -28,7 +28,7 @@ export default function ExitRunDialog(props) {
         <Button color="info" onClick={handleCloseExitDialog} autoFocus>
           Go back
         </Button>
-        <Button variant="contained" color="error" onClick={handleExitGame}>
+        <Button variant="contained" color="error" onClick={() => handleExitGame()}>
           Exit
         </Button>
       </DialogActions>

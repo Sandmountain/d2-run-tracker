@@ -8,9 +8,10 @@ import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
 import "./summary-view.css";
 import { Box } from "@mui/system";
+import { addToHistory } from "../../Firebase/firebase";
 
 export default function SummaryView(props) {
-  const { gameData, runData, totalTime } = props;
+  const { gameData, runData, gameTime } = props;
   const [stucturedLoot, setStructuredLoot] = React.useState({});
 
   useEffect(() => {
@@ -54,6 +55,7 @@ export default function SummaryView(props) {
     });
 
     setStructuredLoot(tempLoot);
+    addToHistory({ loot: tempLoot, gameData, gameTime });
   };
 
   const generateLootItem = (item, run, index) => {
@@ -69,15 +71,6 @@ export default function SummaryView(props) {
         </Typography>
       </div>
     );
-  };
-
-  const onStartScroll = (event) => {
-    console.log("onStartScroll", event);
-    //	this.setState({ dragging: true });
-  };
-  const onEndScroll = (event) => {
-    console.log("onEndScroll", event);
-    //this.setState({ dragging: false });
   };
 
   return (
@@ -101,7 +94,7 @@ export default function SummaryView(props) {
                 Total game time:
               </Typography>
               <Typography variant="body2" className="alignData diablo-text caps">
-                {totalTime}
+                {gameTime}
               </Typography>
               <Typography variant="body2" className="diablo-text caps" style={{ width: "100%" }}>
                 Total run time:
@@ -135,11 +128,7 @@ export default function SummaryView(props) {
               <Typography className="diablo-text shadow unique" style={{ width: "7%" }}>
                 Unique
               </Typography>
-              <ScrollContainer
-                style={{ display: "flex", width: "93%" }}
-                vertical={false}
-                onStartScroll={onStartScroll}
-                onEndScroll={onEndScroll}>
+              <ScrollContainer style={{ display: "flex", width: "93%" }} vertical={false}>
                 {Object.keys(stucturedLoot).length > 0 &&
                   stucturedLoot.unique.length > 0 &&
                   stucturedLoot.unique.map((item, index) => generateLootItem(item.item, item.run, index))}
@@ -151,11 +140,7 @@ export default function SummaryView(props) {
               <Typography className="diablo-text shadow set" style={{ width: "7%" }}>
                 Set{" "}
               </Typography>
-              <ScrollContainer
-                style={{ display: "flex", width: "93%" }}
-                vertical={false}
-                onStartScroll={onStartScroll}
-                onEndScroll={onEndScroll}>
+              <ScrollContainer style={{ display: "flex", width: "93%" }} vertical={false}>
                 {stucturedLoot.set.map((item, index) => generateLootItem(item.item, item.run, index))}
               </ScrollContainer>
             </Paper>
@@ -166,11 +151,7 @@ export default function SummaryView(props) {
                 <Typography className="diablo-text shadow crafting" style={{ width: "7%" }}>
                   Runes{" "}
                 </Typography>
-                <ScrollContainer
-                  style={{ display: "flex", width: "93%" }}
-                  vertical={false}
-                  onStartScroll={onStartScroll}
-                  onEndScroll={onEndScroll}>
+                <ScrollContainer style={{ display: "flex", width: "93%" }} vertical={false}>
                   {stucturedLoot.runes.map((item, index) => generateLootItem(item.item, item.run, index))}
                 </ScrollContainer>
               </Paper>
@@ -180,11 +161,7 @@ export default function SummaryView(props) {
                 <Typography className="diablo-text shadow" style={{ width: "10%" }}>
                   <span className="magic">Magic</span> & Normal
                 </Typography>
-                <ScrollContainer
-                  style={{ display: "flex", width: "90%" }}
-                  vertical={false}
-                  onStartScroll={onStartScroll}
-                  onEndScroll={onEndScroll}>
+                <ScrollContainer style={{ display: "flex", width: "90%" }} vertical={false}>
                   {stucturedLoot.uncategorized.map((item, index) => generateLootItem(item.item, item.run, index))}
                 </ScrollContainer>
               </Paper>
