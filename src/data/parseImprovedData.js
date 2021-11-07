@@ -57,7 +57,6 @@ const createVariedData = (text) => {
       return { low: single[0], high: single[1], text: description };
     });
   } else if (varyingValues?.length > 0) {
-    //console.log(varyingValues);
     const single = varyingValues[0].match(regexNumbers);
     const val = text.replace(/[\d-]+/g, "{0}");
     return { low: single[0], high: single[1], text: val };

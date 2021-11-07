@@ -1,6 +1,7 @@
 import { Paper, Typography, Divider } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
+import "./item-card.css";
 
 export default function ItemCard(props) {
   const { item } = props;
@@ -112,17 +113,18 @@ export default function ItemCard(props) {
   };
 
   return (
-    <Box sx={{ width: "350px" }}>
+    <Box className="itemContainer">
       <Paper sx={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "15px" }}>
         <img loading="lazy" width="35px" src={require(`../../assets/item-art/${item.image}.png`).default} alt="" />
         <Typography className={`${item.rarity} diablo-text caps shadow`} sx={{ marginTop: "10px" }}>
           {item.name}
         </Typography>
         <Typography variant="caption" sx={{ lineHeight: "1" }}>
-          {item.type}
+          {item.type && item.type}
         </Typography>
+
         <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", width: "70%" }}>
-          {item.level && <Typography variant="caption">Required level: {item.level}</Typography>}
+          {item.level > 0 && <Typography variant="caption">Required level: {item.level}</Typography>}
           {item.requirements.length > 0 &&
             item.requirements.map((requirement, idx) => {
               return (
@@ -131,7 +133,6 @@ export default function ItemCard(props) {
                 </Typography>
               );
             })}
-
           {item.stats.length > 0 &&
             item.stats.map((stat, idx) => {
               return (

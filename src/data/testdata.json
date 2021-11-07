@@ -11907,7 +11907,6 @@
     "rarity": "set",
     "requirements": [
       { "requirement": { "low": "35", "high": "40", "text": "Defense: {0}" }, "varies": true },
-      { "requirement": { "low": "95", "high": "100", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 47", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
       { "requirement": "16 Slots", "varies": false }
