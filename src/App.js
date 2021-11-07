@@ -29,7 +29,7 @@ function App() {
 
   const [loggedIn, setLoggedIn] = useState(false);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/d2-run-tracker">
       <ThemeProvider theme={theme}>
         <BackgroundImage></BackgroundImage>
         <NavBar loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
