@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import MainLayout from "./pages/RunAnalyze/RunLayout/RunLayout.js";
+import RunLayout from "./pages/RunAnalyze/RunLayout/RunLayout.js";
 import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
 import SignIn from "./pages/SignIn/SignIn";
 import NavBar from "./components/NavBar/NavBar";
 
 import "./styles/App.css";
 import BackgroundImage from "./components/BackgroundImage/BackgroundImage.js";
+import DatabaseLayout from "./pages/Database/DatabaseLayout/DatabaseLayout.js";
 
 const theme = createTheme({
   palette: {
@@ -35,10 +36,10 @@ function App() {
         <NavBar loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
         <Switch>
           <Route exact path={allTabs[0]}>
-            {loggedIn ? <MainLayout /> : <Redirect from="/" to={{ pathname: "/login" }} />}
+            {loggedIn ? <RunLayout /> : <Redirect from="/" to={{ pathname: "/login" }} />}
           </Route>
           <Route path={allTabs[1]} render={() => <div>hallo</div>} />
-          <Route path={allTabs[2]} render={() => <div></div>} />
+          <Route path={allTabs[2]} render={() => <DatabaseLayout />} />
           <Route exact path={"/login"}>
             {!loggedIn ? (
               <SignIn loggedIn={loggedIn} setLoggedIn={setLoggedIn}></SignIn>
