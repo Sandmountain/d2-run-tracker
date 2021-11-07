@@ -3880,7 +3880,7 @@
     "requirements": [
       { "requirement": "Defense: 2", "varies": false },
       { "requirement": "Durability: 12", "varies": false },
-      { "requirement": "8 Boxes", "varies": false }
+      { "requirement": "8 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Regenerate Mana 30%", "varies": false },
@@ -3901,7 +3901,7 @@
     "requirements": [
       { "requirement": "Defense: 14-15", "varies": true },
       { "requirement": "Durability: 14", "varies": false },
-      { "requirement": "8 Boxes", "varies": false }
+      { "requirement": "8 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+20-30% Enhanced Defense", "varies": true },
@@ -3925,7 +3925,7 @@
       { "requirement": "Defense: 22-24", "varies": true },
       { "requirement": "Required Strength: 25", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "12 Boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+30-50% Enhanced Defense", "varies": true },
@@ -3949,7 +3949,7 @@
       { "requirement": "Defense: 34-36", "varies": true },
       { "requirement": "Required Strength: 45", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "12 Boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+40-60% Enhanced Defense", "varies": true },
@@ -3973,7 +3973,7 @@
       { "requirement": "Defense: 51-54", "varies": true },
       { "requirement": "Required Strength: 60", "varies": false },
       { "requirement": "Durability: 24", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+80-100% Enhanced Defense", "varies": true },
@@ -3998,7 +3998,7 @@
       { "requirement": "Defense: 102-113", "varies": true },
       { "requirement": "Required Strength: 20", "varies": false },
       { "requirement": "Durability: 22", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+150-180% Enhanced Defense", "varies": true },
@@ -4021,7 +4021,7 @@
       { "requirement": "Defense: 96-107", "varies": true },
       { "requirement": "Required Strength: 20", "varies": false },
       { "requirement": "Durability: 14", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+120-150% Enhanced Defense", "varies": true },
@@ -4045,7 +4045,7 @@
       { "requirement": "Defense:  90-102", "varies": true },
       { "requirement": "Required Strength: 58", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+120-150% Enhanced Defense", "varies": true },
@@ -4069,7 +4069,7 @@
       { "requirement": "Defense: 98-116", "varies": true },
       { "requirement": "Required Strength: 88", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+130-170% Enhanced Defense", "varies": true },
@@ -4095,7 +4095,7 @@
       { "requirement": "Defense: 137-159", "varies": true },
       { "requirement": "Required Strength: 110", "varies": false },
       { "requirement": "Durability: 24", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+160-200% Enhanced Defense", "varies": true },
@@ -4122,7 +4122,7 @@
       { "requirement": "Defense: 119-138", "varies": true },
       { "requirement": "Required Strength: 50", "varies": false },
       { "requirement": "Durability: 12", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+90-120% Enhanced Defense", "varies": true },
@@ -4146,7 +4146,7 @@
       { "requirement": "Defense: 56-63", "varies": true },
       { "requirement": "Required Strength: 50", "varies": false },
       { "requirement": "Durability: 14", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Slows Target By 10%", "varies": false },
@@ -4170,7 +4170,7 @@
       { "requirement": "Defense: 125-158 (Defense: 58-65)", "varies": true },
       { "requirement": "Required Strength: 106", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+90-140% Enhanced Defense", "varies": true },
@@ -9737,7 +9737,7 @@
     "requirements": [
       { "requirement": "Defense: 22", "varies": false },
       { "requirement": "Durability: 12", "varies": false },
-      { "requirement": "8 boxes", "varies": false }
+      { "requirement": "8 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Cannot be Frozen", "varies": false },
@@ -9782,7 +9782,7 @@
       { "requirement": "Defense: 7-252", "varies": false },
       { "requirement": "Required Strength: 25", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "12 boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Cold Resist +20%", "varies": false },
@@ -9844,7 +9844,7 @@
       { "requirement": "Defense: 31", "varies": false },
       { "requirement": "Required Strength: 45", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "12 boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+25 Defense", "varies": false },
@@ -9924,7 +9924,7 @@
       { "requirement": "Defense: 31", "varies": false },
       { "requirement": "Required Strength: 45", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "12 boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+25 Defense", "varies": false },
@@ -10220,7 +10220,7 @@
       { "requirement": "Defense: (10-206) - (13-209)", "varies": true },
       { "requirement": "Required Strength: 60", "varies": false },
       { "requirement": "Durability: 24", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Fire Resist +20%", "varies": false },
@@ -10748,7 +10748,7 @@
       { "requirement": "Defense: 108-115", "varies": true },
       { "requirement": "Required Strength: 106", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+50 Defense", "varies": false },
@@ -11029,7 +11029,7 @@
       { "requirement": "Defense: 6-153", "varies": true },
       { "requirement": "Required Strength: 25", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "12 boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+ (1.5 Per Character Level)  1-148 Defense (Based on Character Level)", "varies": false },
@@ -11133,7 +11133,7 @@
       { "requirement": "Defense: 247", "varies": false },
       { "requirement": "Required Strength: 110", "varies": false },
       { "requirement": "Durability: 24", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+36 Defense", "varies": false },
@@ -11312,7 +11312,7 @@
       { "requirement": "Defense: 81-86", "varies": true },
       { "requirement": "Required Strength: 20", "varies": false },
       { "requirement": "Durability: 14", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+50 Defense", "varies": false },
@@ -11569,7 +11569,7 @@
       { "requirement": "Defense: 75", "varies": false },
       { "requirement": "Required Strength: 88", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+75% Enhanced Defense", "varies": false },
@@ -11821,7 +11821,7 @@
       { "requirement": "Defense: 95-100", "varies": true },
       { "requirement": "Required Strength: 47", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Requirements -20%", "varies": false },
@@ -11940,7 +11940,7 @@
       { "requirement": "Defense: 134-166", "varies": true },
       { "requirement": "Required Strength: 91", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+75-100 Defense", "varies": true },

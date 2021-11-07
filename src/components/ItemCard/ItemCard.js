@@ -5,7 +5,7 @@ import React from "react";
 export default function ItemCard(props) {
   const { item } = props;
 
-  const formatRequirementStats = (text, item) => {
+  const formatRequirementStats = (text, prevValue) => {
     let value;
     let property;
 
@@ -41,7 +41,9 @@ export default function ItemCard(props) {
           <span>{property}</span>
           <span className="magic list-shadow">
             <span>{textBefore}</span>
-            <span className="">{range}</span>
+            <a className="" href="">
+              {range}
+            </a>
             <span>{textAfter}</span>
           </span>
         </>
@@ -61,7 +63,10 @@ export default function ItemCard(props) {
           }
         }, "");
       } else {
-        property = `${splittedText[0]}: `;
+        property = `${splittedText[0]}`;
+        if (!property.includes("Slots")) {
+          property += ": ";
+        }
         value = splittedText[1];
       }
 
@@ -72,19 +77,42 @@ export default function ItemCard(props) {
         </>
       );
     }
+  };
 
-    // const splittedText = text.split(":");
-    // // split the text by spaces,
-    // console.log(splittedText);
-    // const property = splittedText[0];
+  const formatDetailStats = (stat, item) => {
+    if (Array.isArray(stat.detail)) {
+      //console.log(stat, item);
+      return;
+    }
 
-    // //TODO: This should probably be done on the dataset but cba.
-    // const value = splittedText[1];
-    // let parsedValue = splittedText[0] === "Chance to Block" ? text.split("Chance to Block:") : value;
+    if (stat.varies) {
+      let range = "";
+
+      range = `${stat.detail.low}-${stat.detail.high}`;
+      const [textBefore, textAfter] = stat.detail.text.split("{0}");
+
+      return (
+        <>
+          <span className="magic list-shadow">
+            <span>{textBefore}</span>
+            <a className="" href="">
+              {range}
+            </a>
+            <span>{textAfter}</span>
+          </span>
+        </>
+      );
+    } else {
+      if (stat.detail.includes("Items)") || stat.detail.includes("Set")) {
+        return <span className="set list-shadow">{stat.detail}</span>;
+      } else {
+        return <span className="magic list-shadow">{stat.detail}</span>;
+      }
+    }
   };
 
   return (
-    <Box sx={{ width: "300px" }}>
+    <Box sx={{ width: "350px" }}>
       <Paper sx={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "15px" }}>
         <img loading="lazy" width="35px" src={require(`../../assets/item-art/${item.image}.png`).default} alt="" />
         <Typography className={`${item.rarity} diablo-text caps shadow`} sx={{ marginTop: "10px" }}>
@@ -93,13 +121,13 @@ export default function ItemCard(props) {
         <Typography variant="caption" sx={{ lineHeight: "1" }}>
           {item.type}
         </Typography>
-        <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", width: "80%" }}>
+        <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", width: "70%" }}>
           {item.level && <Typography variant="caption">Required level: {item.level}</Typography>}
           {item.requirements.length > 0 &&
             item.requirements.map((requirement, idx) => {
               return (
-                <Typography key={idx} variant="caption">
-                  {formatRequirementStats(requirement, item)}
+                <Typography key={idx} variant="caption" sx={{ textAlign: "center" }}>
+                  {formatRequirementStats(requirement, idx > 0 && item.requirements[idx - 1])}
                 </Typography>
               );
             })}
@@ -107,8 +135,8 @@ export default function ItemCard(props) {
           {item.stats.length > 0 &&
             item.stats.map((stat, idx) => {
               return (
-                <Typography key={idx} variant="caption">
-                  {/* {stat.detail} */}
+                <Typography key={idx} variant="caption" sx={{ textAlign: "center" }}>
+                  {formatDetailStats(stat, item)}
                 </Typography>
               );
             })}

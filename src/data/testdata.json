@@ -9,7 +9,7 @@
     "stats": [
       { "detail": "Magic Damage Reduced By 3", "varies": false },
       { "detail": { "low": "50", "high": "75", "text": "+{0} To Attack Rating" }, "varies": true },
-      { "detail": "Attacker Takes Damage of 3*", "varies": false },
+      { "detail": "Attacker Takes Damage of 3", "varies": false },
       { "detail": { "low": "15", "high": "30", "text": "{0}% Better Chance of Getting Magic Items" }, "varies": true }
     ],
     "setName": "",
@@ -42,7 +42,7 @@
     "requirements": [],
     "stats": [
       { "detail": "+1 To All Skills", "varies": false },
-      { "detail": "Increase Maximum Mana 25%*", "varies": false },
+      { "detail": "Increase Maximum Mana 25%", "varies": false },
       { "detail": "Adds 1-12 Lightning Damage", "varies": false },
       { "detail": "+20 To Mana", "varies": false }
     ],
@@ -133,12 +133,11 @@
     "rarity": "unique",
     "requirements": [],
     "stats": [
-      { "detail": "Slain Monsters Rest In Peace*", "varies": false },
+      { "detail": "Slain Monsters Rest In Peace", "varies": false },
       { "detail": "Prevent Monster Heal", "varies": false },
       { "detail": { "low": "20", "high": "30", "text": "Poison Resist +{0}%" }, "varies": true },
       { "detail": { "low": "7", "high": "11", "text": "Damage Reduced By {0}" }, "varies": true },
-      { "detail": "Level 5 Oak Sage (27 charges)", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Level 5 Oak Sage (27 charges)", "varies": false }
     ],
     "setName": "",
     "image": "natures_peace",
@@ -199,8 +198,8 @@
         ],
         "varies": true
       },
-      { "detail": { "low": "2", "high": "10", "text": "Cold Duration: {0} Seconds *" }, "varies": true },
-      { "detail": { "low": "10", "high": "40", "text": "+{0} Defense vs. Missile *" }, "varies": true }
+      { "detail": { "low": "2", "high": "10", "text": "Cold Duration: {0} Seconds " }, "varies": true },
+      { "detail": { "low": "10", "high": "40", "text": "+{0} Defense vs. Missile " }, "varies": true }
     ],
     "setName": "",
     "image": "the_eye_of_etlich",
@@ -364,8 +363,7 @@
       { "detail": { "low": "150", "high": "250", "text": "+{0} To Attack Rating Against Demons" }, "varies": true },
       { "detail": { "low": "25", "high": "50", "text": "+{0}% Damage To Undead" }, "varies": true },
       { "detail": { "low": "150", "high": "250", "text": "+{0} To Attack Rating Against Undead" }, "varies": true },
-      { "detail": "+2 To Light Radius", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+2 To Light Radius", "varies": false }
     ],
     "setName": "",
     "image": "seraphs_hymn",
@@ -383,8 +381,7 @@
       { "detail": "Level 22 Iron Golem (11 Charges)", "varies": false },
       { "detail": "Level 12 Iron Maiden (20 Charges)", "varies": false },
       { "detail": { "low": "25", "high": "35", "text": "All Resistances +{0}" }, "varies": true },
-      { "detail": { "low": "300", "high": "350", "text": "+{0} Defense" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "300", "high": "350", "text": "+{0} Defense" }, "varies": true }
     ],
     "setName": "",
     "image": "metalgrid",
@@ -417,8 +414,7 @@
     "stats": [
       { "detail": { "low": "80", "high": "160", "text": "{0}% Extra Gold From Monsters" }, "varies": true },
       { "detail": { "low": "10", "high": "15", "text": "Reduces All Vendor Prices {0}%" }, "varies": true },
-      { "detail": { "low": "20", "high": "40", "text": "{0}% Better Chance of Getting Magic Items" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "20", "high": "40", "text": "{0}% Better Chance of Getting Magic Items" }, "varies": true }
     ],
     "setName": "",
     "image": "gheeds_fortune",
@@ -432,8 +428,8 @@
     "rarity": "unique",
     "requirements": [],
     "stats": [
-      { "detail": "5% Chance To Cast level 10 Firestorm* On Striking", "varies": false },
-      { "varies": true },
+      { "detail": "5% Chance To Cast level 10 Firestorm On Striking", "varies": false },
+      { "detail": "+3 to Random Character Class Skills", "varies": false },
       { "detail": { "low": "10", "high": "20", "text": "+{0} To All Attributes" }, "varies": true },
       { "detail": { "low": "10", "high": "20", "text": "All Resistances +{0}" }, "varies": true },
       { "detail": "+8 To Light Radius", "varies": false },
@@ -593,8 +589,7 @@
       { "detail": { "low": "50", "high": "120", "text": "+{0} Defense" }, "varies": true },
       { "detail": "+20% Faster Hit Recovery", "varies": false },
       { "detail": "Cannot Be Frozen", "varies": false },
-      { "detail": { "low": "50", "high": "70", "text": "All Resistances +{0}" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "50", "high": "70", "text": "All Resistances +{0}" }, "varies": true }
     ],
     "setName": "",
     "image": "kiras_guardian",
@@ -615,8 +610,7 @@
       { "detail": "+1 To All Skills", "varies": false },
       { "detail": "+25% Faster Cast Rate", "varies": false },
       { "detail": { "low": "15", "high": "20", "text": "{0}% To Enemy Lightning Resistance" }, "varies": true },
-      { "detail": { "low": "10", "high": "15", "text": "+{0}% To Lightning Skill Damage" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "10", "high": "15", "text": "+{0}% To Lightning Skill Damage" }, "varies": true }
     ],
     "setName": "",
     "image": "griffons_eye",
@@ -640,8 +634,7 @@
       { "detail": "Adds 101-187 Magic Damage", "varies": false },
       { "detail": { "low": "400", "high": "600", "text": "+{0} Defense" }, "varies": true },
       { "detail": { "low": "30", "high": "50", "text": "All Resistances +{0}" }, "varies": true },
-      { "detail": { "low": "1", "high": "3", "text": "+{0} To Javelin and Spear Skills (Amazon Only)" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "1", "high": "3", "text": "+{0} To Javelin and Spear Skills (Amazon Only)" }, "varies": true }
     ],
     "setName": "",
     "image": "stoneraven",
@@ -753,8 +746,7 @@
       { "detail": "-15% To Enemy Lightning Resistance", "varies": false },
       { "detail": "20% Chance To Cast Level 14 Lightning On Striking", "varies": false },
       { "detail": { "low": "2", "high": "4", "text": "+{0} To Javelin and Spear Skills (Amazon Only)" }, "varies": true },
-      { "detail": "+3 To Lightning Bolt (Amazon Only)", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+3 To Lightning Bolt (Amazon Only)", "varies": false }
     ],
     "setName": "",
     "image": "thunderstroke",
@@ -802,8 +794,7 @@
       { "detail": { "low": "10", "high": "15", "text": "+{0} To Mana After Each Kill" }, "varies": true },
       { "detail": "33% Chance To Cast Level 8 Frost Nova On Striking", "varies": false },
       { "detail": "Indestructible", "varies": false },
-      { "detail": "Ethereal (Cannot Be Repaired)*", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Ethereal (Cannot Be Repaired)", "varies": false }
     ],
     "setName": "",
     "image": "shadow_killer",
@@ -934,8 +925,7 @@
       { "detail": { "low": "1", "high": "3", "text": "+{0} To Poison And Bone Skills (Necromancer Only)" }, "varies": true },
       { "detail": { "low": "1", "high": "3", "text": "+{0} To Curses (Necromancer Only)" }, "varies": true },
       { "detail": "+30% Faster Cast Rate", "varies": false },
-      { "detail": "Increase Maximum Mana 10%", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Increase Maximum Mana 10%", "varies": false }
     ],
     "setName": "",
     "image": "darkforce_spawn",
@@ -1034,8 +1024,7 @@
       { "detail": { "low": "55", "high": "77", "text": "Attacker Takes Damage of {0}" }, "varies": true },
       { "detail": { "low": "1", "high": "3", "text": "+{0} To Warcries (Barbarian Only)" }, "varies": true },
       { "detail": { "low": "1", "high": "3", "text": "+{0} To Masteries (Barbarian Only)" }, "varies": true },
-      { "detail": { "low": "1", "high": "3", "text": "+{0} To Combat Skills (Barbarian Only)" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "1", "high": "3", "text": "+{0} To Combat Skills (Barbarian Only)" }, "varies": true }
     ],
     "setName": "",
     "image": "demonhorns_edge",
@@ -1130,8 +1119,7 @@
       { "detail": "+20% Faster Cast Rate", "varies": false },
       { "detail": { "low": "15", "high": "30", "text": "+{0}% To Cold Skill Damage" }, "varies": true },
       { "detail": { "low": "25", "high": "40", "text": "Lightning Resist +{0}%" }, "varies": true },
-      { "detail": { "low": "25", "high": "40", "text": "Fire Resist +{0}%" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "25", "high": "40", "text": "Fire Resist +{0}%" }, "varies": true }
     ],
     "setName": "",
     "image": "deaths_fathom",
@@ -1180,8 +1168,7 @@
       { "detail": { "low": "7", "high": "10", "text": "{0}% Life Stolen Per Hit" }, "varies": true },
       { "detail": "33% Chance of Open Wounds", "varies": false },
       { "detail": { "low": "2", "high": "4", "text": "+{0} To Shape Shifting Skills (Druid Only)" }, "varies": true },
-      { "detail": { "low": "1", "high": "2", "text": "+{0} To Feral Rage (Druid Only)" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "1", "high": "2", "text": "+{0} To Feral Rage (Druid Only)" }, "varies": true }
     ],
     "setName": "",
     "image": "cerebus_bite",
@@ -1305,7 +1292,7 @@
       { "detail": { "low": "170", "high": "200", "text": "+{0}% Enhanced Defense" }, "varies": true },
       { "detail": "Adds 211-371 Fire Damage", "varies": false },
       { "detail": "+15% To Fire Skill Damage", "varies": false },
-      { "detail": "+10 To Hydra*", "varies": false },
+      { "detail": "+10 To Hydra", "varies": false },
       { "detail": "+5% To Maximum Fire Resist", "varies": false },
       { "detail": { "low": "15", "high": "25", "text": "+{0} To Strength" }, "varies": true },
       { "detail": { "low": "10", "high": "20", "text": "Fire Absorb {0}%" }, "varies": true }
@@ -1368,10 +1355,10 @@
     ],
     "stats": [
       { "detail": "+10 Defense", "varies": false },
-      { "detail": "Attacker Takes Lightning Damage of 7*", "varies": false },
-      { "detail": "Hit Blinds Target*", "varies": false },
+      { "detail": "Attacker Takes Lightning Damage of 7", "varies": false },
+      { "detail": "Hit Blinds Target", "varies": false },
       { "detail": "Lightning Resist +15%", "varies": false },
-      { "detail": "+100 Defense vs. Missile*", "varies": false }
+      { "detail": "+100 Defense vs. Missile", "varies": false }
     ],
     "setName": "",
     "image": "coif_of_glory",
@@ -1415,7 +1402,7 @@
       { "detail": "35% Damage Taken Goes to Mana", "varies": false },
       { "detail": "+80% Enhanced Defense", "varies": false },
       { "detail": "Magic Damage Reduced By 2", "varies": false },
-      { "detail": "Attacker Takes Damage of 3*", "varies": false },
+      { "detail": "Attacker Takes Damage of 3", "varies": false },
       { "detail": "Knockback", "varies": false },
       { "detail": "Hit Causes Monster To Flee 25%", "varies": false }
     ],
@@ -1797,8 +1784,7 @@
       { "detail": "Fire Resist -30%", "varies": false },
       { "detail": "Poison Resist +70%", "varies": false },
       { "detail": "15% Chance To Cast Level 15 Poison Nova When Struck", "varies": false },
-      { "detail": "Level 3 Venom (20 charges)", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Level 3 Venom (20 charges)", "varies": false }
     ],
     "setName": "",
     "image": "andariels_visage",
@@ -1886,8 +1872,8 @@
     ],
     "stats": [
       { "detail": "+25 Defense", "varies": false },
-      { "detail": "+50 Defense VS. Missile*", "varies": false },
-      { "detail": "10% Faster Run/Walk*", "varies": false },
+      { "detail": "+50 Defense VS. Missile", "varies": false },
+      { "detail": "10% Faster Run/Walk", "varies": false },
       { "detail": "40% Faster Hit Recovery", "varies": false },
       { "detail": "Adds 3-6 Fire Damage", "varies": false }
     ],
@@ -1933,7 +1919,7 @@
     ],
     "stats": [
       { "detail": "+25 Defense", "varies": false },
-      { "detail": "25% Increase chance of blocking*", "varies": false },
+      { "detail": "25% Increase chance of blocking", "varies": false },
       { "detail": "20% Faster Hit Recovery", "varies": false },
       { "detail": "20% Increased Attack Speed", "varies": false },
       { "detail": "+10 To Dexterity", "varies": false },
@@ -2027,7 +2013,7 @@
     "stats": [
       { "detail": { "low": "75", "high": "85", "text": "+{0}% Enhanced Defense" }, "varies": true },
       { "detail": "Lightning Resist +30%", "varies": false },
-      { "detail": { "low": "10", "high": "14", "text": "Attacker Takes Lightning Damage of {0} *" }, "varies": true },
+      { "detail": { "low": "10", "high": "14", "text": "Attacker Takes Lightning Damage of {0} " }, "varies": true },
       { "detail": "Adds 1-20 Lightning Damage", "varies": false }
     ],
     "setName": "",
@@ -2047,7 +2033,7 @@
     ],
     "stats": [
       { "detail": { "low": "70", "high": "80", "text": "+{0}% Enhanced Defense" }, "varies": true },
-      { "detail": "Freezes Target*", "varies": false },
+      { "detail": "Freezes Target", "varies": false },
       { "detail": "Cold Resist +30%", "varies": false },
       { "detail": "Magic Damage Reduced By 1", "varies": false },
       { "detail": "+4 To Light Radius", "varies": false }
@@ -2158,7 +2144,7 @@
       { "detail": "+120-150% Enhanced Defense", "varies": false },
       { "detail": "+2 To Light Radius", "varies": false },
       { "detail": "All Resistances +35", "varies": false },
-      { "detail": "Attacker Takes Damage of 10*", "varies": false },
+      { "detail": "Attacker Takes Damage of 10", "varies": false },
       { "detail": "100% Extra Gold From Monsters", "varies": false }
     ],
     "setName": "",
@@ -2572,7 +2558,7 @@
       { "detail": { "low": "10", "high": "15", "text": "+{0}% To Cold Skill Damage" }, "varies": true },
       { "detail": { "low": "10", "high": "15", "text": "+{0}% To Fire Skill Damage" }, "varies": true },
       { "detail": { "low": "10", "high": "15", "text": "+{0}% To Lightning Skill Damage" }, "varies": true },
-      { "detail": "+3 bonus to a random Sorceress skill (Sorceress Only)*", "varies": false },
+      { "detail": "+3 bonus to a random Sorceress skill (Sorceress Only)", "varies": false },
       { "detail": { "low": "10", "high": "15", "text": "Regenerate Mana {0}%" }, "varies": true }
     ],
     "setName": "",
@@ -2617,7 +2603,7 @@
     ],
     "stats": [
       { "detail": { "low": "150", "high": "180", "text": "+{0}% Enhanced Defense" }, "varies": true },
-      { "detail": { "low": "1", "high": "2", "text": "+{0} To All Skills*" }, "varies": true },
+      { "detail": { "low": "1", "high": "2", "text": "+{0} To All Skills" }, "varies": true },
       { "detail": "+ (0.5 Per Character Level) 0-49 To Vitality (Based On Character Level)", "varies": false },
       { "detail": "30% Faster Hit Recovery", "varies": false },
       { "detail": { "low": "10", "high": "15", "text": "Damage Reduced By {0}" }, "varies": true }
@@ -2641,8 +2627,7 @@
       { "detail": { "low": "100", "high": "150", "text": "+{0} Defense" }, "varies": true },
       { "detail": { "low": "40", "high": "50", "text": "+{0} To Strength" }, "varies": true },
       { "detail": { "low": "15", "high": "25", "text": "Damage Reduced By {0}%" }, "varies": true },
-      { "detail": "Indestructible", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
     "image": "leviathan",
@@ -2715,8 +2700,7 @@
       { "detail": "Cannot Be Frozen", "varies": false },
       { "detail": "Requirements -100%", "varies": false },
       { "detail": "Slain Monsters Rest in Peace", "varies": false },
-      { "detail": "Indestructible", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Indestructible", "varies": false }
     ],
     "setName": "",
     "image": "tyraels_might",
@@ -2732,7 +2716,7 @@
       { "requirement": "Defense: 39", "varies": false },
       { "requirement": "Required Strength: 12", "varies": false },
       { "requirement": { "low": "20", "high": "24", "text": "Durability: {0}" }, "varies": true },
-      { "requirement": "Chance to Block: Pal: 50%, Ama/Asn/Bar/: 45%, Dru/Nec/Sor: 40%", "varies": false },
+      { "requirement": "Chance to Block:  50%,  45%,  40%", "varies": false },
       { "requirement": "Paladin Smite Damage: 1 To 3", "varies": false }
     ],
     "stats": [
@@ -2758,14 +2742,14 @@
       { "requirement": { "low": "45", "high": "46", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 22", "varies": false },
       { "requirement": { "low": "26", "high": "31", "text": "Durability: {0}" }, "varies": true },
-      { "requirement": "Chance to Block: Pal: 65%, Ama/Asn/Bar: 60%, Dru/Nec/Sor: 55%", "varies": false },
+      { "requirement": "Chance to Block:  65%,  60%,  55%", "varies": false },
       { "requirement": "Paladin Smite Damage: 2 To 3", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "40", "high": "50", "text": "+{0}% Enhanced Defense" }, "varies": true },
       { "detail": "+30 Defense", "varies": false },
       { "detail": "30% Increased Chance Of Blocking", "varies": false },
-      { "detail": "Hit Blinds Target*", "varies": false },
+      { "detail": "Hit Blinds Target", "varies": false },
       { "detail": "+20 To Life", "varies": false },
       { "detail": "+10 To Dexterity", "varies": false },
       { "detail": "-2 To Light Radius", "varies": false },
@@ -2785,7 +2769,7 @@
       { "requirement": { "low": "52", "high": "54", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 34", "varies": false },
       { "requirement": { "low": "34", "high": "39", "text": "Durability: {0}" }, "varies": true },
-      { "requirement": "Chance to Block: Pal: 72%, Ama/Asn/Bar: 67%, Dru/Nec/Sor: 62%", "varies": false },
+      { "requirement": "Chance to Block:  72%,  67%,  62%", "varies": false },
       { "requirement": "Paladin Smite Damage: 2 To 4", "varies": false }
     ],
     "stats": [
@@ -2811,7 +2795,7 @@
       { "requirement": { "low": "50", "high": "58", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 47", "varies": false },
       { "requirement": { "low": "45", "high": "50", "text": "Durability: {0}" }, "varies": true },
-      { "requirement": "Chance to Block: Pal: 63%, Ama/Asn/Bar: 58%, Dru/Nec/Sor: 53%", "varies": false },
+      { "requirement": "Chance to Block:  63%,  58%,  53%", "varies": false },
       { "requirement": "Paladin Smite Damage: 2 To 5", "varies": false }
     ],
     "stats": [
@@ -2838,14 +2822,14 @@
       { "requirement": { "low": "43", "high": "51", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 30", "varies": false },
       { "requirement": "Durability: 40", "varies": false },
-      { "requirement": "Chance to Block: Pal: 60%, Ama/Asn/Bar: 55%, Dru/Nec/Sor: 50%", "varies": false },
+      { "requirement": "Chance to Block:  60%,  55%,  50%", "varies": false },
       { "requirement": "Paladin Smite Damage: 5 To 9", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "30", "high": "60", "text": "+{0}% Enhance Defense" }, "varies": true },
       { "detail": "+10 Defense", "varies": false },
       { "detail": "20% Increased Chance of Blocking", "varies": false },
-      { "detail": "50% Chance of Open Wounds*", "varies": false },
+      { "detail": "50% Chance of Open Wounds", "varies": false },
       { "detail": "Attacker Takes Damage of 10", "varies": false }
     ],
     "setName": "",
@@ -2862,7 +2846,7 @@
       { "requirement": { "low": "76", "high": "87", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 75", "varies": false },
       { "requirement": { "low": "140", "high": "160", "text": "Durability: {0}" }, "varies": true },
-      { "requirement": "Chance to Block: Pal: 64%, Ama/Asn/Bar: 59%, Dru/Nec/Sor: 54%", "varies": false },
+      { "requirement": "Chance to Block:  64%,  59%,  54%", "varies": false },
       { "requirement": "Paladin Smite Damage: 1 To 5", "varies": false }
     ],
     "stats": [
@@ -2887,13 +2871,13 @@
       { "requirement": { "low": "50", "high": "53", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 25", "varies": false },
       { "requirement": "Durability: 40", "varies": false },
-      { "requirement": "Chance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%", "varies": false },
+      { "requirement": "Chance to Block:  50%,  45%,  40%", "varies": false },
       { "requirement": "Paladin Smite Damage: 3 To 6", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "30", "high": "40", "text": "+{0}% Enhanced Defense" }, "varies": true },
       { "detail": "+10 Defense", "varies": false },
-      { "detail": "+5 to Mana after Each Kill*", "varies": false },
+      { "detail": "+5 to Mana after Each Kill", "varies": false },
       { "detail": "20% Faster Cast Rate", "varies": false },
       { "detail": "3% Mana Stolen Per Hit", "varies": false },
       { "detail": "Poison Resist +20%", "varies": false }
@@ -2912,7 +2896,7 @@
       { "requirement": "Defense: 112", "varies": false },
       { "requirement": "Required Strength: 60", "varies": false },
       { "requirement": "Durability: 40", "varies": false },
-      { "requirement": "Chance to Block: Pal: 56%, Ama/Asn/Bar: 51%, Dru/Nec/Sor: 46%", "varies": false },
+      { "requirement": "Chance to Block:  56%,  51%,  46%", "varies": false },
       { "requirement": "Paladin Smite Damage: 2 To 6", "varies": false }
     ],
     "stats": [
@@ -2936,7 +2920,7 @@
     "requirements": [
       { "requirement": { "low": "100", "high": "125", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 38", "varies": false },
-      { "requirement": "Chance to Block: Pal: 70%, Ama/Asn/Bar: 65%, Dru/Nec/Sor: 60%", "varies": false },
+      { "requirement": "Chance to Block:  70%,  65%,  60%", "varies": false },
       { "requirement": "Durability: 68", "varies": false },
       { "requirement": "Paladin Smite Damage: 8 To 12", "varies": false }
     ],
@@ -2960,7 +2944,7 @@
     "requirements": [
       { "requirement": { "low": "156", "high": "179", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 53", "varies": false },
-      { "requirement": "Chance to Block: Pal: 67%, Ama/Asn/Bar: 62%, Dru/Nec/Sor: 57%", "varies": false },
+      { "requirement": "Chance to Block:  67%,  62%,  57%", "varies": false },
       { "requirement": "Durability: 64", "varies": false },
       { "requirement": "Paladin Smite Damage: 7 To 14", "varies": false }
     ],
@@ -2984,7 +2968,7 @@
     "requirements": [
       { "requirement": { "low": "161", "high": "198", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 71", "varies": false },
-      { "requirement": "Chance to Block: Pal: 64%, Ama/Asn/Bar: 59%, Dru/Nec/Sor: 54%", "varies": false },
+      { "requirement": "Chance to Block:  64%,  59%,  54%", "varies": false },
       { "requirement": "Durability: 62", "varies": false },
       { "requirement": "Paladin Smite Damage: 11 To 15", "varies": false }
     ],
@@ -3012,7 +2996,7 @@
     "requirements": [
       { "requirement": { "low": "163", "high": "204", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 91", "varies": false },
-      { "requirement": "Chance to Block: Pal: 48%, Ama/Asn/Bar: 43%, Dru/Nec/Sor: 38%", "varies": false },
+      { "requirement": "Chance to Block:  48%,  43%,  38%", "varies": false },
       { "requirement": "Durability: 116", "varies": false },
       { "requirement": "Paladin Smite Damage: 15 To 24", "varies": false }
     ],
@@ -3039,7 +3023,7 @@
     "requirements": [
       { "requirement": { "low": "134", "high": "173", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 65", "varies": false },
-      { "requirement": "Chance to Block: Pal: 47%, Ama/Asn/Bar: 42%, Dru/Nec/Sor: 37%", "varies": false },
+      { "requirement": "Chance to Block:  47%,  42%,  37%", "varies": false },
       { "requirement": "Durability: 55", "varies": false },
       { "requirement": "Paladin Smite Damage: 18 To 35", "varies": false }
     ],
@@ -3064,7 +3048,7 @@
     "requirements": [
       { "requirement": { "low": "221", "high": "268", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 133", "varies": false },
-      { "requirement": "Chance to Block: Pal: 84%, Ama/Asn/Bar: 79%, Dru/Nec/Sor: 74%", "varies": false },
+      { "requirement": "Chance to Block:  84%,  79%,  74%", "varies": false },
       { "requirement": "Durability: 172", "varies": false },
       { "requirement": "Paladin Smite Damage: 10 To 17", "varies": false }
     ],
@@ -3089,7 +3073,7 @@
     "requirements": [
       { "requirement": { "low": "271", "high": "347", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 58", "varies": false },
-      { "requirement": "Chance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%", "varies": false },
+      { "requirement": "Chance to Block:  50%,  45%,  40%", "varies": false },
       { "requirement": "Durability: 70", "varies": false },
       { "requirement": "Paladin Smite Damage: 14 To 20", "varies": false }
     ],
@@ -3115,7 +3099,7 @@
     "requirements": [
       { "requirement": { "low": "244", "high": "282", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 110", "varies": false },
-      { "requirement": "Chance to Block: Pal: 66%, Ama/Asn/Bar: 61%, Dru/Nec/Sor: 56%", "varies": false },
+      { "requirement": "Chance to Block:  66%,  61%,  56%", "varies": false },
       { "requirement": "Durability: 100", "varies": false },
       { "requirement": "Paladin Smite Damage: 12 To 16", "varies": false }
     ],
@@ -3141,7 +3125,7 @@
     "requirements": [
       { "requirement": { "low": "322", "high": "372", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 100", "varies": false },
-      { "requirement": "Chance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%", "varies": false },
+      { "requirement": "Chance to Block:  50%,  45%,  40%", "varies": false },
       { "requirement": "Paladin Smite Damage: 17 To 29", "varies": false },
       { "requirement": "Durability: 129", "varies": false }
     ],
@@ -3173,7 +3157,7 @@
         "varies": true
       },
       { "requirement": "Required Strength: 156", "varies": false },
-      { "requirement": "Chance to Block: Pal: 77%, Ama/Asn/Bar: 72%, Dru/Nec/Sor: 67%", "varies": false },
+      { "requirement": "Chance to Block:  77%,  72%,  67%", "varies": false },
       { "requirement": "Paladin Smite Damage: 12 To 34", "varies": false }
     ],
     "stats": [
@@ -3200,7 +3184,7 @@
     "requirements": [
       { "requirement": { "low": "360", "high": "410", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 118", "varies": false },
-      { "requirement": "Chance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%", "varies": false },
+      { "requirement": "Chance to Block:  50%,  45%,  40%", "varies": false },
       { "requirement": "Durability: 333", "varies": false },
       { "requirement": "Paladin Smite Damage: 26 To 40", "varies": false }
     ],
@@ -3224,7 +3208,7 @@
     "requirements": [
       { "requirement": { "low": "405", "high": "453", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 219", "varies": false },
-      { "requirement": "Chance to Block: Pal: 54%, Ama/Asn/Bar: 49%, Dru/Nec/Sor: 44%", "varies": false },
+      { "requirement": "Chance to Block:  54%,  49%,  44%", "varies": false },
       { "requirement": "Durability: 92", "varies": false },
       { "requirement": "Paladin Smite Damage: 18 To 28", "varies": false }
     ],
@@ -3249,7 +3233,7 @@
     "requirements": [
       { "requirement": { "low": "478", "high": "593", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 106", "varies": false },
-      { "requirement": "Chance to Block: Pal: 50%, Ama/Asn/Bar: 45%, Dru/Nec/Sor: 40%", "varies": false },
+      { "requirement": "Chance to Block:  50%,  45%,  40%", "varies": false },
       { "requirement": "Durability: 74", "varies": false },
       { "requirement": "Paladin Smite Damage: 24 To 38", "varies": false }
     ],
@@ -3274,7 +3258,7 @@
     "requirements": [
       { "requirement": { "low": "393", "high": "478", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 185", "varies": false },
-      { "requirement": "Chance to Block: Pal: 74-84%, Ama/Asn/Bar: 69-79%, Dru/Nec/Sor: 64-74%", "varies": false },
+      { "requirement": "Chance to Block:  74-84%,  69-79%,  64-74%", "varies": false },
       { "requirement": "Paladin Smite Damage: 11 To 35", "varies": false }
     ],
     "stats": [
@@ -3394,7 +3378,7 @@
       { "detail": { "low": "10", "high": "20", "text": "+{0}% Enhanced Defense" }, "varies": true },
       { "detail": "+30 Defense", "varies": false },
       { "detail": "+5% Enhanced Damage", "varies": false },
-      { "detail": "Increase Maximum Mana 40%*", "varies": false },
+      { "detail": "Increase Maximum Mana 40%", "varies": false },
       { "detail": "Adds 1-6 Cold Damage, Cold Duration: 2 Seconds", "varies": false }
     ],
     "setName": "",
@@ -3644,7 +3628,7 @@
       { "detail": "+12 Defense", "varies": false },
       { "detail": "50% Slower Stamina Drain", "varies": false },
       { "detail": "30% Faster Run/Walk", "varies": false },
-      { "detail": "+50 Defense VS. Missile*", "varies": false },
+      { "detail": "+50 Defense VS. Missile", "varies": false },
       { "detail": "+10 To Life", "varies": false }
     ],
     "setName": "",
@@ -3900,8 +3884,7 @@
       { "detail": "+30% Faster Run/Walk", "varies": false },
       { "detail": "+30% Faster Hit Recovery", "varies": false },
       { "detail": { "low": "15", "high": "25", "text": "+{0} To Dexterity" }, "varies": true },
-      { "detail": "Requirements -20%", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Requirements -20%", "varies": false }
     ],
     "setName": "",
     "image": "shadow_dancer",
@@ -3916,7 +3899,7 @@
     "requirements": [
       { "requirement": "Defense: 2", "varies": false },
       { "requirement": "Durability: 12", "varies": false },
-      { "requirement": "8 Boxes", "varies": false }
+      { "requirement": "8 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Regenerate Mana 30%", "varies": false },
@@ -3937,7 +3920,7 @@
     "requirements": [
       { "requirement": { "low": "14", "high": "15", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Durability: 14", "varies": false },
-      { "requirement": "8 Boxes", "varies": false }
+      { "requirement": "8 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "20", "high": "30", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -3961,12 +3944,12 @@
       { "requirement": { "low": "22", "high": "24", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 25", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "12 Boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "30", "high": "50", "text": "+{0}% Enhanced Defense" }, "varies": true },
       { "detail": "+15 Defense", "varies": false },
-      { "detail": "50% Damage Taken Goes to Mana*", "varies": false },
+      { "detail": "50% Damage Taken Goes to Mana", "varies": false },
       { "detail": "Damage Reduced By 2", "varies": false },
       { "detail": "All Resistances +10", "varies": false },
       { "detail": "+20 To Mana", "varies": false }
@@ -3985,7 +3968,7 @@
       { "requirement": { "low": "34", "high": "36", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 45", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "12 Boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "40", "high": "60", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -4009,7 +3992,7 @@
       { "requirement": { "low": "51", "high": "54", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 60", "varies": false },
       { "requirement": "Durability: 24", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "80", "high": "100", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -4018,7 +4001,7 @@
       { "detail": "+10 To Dexterity", "varies": false },
       { "detail": "+5 To Strength", "varies": false },
       { "detail": "Damage Reduced By 3", "varies": false },
-      { "detail": "Attacker Takes Damage of 8*", "varies": false }
+      { "detail": "Attacker Takes Damage of 8", "varies": false }
     ],
     "setName": "",
     "image": "bladebuckle",
@@ -4034,7 +4017,7 @@
       { "requirement": { "low": "102", "high": "113", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 20", "varies": false },
       { "requirement": "Durability: 22", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "150", "high": "180", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -4057,7 +4040,7 @@
       { "requirement": { "low": "96", "high": "107", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 20", "varies": false },
       { "requirement": "Durability: 14", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "120", "high": "150", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -4081,7 +4064,7 @@
       { "requirement": { "low": "90", "high": "102", "text": "Defense:  {0}" }, "varies": true },
       { "requirement": "Required Strength: 58", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "120", "high": "150", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -4105,7 +4088,7 @@
       { "requirement": { "low": "98", "high": "116", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 88", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "130", "high": "170", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -4131,7 +4114,7 @@
       { "requirement": { "low": "137", "high": "159", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 110", "varies": false },
       { "requirement": "Durability: 24", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "160", "high": "200", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -4158,7 +4141,7 @@
       { "requirement": { "low": "119", "high": "138", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 50", "varies": false },
       { "requirement": "Durability: 12", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "90", "high": "120", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -4182,7 +4165,7 @@
       { "requirement": { "low": "56", "high": "63", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 50", "varies": false },
       { "requirement": "Durability: 14", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Slows Target By 10%", "varies": false },
@@ -4212,7 +4195,7 @@
       },
       { "requirement": "Required Strength: 106", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "16 Boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "90", "high": "140", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -4240,7 +4223,7 @@
     "stats": [
       { "detail": { "low": "60", "high": "70", "text": "+{0}% Enhanced Damage" }, "varies": true },
       { "detail": "20% Chance of Crushing Blow", "varies": false },
-      { "detail": "50% Chance of Open Wounds*", "varies": false },
+      { "detail": "50% Chance of Open Wounds", "varies": false },
       { "detail": "+8 To Strength", "varies": false }
     ],
     "setName": "",
@@ -4263,7 +4246,7 @@
       { "detail": { "low": "60", "high": "70", "text": "+{0}% Enhanced Damage" }, "varies": true },
       { "detail": "+8 To Minimum Damage", "varies": false },
       { "detail": "15% Bonus to Attack Rating", "varies": false },
-      { "detail": "Hit Blinds Target*", "varies": false },
+      { "detail": "Hit Blinds Target", "varies": false },
       { "detail": "+4 points of Mana after each kill", "varies": false }
     ],
     "setName": "",
@@ -4312,7 +4295,7 @@
       { "detail": { "low": "12", "high": "15", "text": "Adds 1-({0}) Lightning Damage" }, "varies": true },
       { "detail": { "low": "50", "high": "100", "text": "+{0} To Attack Rating" }, "varies": true },
       { "detail": "15% Chance Of Open Wounds", "varies": false },
-      { "detail": "Hit Blinds Target +2*", "varies": false },
+      { "detail": "Hit Blinds Target +2", "varies": false },
       { "detail": "Regenerate Mana 20%", "varies": false }
     ],
     "setName": "",
@@ -4356,7 +4339,7 @@
     ],
     "stats": [
       { "detail": { "low": "70", "high": "90", "text": "+{0}% Enhanced Damage" }, "varies": true },
-      { "detail": "Freezes Target +3*", "varies": false },
+      { "detail": "Freezes Target +3", "varies": false },
       { "detail": "Cold Resist +50%", "varies": false },
       { "detail": "+2 To Light Radius", "varies": false }
     ],
@@ -4379,7 +4362,7 @@
     "stats": [
       { "detail": { "low": "40", "high": "50", "text": "+{0}% Enhanced Damage" }, "varies": true },
       { "detail": "+9 To Maximum Damage", "varies": false },
-      { "detail": "60% Chance of Open Wounds*", "varies": false },
+      { "detail": "60% Chance of Open Wounds", "varies": false },
       { "detail": "30% Increased Attack Speed", "varies": false },
       { "detail": "+25 To Strength", "varies": false }
     ],
@@ -4451,7 +4434,7 @@
       { "detail": { "low": "80", "high": "120", "text": "+{0}% Enhanced Damage" }, "varies": true },
       { "detail": { "low": "15", "high": "25", "text": "Adds 8-({0}) Damage" }, "varies": true },
       { "detail": "33% chance of Crushing Blow", "varies": false },
-      { "detail": "Requirements 20%*", "varies": false },
+      { "detail": "Requirements 20%", "varies": false },
       { "detail": { "low": "20", "high": "30", "text": "+{0} to Strength" }, "varies": true }
     ],
     "setName": "",
@@ -4761,8 +4744,7 @@
       { "detail": { "low": "220", "high": "270", "text": "+{0}% Enhanced Damage" }, "varies": true },
       { "detail": "+5% To Maximum Cold Resist", "varies": false },
       { "detail": "Cannot Be Frozen", "varies": false },
-      { "detail": { "low": "3", "high": "5", "text": "Socketed ({0})" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "3", "high": "5", "text": "Socketed ({0})" }, "varies": true }
     ],
     "setName": "",
     "image": "rune_master",
@@ -4811,8 +4793,7 @@
       { "detail": "+40% Increased Attack Speed", "varies": false },
       { "detail": "-33% Target Defense", "varies": false },
       { "detail": "66% Deadly Strike", "varies": false },
-      { "detail": { "low": "6", "high": "9", "text": "+{0} Life After Each Kill" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "6", "high": "9", "text": "+{0} Life After Each Kill" }, "varies": true }
     ],
     "setName": "",
     "image": "death_cleaver",
@@ -4838,7 +4819,7 @@
       { "detail": { "low": "10", "high": "12", "text": "+{0} Fire Absorb" }, "varies": true },
       { "detail": { "low": "5", "high": "10", "text": "+{0} Life After Each Demon Kill" }, "varies": true },
       { "detail": "Indestructible", "varies": false },
-      { "detail": "Ethereal (Cannot Be Repaired)*", "varies": false }
+      { "detail": "Ethereal (Cannot Be Repaired)", "varies": false }
     ],
     "setName": "",
     "image": "ethereal_edge",
@@ -4912,8 +4893,7 @@
       { "detail": "25% Chance Of Crushing Blow", "varies": false },
       { "detail": "30% Increased Attack Speed", "varies": false },
       { "detail": "-33% Target Defense", "varies": false },
-      { "detail": "50% Chance To Cast Level 6 Decrepify When You Kill An Enemy", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "50% Chance To Cast Level 6 Decrepify When You Kill An Enemy", "varies": false }
     ],
     "setName": "",
     "image": "executioners_justice",
@@ -5078,7 +5058,7 @@
       { "detail": { "low": "30", "high": "50", "text": "Adds 15-({0}) Fire Damage" }, "varies": true },
       { "detail": "10% Increased Attack Speed", "varies": false },
       { "detail": { "low": "50", "high": "75", "text": "+{0} to Attack Rating" }, "varies": true },
-      { "detail": "+1 To Fire Skills*", "varies": false },
+      { "detail": "+1 To Fire Skills", "varies": false },
       { "detail": "Fire Resist +40%", "varies": false },
       { "detail": "+12 to Dexterity", "varies": false }
     ],
@@ -5352,9 +5332,8 @@
       { "detail": { "low": "150", "high": "200", "text": "+{0}% Enhanced Damage" }, "varies": true },
       { "detail": "Ignore Target's Defense", "varies": false },
       { "detail": "33% Deadly Strike", "varies": false },
-      { "detail": { "low": "3", "high": "5", "text": "+{0} To Guided Arrow*" }, "varies": true },
-      { "detail": "Fires Magic Arrows [Level 11]", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "3", "high": "5", "text": "+{0} To Guided Arrow" }, "varies": true },
+      { "detail": "Fires Magic Arrows [Level 11]", "varies": false }
     ],
     "setName": "",
     "image": "widowmaker",
@@ -5895,7 +5874,7 @@
       { "detail": { "low": "10", "high": "15", "text": "{0}% Mana Stolen Per Hit" }, "varies": true },
       { "detail": "+2 To Light Radius", "varies": false },
       { "detail": "Indestructible", "varies": false },
-      { "detail": "Ethereal (Cannot Be Repaired)*", "varies": false }
+      { "detail": "Ethereal (Cannot Be Repaired)", "varies": false }
     ],
     "setName": "",
     "image": "ghostflame",
@@ -5946,8 +5925,7 @@
       { "detail": { "low": "9", "high": "13", "text": "{0}% Life Stolen Per Hit" }, "varies": true },
       { "detail": "+15 To Mana After Each Kill", "varies": false },
       { "detail": "Replenishes Quantity [1 in 2 sec.]", "varies": false },
-      { "detail": "Ethereal (Cannot Be Repaired)*", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Ethereal (Cannot Be Repaired)", "varies": false }
     ],
     "setName": "",
     "image": "wraith_flight",
@@ -6978,8 +6956,7 @@
       { "detail": { "low": "11", "high": "15", "text": "{0}% Life Stolen Per Hit" }, "varies": true },
       { "detail": "33% Deadly Strike", "varies": false },
       { "detail": "33% Chance To Cast Level 1 Decrepify On Striking", "varies": false },
-      { "detail": "Requirements -25%", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Requirements -25%", "varies": false }
     ],
     "setName": "",
     "image": "the_reapers_toll",
@@ -7004,12 +6981,11 @@
       { "detail": "+60% Increased Attack Speed", "varies": false },
       { "detail": { "low": "250", "high": "350", "text": "+{0} To Attack Rating Against Undead" }, "varies": true },
       { "detail": { "low": "30", "high": "50", "text": "All Resistances +{0}" }, "varies": true },
-      { "detail": "10% Reanimate As: Returned*", "varies": false },
+      { "detail": "10% Reanimate As: Returned", "varies": false },
       { "detail": { "low": "10", "high": "14", "text": "+{0} Life After Each Kill" }, "varies": true },
       { "detail": { "low": "50", "high": "80", "text": "+{0}% Better Chance of Getting Magic Items" }, "varies": true },
       { "detail": "+4 To Light Radius", "varies": false },
-      { "detail": { "low": "1", "high": "3", "text": "Socketed ({0})" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "1", "high": "3", "text": "Socketed ({0})" }, "varies": true }
     ],
     "setName": "",
     "image": "tomb_reaver",
@@ -7225,8 +7201,7 @@
       { "detail": { "low": "15", "high": "20", "text": "+{0} Life After Each Demon Kill" }, "varies": true },
       { "detail": { "low": "2", "high": "3", "text": "+{0} To Paladin Skill Levels" }, "varies": true },
       { "detail": "+3 To Light Radius", "varies": false },
-      { "detail": { "low": "1", "high": "2", "text": "Socketed ({0}) *" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "1", "high": "2", "text": "Socketed ({0}) " }, "varies": true }
     ],
     "setName": "",
     "image": "heavens_light",
@@ -7329,9 +7304,9 @@
     ],
     "stats": [
       { "detail": { "low": "30", "high": "50", "text": "+{0}% Enhanced Damage" }, "varies": true },
-      { "detail": "Slows Target By 25%*", "varies": false },
+      { "detail": "Slows Target By 25%", "varies": false },
       { "detail": "30% Increased Attack Speed", "varies": false },
-      { "detail": "50% target defense*", "varies": false },
+      { "detail": "50% target defense", "varies": false },
       { "detail": "+8 To Dexterity", "varies": false },
       { "detail": "+15 To Strength", "varies": false }
     ],
@@ -7354,7 +7329,7 @@
     ],
     "stats": [
       { "detail": { "low": "50", "high": "70", "text": "+{0}% Enhanced Damage" }, "varies": true },
-      { "detail": "35% Chance of Open Wounds*", "varies": false },
+      { "detail": "35% Chance of Open Wounds", "varies": false },
       { "detail": { "low": "8", "high": "12", "text": "{0}% Life stolen per hit" }, "varies": true },
       { "detail": "+26 to Life", "varies": false },
       { "detail": "+10 to Strength", "varies": false }
@@ -7706,7 +7681,7 @@
       { "detail": "+50% Damage To Undead", "varies": false },
       { "detail": "Adds 15-32 Fire Damage", "varies": false },
       { "detail": "Fire Resist +30%", "varies": false },
-      { "detail": "+2 To Fire Skills*", "varies": false },
+      { "detail": "+2 To Fire Skills", "varies": false },
       { "detail": "+3 To Warmth (Sorceress Only)", "varies": false },
       { "detail": "+2 To Fire Ball (Sorceress Only)", "varies": false },
       { "detail": "+1 To Fire Wall (Sorceress Only)", "varies": false }
@@ -7915,8 +7890,7 @@
       { "detail": { "low": "7", "high": "15", "text": "-({0})% To Enemy Cold Resistances" }, "varies": true },
       { "detail": { "low": "7", "high": "15", "text": "-({0})% To Enemy Fire Resistances" }, "varies": true },
       { "detail": "Regenerate Mana 10%", "varies": false },
-      { "detail": "+50% Damage To Undead", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+50% Damage To Undead", "varies": false }
     ],
     "setName": "",
     "image": "mang_songs_lesson",
@@ -8629,8 +8603,7 @@
       { "detail": { "low": "3", "high": "6", "text": "{0}% Mana Stolen Per Hit" }, "varies": true },
       { "detail": { "low": "3", "high": "7", "text": "+{0} Lightning Absorb" }, "varies": true },
       { "detail": { "low": "200", "high": "300", "text": "+{0} To Attack Rating Against Demons" }, "varies": true },
-      { "detail": { "low": "1", "high": "2", "text": "Socketed ({0})" }, "varies": true },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": { "low": "1", "high": "2", "text": "Socketed ({0})" }, "varies": true }
     ],
     "setName": "",
     "image": "djinn_slayer",
@@ -8708,8 +8681,7 @@
       { "detail": "+1 To All Skills", "varies": false },
       { "detail": { "low": "5", "high": "10", "text": "+{0} To All Attributes" }, "varies": true },
       { "detail": { "low": "10", "high": "13", "text": "Level {0} Sanctuary Aura When Equipped" }, "varies": true },
-      { "detail": "+3 To Light Radius", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "+3 To Light Radius", "varies": false }
     ],
     "setName": "",
     "image": "azurewrath",
@@ -8730,7 +8702,7 @@
     "stats": [
       { "detail": { "low": "180", "high": "230", "text": "+{0}% Enhanced Damage" }, "varies": true },
       { "detail": "Adds 237-486 Cold Damage, 6 sec. Duration (Normal)", "varies": false },
-      { "detail": { "low": "7", "high": "14", "text": "+{0} To Arctic Blast*" }, "varies": true },
+      { "detail": { "low": "7", "high": "14", "text": "+{0} To Arctic Blast" }, "varies": true },
       { "detail": "Freezes Target +4", "varies": false },
       { "detail": { "low": "7", "high": "15", "text": "Cold Absorb {0}%" }, "varies": true },
       { "detail": "Half Freeze Duration", "varies": false },
@@ -8757,7 +8729,7 @@
       { "detail": { "low": "170", "high": "240", "text": "+{0}% Enhanced Damage" }, "varies": true },
       { "detail": "Adds 233-482 Fire Damage", "varies": false },
       { "detail": "+3 To Fire Skills", "varies": false },
-      { "detail": { "low": "12", "high": "18", "text": "+{0} To Inferno*" }, "varies": true },
+      { "detail": { "low": "12", "high": "18", "text": "+{0} To Inferno" }, "varies": true },
       { "detail": { "low": "10", "high": "20", "text": "+{0} To Strength" }, "varies": true },
       { "detail": { "low": "5", "high": "10", "text": "+{0} To Vitality" }, "varies": true },
       { "detail": "12% Chance To Cast Level 16 Firestorm On Striking", "varies": false },
@@ -8891,8 +8863,7 @@
       { "detail": "+30% Increased Attack Speed", "varies": false },
       { "detail": "Piercing Attack [50]", "varies": false },
       { "detail": "25% Chance To Cast Level 9 Nova On Striking", "varies": false },
-      { "detail": "Replenishes Quantity [1 in 3 sec.]", "varies": false },
-      { "detail": "(Ladder Only)", "varies": false }
+      { "detail": "Replenishes Quantity [1 in 3 sec.]", "varies": false }
     ],
     "setName": "",
     "image": "warshrike",
@@ -9214,7 +9185,6 @@
     "rarity": "set",
     "requirements": [
       { "requirement": "Defense: 68", "varies": false },
-      { "requirement": "Defense: 218", "varies": false },
       { "requirement": "Required Strength: 36", "varies": false },
       { "requirement": "Durability: 26", "varies": false }
     ],
@@ -9680,7 +9650,7 @@
       { "requirement": { "low": "27", "high": "29", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 34", "varies": false },
       { "requirement": "Durability: 24", "varies": false },
-      { "requirement": "Chance to Block: Pal: 57%, Ama/Asn/Bar: 52% Dru/Nec/Sor: 47%", "varies": false },
+      { "requirement": "Chance to Block:  57%,  52%  47%", "varies": false },
       { "requirement": "Paladin Smite Damage: 2 to 4", "varies": false }
     ],
     "stats": [
@@ -9747,7 +9717,7 @@
       { "requirement": "Required Strength: 22", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
       { "requirement": "Paladin Smite Damage: 2 to 3", "varies": false },
-      { "requirement": "Chance to Block: Pal: 35%, Ama/Asn/Bar: 30% Dru/Nec/Sor: 25%", "varies": false }
+      { "requirement": "Chance to Block:  35%,  30%  25%", "varies": false }
     ],
     "stats": [
       { "detail": "Poison Length Reduced by 75%", "varies": false },
@@ -9808,7 +9778,7 @@
     "requirements": [
       { "requirement": "Defense: 22", "varies": false },
       { "requirement": "Durability: 12", "varies": false },
-      { "requirement": "8 boxes", "varies": false }
+      { "requirement": "8 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Cannot be Frozen", "varies": false },
@@ -9837,7 +9807,7 @@
       { "requirement": "Required Strength: 12", "varies": false },
       { "requirement": "Durability: 12", "varies": false },
       { "requirement": "Paladin Smite Damage: 1 to 3", "varies": false },
-      { "requirement": "Chance to Block: Pal: 30%, Ama/Asn/Bar/: 25% Dru/Nec/Sor: 20%", "varies": false }
+      { "requirement": "Chance to Block:  30%,  25%  20%", "varies": false }
     ],
     "stats": [
       { "detail": "Damage Reduced by 2", "varies": false },
@@ -9856,10 +9826,9 @@
     "rarity": "set",
     "requirements": [
       { "requirement": "Defense: 5", "varies": false },
-      { "requirement": "Defense: 7-252", "varies": false },
       { "requirement": "Required Strength: 25", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "12 boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Cold Resist +20%", "varies": false },
@@ -9927,7 +9896,7 @@
       { "requirement": "Defense: 31", "varies": false },
       { "requirement": "Required Strength: 45", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "12 boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+25 Defense", "varies": false },
@@ -10013,7 +9982,7 @@
       { "requirement": "Defense: 31", "varies": false },
       { "requirement": "Required Strength: 45", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "12 boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+25 Defense", "varies": false },
@@ -10120,7 +10089,7 @@
     "rarity": "set",
     "requirements": [
       { "requirement": "Defense: 70-75", "varies": false },
-      { "requirement": "Chance to Block: Pal: 46%, Ama/Asn/Bar: 41% Dru/Nec/Sor: 36%", "varies": false },
+      { "requirement": "Chance to Block:  46%,  41%  36%", "varies": false },
       { "requirement": "Paladin Smite Damage: 2 to 6", "varies": false },
       { "requirement": "Required Strength: 60", "varies": false },
       { "requirement": "Durability: 40", "varies": false }
@@ -10162,7 +10131,6 @@
     "rarity": "set",
     "requirements": [
       { "requirement": "Defense: 234", "varies": false },
-      { "requirement": "Defense: 468", "varies": false },
       { "requirement": "Required Strength: 100", "varies": false },
       { "requirement": "Durability: 60", "varies": false }
     ],
@@ -10183,8 +10151,7 @@
     "rarity": "set",
     "requirements": [
       { "requirement": "Defense: 44", "varies": false },
-      { "requirement": "Defense: 53", "varies": false },
-      { "requirement": "Chance to Block: Pal: 38%, Ama/Asn/Bar: 33% Dru/Nec/Sor: 28%", "varies": false },
+      { "requirement": "Chance to Block:  38%,  33%  28%", "varies": false },
       { "requirement": "Paladin Smite Damage: 2 to 5", "varies": false },
       { "requirement": "Required Strength: 47", "varies": false },
       { "requirement": "Durability: 30", "varies": false }
@@ -10291,7 +10258,7 @@
     "rarity": "set",
     "requirements": [
       { "requirement": { "low": "22", "high": "25", "text": "Defense: {0}" }, "varies": true },
-      { "requirement": "Chance to Block: Pal: 74%, Ama/Asn/Bar: 69% Dru/Nec/Sor: 64%", "varies": false },
+      { "requirement": "Chance to Block:  74%,  69%  64%", "varies": false },
       { "requirement": "Paladin Smite Damage: 1 to 5", "varies": false },
       { "requirement": "Required Strength: 75", "varies": false },
       { "requirement": "Durability: 60", "varies": false }
@@ -10321,7 +10288,7 @@
       },
       { "requirement": "Required Strength: 60", "varies": false },
       { "requirement": "Durability: 24", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Fire Resist +20%", "varies": false },
@@ -10646,7 +10613,7 @@
       { "detail": "30% Increased Attack Speed", "varies": false },
       { "detail": "10% Life Stolen Per Hit", "varies": false },
       { "detail": "5% Mana Stolen Per Hit", "varies": false },
-      { "detail": { "low": "2", "high": "3", "text": "Socketed ({0}) *" }, "varies": true },
+      { "detail": { "low": "2", "high": "3", "text": "Socketed ({0}) " }, "varies": true },
       { "detail": "+15 To Strength (2 Item)", "varies": false },
       { "detail": "+15 To Strength (3 Items)", "varies": false },
       { "detail": "+15 To Strength (Completed Set)", "varies": false }
@@ -10861,7 +10828,7 @@
       { "requirement": { "low": "108", "high": "115", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 106", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+50 Defense", "varies": false },
@@ -11028,7 +10995,7 @@
     "requirements": [
       { "requirement": { "low": "203", "high": "220", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 185", "varies": false },
-      { "requirement": "Chance to Block: Pal: 79% Ama/Asn/Bar: 74% Dru/Nec/Sor: 69%", "varies": false },
+      { "requirement": "Chance to Block:  79%  74%  69%", "varies": false },
       { "requirement": "Paladin Smite Damage: 11 to 35", "varies": false }
     ],
     "stats": [
@@ -11142,7 +11109,7 @@
       { "requirement": { "low": "6", "high": "153", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 25", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "12 boxes", "varies": false }
+      { "requirement": "12 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+ (1.5 Per Character Level)  1-148 Defense (Based on Character Level)", "varies": false },
@@ -11215,7 +11182,6 @@
     "rarity": "set",
     "requirements": [
       { "requirement": "Defense: 1001", "varies": false },
-      { "requirement": "Defense: 1301", "varies": false },
       { "requirement": "Required Strength: 232", "varies": false },
       { "requirement": "Durability: 60", "varies": false }
     ],
@@ -11242,11 +11208,9 @@
     "rarity": "set",
     "requirements": [
       { "requirement": "Defense: 89", "varies": false },
-      { "requirement": "Defense: 194", "varies": false },
-      { "requirement": "Defense: 247", "varies": false },
       { "requirement": "Required Strength: 110", "varies": false },
       { "requirement": "Durability: 24", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+36 Defense", "varies": false },
@@ -11431,7 +11395,7 @@
       { "requirement": { "low": "81", "high": "86", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 20", "varies": false },
       { "requirement": "Durability: 14", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+50 Defense", "varies": false },
@@ -11642,7 +11606,7 @@
       { "requirement": "Defense: 154", "varies": false },
       { "requirement": "Required Strength: 53", "varies": false },
       { "requirement": "Durability: 64", "varies": false },
-      { "requirement": "Chance To Block: Pal: 97% Ama/Asn/Bar: 92% Dru/Nec/Sor: 87%", "varies": false },
+      { "requirement": "Chance To Block:  97%  92%  87%", "varies": false },
       { "requirement": "Paladin Smite Damage: 7 to 14", "varies": false }
     ],
     "stats": [
@@ -11688,7 +11652,7 @@
       { "requirement": "Defense: 75", "varies": false },
       { "requirement": "Required Strength: 88", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "+75% Enhanced Defense", "varies": false },
@@ -11946,7 +11910,7 @@
       { "requirement": { "low": "95", "high": "100", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 47", "varies": false },
       { "requirement": "Durability: 16", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": "Requirements -20%", "varies": false },
@@ -12065,7 +12029,7 @@
       { "requirement": { "low": "134", "high": "166", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 91", "varies": false },
       { "requirement": "Durability: 18", "varies": false },
-      { "requirement": "16 boxes", "varies": false }
+      { "requirement": "16 Slots", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "75", "high": "100", "text": "+{0} Defense" }, "varies": true },
