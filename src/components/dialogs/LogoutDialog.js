@@ -2,8 +2,8 @@ import React from "react";
 
 import { Button, Dialog, DialogActions, DialogTitle, DialogContent, Alert } from "@mui/material";
 import Logout from "@mui/icons-material/Logout";
-import { RockButton } from "../../override-components/Button/Button";
-import { RockDialog } from "../../override-components/Dialog/Dialog";
+
+import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
 
 export default function LogoutDialog(props) {
   const { setOpenLogoutDialog, openLogoutDialog, logoutUser } = props;

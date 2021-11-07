@@ -9,7 +9,7 @@
   border-style: solid;
   border-color: inherit;
   padding: 15px;
-  border-image: url("../../graphic-assets/diablo-frame.png") 140 repeat;
+  border-image: url("../../assets/graphic-assets/diablo-frame.png") 140 repeat;
 
   border-image-width: 150px;
   background-color: rgba(0, 0, 0, 0.24);

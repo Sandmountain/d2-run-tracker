@@ -1,7 +1,6 @@
 import React from "react";
 import {
   Button,
-  Dialog,
   FormControl,
   InputLabel,
   Select,
@@ -16,7 +15,7 @@ import {
   Slider,
   Autocomplete,
 } from "@mui/material";
-import { RockDialog } from "../../override-components/Dialog/Dialog";
+import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
 
 import "./new-game-dialog.css";
 

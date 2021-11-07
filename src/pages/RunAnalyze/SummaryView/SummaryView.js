@@ -1,18 +1,18 @@
 import React, { useEffect } from "react";
 import { Paper, Typography, Tooltip, Fab } from "@mui/material";
 
-import GenerateSocketImage from "../GenerateSocketImage/GenerateSocketImage";
-import { formatTime, getColor } from "../../utils/utils.js";
+import GenerateSocketImage from "../../../components/GenerateSocketImage/GenerateSocketImage";
+import { formatTime, getColor } from "../../../utils/utils.js";
 import ScrollContainer from "react-indiana-drag-scroll";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
 import "./summary-view.css";
 import { Box } from "@mui/system";
-import { addToHistory } from "../../Firebase/firebase";
+import { addToHistory } from "../../../firebase/firebase";
 
 export default function SummaryView(props) {
   const { gameData, runData, gameTime } = props;
-  const [stucturedLoot, setStructuredLoot] = React.useState({});
+  const [stucturedLoot, setStructuredLoot] = React.useState({ uncategorized: [], set: [], unique: [], runes: [] });
 
   useEffect(() => {
     structureLootByRarity();
@@ -61,7 +61,7 @@ export default function SummaryView(props) {
   const generateLootItem = (item, run, index) => {
     return (
       <div key={index} id={index} className="lootItem-container">
-        {item.image && <img loading="lazy" height="40" src={require(`../../images/${item.image}.png`).default} alt="" />}
+        {item.image && <img loading="lazy" height="40" src={require(`../../../assets/item-art/${item.image}.png`).default} alt="" />}
         {!item.image ? <GenerateSocketImage sockets={item.sockets} summary={true} /> : <div />}
         <span className="lootItem-text summary-text" style={{ color: getColor(item) }}>
           {item.name}
@@ -75,9 +75,14 @@ export default function SummaryView(props) {
 
   return (
     <div className="summaryView-container">
-      <Paper className="runView-container" sx={{ width: "fit-content", margin: "0 auto" }}>
-        <div className="runStats-container" sx={{ padding: 15 }} onDragStart={(e) => e.preventDefault()}>
-          <img height="150px" className="charImg" src={require(`../../gifs/${gameData.class.toLowerCase()}.gif`).default} alt="" />
+      <Paper className="runView-container" sx={{ width: "fit-content", margin: "0 auto", padding: "15px 40px" }}>
+        <Box className="runStats-container" onDragStart={(e) => e.preventDefault()}>
+          <img
+            height="150px"
+            className="charImg"
+            src={require(`../../../assets/gifs/${gameData.class.toLowerCase()}.gif`).default}
+            alt=""
+          />
           <div className={`charShadow ${gameData.class.toLowerCase()}`} />
           <div className="runStats-data">
             <Typography variant="h6" color="primary" className="diablo-text shadow">
@@ -110,7 +115,7 @@ export default function SummaryView(props) {
               </Typography>
             </div>
           </div>
-        </div>
+        </Box>
       </Paper>
       <div
         style={{

@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Dialog, DialogTitle, DialogContent, Button, DialogActions } from "@mui/material";
-import { RockDialog } from "../../override-components/Dialog/Dialog";
+import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
 
 export default function CooldownDialog(props) {
   const { openCooldownDialog, timeleft, handleShowSummary } = props;
