@@ -1,0 +1,6 @@
+.scrollingSearch {
+  position: fixed;
+  z-index: 2;
+  width: 120px;
+  top: 0;
+}
