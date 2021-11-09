@@ -114,16 +114,27 @@ export default function ItemCard(props) {
 
   return (
     <Box className="itemContainer">
-      <Paper sx={{ display: "flex", flexDirection: "column", alignItems: "center", padding: "15px" }}>
-        <img loading="lazy" width="35px" src={require(`../../assets/item-art/${item.image}.png`).default} alt="" />
-        <Typography className={`${item.rarity} diablo-text caps shadow`} sx={{ marginTop: "10px" }}>
+      <Paper
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          padding: "15px",
+          backgroundColor: "rgba(18,18,18,0.1)",
+        }}
+        square>
+        <img loading="lazy" width="35px" src={require(`../../assets/item-art/${item.image}.png`).default} alt="" className="item-image" />
+        <Typography
+          className={`${item.rarity} diablo-text caps shadow`}
+          sx={{ marginTop: "10px", maxWidth: "80%", textAlign: "center", mb: "5px" }}>
           {item.name}
         </Typography>
+
         <Typography variant="caption" sx={{ lineHeight: "1" }}>
           {item.type && item.type}
         </Typography>
 
-        <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", width: "70%" }}>
+        <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
           {item.level > 0 && <Typography variant="caption">Required level: {item.level}</Typography>}
           {item.requirements.length > 0 &&
             item.requirements.map((requirement, idx) => {

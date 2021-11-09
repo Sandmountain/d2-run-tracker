@@ -39,3 +39,19 @@ export const getColor = (option) => {
       return "#FFF";
   }
 };
+
+export const sortItems = (a, b) => {
+  if (a.category === "" || b.category === "") return 0;
+
+  if (a.category < b.category) {
+    return -1;
+  }
+
+  if (a.category < b.category) {
+    return 1;
+  }
+
+  if (a.category === b.category) {
+    return 0;
+  }
+};

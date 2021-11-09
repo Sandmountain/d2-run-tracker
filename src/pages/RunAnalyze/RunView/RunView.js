@@ -12,7 +12,7 @@ import ItemDialog from "../../../components/Dialogs/ItemDialog";
 import CooldownDialog from "../../../components/Dialogs/CooldownDialog";
 import EndRunDialog from "../../../components/Dialogs/EndRunDialog";
 
-import { addToActiveRun } from "../../../firebase/firebase.js";
+import { addToActiveRun } from "../../../Firebase/firebase.js";
 
 import "./run-view.css";
 

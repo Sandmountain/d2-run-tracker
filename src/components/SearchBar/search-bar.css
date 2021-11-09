@@ -4,3 +4,17 @@
   width: 120px;
   top: 0;
 }
+
+.searchBar-menu--item {
+  font-size: 12px !important;
+}
+
+.searchBar {
+  position: relative;
+  border-style: solid;
+  border-color: inherit;
+  padding: 5px;
+  border-image: url("../../assets/graphic-assets/custom-frame.png") 140 repeat;
+  border-image-width: 150px;
+  background-color: rgba(0, 0, 0, 0.24);
+}

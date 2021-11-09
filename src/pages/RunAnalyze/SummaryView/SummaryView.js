@@ -8,7 +8,7 @@ import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
 import "./summary-view.css";
 import { Box } from "@mui/system";
-import { addToHistory } from "../../../firebase/firebase";
+import { addToHistory } from "../../../Firebase/firebase";
 
 export default function SummaryView(props) {
   const { gameData, runData, gameTime } = props;
