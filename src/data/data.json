@@ -390,7 +390,7 @@
     "level": 70,
     "type": "Small Charm",
     "rarity": "magic",
-    "requirements": [{ "requirement": "", "varies": false }],
+    "requirements": [],
     "stats": [
       { "detail": "+1 To All Skills", "varies": false },
       { "detail": "+10-20 To All Attributes", "varies": true },

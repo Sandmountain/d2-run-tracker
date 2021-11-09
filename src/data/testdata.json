@@ -393,7 +393,7 @@
     "level": 70,
     "type": "Small Charm",
     "rarity": "magic",
-    "requirements": [{ "requirement": "", "varies": false }],
+    "requirements": [],
     "stats": [
       { "detail": "+1 To All Skills", "varies": false },
       { "detail": { "low": "10", "high": "20", "text": "+{0} To All Attributes" }, "varies": true },
@@ -1040,7 +1040,7 @@
       { "requirement": { "low": "384", "high": "432", "text": "Defense: {0}" }, "varies": true },
       { "requirement": "Required Strength: 174", "varies": false },
       { "requirement": "Durability: 50", "varies": false },
-      { "requirement": "", "varies": false }
+      { "requirement": "(Barbarian Only)", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "140", "high": "170", "text": "+{0}% Enhanced Defense" }, "varies": true },
@@ -4453,8 +4453,7 @@
       { "requirement": "Required Dexterity: 25", "varies": false },
       { "requirement": "Range: 1", "varies": false },
       { "requirement": "Durability: 28", "varies": false },
-      { "requirement": "Base Weapon Speed: [0]", "varies": false },
-      { "requirement": "", "varies": false }
+      { "requirement": "Base Weapon Speed: [0]", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "150", "high": "190", "text": "+{0}% Enhanced Damage" }, "varies": true },
@@ -7189,8 +7188,7 @@
       { "requirement": "Required Strength: 125", "varies": false },
       { "requirement": "Required Dexterity: 65", "varies": false },
       { "requirement": "Durability: 50", "varies": false },
-      { "requirement": "Base Weapon Speed: [0]", "varies": false },
-      { "requirement": "", "varies": false }
+      { "requirement": "Base Weapon Speed: [0]", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "250", "high": "300", "text": "+{0}% Enhanced Damage" }, "varies": true },
@@ -7218,8 +7216,7 @@
       { "requirement": "Required Strength: 50", "varies": false },
       { "requirement": "Required Dexterity: 26", "varies": false },
       { "requirement": "Durability: 50", "varies": false },
-      { "requirement": "Base Weapon Speed: [0]", "varies": false },
-      { "requirement": "", "varies": false }
+      { "requirement": "Base Weapon Speed: [0]", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "250", "high": "300", "text": "+{0}% Enhanced Damage" }, "varies": true },
@@ -7855,8 +7852,7 @@
       { "requirement": "Required Strength: 44", "varies": false },
       { "requirement": "Required Dexterity: 37", "varies": false },
       { "requirement": "Durability: 35", "varies": false },
-      { "requirement": "Base Weapon Speed: [0]", "varies": false },
-      { "requirement": "", "varies": false }
+      { "requirement": "Base Weapon Speed: [0]", "varies": false }
     ],
     "stats": [
       { "detail": { "low": "2", "high": "4", "text": "+{0} To All Skills" }, "varies": true },
