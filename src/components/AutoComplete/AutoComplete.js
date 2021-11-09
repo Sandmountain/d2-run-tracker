@@ -97,11 +97,14 @@ export default function AutoComplete(props) {
                 <img loading="lazy" width="25" src={require(`../../assets/item-art/${option.image}.png`).default} alt="" />
               </div>
               <Typography className={`${option.rarity} list-shadow`}>{option.name}</Typography>
+              <Typography sx={{ color: "#3e3e3e", marginLeft: "auto", fontWeight: "bold" }}>{option.type}</Typography>
             </Box>
           )}
           renderTags={(value, getTagProps) =>
             value.map((option, index) => (
               <Chip
+                onMouseEnter={() => console.log(option)}
+                onMouseLeave={() => console.log("Exit")}
                 variant="outlined"
                 icon={
                   <Tooltip title="new item!">
