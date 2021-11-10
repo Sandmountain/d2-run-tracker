@@ -1,10 +1,11 @@
-import { Paper, Typography, Divider } from "@mui/material";
+import { Paper, Typography, Divider, Tooltip } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import "./item-card.css";
+import ItemVariableValue from "./ItemVariableValue";
 
 export default function ItemCard(props) {
-  const { item } = props;
+  const { item, tooltip = false } = props;
 
   const formatRequirementStats = (text, prevValue) => {
     let value;
@@ -96,9 +97,9 @@ export default function ItemCard(props) {
         <>
           <span className="magic list-shadow">
             <span>{textBefore}</span>
-            <a className="" href="">
-              {range}
-            </a>
+
+            <ItemVariableValue customizable={tooltip} low={stat.detail.low} high={stat.detail.high}></ItemVariableValue>
+
             <span>{textAfter}</span>
           </span>
         </>
@@ -113,14 +114,15 @@ export default function ItemCard(props) {
   };
 
   return (
-    <Box className="itemContainer">
+    <Box>
       <Paper
+        className="itemContainer"
         sx={{
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           padding: "15px",
-          backgroundColor: "rgba(18,18,18,0.1)",
+          backgroundColor: "rgba(18,18,18,1)",
         }}
         square>
         <img loading="lazy" width="35px" src={require(`../../assets/item-art/${item.image}.png`).default} alt="" className="item-image" />

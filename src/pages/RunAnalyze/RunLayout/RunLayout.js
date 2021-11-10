@@ -21,6 +21,10 @@ import { fetchHistory, fetchActiveRun, clearActiveRun } from "../../../Firebase/
 import { useHistory } from "react-router-dom";
 import RunTimer from "../RunTimer/RunTimer";
 
+import data from "../../../data/testdata.json";
+import ItemCard from "../../../components/ItemCard/ItemCard";
+import { Button } from "@mui/material";
+
 // const mockGameData = {
 //   name: "Random Name",
 //   class: "Sorceress",
@@ -42,6 +46,8 @@ export default function RunLayout() {
   const [gameTime, setGameTime] = React.useState(0);
 
   const [retrivedData, setRetrivedData] = React.useState({});
+
+  const [open, setOpen] = React.useState(false);
 
   //const history = useHistory();
 
@@ -139,9 +145,34 @@ export default function RunLayout() {
     } else {
       return (
         <div className="container ">
-          <h2 className="diablo-text" style={{ position: "absolute", bottom: "70%", color: "white" }}>
+          <h2
+            data-for="soclose"
+            data-tip={JSON.stringify({ item: "lol" })}
+            className="diablo-text"
+            style={{ position: "absolute", bottom: "70%", color: "white" }}>
             START NEW RUN
           </h2>
+          <Tooltip
+            open={open}
+            componentsProps={{
+              tooltip: {
+                sx: {
+                  bgcolor: "rgba(0,0,0,0.0)",
+                  "& .MuiTooltip-arrow": {
+                    color: "common.black",
+                  },
+                },
+              },
+            }}
+            placement="top"
+            title={
+              <>
+                <ItemCard item={data[33]} tooltip={true}></ItemCard>
+              </>
+            }>
+            <Button onClick={() => setOpen((state) => !state)}> Hover for Item</Button>
+          </Tooltip>
+
           <RunCreator setGameData={setGameData}></RunCreator>
         </div>
       );

@@ -1,6 +1,6 @@
 .my-masonry-grid {
   position: relative;
-  z-index: -1; /* For animations */
+  z-index: 0; /* For animations */
   display: flex;
   margin-left: -15px; /* gutter size offset */
   width: auto;

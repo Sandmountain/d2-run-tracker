@@ -66,7 +66,7 @@ export default function DatabaseLayout() {
       <SearchBar onChange={onChange} text={searchQuery} scrollingSearch={scrollingSearch} setSortBy={setSortBy} sortBy={sortBy} />
       {items.length > 1 ? (
         <Masonry breakpointCols={breakpointColumnsObj} className="my-masonry-grid" columnClassName="my-masonry-grid_column">
-          {items.map((item, idx) => idx <= loadAmount && <ItemCard item={item} />)}
+          {items.map((item, idx) => idx <= loadAmount && <ItemCard key={idx} item={item} />)}
         </Masonry>
       ) : items.length > 0 ? (
         <Box className="sole-item">

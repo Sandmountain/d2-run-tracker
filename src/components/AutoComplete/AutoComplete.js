@@ -5,13 +5,15 @@ import { getColor } from "../../utils/utils.js";
 import "./auto-complete.css";
 import CustomItemList from "../../pages/RunAnalyze/CustomItemList/CustomItemList.js";
 import { Badge } from "@mui/icons-material";
+import ReactTooltip from "react-tooltip";
 
 // Use for new item
 import NewReleasesOutlinedIcon from "@mui/icons-material/NewReleasesOutlined";
 // Use for potential upgrade
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
+import ItemCard from "../ItemCard/ItemCard.js";
 
-const data = require("../../data/data.json");
+const data = require("../../data/testdata.json");
 
 export default function AutoComplete(props) {
   const { setDialogItems, dialogItems, useList = true } = props;
@@ -102,24 +104,35 @@ export default function AutoComplete(props) {
           )}
           renderTags={(value, getTagProps) =>
             value.map((option, index) => (
-              <Chip
-                onMouseEnter={() => console.log(option)}
-                onMouseLeave={() => console.log("Exit")}
-                variant="outlined"
-                icon={
-                  <Tooltip title="new item!">
-                    <NewReleasesOutlinedIcon />
-                    {/* <CircularProgress sx={{ height: "15px", width: "15px" }} /> */}
-                  </Tooltip>
-                }
-                style={{
-                  color: getColor(option),
-                  fontWeight: "bold",
-                }}
-                label={option.name ? option.name : option}
-                size="small"
-                {...getTagProps({ index })}
-              />
+              <>
+                <Tooltip
+                  title={
+                    <>
+                      <ItemCard item={option} tooltip={true} />
+                    </>
+                  }
+                  placement={"top"}>
+                  <Chip
+                    data-for="soclose"
+                    onMouseEnter={() => console.log(option)}
+                    onMouseLeave={() => console.log("Exit")}
+                    variant="outlined"
+                    icon={
+                      <Tooltip title="new item!">
+                        <NewReleasesOutlinedIcon />
+                        {/* <CircularProgress sx={{ height: "15px", width: "15px" }} /> */}
+                      </Tooltip>
+                    }
+                    style={{
+                      color: getColor(option),
+                      fontWeight: "bold",
+                    }}
+                    label={option.name ? option.name : option}
+                    size="small"
+                    {...getTagProps({ index })}
+                  />
+                </Tooltip>
+              </>
             ))
           }
           renderInput={(params) => (
