@@ -3,7 +3,7 @@ import { Box } from "@mui/system";
 import React from "react";
 
 export default function ItemVariableValue(props) {
-  const { high, low, customizable } = props;
+  const { high, low, customizable, item, handleUpdatedItem, detail, idx } = props;
 
   const [rolledValue, setRolledValue] = React.useState(0);
 
@@ -18,53 +18,90 @@ export default function ItemVariableValue(props) {
     setAnchorEl(null);
   };
 
-  const marks = [
-    { value: parseInt(low), label: low },
-    { value: parseInt(high), label: high },
-  ];
-
   const handleCommitedValue = (val) => {
     handleClose();
     setRolledValue(val);
+    if (detail) {
+      // If I choose to go back to make this using state.
+      // setItemUpdated((prev) => ({
+      //   ...prev,
+      //   stats: prev.stats.map((obj, index) => {
+      //     return idx === index ? { ...obj, customValue: val } : obj;
+      //   }),
+      // }));
+      item.stats[idx].customValue = val;
+      handleUpdatedItem(item);
+    } else {
+      // If I choose to go back to make this using state.
+      // setItemUpdated((prev) => ({
+      //   ...prev,
+      //   requirements: prev.requirements.map((obj, index) => {
+      //     return idx === index ? { ...obj, customValue: val } : obj;
+      //   }),
+      // }));
+      item.requirements[idx].customValue = val;
+      handleUpdatedItem(item);
+    }
   };
 
-  const valueLabelFormat = (value) => {
-    return marks.findIndex((mark) => mark.value === value) + 1;
+  const generateButtonText = () => {
+    if (rolledValue !== 0) {
+      return rolledValue;
+    }
+
+    if (detail) {
+      if (item.stats[idx].customValue !== 0) {
+        return item.stats[idx].customValue;
+      }
+    } else {
+      if (item.requirements[idx].customValue !== 0) {
+        return item.requirements[idx].customValue;
+      }
+    }
+
+    return (
+      <span className="glowing-text">
+        {low}-{high}
+      </span>
+    );
   };
 
   return (
     <>
       <Button
-        style={{ color: "gray", cursor: "default" }}
-        sx={{ padding: 0, margin: 0, minWidth: 0, fontSize: "1em", verticalAlign: "baseline" }}
+        sx={{ padding: 0, margin: 0, minWidth: 0, fontSize: "1em", verticalAlign: "baseline", color: "gray", cursor: "default" }}
         onClick={handleClick}
         disabled={!customizable}>
-        {rolledValue !== 0 ? rolledValue : `${low}-${high}`}
+        {generateButtonText()}
       </Button>
 
       <Popover
         open={open}
         anchorEl={anchorEl}
         onClose={handleClose}
-        sx={{ zIndex: 1500, marginLeft: "130px" }}
-        anchorOrigin={{
-          vertical: "top",
-          horizontal: "right",
+        sx={{ zIndex: 1500 }}
+        PaperProps={{
+          sx: {
+            borderRadius: 0,
+            backgroundImage: "none",
+            backgroundColor: "rgba(18,18,18, 0.95)",
+          },
         }}
         transformOrigin={{
-          vertical: "top",
-          horizontal: "left",
+          vertical: "center",
+          horizontal: "center",
         }}>
-        <Box sx={{ width: "150px", padding: "15px", display: "flex", justifyContent: "center", flexDirection: "column" }}>
-          <Typography>
-            Choose a value between {low} and {high}
+        <Box
+          className="itemSlider-frame"
+          sx={{ width: "150px", padding: "15px", display: "flex", justifyContent: "center", flexDirection: "column" }}>
+          <Typography variant="caption">
+            Select the rolled value between {low} and {high}.
           </Typography>
           <Slider
             size="small"
             min={parseInt(low)}
             max={parseInt(high)}
             valueLabelDisplay="auto"
-            marks={marks}
             onChangeCommitted={(_, v) => handleCommitedValue(v)}></Slider>
         </Box>
       </Popover>

@@ -1,39 +1,40 @@
-import { Paper, Typography, Divider, Tooltip } from "@mui/material";
+import { Paper, Typography, Divider, Tooltip, Button } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import "./item-card.css";
 import ItemVariableValue from "./ItemVariableValue";
+import TuneIcon from "@mui/icons-material/Tune";
 
 export default function ItemCard(props) {
-  const { item, tooltip = false } = props;
+  const { item, tooltip = false, handleUpdatedItem } = props;
 
-  const formatRequirementStats = (text, prevValue) => {
+  const formatRequirementStats = (text, idx) => {
     let value;
     let property;
 
     // Never more than 2 values that varies.
     if (Array.isArray(text.requirement)) {
-      let range = "";
       const splittedText = text.requirement[0].text.split(":");
-
       property = `${splittedText[0]}: `;
-      range = `${text.requirement[0].low}-${text.requirement[1].high}`;
 
       return (
         <>
           <span>{property}</span>
           <span className="magic list-shadow">
-            <span className="">{range}</span>
+            <ItemVariableValue
+              customizable={tooltip}
+              low={text.requirement[0].low}
+              high={text.requirement[1].high}
+              handleUpdatedItem={handleUpdatedItem}
+              item={item}
+              detail={false}
+              idx={idx}></ItemVariableValue>
           </span>
         </>
       );
     }
 
     if (text.varies) {
-      let range = "";
-
-      range = `${text.requirement.low}-${text.requirement.high}`;
-
       const splittedText = text.requirement.text.split(":");
 
       property = `${splittedText[0]}: `;
@@ -43,9 +44,14 @@ export default function ItemCard(props) {
           <span>{property}</span>
           <span className="magic list-shadow">
             <span>{textBefore}</span>
-            <a className="" href="">
-              {range}
-            </a>
+            <ItemVariableValue
+              customizable={tooltip}
+              low={text.requirement.low}
+              high={text.requirement.high}
+              handleUpdatedItem={handleUpdatedItem}
+              item={item}
+              detail={false}
+              idx={idx}></ItemVariableValue>
             <span>{textAfter}</span>
           </span>
         </>
@@ -81,25 +87,26 @@ export default function ItemCard(props) {
     }
   };
 
-  const formatDetailStats = (stat, item) => {
+  const formatDetailStats = (stat, idx) => {
     if (Array.isArray(stat.detail)) {
-      //console.log(stat, item);
       return;
     }
 
     if (stat.varies) {
-      let range = "";
-
-      range = `${stat.detail.low}-${stat.detail.high}`;
       const [textBefore, textAfter] = stat.detail.text.split("{0}");
-
+      //console.log(item);
       return (
         <>
           <span className="magic list-shadow">
             <span>{textBefore}</span>
-
-            <ItemVariableValue customizable={tooltip} low={stat.detail.low} high={stat.detail.high}></ItemVariableValue>
-
+            <ItemVariableValue
+              customizable={tooltip}
+              low={stat.detail.low}
+              high={stat.detail.high}
+              handleUpdatedItem={handleUpdatedItem}
+              item={item}
+              detail={true}
+              idx={idx}></ItemVariableValue>
             <span>{textAfter}</span>
           </span>
         </>
@@ -142,7 +149,7 @@ export default function ItemCard(props) {
             item.requirements.map((requirement, idx) => {
               return (
                 <Typography key={idx} variant="caption" sx={{ textAlign: "center" }}>
-                  {formatRequirementStats(requirement, idx > 0 && item.requirements[idx - 1])}
+                  {formatRequirementStats(requirement, idx)}
                 </Typography>
               );
             })}
@@ -150,11 +157,12 @@ export default function ItemCard(props) {
             item.stats.map((stat, idx) => {
               return (
                 <Typography key={idx} variant="caption" sx={{ textAlign: "center" }}>
-                  {formatDetailStats(stat, item)}
+                  {formatDetailStats(stat, idx)}
                 </Typography>
               );
             })}
         </Box>
+        <Button>Edit done</Button>
       </Paper>
     </Box>
   );

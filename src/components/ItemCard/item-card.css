@@ -12,3 +12,24 @@
 .itemContainer.notFound {
   filter: grayscale(1) brightness(1.1);
 }
+
+.glowing-text {
+  animation: glow 1s infinite;
+}
+
+.itemSlider-frame {
+  box-shadow: inset 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(143, 108, 50, 0.3);
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 0px 0px 0px #4169e1;
+  }
+  50% {
+    text-shadow: 0px 0px 3px #4169e1;
+  }
+  100% {
+    text-shadow: 0px 0px 0px #4169e1;
+  }
+}

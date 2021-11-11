@@ -49,7 +49,9 @@ export default function RunLayout() {
 
   const [open, setOpen] = React.useState(false);
 
-  //const history = useHistory();
+  const [stateItem, setStateItem] = React.useState(data[33]);
+
+  console.log(stateItem);
 
   const handleExitGame = () => {
     setOpenExitDialog(false);
@@ -167,7 +169,7 @@ export default function RunLayout() {
             placement="top"
             title={
               <>
-                <ItemCard item={data[33]} tooltip={true}></ItemCard>
+                <ItemCard item={stateItem} setStateItem={setStateItem} tooltip={true}></ItemCard>
               </>
             }>
             <Button onClick={() => setOpen((state) => !state)}> Hover for Item</Button>

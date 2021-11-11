@@ -5,7 +5,6 @@ import { getColor } from "../../utils/utils.js";
 import "./auto-complete.css";
 import CustomItemList from "../../pages/RunAnalyze/CustomItemList/CustomItemList.js";
 import { Badge } from "@mui/icons-material";
-import ReactTooltip from "react-tooltip";
 
 // Use for new item
 import NewReleasesOutlinedIcon from "@mui/icons-material/NewReleasesOutlined";
@@ -33,7 +32,7 @@ export default function AutoComplete(props) {
       if (typeof choice === "string" && dialogItems[index]?.name !== choice) {
         const newItem = {
           name: choice,
-          url: "",
+          image: "",
           set: "",
           type: "",
           reqLvl: "",
@@ -78,6 +77,19 @@ export default function AutoComplete(props) {
     );
   };
 
+  const updateItem = (item) => {
+    console.log(item);
+    console.log(dialogItems);
+    const idx = dialogItems.findIndex((it) => it.name === item.name);
+    //   ...prev,
+    //   requirements: prev.requirements.map((obj, index) => {
+    //     return idx === index ? { ...obj, customValue: val } : obj;
+    //   }),
+    // }));
+
+    setDialogItems((prev) => prev.map((it, i) => (i === idx ? item : it)));
+  };
+
   return (
     <>
       <form onSubmit={handleDialogSubmit} style={{ marginTop: 10, overflow: "hidden" }}>
@@ -105,17 +117,21 @@ export default function AutoComplete(props) {
           renderTags={(value, getTagProps) =>
             value.map((option, index) => (
               <>
+                {console.log(value)}
                 <Tooltip
+                  key={index}
                   title={
                     <>
-                      <ItemCard item={option} tooltip={true} />
+                      {option.image ? (
+                        <ItemCard item={option} tooltip={true} handleUpdatedItem={(item) => updateItem(item)} />
+                      ) : (
+                        "No info for custom items"
+                      )}
                     </>
                   }
                   placement={"top"}>
                   <Chip
                     data-for="soclose"
-                    onMouseEnter={() => console.log(option)}
-                    onMouseLeave={() => console.log("Exit")}
                     variant="outlined"
                     icon={
                       <Tooltip title="new item!">
