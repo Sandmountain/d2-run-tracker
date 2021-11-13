@@ -128,7 +128,7 @@ export default function ItemCard(props) {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          padding: "15px",
+          padding: "15px 15px 30px 15px",
           backgroundColor: "rgba(18,18,18,1)",
         }}
         square>
@@ -162,7 +162,6 @@ export default function ItemCard(props) {
               );
             })}
         </Box>
-        <Button>Edit done</Button>
       </Paper>
     </Box>
   );
