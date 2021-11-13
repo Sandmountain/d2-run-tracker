@@ -4,5 +4,6 @@
 	"editor.insertSpaces": false,
 	"editor.detectIndentation": false,
 	"files.insertFinalNewline": false,
-	"editor.defaultFormatter": "esbenp.prettier-vscode"
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"files.autoSave": "off"
 }
