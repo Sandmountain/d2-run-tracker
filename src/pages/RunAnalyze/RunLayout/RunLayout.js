@@ -54,10 +54,16 @@ export default function RunLayout() {
   };
 
   const handleLeaveSummary = () => {
-    //Upload data
     setOpenExitSummaryDialog(false);
     setIsActiveGame(false);
     setShowSummary(false);
+
+    // Reset data
+    setStructuredLoot({});
+    setGameData(undefined);
+    setRunData([]);
+    setGameTime(0);
+    setStructuredLoot({});
   };
 
   const handleCloseExitDialog = () => {
