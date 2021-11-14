@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
-import { Paper, Typography, Tooltip, Fab } from "@mui/material";
+import { Paper, Typography } from "@mui/material";
 
 import GenerateSocketImage from "../../../components/GenerateSocketImage/GenerateSocketImage";
 import { formatTime, getColor } from "../../../utils/utils.js";
 import ScrollContainer from "react-indiana-drag-scroll";
-import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 
 import "./summary-view.css";
 import { Box } from "@mui/system";

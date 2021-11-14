@@ -3,7 +3,6 @@ import { TextField, Autocomplete, Box, Typography, List } from "@mui/material";
 
 import "./auto-complete.css";
 import CustomItemList from "../../pages/RunAnalyze/CustomItemList/CustomItemList.js";
-import { Badge } from "@mui/icons-material";
 
 import ItemChip from "./ItemChip/ItemChip.js";
 

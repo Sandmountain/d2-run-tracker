@@ -1,9 +1,8 @@
-import { Paper, Typography, Divider, Tooltip, Button } from "@mui/material";
+import { Paper, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import "./item-card.css";
 import ItemVariableValue from "./ItemVariableValue";
-import TuneIcon from "@mui/icons-material/Tune";
 
 export default function ItemCard(props) {
   const { item, tooltip = false, handleUpdatedItem } = props;

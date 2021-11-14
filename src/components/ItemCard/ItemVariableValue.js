@@ -1,4 +1,4 @@
-import { Button, Slider, Tooltip, Popover, Typography } from "@mui/material";
+import { Button, Slider, Popover, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 

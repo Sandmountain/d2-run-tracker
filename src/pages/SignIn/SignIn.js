@@ -1,6 +1,6 @@
-import { Button, Typography, Paper, CircularProgress } from "@mui/material";
+import { Button, Typography, CircularProgress } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import { app, initDatabase } from "../../Firebase/firebase"; // This import makes sure that firebase is initialized.
+import { initDatabase } from "../../Firebase/firebase"; // This import makes sure that firebase is initialized.
 import { getAuth, signInWithPopup, GoogleAuthProvider, GithubAuthProvider } from "firebase/auth";
 import GoogleIcon from "@mui/icons-material/Google";
 import GithubIcon from "@mui/icons-material/GitHub";
@@ -20,7 +20,7 @@ export default function SignIn(props) {
     signInWithPopup(auth, provider)
       .then((result) => {
         // This gives you a Google Access Token. You can use it to access the Google API.
-        const credential = GoogleAuthProvider.credentialFromResult(result);
+        // const credential = GoogleAuthProvider.credentialFromResult(result);
         // const token = credential.accessToken;
         // // The signed-in user info.
         // const user = result.user;

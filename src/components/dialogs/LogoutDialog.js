@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Dialog, DialogActions, DialogTitle, DialogContent, Alert } from "@mui/material";
+import { Button, DialogActions, DialogTitle, DialogContent, Alert } from "@mui/material";
 import Logout from "@mui/icons-material/Logout";
 
 import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";

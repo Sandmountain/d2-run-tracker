@@ -16,14 +16,8 @@ import ExitRunDialog from "../../../components/Dialogs/ExitRunDialog";
 import ExitSummaryDialog from "../../../components/Dialogs/ExitSummaryDialog";
 import UnfinshiedRunDialog from "../../../components/Dialogs/UnfinishedRunDialog";
 
-import { fetchHistory, fetchActiveRun, clearActiveRun } from "../../../Firebase/firebase.js";
-
-import { useHistory } from "react-router-dom";
+import { fetchActiveRun, clearActiveRun } from "../../../Firebase/firebase.js";
 import RunTimer from "../RunTimer/RunTimer";
-
-import data from "../../../data/testdata.json";
-import ItemCard from "../../../components/ItemCard/ItemCard";
-import { Button } from "@mui/material";
 
 // const mockGameData = {
 //   name: "Random Name",
@@ -46,12 +40,6 @@ export default function RunLayout() {
   const [gameTime, setGameTime] = React.useState(0);
 
   const [retrivedData, setRetrivedData] = React.useState({});
-
-  const [open, setOpen] = React.useState(false);
-
-  const [stateItem, setStateItem] = React.useState(data[33]);
-
-  console.log(stateItem);
 
   const handleExitGame = () => {
     setOpenExitDialog(false);
@@ -154,26 +142,6 @@ export default function RunLayout() {
             style={{ position: "absolute", bottom: "70%", color: "white" }}>
             START NEW RUN
           </h2>
-          <Tooltip
-            open={open}
-            componentsProps={{
-              tooltip: {
-                sx: {
-                  bgcolor: "rgba(0,0,0,0.0)",
-                  "& .MuiTooltip-arrow": {
-                    color: "common.black",
-                  },
-                },
-              },
-            }}
-            placement="top"
-            title={
-              <>
-                <ItemCard item={stateItem} setStateItem={setStateItem} tooltip={true}></ItemCard>
-              </>
-            }>
-            <Button onClick={() => setOpen((state) => !state)}> Hover for Item</Button>
-          </Tooltip>
 
           <RunCreator setGameData={setGameData}></RunCreator>
         </div>

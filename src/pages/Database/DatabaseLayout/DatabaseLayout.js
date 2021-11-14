@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Masonry from "react-masonry-css";
-import { Typography, Paper, Alert, Grid } from "@mui/material";
+import { Alert } from "@mui/material";
 import { Box } from "@mui/system";
 
 import ItemCard from "../../../components/ItemCard/ItemCard";
@@ -8,7 +8,7 @@ import data from "../../../data/testdata.json";
 import "./database-layout.css";
 import SearchBar from "../../../components/SearchBar/SearchBar";
 
-import { sortItems } from "../../../utils/utils";
+// import { sortItems } from "../../../utils/utils";
 
 const breakpointColumnsObj = {
   default: 5,
