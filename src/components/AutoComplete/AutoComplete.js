@@ -80,6 +80,7 @@ export default function AutoComplete(props) {
           freeSolo={customItems}
           size="small"
           open={open}
+          value={dialogItems}
           onOpen={handleOpen}
           onClose={() => setOpen(false)}
           options={data}
@@ -107,7 +108,7 @@ export default function AutoComplete(props) {
             ))
           }
           renderInput={(params) => (
-            <Box className="autoComplete-container">
+            <Box className="autoComplete-container" sx={!customItems && { padding: "65px" }}>
               <TextField autoFocus color="primary" {...params} label="Add Items" />
             </Box>
           )}

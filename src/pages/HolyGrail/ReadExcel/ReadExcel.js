@@ -6,8 +6,7 @@ import * as XLSX from "xlsx";
 import data from "../../../data/testdata.json";
 
 export default function ReadExcel(props) {
-  const { setItemsToAdd } = props;
-
+  const { setItemsToAdd, setShowAutoComplete } = props;
   const [isLoading, setIsLoading] = React.useState(false);
 
   const handleFile = ({ target }) => {
@@ -46,6 +45,7 @@ export default function ReadExcel(props) {
     });
     setIsLoading(false);
     setItemsToAdd(foundItems);
+    setShowAutoComplete(true);
   };
 
   return (
@@ -53,7 +53,7 @@ export default function ReadExcel(props) {
       <Button
         startIcon={isLoading && <CircularProgress style={{ height: "1em", width: "1em" }} size="small" />}
         endIcon={
-          <Tooltip title="Upload a .csv or .xlsx">
+          <Tooltip title="Upload a .csv or .xlsx. Will only parse exact matches.">
             <InfoSharp />
           </Tooltip>
         }

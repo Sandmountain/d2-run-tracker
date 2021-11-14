@@ -29,6 +29,10 @@ export default function ItemChip(props) {
   };
 
   React.useEffect(() => {
+    // Don't do anything if dialog items are reset
+    if (!dialogItems.length) {
+      return;
+    }
     let type = "";
     setIndication(type);
     dialogItems[index].requirements.forEach((req) => {
