@@ -20,7 +20,7 @@ export default function ExitRunDialog(props) {
           Doing this action will lose all your run data and nothing will be saved.
         </Alert>
         <DialogContentText style={{ marginTop: 15 }}>
-          <strong>All your rundata will be lost</strong>. Are you sure you wish to continue?
+          <strong>All your run data will be lost</strong>. Are you sure you wish to continue?
         </DialogContentText>
       </DialogContent>
 
