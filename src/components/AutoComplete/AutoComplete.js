@@ -10,7 +10,7 @@ import ItemChip from "./ItemChip/ItemChip.js";
 const data = require("../../data/testdata.json");
 
 export default function AutoComplete(props) {
-  const { setDialogItems, dialogItems, useList = true } = props;
+  const { setDialogItems, dialogItems, useList = true, customItems = true } = props;
 
   const [inputValue, setInputValue] = React.useState("");
   const [noDataInput, setNoDataInput] = React.useState([]);
@@ -78,7 +78,7 @@ export default function AutoComplete(props) {
         <Autocomplete
           multiple
           fullWidth
-          freeSolo
+          freeSolo={customItems}
           size="small"
           open={open}
           onOpen={handleOpen}

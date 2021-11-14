@@ -1,11 +1,7 @@
 import React from "react";
 
-import { Chip, Tooltip, Popover } from "@mui/material";
+import { Chip, Tooltip } from "@mui/material";
 
-// Use for new item
-import NewReleasesOutlinedIcon from "@mui/icons-material/NewReleasesOutlined";
-// Use for potential upgrade
-import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import ItemCard from "../../ItemCard/ItemCard.js";
 
 import { getColor } from "../../../utils/utils.js";
@@ -34,6 +30,7 @@ export default function ItemChip(props) {
 
   React.useEffect(() => {
     let type = "";
+    setIndication(type);
     dialogItems[index].requirements.forEach((req) => {
       if (req.varies && req.customValue === 0) {
         type = "unset";
