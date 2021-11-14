@@ -16,8 +16,9 @@ import ExitRunDialog from "../../../components/Dialogs/ExitRunDialog";
 import ExitSummaryDialog from "../../../components/Dialogs/ExitSummaryDialog";
 import UnfinshiedRunDialog from "../../../components/Dialogs/UnfinishedRunDialog";
 
-import { fetchActiveRun, clearActiveRun } from "../../../Firebase/firebase.js";
+import { fetchActiveRun, clearActiveRun, fetchHistory } from "../../../Firebase/firebase.js";
 import RunTimer from "../RunTimer/RunTimer";
+import RunHistory from "../RunHistory/RunHistory";
 
 // const mockGameData = {
 //   name: "Random Name",
@@ -38,8 +39,10 @@ export default function RunLayout() {
   const [runData, setRunData] = React.useState([]);
   const [gameData, setGameData] = React.useState({});
   const [gameTime, setGameTime] = React.useState(0);
+  const [structuredLoot, setStructuredLoot] = React.useState({});
 
   const [retrivedData, setRetrivedData] = React.useState({});
+  const [runHistory, setRunHistory] = React.useState([]);
 
   const handleExitGame = () => {
     setOpenExitDialog(false);
@@ -85,6 +88,16 @@ export default function RunLayout() {
     setIsActiveGame(true);
   };
 
+  // When opening an old run from history menu
+  const openOldSummary = (oldRunData) => {
+    console.log(oldRunData);
+    setGameTime(oldRunData.gameTime);
+    setGameData(oldRunData.gameData);
+    setRunData(oldRunData.runData);
+    setStructuredLoot(oldRunData.loot);
+    setShowSummary(true);
+  };
+
   React.useEffect(() => {
     if (gameData && Object.entries(gameData).length > 0) {
       setIsActiveGame(true);
@@ -92,20 +105,30 @@ export default function RunLayout() {
   }, [gameData]);
 
   React.useEffect(() => {
-    async function getData() {
-      const data = await fetchActiveRun();
+    async function getHistoryData() {
+      if (!isActiveGame) {
+        setRunHistory(await fetchHistory());
+      }
+    }
+    getHistoryData();
+  }, [isActiveGame]);
 
-      if (Object.keys(data).length > 0) {
-        setRetrivedData(data);
+  React.useEffect(() => {
+    async function getData() {
+      const activeRun = await fetchActiveRun();
+      if (Object.keys(activeRun).length > 0) {
+        setRetrivedData(activeRun);
         setOpenUnfishiedRunDialog(true);
       }
+
+      setRunHistory(await fetchHistory());
     }
     getData();
   }, []);
 
   const renderConditionalView = () => {
     if (showSummary) {
-      return <SummaryView runData={runData} gameData={gameData} gameTime={gameTime}></SummaryView>;
+      return <SummaryView runData={runData} gameData={gameData} gameTime={gameTime} loot={structuredLoot}></SummaryView>;
     }
 
     if (isActiveGame) {
@@ -134,16 +157,13 @@ export default function RunLayout() {
       );
     } else {
       return (
-        <div className="container ">
-          <h2
-            data-for="soclose"
-            data-tip={JSON.stringify({ item: "lol" })}
-            className="diablo-text"
-            style={{ position: "absolute", bottom: "70%", color: "white" }}>
+        <div className="container">
+          <h2 className="diablo-text" style={{ position: "absolute", bottom: "70%", color: "white" }}>
             START NEW RUN
           </h2>
 
           <RunCreator setGameData={setGameData}></RunCreator>
+          {<RunHistory runHistory={runHistory} openOldSummary={openOldSummary} setRunHistory={setRunHistory}></RunHistory>}
         </div>
       );
     }

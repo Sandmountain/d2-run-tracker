@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore, arrayUnion, getDoc, doc, setDoc, updateDoc } from "firebase/firestore";
+import { getFirestore, arrayUnion, getDoc, doc, setDoc, updateDoc, arrayRemove } from "firebase/firestore";
 //import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 
@@ -56,14 +56,14 @@ const initDatabase = async (user) => {
   }
 };
 
-const updateRunData = async (dataToUpdate) => {
-  const { uid } = auth.currentUser;
-  const dataRef = doc(db, "userData", uid);
+// const updateRunData = async (dataToUpdate) => {
+//   const { uid } = auth.currentUser;
+//   const dataRef = doc(db, "userData", uid);
 
-  await updateDoc(dataRef, {
-    "runData.active": dataToUpdate,
-  });
-};
+//   await updateDoc(dataRef, {
+//     "runData.active": dataToUpdate,
+//   });
+// };
 
 const addToHistory = async (dataToAdd) => {
   const { uid } = auth.currentUser;
@@ -78,6 +78,16 @@ const addToHistory = async (dataToAdd) => {
   // The run is over and we remove the data from active.
   await updateDoc(dataRef, {
     "runData.active": [],
+  });
+};
+
+const deleteHistoryRun = async (itemToRemove) => {
+  const { uid } = auth.currentUser;
+
+  const dataRef = doc(db, "userData", uid);
+
+  await updateDoc(dataRef, {
+    "runData.history": arrayRemove(itemToRemove),
   });
 };
 
@@ -132,4 +142,4 @@ const constructUserQuery = async () => {
   return await getDoc(dataRef);
 };
 
-export { app, initDatabase, addToActiveRun, addToHistory, fetchHistory, fetchActiveRun, clearActiveRun };
+export { app, initDatabase, addToActiveRun, addToHistory, fetchHistory, fetchActiveRun, clearActiveRun, deleteHistoryRun };

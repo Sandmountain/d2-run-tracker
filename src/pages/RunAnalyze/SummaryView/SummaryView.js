@@ -8,9 +8,10 @@ import ScrollContainer from "react-indiana-drag-scroll";
 import "./summary-view.css";
 import { Box } from "@mui/system";
 import { addToHistory } from "../../../Firebase/firebase";
+import { v4 as uuidv4 } from "uuid";
 
 export default function SummaryView(props) {
-  const { gameData, runData, gameTime } = props;
+  const { gameData, runData, gameTime, loot = {} } = props;
   const [stucturedLoot, setStructuredLoot] = React.useState({ uncategorized: [], set: [], unique: [], runes: [] });
 
   useEffect(() => {
@@ -28,6 +29,12 @@ export default function SummaryView(props) {
   };
 
   const structureLootByRarity = () => {
+    // When opening an old summary, set structured loot and then return.
+    if (Object.keys(loot).length > 0) {
+      setStructuredLoot(loot);
+      return;
+    }
+
     const tempLoot = {
       uncategorized: [],
       set: [],
@@ -54,7 +61,18 @@ export default function SummaryView(props) {
     });
 
     setStructuredLoot(tempLoot);
-    addToHistory({ loot: tempLoot, gameData, gameTime });
+
+    addToHistory({
+      id: uuidv4(),
+      date: Date.now(),
+      loot: tempLoot,
+      gameData,
+      gameTime,
+      runData: runData.map((run) => {
+        delete run.loot;
+        return run;
+      }),
+    });
   };
 
   const generateLootItem = (item, run, index) => {
