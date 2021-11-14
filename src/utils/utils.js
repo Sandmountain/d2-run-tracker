@@ -55,3 +55,22 @@ export const sortItems = (a, b) => {
     return 0;
   }
 };
+
+// Because the changes of the custom values are done on the loaded data itself,
+// they need to be reseted after they are submitted.
+export const resetCustomValue = (item) => {
+  // If it's not a custom item
+  if (item.image) {
+    item.requirements.forEach((req) => {
+      if (req.varies) {
+        req.customValue = 0;
+      }
+    });
+
+    item.stats.forEach((stat) => {
+      if (stat.varies) {
+        stat.customValue = 0;
+      }
+    });
+  }
+};

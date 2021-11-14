@@ -4,9 +4,20 @@ import { Alert, Button, Dialog, DialogActions, DialogContent, DialogContentText,
 
 import AutoComplete from "../AutoComplete/AutoComplete";
 import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
+import { resetCustomValue } from "../../utils/utils";
 
 export default function ItemDialog(props) {
   const { openNewRunDialog, handleCloseNewRunDialog, setDialogItems, dialogItems } = props;
+
+  // Resetting the items that have been overriden in memory.
+  const handleClosing = () => {
+    dialogItems.forEach((it) => {
+      resetCustomValue(it);
+    });
+
+    handleCloseNewRunDialog();
+  };
+
   return (
     <RockDialog fullWidth maxWidth="sm" open={openNewRunDialog}>
       <DialogTitle className="diablo-text">FOUND ANYTHING OF INTEREST?</DialogTitle>
@@ -22,10 +33,10 @@ export default function ItemDialog(props) {
       </DialogContent>
 
       <DialogActions>
-        <Button style={{ color: "gray" }} onClick={handleCloseNewRunDialog}>
+        <Button style={{ color: "gray" }} onClick={handleClosing}>
           Continue
         </Button>
-        <Button style={{ color: "white" }} onClick={handleCloseNewRunDialog}>
+        <Button style={{ color: "white" }} onClick={handleClosing}>
           Add items
         </Button>
       </DialogActions>
