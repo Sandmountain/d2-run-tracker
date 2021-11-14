@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar/NavBar";
 import "./styles/App.css";
 import BackgroundImage from "./components/BackgroundImage/BackgroundImage.js";
 import DatabaseLayout from "./pages/Database/DatabaseLayout/DatabaseLayout.js";
+import HolyGrailLayout from "./pages/HolyGrail/HolyGrailLayout.js";
 
 const theme = createTheme({
   palette: {
@@ -38,7 +39,7 @@ function App() {
           <Route exact path={allTabs[0]}>
             {loggedIn ? <RunLayout /> : <Redirect from="/" to={{ pathname: "/login" }} />}
           </Route>
-          <Route path={allTabs[1]} render={() => <div>hallo</div>} />
+          <Route path={allTabs[1]}>{loggedIn ? <HolyGrailLayout /> : <Redirect from="/holy-grail" to={{ pathname: "/login" }} />}</Route>
           <Route path={allTabs[2]} render={() => <DatabaseLayout />} />
           <Route exact path={"/login"}>
             {!loggedIn ? (
