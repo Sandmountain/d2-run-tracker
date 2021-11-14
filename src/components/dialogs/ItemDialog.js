@@ -11,9 +11,9 @@ export default function ItemDialog(props) {
 
   // Resetting the items that have been overriden in memory.
   const handleClosing = () => {
-    dialogItems.forEach((it) => {
-      resetCustomValue(it);
-    });
+    // dialogItems.forEach((it) => {
+    //   resetCustomValue(it);
+    // });
 
     handleCloseNewRunDialog();
   };

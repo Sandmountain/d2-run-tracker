@@ -1,7 +1,8 @@
 @import url("https://fonts.cdnfonts.com/css/diablo");
 
 .container {
-  height: 100%;
+  /* Height of navbar */
+  height: calc(100% - 48px);
   width: 100%;
   display: flex;
   align-items: center;

@@ -35,16 +35,19 @@ export default function ItemChip(props) {
     }
     let type = "";
     setIndication(type);
-    dialogItems[index].requirements.forEach((req) => {
-      if (req.varies && req.customValue === 0) {
-        type = "unset";
-      }
-    });
-    dialogItems[index].stats.forEach((stat) => {
-      if (stat.varies && stat.customValue === 0) {
-        type = "unset";
-      }
-    });
+
+    dialogItems[index].requirements?.length > 0 &&
+      dialogItems[index].requirements.forEach((req) => {
+        if (req.varies && req.customValue === 0) {
+          type = "unset";
+        }
+      });
+    dialogItems[index].stats?.length > 0 &&
+      dialogItems[index].stats.forEach((stat) => {
+        if (stat.varies && stat.customValue === 0) {
+          type = "unset";
+        }
+      });
     if (type !== "") {
       setIndication(type);
       return;
@@ -77,6 +80,7 @@ export default function ItemChip(props) {
         <Chip
           variant="outlined"
           onMouseEnter={() => setOpen(true)}
+          onClick={() => setOpen(true)}
           icon={<ItemChipIcon indication={indication} />}
           style={{
             color: getColor(item),

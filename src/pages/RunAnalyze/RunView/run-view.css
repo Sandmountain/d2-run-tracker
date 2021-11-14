@@ -22,6 +22,11 @@
   color: #4169e1;
 }
 
+.uncategorized {
+  color: white;
+  font-weight: bold;
+}
+
 .totalRunTime {
   position: absolute;
   top: 15px;

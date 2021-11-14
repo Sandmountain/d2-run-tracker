@@ -60,7 +60,7 @@ export default function RunView(props) {
         time: timer,
       },
     ]);
-    // send to firestore
+    //TODO: send to firestore ?
   };
 
   React.useEffect(() => {

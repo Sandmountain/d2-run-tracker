@@ -108,7 +108,7 @@ export default function AutoComplete(props) {
             ))
           }
           renderInput={(params) => (
-            <Box className="autoComplete-container" sx={!customItems && { padding: "65px" }}>
+            <Box className="autoComplete-container" sx={!customItems ? { padding: "65px" } : {}}>
               <TextField autoFocus color="primary" {...params} label="Add Items" />
             </Box>
           )}
