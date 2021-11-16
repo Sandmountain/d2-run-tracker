@@ -1,12 +1,13 @@
-const data = require("./testdata.json");
+const data = require("./testdata1.json");
 const FileSystem = require("fs");
 
-const arrayOfOccurences = [];
+const newItemData = [];
 data.forEach((item, index) => {
   // if (index > 100) {
   //   return;
   // }
 
+  let tempItem = item;
   if (item.category !== "") {
     let tempCategory = item.category;
 
@@ -31,28 +32,33 @@ data.forEach((item, index) => {
     if (item.category.includes("Circlets")) {
       tempCategory = "Helms";
     } else if (item.category.includes("Javelins") || item.category.includes("Throwing Weapons")) {
-      tempCategory = "Javelins & Throwing Wepons";
+      tempCategory = "Javelins & Throwing Weapons";
     } else if (item.category.includes("Mace Classes: Maces and Mauls") || item.category.includes("Maces")) {
       tempCategory = "Maces and Mauls";
     }
+    delete tempItem.classSpecificSet;
+    tempItem.category = tempCategory;
+    newItemData.push(tempItem);
+    // const index = arrayOfOccurences.findIndex((it) => it.category === tempCategory);
 
-    const index = arrayOfOccurences.findIndex((it) => it.category === tempCategory);
-
-    if (index !== -1) {
-      arrayOfOccurences[index].items = [...arrayOfOccurences[index].items, item];
-    } else {
-      arrayOfOccurences.push({ category: tempCategory, items: [item] });
-    }
+    // if (index !== -1) {
+    //   arrayOfOccurences[index].items = [...arrayOfOccurences[index].items, item];
+    // } else {
+    //   arrayOfOccurences.push({ category: tempCategory, items: [item] });
+    // }
   } else if (item.classSpecificSet !== "") {
-    let tempCategory = item.classSpecificSet;
+    let tempCategory = tempItem.classSpecificSet;
+    delete tempItem.classSpecificSet;
+    tempItem.category = tempCategory;
+    newItemData.push(item);
 
-    const index = arrayOfOccurences.findIndex((it) => it.category === tempCategory);
+    // const index = arrayOfOccurences.findIndex((it) => it.category === tempCategory);
 
-    if (index !== -1) {
-      arrayOfOccurences[index].items = [...arrayOfOccurences[index].items, item];
-    } else {
-      arrayOfOccurences.push({ category: tempCategory, items: [item] });
-    }
+    // if (index !== -1) {
+    //   arrayOfOccurences[index].items = [...arrayOfOccurences[index].items, item];
+    // } else {
+    //   arrayOfOccurences.push({ category: tempCategory, items: [item] });
+    // }
   } else {
     let tempCategory;
     if (item.level <= 20) {
@@ -60,17 +66,22 @@ data.forEach((item, index) => {
     } else {
       tempCategory = "Sets";
     }
+    delete tempItem.classSpecificSet;
+    tempItem.category = tempCategory;
 
-    const index = arrayOfOccurences.findIndex((it) => it.category === tempCategory);
+    newItemData.push(tempItem);
+    // const index = arrayOfOccurences.findIndex((it) => it.category === tempCategory);
 
-    if (index !== -1) {
-      arrayOfOccurences[index].items = [...arrayOfOccurences[index].items, item];
-    } else {
-      arrayOfOccurences.push({ category: tempCategory, items: [item] });
-    }
+    // if (index !== -1) {
+    //   arrayOfOccurences[index].items = [...arrayOfOccurences[index].items, item];
+    // } else {
+    //   arrayOfOccurences.push({ category: tempCategory, items: [item] });
+    // }
   }
 });
 
-FileSystem.writeFile("categoryData.json", JSON.stringify(arrayOfOccurences), (error) => {
+//console.log(newItemData);
+
+FileSystem.writeFile("testdata.json", JSON.stringify(newItemData), (error) => {
   if (error) throw error;
 });

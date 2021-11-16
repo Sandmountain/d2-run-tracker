@@ -1,5 +1,6 @@
 [
 	{
+		"classSpecificSet": "",
 		"category": "Rings",
 		"level": 7,
 		"type": "Ring",
@@ -38,6 +39,7 @@
 		"name": "Nagelring"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Rings",
 		"level": 15,
 		"type": "Ring",
@@ -76,6 +78,7 @@
 		"name": "Manald Heal"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Rings",
 		"level": 29,
 		"type": "Ring",
@@ -104,6 +107,7 @@
 		"name": "Stone of Jordan"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Rings",
 		"level": 45,
 		"type": "Ring",
@@ -145,6 +149,7 @@
 		"name": "Dwarf Star"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Rings",
 		"level": 45,
 		"type": "Ring",
@@ -191,6 +196,7 @@
 		"name": "Raven Frost"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Rings",
 		"level": 58,
 		"type": "Ring",
@@ -224,6 +230,7 @@
 		"name": "Bul-Kathos' Wedding Band"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Rings",
 		"level": 60,
 		"type": "Ring",
@@ -274,6 +281,7 @@
 		"name": "Carrion Wind"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Rings",
 		"level": 69,
 		"type": "Ring",
@@ -316,6 +324,7 @@
 		"name": "Nature's Peace"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Rings",
 		"level": 76,
 		"type": "Ring",
@@ -362,6 +371,7 @@
 		"name": "Wisp Projector"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 10,
 		"type": "Amulet",
@@ -394,6 +404,7 @@
 		"name": "Nokozan Relic"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 15,
 		"type": "Amulet",
@@ -462,6 +473,7 @@
 		"name": "The Eye of Etlich"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 25,
 		"type": "Amulet",
@@ -494,6 +506,7 @@
 		"name": "The Mahim-Oak Curio"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 47,
 		"type": "Amulet",
@@ -523,6 +536,7 @@
 		"name": "Saracen's Chance"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 50,
 		"type": "Amulet",
@@ -555,6 +569,7 @@
 		"name": "The Cat's Eye"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 50,
 		"type": "Amulet",
@@ -601,6 +616,7 @@
 		"name": "Crescent Moon"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 60,
 		"type": "Amulet",
@@ -637,6 +653,7 @@
 		"name": "Atma's Scarab"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 65,
 		"type": "Amulet",
@@ -678,6 +695,7 @@
 		"name": "The Rising Sun"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 65,
 		"type": "Amulet",
@@ -714,6 +732,7 @@
 		"name": "Highlord's Wrath"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 67,
 		"type": "Amulet",
@@ -743,6 +762,7 @@
 		"name": "Mara's Kaleidoscope"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 65,
 		"type": "Amulet",
@@ -808,6 +828,7 @@
 		"name": "Seraph's Hymn"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Amulets",
 		"level": 81,
 		"type": "Amulet",
@@ -855,6 +876,7 @@
 		"name": "Metalgrid"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Charms",
 		"level": 70,
 		"type": "Small Charm",
@@ -898,6 +920,7 @@
 		"name": "Annihilus"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Charms",
 		"level": 62,
 		"type": "Grand Charm",
@@ -937,6 +960,7 @@
 		"name": "Gheed's Fortune"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Charms",
 		"level": 75,
 		"type": "Large Charm",
@@ -983,6 +1007,7 @@
 		"name": "Hellfire Torch"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Jewels",
 		"level": 49,
 		"type": "Jewel",
@@ -1021,6 +1046,7 @@
 		"name": "Rainbow Facet Fire Level-up"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Jewels",
 		"level": 49,
 		"type": "Jewel",
@@ -1059,6 +1085,7 @@
 		"name": "Rainbow Facet Cold Level-up"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Jewels",
 		"level": 49,
 		"type": "Jewel",
@@ -1097,6 +1124,7 @@
 		"name": "Rainbow Facet Lightning Level-up"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Jewels",
 		"level": 49,
 		"type": "Jewel",
@@ -1135,6 +1163,7 @@
 		"name": "Rainbow Facet Poison Level-up"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Jewels",
 		"level": 49,
 		"type": "Jewel",
@@ -1173,6 +1202,7 @@
 		"name": "Rainbow Facet Fire Death"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Jewels",
 		"level": 49,
 		"type": "Jewel",
@@ -1211,6 +1241,7 @@
 		"name": "Rainbow Facet Cold Death"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Jewels",
 		"level": 49,
 		"type": "Jewel",
@@ -1249,6 +1280,7 @@
 		"name": "Rainbow Facet Lightning Death"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Jewels",
 		"level": 49,
 		"type": "Jewel",
@@ -1287,7 +1319,8 @@
 		"name": "Rainbow Facet Poison Death"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Circlets",
 		"level": 77,
 		"type": "Tiara",
 		"rarity": "unique",
@@ -1339,7 +1372,8 @@
 		"name": "Kira's Guardian"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Circlets",
 		"level": 76,
 		"type": "Diadem",
 		"rarity": "unique",
@@ -1400,7 +1434,8 @@
 		"name": "Griffon's Eye"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Amazon Spears",
 		"level": 64,
 		"type": "Matriarchal Spear",
 		"rarity": "unique",
@@ -1473,7 +1508,8 @@
 		"name": "Stoneraven"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Amazon Spears",
 		"level": 42,
 		"type": "Ceremonial Pike",
 		"rarity": "unique",
@@ -1552,7 +1588,8 @@
 		"name": "Lycander's Flank"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Amazon Bows",
 		"level": 42,
 		"type": "Ceremonial Bow",
 		"rarity": "unique",
@@ -1627,7 +1664,8 @@
 		"name": "Lycander's Aim"
 	},
 	{
-		"category": "Javelins & Throwing Weapons",
+		"classSpecificSet": "",
+		"category": "Amazon Javelins",
 		"level": 42,
 		"type": "Ceremonial Javelin",
 		"rarity": "unique",
@@ -1714,7 +1752,8 @@
 		"name": "Titan's Revenge"
 	},
 	{
-		"category": "Javelins & Throwing Weapons",
+		"classSpecificSet": "",
+		"category": "Amazon Javelins",
 		"level": 69,
 		"type": "Matriarchal Javelin",
 		"rarity": "unique",
@@ -1789,7 +1828,8 @@
 		"name": "Thunderstroke"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Amazon Bows",
 		"level": 71,
 		"type": "Matriarchal Bow",
 		"rarity": "unique",
@@ -1853,7 +1893,8 @@
 		"name": "Blood Raven's Charge"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Assassin Katars",
 		"level": 78,
 		"type": "Battle Cestus",
 		"rarity": "unique",
@@ -1920,7 +1961,8 @@
 		"name": "Shadow Killer"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Assassin Katars",
 		"level": 42,
 		"type": "Greater Talons",
 		"rarity": "unique",
@@ -1999,7 +2041,8 @@
 		"name": "Bartuc's Cut-Throat"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Assassin Katars",
 		"level": 66,
 		"type": "Wrist Sword",
 		"rarity": "unique",
@@ -2081,7 +2124,8 @@
 		"name": "Jade Talon"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Assassin Katars",
 		"level": 67,
 		"type": "Feral Claws",
 		"rarity": "unique",
@@ -2167,7 +2211,8 @@
 		"name": "Firelizard's Talons"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Necromancer Shrunken Heads",
 		"level": 42,
 		"type": "Hierophant Trophy",
 		"rarity": "unique",
@@ -2246,7 +2291,8 @@
 		"name": "Homunculus"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Necromancer Shrunken Heads",
 		"level": 65,
 		"type": "Bloodlord Skull",
 		"rarity": "unique",
@@ -2324,7 +2370,8 @@
 		"name": "Darkforce Spawn"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Necromancer Shrunken Heads",
 		"level": 72,
 		"type": "Succubus Skull",
 		"rarity": "unique",
@@ -2393,7 +2440,8 @@
 		"name": "Boneflame"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Barbarian Helms",
 		"level": 42,
 		"type": "Slayer Guard",
 		"rarity": "unique",
@@ -2469,7 +2517,8 @@
 		"name": "Arreat's Face"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Barbarian Helms",
 		"level": 79,
 		"type": "Fury Visor",
 		"rarity": "unique",
@@ -2575,7 +2624,8 @@
 		"name": "Wolfhowl"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Barbarian Helms",
 		"level": 61,
 		"type": "Destroyer Helm",
 		"rarity": "unique",
@@ -2663,7 +2713,8 @@
 		"name": "Demonhorn's Edge"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Barbarian Helms",
 		"level": 77,
 		"type": "Conqueror Crown",
 		"rarity": "unique",
@@ -2745,7 +2796,8 @@
 		"name": "Halaberd's Reign"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Sorceress Orbs",
 		"level": 42,
 		"type": "Swirling Crystal",
 		"rarity": "unique",
@@ -2806,7 +2858,8 @@
 		"name": "The Oculus"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Sorceress Orbs",
 		"level": 72,
 		"type": "Eldritch Orb",
 		"rarity": "unique",
@@ -2871,7 +2924,8 @@
 		"name": "Eschuta's Temper"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Sorceress Orbs",
 		"level": 73,
 		"type": "Dimensional Shard",
 		"rarity": "unique",
@@ -2931,7 +2985,8 @@
 		"name": "Death's Fathom"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Druid Pelts",
 		"level": 42,
 		"type": "Totemic Mask",
 		"rarity": "unique",
@@ -3002,7 +3057,8 @@
 		"name": "Jalal's Mane"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Druid Pelts",
 		"level": 63,
 		"type": "Blood Spirit",
 		"rarity": "unique",
@@ -3081,7 +3137,8 @@
 		"name": "Cerebus' Bite"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Druid Pelts",
 		"level": 74,
 		"type": "Sky Spirit",
 		"rarity": "unique",
@@ -3155,7 +3212,8 @@
 		"name": "Ravenlore"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Druid Pelts",
 		"level": 67,
 		"type": "Earth Spirit",
 		"rarity": "unique",
@@ -3238,7 +3296,8 @@
 		"name": "Spirit Keeper"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Paladin Shields",
 		"level": 77,
 		"type": "Sacred Rondache",
 		"rarity": "unique",
@@ -3329,7 +3388,8 @@
 		"name": "Alma Negra"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Paladin Shields",
 		"level": 42,
 		"type": "Gilded Shield",
 		"rarity": "unique",
@@ -3408,7 +3468,8 @@
 		"name": "Herald Of Zakarum"
 	},
 	{
-		"category": "Class Specific Uniques",
+		"classSpecificSet": "",
+		"category": "Paladin Shields",
 		"level": 80,
 		"type": "Zakarum Shield",
 		"rarity": "unique",
@@ -3489,7 +3550,8 @@
 		"name": "Dragonscale"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Normal Helms",
 		"level": 3,
 		"type": "Cap",
 		"rarity": "unique",
@@ -3535,7 +3597,8 @@
 		"name": "Biggin's Bonnet"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Normal Helms",
 		"level": 15,
 		"type": "Skull Cap",
 		"rarity": "unique",
@@ -3582,7 +3645,8 @@
 		"name": "Tarnhelm"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Normal Helms",
 		"level": 14,
 		"type": "Helm",
 		"rarity": "unique",
@@ -3632,7 +3696,8 @@
 		"name": "Coif of Glory"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Normal Helms",
 		"level": 17,
 		"type": "Full Helm",
 		"rarity": "unique",
@@ -3696,7 +3761,8 @@
 		"name": "Duskdeep"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Normal Helms",
 		"level": 25,
 		"type": "Great Helm",
 		"rarity": "unique",
@@ -3745,7 +3811,8 @@
 		"name": "Howltusk"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Normal Helms",
 		"level": 20,
 		"type": "Mask",
 		"rarity": "unique",
@@ -3795,7 +3862,8 @@
 		"name": "The Face of Horror"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Normal Helms",
 		"level": 29,
 		"type": "Crown",
 		"rarity": "unique",
@@ -3867,7 +3935,8 @@
 		"name": "Undead Crown"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Normal Helms",
 		"level": 21,
 		"type": "Bone Helm",
 		"rarity": "unique",
@@ -3917,7 +3986,8 @@
 		"name": "Wormskull"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Exceptional Helms",
 		"level": 28,
 		"type": "War Hat",
 		"rarity": "unique",
@@ -3971,7 +4041,8 @@
 		"name": "Peasant Crown"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Exceptional Helms",
 		"level": 31,
 		"type": "Sallet",
 		"rarity": "unique",
@@ -4049,7 +4120,8 @@
 		"name": "Rockstopper"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Exceptional Helms",
 		"level": 35,
 		"type": "Casque",
 		"rarity": "unique",
@@ -4113,7 +4185,8 @@
 		"name": "Stealskull"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Exceptional Helms",
 		"level": 38,
 		"type": "Basinet",
 		"rarity": "unique",
@@ -4183,7 +4256,8 @@
 		"name": "Darksight Helm"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Exceptional Helms",
 		"level": 44,
 		"type": "Winged Helm",
 		"rarity": "unique",
@@ -4248,7 +4322,8 @@
 		"name": "Valkyrie Wing"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Exceptional Helms",
 		"level": 41,
 		"type": "Death Mask",
 		"rarity": "unique",
@@ -4307,7 +4382,8 @@
 		"name": "Blackhorn's Face"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Exceptional Helms",
 		"level": 49,
 		"type": "Grand Crown",
 		"rarity": "unique",
@@ -4380,7 +4456,8 @@
 		"name": "Crown of Thieves"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Exceptional Helms",
 		"level": 41,
 		"type": "Grim Helm",
 		"rarity": "unique",
@@ -4453,7 +4530,8 @@
 		"name": "Vampire Gaze"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Elite Helms",
 		"level": 62,
 		"type": "Shako",
 		"rarity": "unique",
@@ -4507,7 +4585,8 @@
 		"name": "Harlequin Crest"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Elite Helms",
 		"level": 62,
 		"type": "Armet",
 		"rarity": "unique",
@@ -4573,7 +4652,8 @@
 		"name": "Steel Shade"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Elite Helms",
 		"level": 73,
 		"type": "Spired Helm",
 		"rarity": "unique",
@@ -4622,7 +4702,8 @@
 		"name": "Veil of Steel"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Elite Helms",
 		"level": 67,
 		"type": "Spired Helm",
 		"rarity": "unique",
@@ -4700,7 +4781,8 @@
 		"name": "Nightwing's Veil"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Elite Helms",
 		"level": 83,
 		"type": "Demonhead",
 		"rarity": "unique",
@@ -4785,7 +4867,8 @@
 		"name": "Andariel's Visage"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Elite Helms",
 		"level": 82,
 		"type": "Corona",
 		"rarity": "unique",
@@ -4863,7 +4946,8 @@
 		"name": "Crown of Ages"
 	},
 	{
-		"category": "Helms",
+		"classSpecificSet": "",
+		"category": "Elite Helms",
 		"level": 65,
 		"type": "Bone Visage",
 		"rarity": "unique",
@@ -4928,7 +5012,8 @@
 		"name": "Giant Skull"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 7,
 		"type": "Quilted Armor",
 		"rarity": "unique",
@@ -4982,7 +5067,8 @@
 		"name": "Greyform"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 12,
 		"type": "Leather Armor",
 		"rarity": "unique",
@@ -5032,7 +5118,8 @@
 		"name": "Blinkbat's Form"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 14,
 		"type": "Hard Leather Armor",
 		"rarity": "unique",
@@ -5094,7 +5181,8 @@
 		"name": "The Centurion"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 16,
 		"type": "Studded Leather",
 		"rarity": "unique",
@@ -5148,7 +5236,8 @@
 		"name": "Twitchthroe"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 14,
 		"type": "Ring Mail",
 		"rarity": "unique",
@@ -5219,7 +5308,8 @@
 		"name": "Darkglow"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 15,
 		"type": "Scale Mail",
 		"rarity": "unique",
@@ -5274,7 +5364,8 @@
 		"name": "Hawkmail"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 20,
 		"type": "Breast Plate",
 		"rarity": "unique",
@@ -5329,7 +5420,8 @@
 		"name": "Venom Ward"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 17,
 		"type": "Chain Mail",
 		"rarity": "unique",
@@ -5385,7 +5477,8 @@
 		"name": "Sparking Mail"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 22,
 		"type": "Splint Mail",
 		"rarity": "unique",
@@ -5440,7 +5533,8 @@
 		"name": "Iceblink"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 29,
 		"type": "Light Plate",
 		"rarity": "unique",
@@ -5489,7 +5583,8 @@
 		"name": "Heavenly Garb"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 28,
 		"type": "Field Plate",
 		"rarity": "unique",
@@ -5544,7 +5639,8 @@
 		"name": "Rockfleece"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 26,
 		"type": "Plate Mail",
 		"rarity": "unique",
@@ -5595,7 +5691,8 @@
 		"name": "Boneflesh"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 29,
 		"type": "Gothic Plate",
 		"rarity": "unique",
@@ -5641,7 +5738,8 @@
 		"name": "Rattlecage"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 28,
 		"type": "Full Plate Mail",
 		"rarity": "unique",
@@ -5691,7 +5789,8 @@
 		"name": "Goldskin"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Normal Armor",
 		"level": 28,
 		"type": "Ancient Armor",
 		"rarity": "unique",
@@ -5742,7 +5841,8 @@
 		"name": "Silks of the Victor"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 28,
 		"type": "Ghost Armor",
 		"rarity": "unique",
@@ -5792,7 +5892,8 @@
 		"name": "The Spirit Shroud"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 29,
 		"type": "Serpentskin Armor",
 		"rarity": "unique",
@@ -5847,7 +5948,8 @@
 		"name": "Skin of the Vipermagi"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 31,
 		"type": "Demonhide Armor",
 		"rarity": "unique",
@@ -5912,7 +6014,8 @@
 		"name": "Skin of the Flayed One"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 33,
 		"type": "Trellised Armor",
 		"rarity": "unique",
@@ -5984,7 +6087,8 @@
 		"name": "Iron Pelt"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 37,
 		"type": "Tigulated Mail",
 		"rarity": "unique",
@@ -6039,7 +6143,8 @@
 		"name": "Crow Caw"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 35,
 		"type": "Linked Mail",
 		"rarity": "unique",
@@ -6102,7 +6207,8 @@
 		"name": "Spirit Forge"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 41,
 		"type": "Cuirass",
 		"rarity": "unique",
@@ -6180,7 +6286,8 @@
 		"name": "Duriel's Shell"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 38,
 		"type": "Mesh Armor",
 		"rarity": "unique",
@@ -6231,7 +6338,8 @@
 		"name": "Shaftstop"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 42,
 		"type": "Russet Armor",
 		"rarity": "unique",
@@ -6286,7 +6394,8 @@
 		"name": "Skullder's Ire"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 51,
 		"type": "Mage Plate",
 		"rarity": "unique",
@@ -6354,7 +6463,8 @@
 		"name": "Que-Hegan's Wisdom"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 48,
 		"type": "Sharktooth Armor",
 		"rarity": "unique",
@@ -6423,7 +6533,8 @@
 		"name": "Toothrow"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 45,
 		"type": "Templar Coat",
 		"rarity": "unique",
@@ -6498,7 +6609,8 @@
 		"name": "Guardian Angel"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 51,
 		"type": "Embossed Plate",
 		"rarity": "unique",
@@ -6568,7 +6680,8 @@
 		"name": "Atma's Wail"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 53,
 		"type": "Chaos Armor",
 		"rarity": "unique",
@@ -6637,7 +6750,8 @@
 		"name": "Black Hades"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Exceptional Armor",
 		"level": 55,
 		"type": "Ornate Plate",
 		"rarity": "unique",
@@ -6700,7 +6814,8 @@
 		"name": "Corpsemourn"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Elite Armor",
 		"level": 75,
 		"type": "Dusk Shroud",
 		"rarity": "unique",
@@ -6783,7 +6898,8 @@
 		"name": "Ormus' Robes"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Elite Armor",
 		"level": 85,
 		"type": "Wire Fleece",
 		"rarity": "unique",
@@ -6860,7 +6976,8 @@
 		"name": "The Gladiator's Bane"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Elite Armor",
 		"level": 85,
 		"type": "Balrog Skin",
 		"rarity": "unique",
@@ -6925,7 +7042,8 @@
 		"name": "Arkaine's Valor"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Elite Armor",
 		"level": 65,
 		"type": "Kraken Shell",
 		"rarity": "unique",
@@ -6991,7 +7109,8 @@
 		"name": "Leviathan"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Elite Armor",
 		"level": 66,
 		"type": "Shadow Plate",
 		"rarity": "unique",
@@ -7069,7 +7188,8 @@
 		"name": "Steel Carapace"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Elite Armor",
 		"level": 74,
 		"type": "Sacred Armor",
 		"rarity": "unique",
@@ -7157,7 +7277,8 @@
 		"name": "Templar's Might"
 	},
 	{
-		"category": "Armor",
+		"classSpecificSet": "",
+		"category": "Elite Armor",
 		"level": 84,
 		"type": "Sacred Armor",
 		"rarity": "unique",
@@ -7239,7 +7360,8 @@
 		"name": "Tyrael's Might"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Normal Shields",
 		"level": 2,
 		"type": "Buckler",
 		"rarity": "unique",
@@ -7310,7 +7432,8 @@
 		"name": "Pelta Lunata"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Normal Shields",
 		"level": 9,
 		"type": "Small Shield",
 		"rarity": "unique",
@@ -7395,7 +7518,8 @@
 		"name": "Umbral Disk"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Normal Shields",
 		"level": 13,
 		"type": "Large Shield",
 		"rarity": "unique",
@@ -7471,7 +7595,8 @@
 		"name": "Stormguild"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Normal Shields",
 		"level": 17,
 		"type": "Kite Shield",
 		"rarity": "unique",
@@ -7551,7 +7676,8 @@
 		"name": "Steelclash"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Normal Shields",
 		"level": 15,
 		"type": "Spiked Shield",
 		"rarity": "unique",
@@ -7614,7 +7740,8 @@
 		"name": "Swordback Hold"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Normal Shields",
 		"level": 19,
 		"type": "Tower Shield",
 		"rarity": "unique",
@@ -7686,7 +7813,8 @@
 		"name": "Bverrit Keep"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Normal Shields",
 		"level": 20,
 		"type": "Bone Shield",
 		"rarity": "unique",
@@ -7753,7 +7881,8 @@
 		"name": "Wall of the Eyeless"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Normal Shields",
 		"level": 26,
 		"type": "Gothic Shield",
 		"rarity": "unique",
@@ -7815,7 +7944,8 @@
 		"name": "The Ward"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Exceptional Shields",
 		"level": 28,
 		"type": "Defender",
 		"rarity": "unique",
@@ -7878,7 +8008,8 @@
 		"name": "Visceratuant"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Exceptional Shields",
 		"level": 31,
 		"type": "Round Shield",
 		"rarity": "unique",
@@ -7941,7 +8072,8 @@
 		"name": "Moser's Blessed Circle"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Exceptional Shields",
 		"level": 35,
 		"type": "Scutum",
 		"rarity": "unique",
@@ -8020,7 +8152,8 @@
 		"name": "Stormchaser"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Exceptional Shields",
 		"level": 38,
 		"type": "Dragon Shield",
 		"rarity": "unique",
@@ -8100,7 +8233,8 @@
 		"name": "Tiamat's Rebuke"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Exceptional Shields",
 		"level": 35,
 		"type": "Barbed Shield",
 		"rarity": "unique",
@@ -8167,7 +8301,8 @@
 		"name": "Lance Guard"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Exceptional Shields",
 		"level": 44,
 		"type": "Pavise",
 		"rarity": "unique",
@@ -8249,7 +8384,8 @@
 		"name": "Gerke's Sanctuary"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Exceptional Shields",
 		"level": 41,
 		"type": "Grim Shield",
 		"rarity": "unique",
@@ -8325,7 +8461,8 @@
 		"name": "Lidless Wall"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Exceptional Shields",
 		"level": 50,
 		"type": "Ancient Shield",
 		"rarity": "unique",
@@ -8396,7 +8533,8 @@
 		"name": "Radament's Sphere"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Elite Shields",
 		"level": 61,
 		"type": "Luna",
 		"rarity": "unique",
@@ -8467,7 +8605,8 @@
 		"name": "Blackoak Shield"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Elite Shields",
 		"level": 73,
 		"type": "Monarch",
 		"rarity": "unique",
@@ -8544,7 +8683,8 @@
 		"name": "Stormshield"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Elite Shields",
 		"level": 70,
 		"type": "Blade Barrier",
 		"rarity": "unique",
@@ -8612,7 +8752,8 @@
 		"name": "Spike Thorn"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Elite Shields",
 		"level": 76,
 		"type": "Aegis",
 		"rarity": "unique",
@@ -8689,7 +8830,8 @@
 		"name": "Medusa's Gaze"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Elite Shields",
 		"level": 75,
 		"type": "Troll Nest",
 		"rarity": "unique",
@@ -8781,7 +8923,8 @@
 		"name": "Head Hunter's Glory"
 	},
 	{
-		"category": "Shields",
+		"classSpecificSet": "",
+		"category": "Elite Shields",
 		"level": 68,
 		"type": "Ward",
 		"rarity": "unique",
@@ -8859,7 +9002,8 @@
 		"name": "Spirit Ward"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Normal Gloves",
 		"level": 5,
 		"type": "Leather Gloves",
 		"rarity": "unique",
@@ -8909,7 +9053,8 @@
 		"name": "The Hand of Broc"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Normal Gloves",
 		"level": 9,
 		"type": "Heavy Gloves",
 		"rarity": "unique",
@@ -8964,7 +9109,8 @@
 		"name": "Bloodfist"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Normal Gloves",
 		"level": 15,
 		"type": "Chain Gloves",
 		"rarity": "unique",
@@ -9028,7 +9174,8 @@
 		"name": "Chance Guards"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Normal Gloves",
 		"level": 23,
 		"type": "Light Gauntlets",
 		"rarity": "unique",
@@ -9087,7 +9234,8 @@
 		"name": "Magefist"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Normal Gloves",
 		"level": 29,
 		"type": "Gauntlets",
 		"rarity": "unique",
@@ -9142,7 +9290,8 @@
 		"name": "Frostburn"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Exceptional Gloves",
 		"level": 29,
 		"type": "Demonhide Gloves",
 		"rarity": "unique",
@@ -9210,7 +9359,8 @@
 		"name": "Venom Grip"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Exceptional Gloves",
 		"level": 32,
 		"type": "Sharkskin Gloves",
 		"rarity": "unique",
@@ -9275,7 +9425,8 @@
 		"name": "Gravepalm"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Exceptional Gloves",
 		"level": 36,
 		"type": "Heavy Bracers",
 		"rarity": "unique",
@@ -9335,7 +9486,8 @@
 		"name": "Ghoulhide"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Exceptional Gloves",
 		"level": 42,
 		"type": "Battle Gauntlets",
 		"rarity": "unique",
@@ -9394,7 +9546,8 @@
 		"name": "Lava Gout"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Exceptional Gloves",
 		"level": 47,
 		"type": "War Gauntlets",
 		"rarity": "unique",
@@ -9449,7 +9602,8 @@
 		"name": "Hellmouth"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Elite Gloves",
 		"level": 76,
 		"type": "Vampirebone Gloves",
 		"rarity": "unique",
@@ -9523,7 +9677,8 @@
 		"name": "Dracul's Grasp"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Elite Gloves",
 		"level": 74,
 		"type": "Vambraces",
 		"rarity": "unique",
@@ -9588,7 +9743,8 @@
 		"name": "Soul Drainer"
 	},
 	{
-		"category": "Gloves",
+		"classSpecificSet": "",
+		"category": "Elite Gloves",
 		"level": 70,
 		"type": "Ogre Gauntlets",
 		"rarity": "unique",
@@ -9649,7 +9805,8 @@
 		"name": "Steelrend"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Normal Boots",
 		"level": 5,
 		"type": "Boots",
 		"rarity": "unique",
@@ -9703,7 +9860,8 @@
 		"name": "Hotspur"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Normal Boots",
 		"level": 9,
 		"type": "Heavy Boots",
 		"rarity": "unique",
@@ -9766,7 +9924,8 @@
 		"name": "Gorefoot"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Normal Boots",
 		"level": 15,
 		"type": "Chain Boots",
 		"rarity": "unique",
@@ -9829,7 +9988,8 @@
 		"name": "Treads of Cthon"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Normal Boots",
 		"level": 22,
 		"type": "Light Plated Boots",
 		"rarity": "unique",
@@ -9892,7 +10052,8 @@
 		"name": "Goblin Toe"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Normal Boots",
 		"level": 29,
 		"type": "Greaves",
 		"rarity": "unique",
@@ -9959,7 +10120,8 @@
 		"name": "Tearhaunch"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Exceptional Boots",
 		"level": 29,
 		"type": "Demonhide Boots",
 		"rarity": "unique",
@@ -10039,7 +10201,8 @@
 		"name": "Infernostride"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Exceptional Boots",
 		"level": 32,
 		"type": "Sharkskin Boots",
 		"rarity": "unique",
@@ -10115,7 +10278,8 @@
 		"name": "Waterwalk"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Exceptional Boots",
 		"level": 36,
 		"type": "Mesh Boots",
 		"rarity": "unique",
@@ -10174,7 +10338,8 @@
 		"name": "Silkweave"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Exceptional Boots",
 		"level": 42,
 		"type": "Battle Boots",
 		"rarity": "unique",
@@ -10255,7 +10420,8 @@
 		"name": "War Traveler"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Exceptional Boots",
 		"level": null,
 		"type": "War Boots",
 		"rarity": "unique",
@@ -10322,7 +10488,8 @@
 		"name": "Gore Rider"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Elite Boots",
 		"level": 64,
 		"type": "Scarabshell Boots",
 		"rarity": "unique",
@@ -10412,7 +10579,8 @@
 		"name": "Sandstorm Trek"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Elite Boots",
 		"level": 66,
 		"type": "Boneweave Boots",
 		"rarity": "unique",
@@ -10501,7 +10669,8 @@
 		"name": "Marrowwalk"
 	},
 	{
-		"category": "Boots",
+		"classSpecificSet": "",
+		"category": "Elite Boots",
 		"level": 71,
 		"type": "Myrmidon Greaves",
 		"rarity": "unique",
@@ -10574,7 +10743,8 @@
 		"name": "Shadow Dancer"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Normal Belts",
 		"level": 7,
 		"type": "Sash",
 		"rarity": "unique",
@@ -10615,7 +10785,8 @@
 		"name": "Lenymo"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Normal Belts",
 		"level": 12,
 		"type": "Light Belt",
 		"rarity": "unique",
@@ -10674,7 +10845,8 @@
 		"name": "Snakecord"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Normal Belts",
 		"level": 20,
 		"type": "Belt",
 		"rarity": "unique",
@@ -10737,7 +10909,8 @@
 		"name": "Nightsmoke"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Normal Belts",
 		"level": 27,
 		"type": "Heavy Belt",
 		"rarity": "unique",
@@ -10805,7 +10978,8 @@
 		"name": "Goldwrap"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Normal Belts",
 		"level": 29,
 		"type": "Plated Belt",
 		"rarity": "unique",
@@ -10872,7 +11046,8 @@
 		"name": "Bladebuckle"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Exceptional Belts",
 		"level": 29,
 		"type": "Demonhide Sash",
 		"rarity": "unique",
@@ -10946,7 +11121,8 @@
 		"name": "String of Ears"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Exceptional Belts",
 		"level": 32,
 		"type": "Sharkskin Belt",
 		"rarity": "unique",
@@ -11009,7 +11185,8 @@
 		"name": "Razortail"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Exceptional Belts",
 		"level": 36,
 		"type": "Mesh Belt",
 		"rarity": "unique",
@@ -11072,7 +11249,8 @@
 		"name": "Gloom's Trap"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Exceptional Belts",
 		"level": 42,
 		"type": "Battle Belt",
 		"rarity": "unique",
@@ -11148,7 +11326,8 @@
 		"name": "Snowclash"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Exceptional Belts",
 		"level": 47,
 		"type": "War Belt",
 		"rarity": "unique",
@@ -11223,7 +11402,8 @@
 		"name": "Thundergod's Vigor"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Elite Belts",
 		"level": 80,
 		"type": "Spiderweb Sash",
 		"rarity": "unique",
@@ -11286,7 +11466,8 @@
 		"name": "Arachnid Mesh"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Elite Belts",
 		"level": 51,
 		"type": "Vampirefang Belt",
 		"rarity": "unique",
@@ -11349,7 +11530,8 @@
 		"name": "Nosferatu's Coil"
 	},
 	{
-		"category": "Belts",
+		"classSpecificSet": "",
+		"category": "Elite Belts",
 		"level": 63,
 		"type": "Mithril Coil",
 		"rarity": "unique",
@@ -11439,7 +11621,8 @@
 		"name": "Verdungo's Hearty Cord"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Normal Axes",
 		"level": 5,
 		"type": "Hand Axe",
 		"rarity": "unique",
@@ -11485,7 +11668,8 @@
 		"name": "The Gnasher"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Normal Axes",
 		"level": 9,
 		"type": "Axe",
 		"rarity": "unique",
@@ -11539,7 +11723,8 @@
 		"name": "Deathspade"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Normal Axes",
 		"level": 15,
 		"type": "Double Axe",
 		"rarity": "unique",
@@ -11597,7 +11782,8 @@
 		"name": "Bladebone"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Normal Axes",
 		"level": 21,
 		"type": "Military Pick",
 		"rarity": "unique",
@@ -11669,7 +11855,8 @@
 		"name": "Skull Splitter"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Normal Axes",
 		"level": 27,
 		"type": "War Axe",
 		"rarity": "unique",
@@ -11723,7 +11910,8 @@
 		"name": "Rakescar"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Normal Axes",
 		"level": 8,
 		"type": "Large Axe",
 		"rarity": "unique",
@@ -11773,7 +11961,8 @@
 		"name": "Axe of Fechmar"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Normal Axes",
 		"level": 14,
 		"type": "Broad Axe",
 		"rarity": "unique",
@@ -11827,7 +12016,8 @@
 		"name": "Goreshovel"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Normal Axes",
 		"level": 19,
 		"type": "Battle Axe",
 		"rarity": "unique",
@@ -11881,7 +12071,8 @@
 		"name": "The Chieftain"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Normal Axes",
 		"level": 25,
 		"type": "Great Axe",
 		"rarity": "unique",
@@ -11948,7 +12139,8 @@
 		"name": "Brainhew"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Normal Axes",
 		"level": 29,
 		"type": "Giant Axe",
 		"rarity": "unique",
@@ -12012,7 +12204,8 @@
 		"name": "Humongous"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Exceptional Axes",
 		"level": 36,
 		"type": "Hatchet",
 		"rarity": "unique",
@@ -12082,7 +12275,8 @@
 		"name": "Coldkill"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Exceptional Axes",
 		"level": 39,
 		"type": "Cleaver",
 		"rarity": "unique",
@@ -12140,7 +12334,8 @@
 		"name": "Butcher's Pupil"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Exceptional Axes",
 		"level": 43,
 		"type": "Twin Axe",
 		"rarity": "unique",
@@ -12206,7 +12401,8 @@
 		"name": "Islestrike"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Exceptional Axes",
 		"level": 45,
 		"type": "Crowbill",
 		"rarity": "unique",
@@ -12268,7 +12464,8 @@
 		"name": "Pompeii's Wrath"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Exceptional Axes",
 		"level": 48,
 		"type": "Naga",
 		"rarity": "unique",
@@ -12330,7 +12527,8 @@
 		"name": "Guardian Naga"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Exceptional Axes",
 		"level": 35,
 		"type": "Military Axe",
 		"rarity": "unique",
@@ -12387,7 +12585,8 @@
 		"name": "Warlord's Trust"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Exceptional Axes",
 		"level": 39,
 		"type": "Bearded Axe",
 		"rarity": "unique",
@@ -12465,7 +12664,8 @@
 		"name": "Spellsteel"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Exceptional Axes",
 		"level": 41,
 		"type": "Tabar",
 		"rarity": "unique",
@@ -12531,7 +12731,8 @@
 		"name": "Stormrider"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Exceptional Axes",
 		"level": 42,
 		"type": "Gothic Axe",
 		"rarity": "unique",
@@ -12610,7 +12811,8 @@
 		"name": "Boneslayer Blade"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Exceptional Axes",
 		"level": 45,
 		"type": "Ancient Axe",
 		"rarity": "unique",
@@ -12681,7 +12883,8 @@
 		"name": "The Minotaur"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Elite Axes",
 		"level": 67,
 		"type": "Tomahawk",
 		"rarity": "unique",
@@ -12739,7 +12942,8 @@
 		"name": "Razor's Edge"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Elite Axes",
 		"level": 72,
 		"type": "Ettin Axe",
 		"rarity": "unique",
@@ -12798,7 +13002,8 @@
 		"name": "Rune Master"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Elite Axes",
 		"level": 63,
 		"type": "War Spike",
 		"rarity": "unique",
@@ -12865,7 +13070,8 @@
 		"name": "Cranebeak"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Elite Axes",
 		"level": 70,
 		"type": "Berserker Axe",
 		"rarity": "unique",
@@ -12928,7 +13134,8 @@
 		"name": "Death Cleaver"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Elite Axes",
 		"level": 74,
 		"type": "Silver-Edged Axe",
 		"rarity": "unique",
@@ -13014,7 +13221,8 @@
 		"name": "Ethereal Edge"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Elite Axes",
 		"level": 66,
 		"type": "Decapitator",
 		"rarity": "unique",
@@ -13080,7 +13288,8 @@
 		"name": "Hellslayer"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Elite Axes",
 		"level": 70,
 		"type": "Champion Axe",
 		"rarity": "unique",
@@ -13133,7 +13342,8 @@
 		"name": "Messerschmidt's Reaver"
 	},
 	{
-		"category": "Axes",
+		"classSpecificSet": "",
+		"category": "Elite Axes",
 		"level": 75,
 		"type": "Glorious Axe",
 		"rarity": "unique",
@@ -13191,7 +13401,8 @@
 		"name": "Executioner's Justice"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Normal Bows",
 		"level": 7,
 		"type": "Short Bow",
 		"rarity": "unique",
@@ -13240,7 +13451,8 @@
 		"name": "Pluckeye"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Normal Bows",
 		"level": 13,
 		"type": "Hunter's Bow",
 		"rarity": "unique",
@@ -13290,7 +13502,8 @@
 		"name": "Witherstring"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Normal Bows",
 		"level": 15,
 		"type": "Long Bow",
 		"rarity": "unique",
@@ -13344,7 +13557,8 @@
 		"name": "Raven Claw"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Normal Bows",
 		"level": 20,
 		"type": "Composite Bow",
 		"rarity": "unique",
@@ -13402,7 +13616,8 @@
 		"name": "Rogue's Bow"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Normal Bows",
 		"level": 25,
 		"type": "Short Battle Bow",
 		"rarity": "unique",
@@ -13460,7 +13675,8 @@
 		"name": "Stormstrike"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Normal Bows",
 		"level": 26,
 		"type": "Long Battle Bow",
 		"rarity": "unique",
@@ -13536,7 +13752,8 @@
 		"name": "Wizendraw"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Normal Bows",
 		"level": 27,
 		"type": "Short War Bow",
 		"rarity": "unique",
@@ -13608,7 +13825,8 @@
 		"name": "Hellclap"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Normal Bows",
 		"level": 28,
 		"type": "Long War Bow",
 		"rarity": "unique",
@@ -13662,7 +13880,8 @@
 		"name": "Blastbark"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Exceptional Bows",
 		"level": 28,
 		"type": "Edge Bow",
 		"rarity": "unique",
@@ -13724,7 +13943,8 @@
 		"name": "Skystrike"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Exceptional Bows",
 		"level": 31,
 		"type": "Razor Bow",
 		"rarity": "unique",
@@ -13787,7 +14007,8 @@
 		"name": "Riphook"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Exceptional Bows",
 		"level": 33,
 		"type": "Cedar Bow",
 		"rarity": "unique",
@@ -13845,7 +14066,8 @@
 		"name": "Kuko Shakaku"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Exceptional Bows",
 		"level": 36,
 		"type": "Double Bow",
 		"rarity": "unique",
@@ -13908,7 +14130,8 @@
 		"name": "Endlesshail"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Exceptional Bows",
 		"level": 39,
 		"type": "Short Siege Bow",
 		"rarity": "unique",
@@ -13966,7 +14189,8 @@
 		"name": "Witchwild String"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Exceptional Bows",
 		"level": 41,
 		"type": "Large Siege Bow",
 		"rarity": "unique",
@@ -14036,7 +14260,8 @@
 		"name": "Cliffkiller"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Exceptional Bows",
 		"level": 43,
 		"type": "Rune Bow",
 		"rarity": "unique",
@@ -14116,7 +14341,8 @@
 		"name": "Magewrath"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Exceptional Bows",
 		"level": 46,
 		"type": "Gothic Bow",
 		"rarity": "unique",
@@ -14193,7 +14419,8 @@
 		"name": "Goldstrike Arch"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Elite Bows",
 		"level": 69,
 		"type": "Crusader Bow",
 		"rarity": "unique",
@@ -14246,7 +14473,8 @@
 		"name": "Eaglehorn"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Elite Bows",
 		"level": 65,
 		"type": "Ward Bow",
 		"rarity": "unique",
@@ -14305,7 +14533,8 @@
 		"name": "Widowmaker"
 	},
 	{
-		"category": "Bows",
+		"classSpecificSet": "",
+		"category": "Elite Bows",
 		"level": 73,
 		"type": "Hydra Bow",
 		"rarity": "unique",
@@ -14371,7 +14600,8 @@
 		"name": "Windforce"
 	},
 	{
-		"category": "Crossbows",
+		"classSpecificSet": "",
+		"category": "Normal Crossbows",
 		"level": 9,
 		"type": "Light Crossbow",
 		"rarity": "unique",
@@ -14424,7 +14654,8 @@
 		"name": "Leadcrow"
 	},
 	{
-		"category": "Crossbows",
+		"classSpecificSet": "",
+		"category": "Normal Crossbows",
 		"level": 18,
 		"type": "Crossbow",
 		"rarity": "unique",
@@ -14477,7 +14708,8 @@
 		"name": "Ichorsting"
 	},
 	{
-		"category": "Crossbows",
+		"classSpecificSet": "",
+		"category": "Normal Crossbows",
 		"level": 27,
 		"type": "Heavy Crossbow",
 		"rarity": "unique",
@@ -14539,7 +14771,8 @@
 		"name": "Hellcast"
 	},
 	{
-		"category": "Crossbows",
+		"classSpecificSet": "",
+		"category": "Normal Crossbows",
 		"level": 28,
 		"type": "Repeating Crossbow",
 		"rarity": "unique",
@@ -14593,7 +14826,8 @@
 		"name": "Doomslinger"
 	},
 	{
-		"category": "Crossbows",
+		"classSpecificSet": "",
+		"category": "Exceptional Crossbows",
 		"level": 32,
 		"type": "Arbalest",
 		"rarity": "unique",
@@ -14665,7 +14899,8 @@
 		"name": "Langer Briser"
 	},
 	{
-		"category": "Crossbows",
+		"classSpecificSet": "",
+		"category": "Exceptional Crossbows",
 		"level": 36,
 		"type": "Siege Crossbow",
 		"rarity": "unique",
@@ -14731,7 +14966,8 @@
 		"name": "Pus Spitter"
 	},
 	{
-		"category": "Crossbows",
+		"classSpecificSet": "",
+		"category": "Exceptional Crossbows",
 		"level": 41,
 		"type": "Ballista",
 		"rarity": "unique",
@@ -14802,7 +15038,8 @@
 		"name": "Buriza-Do Kyanon"
 	},
 	{
-		"category": "Crossbows",
+		"classSpecificSet": "",
+		"category": "Exceptional Crossbows",
 		"level": 49,
 		"type": "Chu-Ko-Nu",
 		"rarity": "unique",
@@ -14859,7 +15096,8 @@
 		"name": "Demon Machine"
 	},
 	{
-		"category": "Crossbows",
+		"classSpecificSet": "",
+		"category": "Elite Crossbows",
 		"level": 76,
 		"type": "Colossus Crossbow",
 		"rarity": "unique",
@@ -14930,7 +15168,8 @@
 		"name": "Hellrack"
 	},
 	{
-		"category": "Crossbows",
+		"classSpecificSet": "",
+		"category": "Elite Crossbows",
 		"level": 71,
 		"type": "Demon Crossbow",
 		"rarity": "unique",
@@ -14989,7 +15228,8 @@
 		"name": "Gut Siphon"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Normal Daggers",
 		"level": 4,
 		"type": "Dagger",
 		"rarity": "unique",
@@ -15026,7 +15266,8 @@
 		"name": "Gull"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Normal Daggers",
 		"level": 11,
 		"type": "Dirk",
 		"rarity": "unique",
@@ -15079,7 +15320,8 @@
 		"name": "The Diggler"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Normal Daggers",
 		"level": 19,
 		"type": "Kris",
 		"rarity": "unique",
@@ -15133,7 +15375,8 @@
 		"name": "The Jade Tan Do"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Normal Daggers",
 		"level": 25,
 		"type": "Blade",
 		"rarity": "unique",
@@ -15182,7 +15425,8 @@
 		"name": "Spectral Shard"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Exceptional Daggers",
 		"level": 32,
 		"type": "Poignard",
 		"rarity": "unique",
@@ -15248,7 +15492,8 @@
 		"name": "Spineripper"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Exceptional Daggers",
 		"level": 36,
 		"type": "Rondel",
 		"rarity": "unique",
@@ -15314,7 +15559,8 @@
 		"name": "Heart Carver"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Exceptional Daggers",
 		"level": null,
 		"type": "Cinquedeas",
 		"rarity": "unique",
@@ -15379,7 +15625,8 @@
 		"name": "Blackbog's Sharp"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Exceptional Daggers",
 		"level": null,
 		"type": "Stiletto",
 		"rarity": "unique",
@@ -15432,7 +15679,8 @@
 		"name": "Stormspike"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Elite Daggers",
 		"level": 61,
 		"type": "Bone Knife",
 		"rarity": "unique",
@@ -15485,7 +15733,8 @@
 		"name": "Wizardspike"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Elite Daggers",
 		"level": 68,
 		"type": "Fanged Knife",
 		"rarity": "unique",
@@ -15551,7 +15800,8 @@
 		"name": "Fleshripper"
 	},
 	{
-		"category": "Daggers",
+		"classSpecificSet": "",
+		"category": "Elite Daggers",
 		"level": 66,
 		"type": "Legend Spike",
 		"rarity": "unique",
@@ -15618,7 +15868,8 @@
 		"name": "Ghostflame"
 	},
 	{
-		"category": "Javelins & Throwing Weapons",
+		"classSpecificSet": "",
+		"category": "Elite Javelins",
 		"level": 68,
 		"type": "Balrog Spear",
 		"rarity": "unique",
@@ -15689,7 +15940,8 @@
 		"name": "Demon's Arch"
 	},
 	{
-		"category": "Javelins & Throwing Weapons",
+		"classSpecificSet": "",
+		"category": "Elite Javelins",
 		"level": 76,
 		"type": "Ghost Glaive",
 		"rarity": "unique",
@@ -15756,7 +16008,8 @@
 		"name": "Wraith Flight"
 	},
 	{
-		"category": "Javelins & Throwing Weapons",
+		"classSpecificSet": "",
+		"category": "Elite Javelins",
 		"level": 70,
 		"type": "Winged Harpoon",
 		"rarity": "unique",
@@ -15823,7 +16076,8 @@
 		"name": "Gargoyle's Bite"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Normal Mace Classes: Maces and Mauls",
 		"level": 3,
 		"type": "Club",
 		"rarity": "unique",
@@ -15877,7 +16131,8 @@
 		"name": "Felloak"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Normal Mace Classes: Maces and Mauls",
 		"level": 5,
 		"type": "Spiked Club",
 		"rarity": "unique",
@@ -15927,7 +16182,8 @@
 		"name": "Stoutnail"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Normal Mace Classes: Maces and Mauls",
 		"level": 9,
 		"type": "Mace",
 		"rarity": "unique",
@@ -15989,7 +16245,8 @@
 		"name": "Crushflange"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Normal Mace Classes: Maces and Mauls",
 		"level": 15,
 		"type": "Morning Star",
 		"rarity": "unique",
@@ -16050,7 +16307,8 @@
 		"name": "Bloodrise"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Normal Mace Classes: Maces and Mauls",
 		"level": 21,
 		"type": "Flail",
 		"rarity": "unique",
@@ -16116,7 +16374,8 @@
 		"name": "The General's Tan Do Li Ga"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Normal Mace Classes: Maces and Mauls",
 		"level": 27,
 		"type": "War Hammer",
 		"rarity": "unique",
@@ -16175,7 +16434,8 @@
 		"name": "Ironstone"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Normal Mace Classes: Maces and Mauls",
 		"level": 24,
 		"type": "Maul",
 		"rarity": "unique",
@@ -16229,7 +16489,8 @@
 		"name": "Bonesnap"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Normal Mace Classes: Maces and Mauls",
 		"level": 29,
 		"type": "Great Maul",
 		"rarity": "unique",
@@ -16283,7 +16544,8 @@
 		"name": "Steeldriver"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Exceptional Mace Classes: Maces and Mauls",
 		"level": 34,
 		"type": "Cudgel",
 		"rarity": "unique",
@@ -16345,7 +16607,8 @@
 		"name": "Dark Clan Crusher"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Exceptional Mace Classes: Maces and Mauls",
 		"level": 38,
 		"type": "Barbed Club",
 		"rarity": "unique",
@@ -16415,7 +16678,8 @@
 		"name": "Fleshrender"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Exceptional Mace Classes: Maces and Mauls",
 		"level": 39,
 		"type": "Flanged Mace",
 		"rarity": "unique",
@@ -16477,7 +16741,8 @@
 		"name": "Sureshrill Frost"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Exceptional Mace Classes: Maces and Mauls",
 		"level": 42,
 		"type": "Jagged Star",
 		"rarity": "unique",
@@ -16548,7 +16813,8 @@
 		"name": "Moonfall"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Exceptional Mace Classes: Maces and Mauls",
 		"level": 45,
 		"type": "Knout",
 		"rarity": "unique",
@@ -16618,7 +16884,8 @@
 		"name": "Baezil's Vortex"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Exceptional Mace Classes: Maces and Mauls",
 		"level": 43,
 		"type": "Battle Hammer",
 		"rarity": "unique",
@@ -16675,7 +16942,8 @@
 		"name": "Earthshaker"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Exceptional Mace Classes: Maces and Mauls",
 		"level": 48,
 		"type": "War Club",
 		"rarity": "unique",
@@ -16737,7 +17005,8 @@
 		"name": "Bloodtree Stump"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Exceptional Mace Classes: Maces and Mauls",
 		"level": 45,
 		"type": "Martel de Fer",
 		"rarity": "unique",
@@ -16799,7 +17068,8 @@
 		"name": "The Gavel Of Pain"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Elite Maces",
 		"level": 68,
 		"type": "Truncheon",
 		"rarity": "unique",
@@ -16884,7 +17154,8 @@
 		"name": "Nord's Tenderizer"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Elite Maces",
 		"level": 63,
 		"type": "Tyrant Club",
 		"rarity": "unique",
@@ -16960,7 +17231,8 @@
 		"name": "Demon Limb"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Elite Maces",
 		"level": 65,
 		"type": "Devil Star",
 		"rarity": "unique",
@@ -17029,7 +17301,8 @@
 		"name": "Baranar's Star"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Elite Maces",
 		"level": 64,
 		"type": "Scourge",
 		"rarity": "unique",
@@ -17091,7 +17364,8 @@
 		"name": "Horizon's Tornado"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Elite Maces",
 		"level": 82,
 		"type": "Scourge",
 		"rarity": "unique",
@@ -17170,7 +17444,8 @@
 		"name": "Stormlash"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Elite Maces",
 		"level": 68,
 		"type": "Legendary Mallet",
 		"rarity": "unique",
@@ -17242,7 +17517,8 @@
 		"name": "Stone Crusher"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Elite Maces",
 		"level": 79,
 		"type": "Legendary Mallet",
 		"rarity": "unique",
@@ -17316,7 +17592,8 @@
 		"name": "Schaefer's Hammer"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Elite Maces",
 		"level": 68,
 		"type": "Ogre Maul",
 		"rarity": "unique",
@@ -17370,7 +17647,8 @@
 		"name": "Windhammer"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Elite Maces",
 		"level": 69,
 		"type": "Thunder Maul",
 		"rarity": "unique",
@@ -17436,7 +17714,8 @@
 		"name": "Earth Shifter"
 	},
 	{
-		"category": "Maces and Mauls",
+		"classSpecificSet": "",
+		"category": "Elite Maces",
 		"level": 87,
 		"type": "Thunder Maul",
 		"rarity": "unique",
@@ -17506,7 +17785,8 @@
 		"name": "The Cranium Basher"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Normal Polearms",
 		"level": 8,
 		"type": "Bardiche",
 		"rarity": "unique",
@@ -17551,7 +17831,8 @@
 		"name": "Dimoak's Hew"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Normal Polearms",
 		"level": 14,
 		"type": "Voulge",
 		"rarity": "unique",
@@ -17610,7 +17891,8 @@
 		"name": "Steelgoad"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Normal Polearms",
 		"level": 19,
 		"type": "Scythe",
 		"rarity": "unique",
@@ -17672,7 +17954,8 @@
 		"name": "Soul Harvest"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Normal Polearms",
 		"level": 25,
 		"type": "Poleaxe",
 		"rarity": "unique",
@@ -17731,7 +18014,8 @@
 		"name": "The Battlebranch"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Normal Polearms",
 		"level": 28,
 		"type": "Halberd",
 		"rarity": "unique",
@@ -17801,7 +18085,8 @@
 		"name": "Woestave"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Normal Polearms",
 		"level": 29,
 		"type": "War Scythe",
 		"rarity": "unique",
@@ -17854,7 +18139,8 @@
 		"name": "The Grim Reaper"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Exceptional Polearms",
 		"level": 41,
 		"type": "Lochaber Axe",
 		"rarity": "unique",
@@ -17912,7 +18198,8 @@
 		"name": "The Meat Scraper"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Exceptional Polearms",
 		"level": 42,
 		"type": "Bill",
 		"rarity": "unique",
@@ -17970,7 +18257,8 @@
 		"name": "Blackleach Blade"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Exceptional Polearms",
 		"level": 42,
 		"type": "Battle Scythe",
 		"rarity": "unique",
@@ -18037,7 +18325,8 @@
 		"name": "Athena's Wrath"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Exceptional Polearms",
 		"level": 43,
 		"type": "Partizan",
 		"rarity": "unique",
@@ -18108,7 +18397,8 @@
 		"name": "Pierre Tombale Couant"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Exceptional Polearms",
 		"level": 44,
 		"type": "Bec-De-Corbin",
 		"rarity": "unique",
@@ -18175,7 +18465,8 @@
 		"name": "Husoldal Evo"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Exceptional Polearms",
 		"level": 45,
 		"type": "Grim Scythe",
 		"rarity": "unique",
@@ -18254,7 +18545,8 @@
 		"name": "Grim's Burning Dead"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Elite Polearms",
 		"level": 64,
 		"type": "Ogre Axe",
 		"rarity": "unique",
@@ -18316,7 +18608,8 @@
 		"name": "Bonehew"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Elite Polearms",
 		"level": 75,
 		"type": "Thresher",
 		"rarity": "unique",
@@ -18387,7 +18680,8 @@
 		"name": "The Reaper's Toll"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Elite Polearms",
 		"level": 84,
 		"type": "Cryptic Axe",
 		"rarity": "unique",
@@ -18495,7 +18789,8 @@
 		"name": "Tomb Reaver"
 	},
 	{
-		"category": "Polearms",
+		"classSpecificSet": "",
+		"category": "Elite Polearms",
 		"level": 70,
 		"type": "Giant Thresher",
 		"rarity": "unique",
@@ -18565,7 +18860,8 @@
 		"name": "Stormspire"
 	},
 	{
-		"category": "Scepters",
+		"classSpecificSet": "",
+		"category": "Normal Scepters",
 		"level": 5,
 		"type": "Scepter",
 		"rarity": "unique",
@@ -18627,7 +18923,8 @@
 		"name": "Knell Striker"
 	},
 	{
-		"category": "Scepters",
+		"classSpecificSet": "",
+		"category": "Normal Scepters",
 		"level": 18,
 		"type": "Grand Scepter",
 		"rarity": "unique",
@@ -18703,7 +19000,8 @@
 		"name": "Rusthandle"
 	},
 	{
-		"category": "Scepters",
+		"classSpecificSet": "",
+		"category": "Normal Scepters",
 		"level": 30,
 		"type": "War Scepter",
 		"rarity": "unique",
@@ -18774,7 +19072,8 @@
 		"name": "Stormeye"
 	},
 	{
-		"category": "Scepters",
+		"classSpecificSet": "",
+		"category": "Exceptional Scepters",
 		"level": 37,
 		"type": "Rune Scepter",
 		"rarity": "unique",
@@ -18848,7 +19147,8 @@
 		"name": "Zakarum's Hand"
 	},
 	{
-		"category": "Scepters",
+		"classSpecificSet": "",
+		"category": "Exceptional Scepters",
 		"level": 38,
 		"type": "Holy Water Sprinkler",
 		"rarity": "unique",
@@ -18919,7 +19219,8 @@
 		"name": "The Fetid Sprinkler"
 	},
 	{
-		"category": "Scepters",
+		"classSpecificSet": "",
+		"category": "Exceptional Scepters",
 		"level": 42,
 		"type": "Divine Scepter",
 		"rarity": "unique",
@@ -18997,7 +19298,8 @@
 		"name": "Hand of Blessed Light"
 	},
 	{
-		"category": "Scepters",
+		"classSpecificSet": "",
+		"category": "Elite Scepters",
 		"level": 61,
 		"type": "Mighty Scepter",
 		"rarity": "unique",
@@ -19086,7 +19388,8 @@
 		"name": "Heaven's Light"
 	},
 	{
-		"category": "Scepters",
+		"classSpecificSet": "",
+		"category": "Elite Scepters",
 		"level": 72,
 		"type": "Mighty Scepter",
 		"rarity": "unique",
@@ -19184,7 +19487,8 @@
 		"name": "The Redeemer"
 	},
 	{
-		"category": "Scepters",
+		"classSpecificSet": "",
+		"category": "Elite Scepters",
 		"level": 66,
 		"type": "Caduceus",
 		"rarity": "unique",
@@ -19282,7 +19586,8 @@
 		"name": "Astreon's Iron Ward"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Normal Spears",
 		"level": 8,
 		"type": "Spear",
 		"rarity": "unique",
@@ -19331,7 +19636,8 @@
 		"name": "The Dragon Chang"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Normal Spears",
 		"level": 12,
 		"type": "Trident",
 		"rarity": "unique",
@@ -19393,7 +19699,8 @@
 		"name": "Razortine"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Normal Spears",
 		"level": 17,
 		"type": "Brandistock",
 		"rarity": "unique",
@@ -19456,7 +19763,8 @@
 		"name": "Bloodthief"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Normal Spears",
 		"level": 22,
 		"type": "Spetum",
 		"rarity": "unique",
@@ -19505,7 +19813,8 @@
 		"name": "Lance of Yaggai"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Normal Spears",
 		"level": 27,
 		"type": "Pike",
 		"rarity": "unique",
@@ -19571,7 +19880,8 @@
 		"name": "The Tannr Gorerod"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Exceptional Spears",
 		"level": 31,
 		"type": "War Spear",
 		"rarity": "unique",
@@ -19641,7 +19951,8 @@
 		"name": "The Impaler"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Exceptional Spears",
 		"level": 33,
 		"type": "Fuscina",
 		"rarity": "unique",
@@ -19703,7 +20014,8 @@
 		"name": "Kelpie Snare"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Exceptional Spears",
 		"level": 35,
 		"type": "War Fork",
 		"rarity": "unique",
@@ -19770,7 +20082,8 @@
 		"name": "Soulfeast Tine"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Exceptional Spears",
 		"level": 37,
 		"type": "Yari",
 		"rarity": "unique",
@@ -19824,7 +20137,8 @@
 		"name": "Hone Sundan"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Exceptional Spears",
 		"level": 39,
 		"type": "Lance",
 		"rarity": "unique",
@@ -19898,7 +20212,8 @@
 		"name": "Spire of Honor"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Elite Spears",
 		"level": 81,
 		"type": "Hyperion Spear",
 		"rarity": "unique",
@@ -19965,7 +20280,8 @@
 		"name": "Arioc's Needle"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Elite Spears",
 		"level": 71,
 		"type": "Mancatcher",
 		"rarity": "unique",
@@ -20037,7 +20353,8 @@
 		"name": "Viperfork"
 	},
 	{
-		"category": "Spears",
+		"classSpecificSet": "",
+		"category": "Elite Spears",
 		"level": 69,
 		"type": "War Pike",
 		"rarity": "unique",
@@ -20100,7 +20417,8 @@
 		"name": "Steel Pillar"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Normal Staves",
 		"level": 5,
 		"type": "Short Staff",
 		"rarity": "unique",
@@ -20162,7 +20480,8 @@
 		"name": "Bane Ash"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Normal Staves",
 		"level": 9,
 		"type": "Long Staff",
 		"rarity": "unique",
@@ -20224,7 +20543,8 @@
 		"name": "Serpent Lord"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Normal Staves",
 		"level": 18,
 		"type": "Gnarled Staff",
 		"rarity": "unique",
@@ -20289,7 +20609,8 @@
 		"name": "Spire of Lazarus"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Normal Staves",
 		"level": 21,
 		"type": "Battle Staff",
 		"rarity": "unique",
@@ -20342,7 +20663,8 @@
 		"name": "The Salamander"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Normal Staves",
 		"level": 28,
 		"type": "War Staff",
 		"rarity": "unique",
@@ -20403,7 +20725,8 @@
 		"name": "The Iron Jang Bong"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Exceptional Staves",
 		"level": 28,
 		"type": "Jo Staff",
 		"rarity": "unique",
@@ -20464,7 +20787,8 @@
 		"name": "Razorswitch"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Exceptional Staves",
 		"level": 31,
 		"type": "Quarterstaff",
 		"rarity": "unique",
@@ -20534,7 +20858,8 @@
 		"name": "Ribcracker"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Exceptional Staves",
 		"level": 35,
 		"type": "Cedar Staff",
 		"rarity": "unique",
@@ -20609,7 +20934,8 @@
 		"name": "Chromatic Ire"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Exceptional Staves",
 		"level": 39,
 		"type": "Gothic Staff",
 		"rarity": "unique",
@@ -20666,7 +20992,8 @@
 		"name": "Warpspear"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Exceptional Staves",
 		"level": 41,
 		"type": "Rune Staff",
 		"rarity": "unique",
@@ -20715,7 +21042,8 @@
 		"name": "Skull Collector"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Elite Staves",
 		"level": 66,
 		"type": "Elder Staff",
 		"rarity": "unique",
@@ -20796,7 +21124,8 @@
 		"name": "Ondal's Wisdom"
 	},
 	{
-		"category": "Staves",
+		"classSpecificSet": "",
+		"category": "Elite Staves",
 		"level": 82,
 		"type": "Archon Staff",
 		"rarity": "unique",
@@ -20868,7 +21197,8 @@
 		"name": "Mang Song's Lesson"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 2,
 		"type": "Short Sword",
 		"rarity": "unique",
@@ -20917,7 +21247,8 @@
 		"name": "Rixot's Keen"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 7,
 		"type": "Scimitar",
 		"rarity": "unique",
@@ -20979,7 +21310,8 @@
 		"name": "Blood Crescent"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 10,
 		"type": "Sabre",
 		"rarity": "unique",
@@ -21036,7 +21368,8 @@
 		"name": "Skewer of Krintiz"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 13,
 		"type": "Falchion",
 		"rarity": "unique",
@@ -21094,7 +21427,8 @@
 		"name": "Gleamscythe"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 17,
 		"type": "Broad Sword",
 		"rarity": "unique",
@@ -21164,7 +21498,8 @@
 		"name": "Griswold's Edge"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 22,
 		"type": "Long Sword",
 		"rarity": "unique",
@@ -21226,7 +21561,8 @@
 		"name": "Hellplague"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 29,
 		"type": "War Sword",
 		"rarity": "unique",
@@ -21288,7 +21624,8 @@
 		"name": "Culwen's Point"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 12,
 		"type": "Two-Handed Sword",
 		"rarity": "unique",
@@ -21349,7 +21686,8 @@
 		"name": "Shadowfang"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 19,
 		"type": "Claymore",
 		"rarity": "unique",
@@ -21412,7 +21750,8 @@
 		"name": "Soulflay"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 23,
 		"type": "Giant Sword",
 		"rarity": "unique",
@@ -21484,7 +21823,8 @@
 		"name": "Kinemil's Awl"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 26,
 		"type": "Bastard Sword",
 		"rarity": "unique",
@@ -21542,7 +21882,8 @@
 		"name": "Blacktongue"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 26,
 		"type": "Flamberge",
 		"rarity": "unique",
@@ -21600,7 +21941,8 @@
 		"name": "Ripsaw"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Normal Swords",
 		"level": 29,
 		"type": "Great Sword",
 		"rarity": "unique",
@@ -21666,7 +22008,8 @@
 		"name": "The Patriarch"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 30,
 		"type": "Gladius",
 		"rarity": "unique",
@@ -21737,7 +22080,8 @@
 		"name": "Bloodletter"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 31,
 		"type": "Cutlass",
 		"rarity": "unique",
@@ -21799,7 +22143,8 @@
 		"name": "Coldsteel Eye"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 33,
 		"type": "Shamshir",
 		"rarity": "unique",
@@ -21865,7 +22210,8 @@
 		"name": "Hexfire"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 35,
 		"type": "Tulwar",
 		"rarity": "unique",
@@ -21932,7 +22278,8 @@
 		"name": "Blade Of Ali Baba"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 37,
 		"type": "Dimensional Blade",
 		"rarity": "unique",
@@ -21995,7 +22342,8 @@
 		"name": "Ginther's Rift"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 39,
 		"type": "Battle Sword",
 		"rarity": "unique",
@@ -22048,7 +22396,8 @@
 		"name": "Headstriker"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 41,
 		"type": "Rune Sword",
 		"rarity": "unique",
@@ -22105,7 +22454,8 @@
 		"name": "Plague Bearer"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 42,
 		"type": "Ancient Sword",
 		"rarity": "unique",
@@ -22171,7 +22521,8 @@
 		"name": "The Atlantean"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 42,
 		"type": "Espandon",
 		"rarity": "unique",
@@ -22237,7 +22588,8 @@
 		"name": "Crainte Vomir"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 43,
 		"type": "Dacian Falx",
 		"rarity": "unique",
@@ -22303,7 +22655,8 @@
 		"name": "Bing Sz Wang"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 44,
 		"type": "Tusk Sword",
 		"rarity": "unique",
@@ -22357,7 +22710,8 @@
 		"name": "The Vile Husk"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 45,
 		"type": "Gothic Sword",
 		"rarity": "unique",
@@ -22435,7 +22789,8 @@
 		"name": "Cloudcrack"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 46,
 		"type": "Zweihander",
 		"rarity": "unique",
@@ -22505,7 +22860,8 @@
 		"name": "Todesfaelle Flamme"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Exceptional Swords",
 		"level": 48,
 		"type": "Executioner Sword",
 		"rarity": "unique",
@@ -22588,7 +22944,8 @@
 		"name": "Swordguard"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Elite Swords",
 		"level": 65,
 		"type": "Ataghan",
 		"rarity": "unique",
@@ -22679,7 +23036,8 @@
 		"name": "Djinn Slayer"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Elite Swords",
 		"level": 61,
 		"type": "Elegant Blade",
 		"rarity": "unique",
@@ -22747,7 +23105,8 @@
 		"name": "Bloodmoon"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Elite Swords",
 		"level": 58,
 		"type": "Phase Blade",
 		"rarity": "unique",
@@ -22831,7 +23190,8 @@
 		"name": "Lightsabre"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Elite Swords",
 		"level": 85,
 		"type": "Phase Blade",
 		"rarity": "unique",
@@ -22907,7 +23267,8 @@
 		"name": "Azurewrath"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Elite Swords",
 		"level": 70,
 		"type": "Cryptic Sword",
 		"rarity": "unique",
@@ -22979,7 +23340,8 @@
 		"name": "Frostwind"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Elite Swords",
 		"level": 71,
 		"type": "Balrog Blade",
 		"rarity": "unique",
@@ -23069,7 +23431,8 @@
 		"name": "Flamebellow"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Elite Swords",
 		"level": 69,
 		"type": "Champion Sword",
 		"rarity": "unique",
@@ -23140,7 +23503,8 @@
 		"name": "Doombringer"
 	},
 	{
-		"category": "Swords",
+		"classSpecificSet": "",
+		"category": "Elite Swords",
 		"level": 81,
 		"type": "Colossus Blade",
 		"rarity": "unique",
@@ -23202,7 +23566,8 @@
 		"name": "The Grandfather"
 	},
 	{
-		"category": "Javelins & Throwing Weapons",
+		"classSpecificSet": "",
+		"category": "Exceptional Throwing Weapons",
 		"level": 44,
 		"type": "Battle Dart",
 		"rarity": "unique",
@@ -23283,7 +23648,8 @@
 		"name": "Deathbit"
 	},
 	{
-		"category": "Javelins & Throwing Weapons",
+		"classSpecificSet": "",
+		"category": "Exceptional Throwing Weapons",
 		"level": 57,
 		"type": "Francisca",
 		"rarity": "unique",
@@ -23358,7 +23724,8 @@
 		"name": "The Scalper"
 	},
 	{
-		"category": "Javelins & Throwing Weapons",
+		"classSpecificSet": "",
+		"category": "Elite Throwing Weapons",
 		"level": 75,
 		"type": "Winged Knife",
 		"rarity": "unique",
@@ -23424,7 +23791,8 @@
 		"name": "Warshrike"
 	},
 	{
-		"category": "Javelins & Throwing Weapons",
+		"classSpecificSet": "",
+		"category": "Elite Throwing Weapons",
 		"level": 70,
 		"type": "Flying Axe",
 		"rarity": "unique",
@@ -23490,7 +23858,8 @@
 		"name": "Gimmershred"
 	},
 	{
-		"category": "Javelins & Throwing Weapons",
+		"classSpecificSet": "",
+		"category": "Elite Throwing Weapons",
 		"level": 68,
 		"type": "Winged Axe",
 		"rarity": "unique",
@@ -23560,7 +23929,8 @@
 		"name": "Lacerator"
 	},
 	{
-		"category": "Wands",
+		"classSpecificSet": "",
+		"category": "Normal Wands",
 		"level": 5,
 		"type": "Wand",
 		"rarity": "unique",
@@ -23613,7 +23983,8 @@
 		"name": "Torch of Iro"
 	},
 	{
-		"category": "Wands",
+		"classSpecificSet": "",
+		"category": "Normal Wands",
 		"level": 14,
 		"type": "Yew Wand",
 		"rarity": "unique",
@@ -23694,7 +24065,8 @@
 		"name": "Maelstrom"
 	},
 	{
-		"category": "Wands",
+		"classSpecificSet": "",
+		"category": "Normal Wands",
 		"level": 20,
 		"type": "Bone Wand",
 		"rarity": "unique",
@@ -23752,7 +24124,8 @@
 		"name": "Gravenspine"
 	},
 	{
-		"category": "Wands",
+		"classSpecificSet": "",
+		"category": "Normal Wands",
 		"level": 28,
 		"type": "Grim Wand",
 		"rarity": "unique",
@@ -23805,7 +24178,8 @@
 		"name": "Ume's Lament"
 	},
 	{
-		"category": "Wands",
+		"classSpecificSet": "",
+		"category": "Exceptional Wands",
 		"level": 33,
 		"type": "Burnt Wand",
 		"rarity": "unique",
@@ -23862,7 +24236,8 @@
 		"name": "Suicide Branch"
 	},
 	{
-		"category": "Wands",
+		"classSpecificSet": "",
+		"category": "Exceptional Wands",
 		"level": 35,
 		"type": "Petrified Wand",
 		"rarity": "unique",
@@ -23923,7 +24298,8 @@
 		"name": "Carin Shard"
 	},
 	{
-		"category": "Wands",
+		"classSpecificSet": "",
+		"category": "Exceptional Wands",
 		"level": 36,
 		"type": "Tomb Wand",
 		"rarity": "unique",
@@ -23996,7 +24372,8 @@
 		"name": "Arm of King Leoric"
 	},
 	{
-		"category": "Wands",
+		"classSpecificSet": "",
+		"category": "Exceptional Wands",
 		"level": 41,
 		"type": "Grave Wand",
 		"rarity": "unique",
@@ -24061,7 +24438,8 @@
 		"name": "Blackhand Key"
 	},
 	{
-		"category": "Wands",
+		"classSpecificSet": "",
+		"category": "Elite Wands",
 		"level": 79,
 		"type": "Lich Wand",
 		"rarity": "unique",
@@ -24147,7 +24525,8 @@
 		"name": "Boneshade"
 	},
 	{
-		"category": "Wands",
+		"classSpecificSet": "",
+		"category": "Elite Wands",
 		"level": 66,
 		"type": "Unearthed Wand",
 		"rarity": "unique",
@@ -24220,7 +24599,8 @@
 		"name": "Death's Web"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 12,
 		"type": "Ring Mail",
 		"rarity": "set",
@@ -24261,7 +24641,8 @@
 		"name": "Angelic Mantle"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 12,
 		"type": "Sabre",
 		"rarity": "set",
@@ -24314,7 +24695,8 @@
 		"name": "Angelic Sickle"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 12,
 		"type": "Ring",
 		"rarity": "set",
@@ -24342,7 +24724,8 @@
 		"name": "Angelic Halo"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 12,
 		"type": "Amulet",
 		"rarity": "set",
@@ -24370,7 +24753,8 @@
 		"name": "Angelic Wings"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 15,
 		"type": "Skull Cap",
 		"rarity": "set",
@@ -24432,7 +24816,8 @@
 		"name": "Arcanna's Head"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 15,
 		"type": "Light Plate",
 		"rarity": "set",
@@ -24487,7 +24872,8 @@
 		"name": "Arcanna's Flesh"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 15,
 		"type": "War Staff",
 		"rarity": "set",
@@ -24532,7 +24918,8 @@
 		"name": "Arcanna's Deathwand"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 15,
 		"type": "Amulet",
 		"rarity": "set",
@@ -24560,7 +24947,8 @@
 		"name": "Arcanna's Sign"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 2,
 		"type": "Quilted Armor",
 		"rarity": "set",
@@ -24611,7 +24999,8 @@
 		"name": "Arctic Furs"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 2,
 		"type": "Light Belt",
 		"rarity": "set",
@@ -24648,7 +25037,8 @@
 		"name": "Arctic Binding"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 2,
 		"type": "Light Gauntlets",
 		"rarity": "set",
@@ -24694,7 +25084,8 @@
 		"name": "Arctic Mitts"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 2,
 		"type": "Short War Bow",
 		"rarity": "set",
@@ -24739,7 +25130,8 @@
 		"name": "Arctic Horn"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 3,
 		"type": "Helm",
 		"rarity": "set",
@@ -24781,7 +25173,8 @@
 		"name": "Berserker's Headgear"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 3,
 		"type": "Splint Mail",
 		"rarity": "set",
@@ -24839,7 +25232,8 @@
 		"name": "Berserker's Hauberk"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 3,
 		"type": "Double Axe",
 		"rarity": "set",
@@ -24884,7 +25278,8 @@
 		"name": "Berserker's Hatchet"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 11,
 		"type": "Mask",
 		"rarity": "set",
@@ -24942,7 +25337,8 @@
 		"name": "Cathan's Visage"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 11,
 		"type": "Chain Mail",
 		"rarity": "set",
@@ -24988,7 +25384,8 @@
 		"name": "Cathan's Mesh"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 11,
 		"type": "Battle Staff",
 		"rarity": "set",
@@ -25033,7 +25430,8 @@
 		"name": "Cathan's Rule"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 11,
 		"type": "Amulet",
 		"rarity": "set",
@@ -25061,7 +25459,8 @@
 		"name": "Cathan's Sigil"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 11,
 		"type": "Ring",
 		"rarity": "set",
@@ -25085,7 +25484,8 @@
 		"name": "Cathan's Seal"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 9,
 		"type": "Grand Scepter",
 		"rarity": "set",
@@ -25135,7 +25535,8 @@
 		"name": "Civerb's Cudgel"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 9,
 		"type": "Amulet",
 		"rarity": "set",
@@ -25163,7 +25564,8 @@
 		"name": "Civerb's Icon"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 9,
 		"type": "Large Shield",
 		"rarity": "set",
@@ -25227,7 +25629,8 @@
 		"name": "Civerb's Ward"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 4,
 		"type": "Long Sword",
 		"rarity": "set",
@@ -25276,7 +25679,8 @@
 		"name": "Cleglaw's Tooth"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 4,
 		"type": "Chain Gloves",
 		"rarity": "set",
@@ -25318,7 +25722,8 @@
 		"name": "Cleglaw's Pincers"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 4,
 		"type": "Small Shield",
 		"rarity": "set",
@@ -25368,7 +25773,8 @@
 		"name": "Cleglaw's Claw"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 6,
 		"type": "War Sword",
 		"rarity": "set",
@@ -25413,7 +25819,8 @@
 		"name": "Death's Touch"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 6,
 		"type": "Leather Gloves",
 		"rarity": "set",
@@ -25451,7 +25858,8 @@
 		"name": "Death's Hand"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 6,
 		"type": "Sash",
 		"rarity": "set",
@@ -25488,7 +25896,8 @@
 		"name": "Death's Guard"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 3,
 		"type": "Buckler",
 		"rarity": "set",
@@ -25554,7 +25963,8 @@
 		"name": "Hsarus' Iron Fist"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 3,
 		"type": "Belt",
 		"rarity": "set",
@@ -25595,7 +26005,8 @@
 		"name": "Hsarus' Iron Stay"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 3,
 		"type": "",
 		"rarity": "set",
@@ -25641,7 +26052,8 @@
 		"name": "Hsarus' Iron Heel"
 	},
 	{
-		"category": "Necromancer Set",
+		"classSpecificSet": "Necromancer Set",
+		"category": "",
 		"level": 5,
 		"type": "Cap",
 		"rarity": "set",
@@ -25695,7 +26107,8 @@
 		"name": "Infernal Cranium"
 	},
 	{
-		"category": "Necromancer Set",
+		"classSpecificSet": "Necromancer Set",
+		"category": "",
 		"level": 5,
 		"type": "Heavy Belt",
 		"rarity": "set",
@@ -25740,7 +26153,8 @@
 		"name": "Infernal Sign"
 	},
 	{
-		"category": "Necromancer Set",
+		"classSpecificSet": "Necromancer Set",
+		"category": "",
 		"level": 5,
 		"type": "Grim Wand",
 		"rarity": "set",
@@ -25781,7 +26195,8 @@
 		"name": "Infernal Torch"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 15,
 		"type": "Crown",
 		"rarity": "set",
@@ -25839,7 +26254,8 @@
 		"name": "Iratha's Coil"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 15,
 		"type": "Amulet",
 		"rarity": "set",
@@ -25863,7 +26279,8 @@
 		"name": "Iratha's Collar"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 15,
 		"type": "Heavy Belt",
 		"rarity": "set",
@@ -25904,7 +26321,8 @@
 		"name": "Iratha's Cord"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 15,
 		"type": "Light Gauntlets",
 		"rarity": "set",
@@ -25946,7 +26364,8 @@
 		"name": "Iratha's Cuff"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 8,
 		"type": "Broad Sword",
 		"rarity": "set",
@@ -25987,7 +26406,8 @@
 		"name": "Isenhart's Lightbrand"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 8,
 		"type": "Full Helm",
 		"rarity": "set",
@@ -26029,7 +26449,8 @@
 		"name": "Isenhart's Horns"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 8,
 		"type": "Breast Plate",
 		"rarity": "set",
@@ -26087,7 +26508,8 @@
 		"name": "Isenhart's Case"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 8,
 		"type": "Gothic Shield",
 		"rarity": "set",
@@ -26132,7 +26554,8 @@
 		"name": "Isenhart's Parry"
 	},
 	{
-		"category": "Paladin Set",
+		"classSpecificSet": "Paladin Set",
+		"category": "",
 		"level": 17,
 		"type": "Crown",
 		"rarity": "set",
@@ -26174,7 +26597,8 @@
 		"name": "Milabrega's Diadem"
 	},
 	{
-		"category": "Paladin Set",
+		"classSpecificSet": "Paladin Set",
+		"category": "",
 		"level": 17,
 		"type": "Ancient Armor",
 		"rarity": "set",
@@ -26211,7 +26635,8 @@
 		"name": "Milabrega's Robe"
 	},
 	{
-		"category": "Paladin Set",
+		"classSpecificSet": "Paladin Set",
+		"category": "",
 		"level": 17,
 		"type": "Kite Shield",
 		"rarity": "set",
@@ -26260,7 +26685,8 @@
 		"name": "Milabrega's Orb"
 	},
 	{
-		"category": "Paladin Set",
+		"classSpecificSet": "Paladin Set",
+		"category": "",
 		"level": 17,
 		"type": "War Scepter",
 		"rarity": "set",
@@ -26305,7 +26731,8 @@
 		"name": "Milabrega's Rod"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 6,
 		"type": "Great Helm",
 		"rarity": "set",
@@ -26347,7 +26774,8 @@
 		"name": "Sigon's Visor"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 6,
 		"type": "Gothic Plate",
 		"rarity": "set",
@@ -26384,7 +26812,8 @@
 		"name": "Sigon's Shelter"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 6,
 		"type": "Greaves",
 		"rarity": "set",
@@ -26434,7 +26863,8 @@
 		"name": "Sigon's Sabot"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 6,
 		"type": "Tower Shield",
 		"rarity": "set",
@@ -26480,7 +26910,8 @@
 		"name": "Sigon's Guard"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 6,
 		"type": "Plated Belt",
 		"rarity": "set",
@@ -26542,7 +26973,8 @@
 		"name": "Sigon's Wrap"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 6,
 		"type": "Gauntlets",
 		"rarity": "set",
@@ -26584,7 +27016,8 @@
 		"name": "Sigon's Gage"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 20,
 		"type": "Bone Helm",
 		"rarity": "set",
@@ -26626,7 +27059,8 @@
 		"name": "Tancred's Skull"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 20,
 		"type": "Full Plate Mail",
 		"rarity": "set",
@@ -26684,7 +27118,8 @@
 		"name": "Tancred's Spine"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 20,
 		"type": "Boots",
 		"rarity": "set",
@@ -26730,7 +27165,8 @@
 		"name": "Tancred's Hobnails"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 20,
 		"type": "Military Pick",
 		"rarity": "set",
@@ -26779,7 +27215,8 @@
 		"name": "Tancred's Crowbill"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 20,
 		"type": "Amulet",
 		"rarity": "set",
@@ -26807,7 +27244,8 @@
 		"name": "Tancred's Weird"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 14,
 		"type": "Long Battle Bow",
 		"rarity": "set",
@@ -26844,7 +27282,8 @@
 		"name": "Vidala's Barb"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 14,
 		"type": "Leather Armor",
 		"rarity": "set",
@@ -26906,7 +27345,8 @@
 		"name": "Vidala's Ambush"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 14,
 		"type": "Light Plated Boots",
 		"rarity": "set",
@@ -26952,7 +27392,8 @@
 		"name": "Vidala's Fetlock"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 14,
 		"type": "Amulet",
 		"rarity": "set",
@@ -26976,7 +27417,8 @@
 		"name": "Vidala's Snare"
 	},
 	{
-		"category": "Druid Set",
+		"classSpecificSet": "Druid Set",
+		"category": "",
 		"level": 36,
 		"type": "Hunter's Guise",
 		"rarity": "set",
@@ -27051,7 +27493,8 @@
 		"name": "Aldur's Stony Gaze"
 	},
 	{
-		"category": "Druid Set",
+		"classSpecificSet": "Druid Set",
+		"category": "",
 		"level": 45,
 		"type": "Battle Boots",
 		"rarity": "set",
@@ -27126,7 +27569,8 @@
 		"name": "Aldur's Advance"
 	},
 	{
-		"category": "Druid Set",
+		"classSpecificSet": "Druid Set",
+		"category": "",
 		"level": 76,
 		"type": "Shadow Plate",
 		"rarity": "set",
@@ -27201,7 +27645,8 @@
 		"name": "Aldur's Deception"
 	},
 	{
-		"category": "Druid Set",
+		"classSpecificSet": "Druid Set",
+		"category": "",
 		"level": 42,
 		"type": "Jagged Star",
 		"rarity": "set",
@@ -27279,7 +27724,8 @@
 		"name": "Aldur's Rhythm"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 63,
 		"type": "Colossus Blade",
 		"rarity": "set",
@@ -27336,7 +27782,8 @@
 		"name": "Bul-Kathos' Sacred Charge"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 66,
 		"type": "Mythical Sword",
 		"rarity": "set",
@@ -27389,7 +27836,8 @@
 		"name": "Bul-Kathos' Tribal Guardian"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 25,
 		"type": "War Hat",
 		"rarity": "set",
@@ -27435,7 +27883,8 @@
 		"name": "Cow King's Horns"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 18,
 		"type": "Studded Leather",
 		"rarity": "set",
@@ -27476,7 +27925,8 @@
 		"name": "Cow King's Hide"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 13,
 		"type": "Heavy Boots",
 		"rarity": "set",
@@ -27535,7 +27985,8 @@
 		"name": "Cow King's Hooves"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 30,
 		"type": "Amulet",
 		"rarity": "set",
@@ -27573,7 +28024,8 @@
 		"name": "Telling of Beads"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 63,
 		"type": "Bramble Mitts",
 		"rarity": "set",
@@ -27623,7 +28075,8 @@
 		"name": "Laying of Hands"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 49,
 		"type": "Dusk Shroud",
 		"rarity": "set",
@@ -27674,7 +28127,8 @@
 		"name": "Dark Adherent"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 29,
 		"type": "Demonhide Boots",
 		"rarity": "set",
@@ -27729,7 +28183,8 @@
 		"name": "Rite of Passage"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 65,
 		"type": "Mithril Coil",
 		"rarity": "set",
@@ -27779,7 +28234,8 @@
 		"name": "Credendum"
 	},
 	{
-		"category": "Paladin Set",
+		"classSpecificSet": "Paladin Set",
+		"category": "",
 		"level": 45,
 		"type": "Ornate Plate",
 		"rarity": "set",
@@ -27829,7 +28285,8 @@
 		"name": "Griswold's Heart"
 	},
 	{
-		"category": "Paladin Set",
+		"classSpecificSet": "Paladin Set",
+		"category": "",
 		"level": 69,
 		"type": "Corona",
 		"rarity": "set",
@@ -27897,7 +28354,8 @@
 		"name": "Griswold's Valor"
 	},
 	{
-		"category": "Paladin Set",
+		"classSpecificSet": "Paladin Set",
+		"category": "",
 		"level": 66,
 		"type": "Caduceus",
 		"rarity": "set",
@@ -27980,7 +28438,8 @@
 		"name": "Griswold's Redemption"
 	},
 	{
-		"category": "Paladin Set",
+		"classSpecificSet": "Paladin Set",
+		"category": "",
 		"level": 68,
 		"type": "Vortex Shield",
 		"rarity": "set",
@@ -28042,7 +28501,8 @@
 		"name": "Griswold's Honor"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 44,
 		"type": "Cuirass",
 		"rarity": "set",
@@ -28092,7 +28552,8 @@
 		"name": "Haemosu's Adamant"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 68,
 		"type": "Reinforced Mace",
 		"rarity": "set",
@@ -28145,7 +28606,8 @@
 		"name": "Dangoon's Teaching"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 81,
 		"type": "Ward",
 		"rarity": "set",
@@ -28207,7 +28669,8 @@
 		"name": "Taebaek's Glory"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 69,
 		"type": "Spired Helm",
 		"rarity": "set",
@@ -28261,7 +28724,8 @@
 		"name": "Ondal's Almighty"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 45,
 		"type": "Grand Crown",
 		"rarity": "set",
@@ -28302,7 +28766,8 @@
 		"name": "Hwanin's Splendor"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 28,
 		"type": "Bill",
 		"rarity": "set",
@@ -28351,7 +28816,8 @@
 		"name": "Hwanin's Justice"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 30,
 		"type": "Tigulated Mail",
 		"rarity": "set",
@@ -28392,7 +28858,8 @@
 		"name": "Hwanin's Refuge"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 35,
 		"type": "Belt",
 		"rarity": "set",
@@ -28442,7 +28909,8 @@
 		"name": "Hwanin's Blessing"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 47,
 		"type": "Avenger Guard",
 		"rarity": "set",
@@ -28505,7 +28973,8 @@
 		"name": "Immortal King's Will"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 76,
 		"type": "Ogre Maul",
 		"rarity": "set",
@@ -28583,7 +29052,8 @@
 		"name": "Immortal King's Stone Crusher"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 76,
 		"type": "Sacred Armor",
 		"rarity": "set",
@@ -28644,7 +29114,8 @@
 		"name": "Immortal King's Soul Cage"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 29,
 		"type": "War Belt",
 		"rarity": "set",
@@ -28709,7 +29180,8 @@
 		"name": "Immortal King's Detail"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 30,
 		"type": "War Gauntlets",
 		"rarity": "set",
@@ -28784,7 +29256,8 @@
 		"name": "Immortal King's Forge"
 	},
 	{
-		"category": "Barbarian Set",
+		"classSpecificSet": "Barbarian Set",
+		"category": "",
 		"level": 31,
 		"type": "War Boots",
 		"rarity": "set",
@@ -28859,7 +29332,8 @@
 		"name": "Immortal King's Pillar"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 64,
 		"type": "Diadem",
 		"rarity": "set",
@@ -28913,7 +29387,8 @@
 		"name": "M'avina's True Sight"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 70,
 		"type": "Grand Matron Bow",
 		"rarity": "set",
@@ -28974,7 +29449,8 @@
 		"name": "M'avina's Caster"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 70,
 		"type": "Kraken Shell",
 		"rarity": "set",
@@ -29044,7 +29520,8 @@
 		"name": "M'avina's Embrace"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 32,
 		"type": "Battle Gauntlets",
 		"rarity": "set",
@@ -29111,7 +29588,8 @@
 		"name": "M'avina's Icy Clutch"
 	},
 	{
-		"category": "Amazon Set",
+		"classSpecificSet": "Amazon Set",
+		"category": "",
 		"level": 45,
 		"type": "Sharkskin Belt",
 		"rarity": "set",
@@ -29165,7 +29643,8 @@
 		"name": "M'avina's Tenet"
 	},
 	{
-		"category": "Assassin Set",
+		"classSpecificSet": "Assassin Set",
+		"category": "",
 		"level": 59,
 		"type": "Grim Helm",
 		"rarity": "set",
@@ -29235,7 +29714,8 @@
 		"name": "Natalya's Totem"
 	},
 	{
-		"category": "Assassin Set",
+		"classSpecificSet": "Assassin Set",
+		"category": "",
 		"level": 79,
 		"type": "Scissors Suwayyah",
 		"rarity": "set",
@@ -29300,7 +29780,8 @@
 		"name": "Natalya's Mark"
 	},
 	{
-		"category": "Assassin Set",
+		"classSpecificSet": "Assassin Set",
+		"category": "",
 		"level": 73,
 		"type": "Loricated Mail",
 		"rarity": "set",
@@ -29364,7 +29845,8 @@
 		"name": "Natalya's Shadow"
 	},
 	{
-		"category": "Assassin Set",
+		"classSpecificSet": "Assassin Set",
+		"category": "",
 		"level": 25,
 		"type": "Mesh Boots",
 		"rarity": "set",
@@ -29433,7 +29915,8 @@
 		"name": "Natalya's Soul"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 28,
 		"type": "Circlet",
 		"rarity": "set",
@@ -29479,7 +29962,8 @@
 		"name": "Naj's Circlet"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 71,
 		"type": "Hellforge Plate",
 		"rarity": "set",
@@ -29533,7 +30017,8 @@
 		"name": "Naj's Light Plate"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 78,
 		"type": "Elder Staff",
 		"rarity": "set",
@@ -29598,7 +30083,8 @@
 		"name": "Naj's Puzzler"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 34,
 		"type": "Winged Helm",
 		"rarity": "set",
@@ -29643,7 +30129,8 @@
 		"name": "Guillaume's Face"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 29,
 		"type": "Round Shield",
 		"rarity": "set",
@@ -29696,7 +30183,8 @@
 		"name": "Whitstan's Guard"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 37,
 		"type": "Sharkskin Gloves",
 		"rarity": "set",
@@ -29741,7 +30229,8 @@
 		"name": "Magnus' Skin"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 42,
 		"type": "Battle Belt",
 		"rarity": "set",
@@ -29786,7 +30275,8 @@
 		"name": "Wilhelm's Pride"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 25,
 		"type": "Cap",
 		"rarity": "set",
@@ -29831,7 +30321,8 @@
 		"name": "Sander's Paragon"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 25,
 		"type": "Bone Wand",
 		"rarity": "set",
@@ -29880,7 +30371,8 @@
 		"name": "Sander's Superstition"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 28,
 		"type": "Heavy Gloves",
 		"rarity": "set",
@@ -29922,7 +30414,8 @@
 		"name": "Sander's Taboo"
 	},
 	{
-		"category": "Starting Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 20,
 		"type": "Heavy Boots",
 		"rarity": "set",
@@ -29972,7 +30465,8 @@
 		"name": "Sander's Riprap"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 43,
 		"type": "Basinet",
 		"rarity": "set",
@@ -30028,7 +30522,8 @@
 		"name": "Sazabi's Mental Sheath"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 73,
 		"type": "Cryptic Sword",
 		"rarity": "set",
@@ -30085,7 +30580,8 @@
 		"name": "Sazabi's Cobalt Redeemer"
 	},
 	{
-		"category": "Sets",
+		"classSpecificSet": "",
+		"category": "",
 		"level": 67,
 		"type": "Balrog Skin",
 		"rarity": "set",
@@ -30140,7 +30636,8 @@
 		"name": "Sazabi's Ghost Liberator"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 65,
 		"type": "Swirling Crystal",
 		"rarity": "set",
@@ -30228,7 +30725,8 @@
 		"name": "Tal Rasha's Lidless Eye"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 66,
 		"type": "Death Mask",
 		"rarity": "set",
@@ -30282,7 +30780,8 @@
 		"name": "Tal Rasha's Horadric Crest"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 71,
 		"type": "Lacquered Plate",
 		"rarity": "set",
@@ -30344,7 +30843,8 @@
 		"name": "Tal Rasha's Guardianship"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 53,
 		"type": "Mesh Belt",
 		"rarity": "set",
@@ -30411,7 +30911,8 @@
 		"name": "Tal Rasha's Fine-Spun Cloth"
 	},
 	{
-		"category": "Sorceress Set",
+		"classSpecificSet": "Sorceress Set",
+		"category": "",
 		"level": 67,
 		"type": "Amulet",
 		"rarity": "set",
@@ -30447,7 +30948,8 @@
 		"name": "Tal Rasha's Adjudication"
 	},
 	{
-		"category": "Necromancer Set",
+		"classSpecificSet": "Necromancer Set",
+		"category": "",
 		"level": 65,
 		"type": "Bone Visage",
 		"rarity": "set",
@@ -30502,7 +31004,8 @@
 		"name": "Trang-Oul's Guise"
 	},
 	{
-		"category": "Necromancer Set",
+		"classSpecificSet": "Necromancer Set",
+		"category": "",
 		"level": 49,
 		"type": "Chaos Armor",
 		"rarity": "set",
@@ -30559,7 +31062,8 @@
 		"name": "Trang-Oul's Scales"
 	},
 	{
-		"category": "Necromancer Set",
+		"classSpecificSet": "Necromancer Set",
+		"category": "",
 		"level": 54,
 		"type": "Cantor Trophy",
 		"rarity": "set",
@@ -30638,7 +31142,8 @@
 		"name": "Trang-Oul's Wing"
 	},
 	{
-		"category": "Necromancer Set",
+		"classSpecificSet": "Necromancer Set",
+		"category": "",
 		"level": 62,
 		"type": "Troll Belt",
 		"rarity": "set",
@@ -30714,7 +31219,8 @@
 		"name": "Trang-Oul's Girth"
 	},
 	{
-		"category": "Necromancer Set",
+		"classSpecificSet": "Necromancer Set",
+		"category": "",
 		"level": 45,
 		"type": "Heavy Bracers",
 		"rarity": "set",
@@ -30764,6 +31270,7 @@
 		"name": "Trang-Oul's Claws"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 69,
 		"type": "",
@@ -30784,6 +31291,7 @@
 		"name": "Zod"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 67,
 		"type": "",
@@ -30804,6 +31312,7 @@
 		"name": "Cham"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 65,
 		"type": "",
@@ -30824,6 +31333,7 @@
 		"name": "Jah"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 63,
 		"type": "",
@@ -30844,6 +31354,7 @@
 		"name": "Ber"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 61,
 		"type": "",
@@ -30864,6 +31375,7 @@
 		"name": "Sur"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 59,
 		"type": "",
@@ -30884,6 +31396,7 @@
 		"name": "Lo"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 57,
 		"type": "",
@@ -30904,6 +31417,7 @@
 		"name": "Ohm"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 55,
 		"type": "",
@@ -30924,6 +31438,7 @@
 		"name": "Vex"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 53,
 		"type": "",
@@ -30944,6 +31459,7 @@
 		"name": "Gul"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 51,
 		"type": "",
@@ -30964,6 +31480,7 @@
 		"name": "Ist"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 49,
 		"type": "",
@@ -30984,6 +31501,7 @@
 		"name": "Mal"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 47,
 		"type": "",
@@ -31004,6 +31522,7 @@
 		"name": "Um"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 45,
 		"type": "",
@@ -31024,6 +31543,7 @@
 		"name": "Pul"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 43,
 		"type": "",
@@ -31044,6 +31564,7 @@
 		"name": "Lem"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 41,
 		"type": "",
@@ -31064,6 +31585,7 @@
 		"name": "Fal"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 39,
 		"type": "",
@@ -31084,6 +31606,7 @@
 		"name": "Ko"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 37,
 		"type": "",
@@ -31104,6 +31627,7 @@
 		"name": "Lum"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 35,
 		"type": "",
@@ -31124,6 +31648,7 @@
 		"name": "Io"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 0,
 		"type": "",
@@ -31144,6 +31669,7 @@
 		"name": "Hel"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 31,
 		"type": "",
@@ -31164,6 +31690,7 @@
 		"name": "Dol"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 29,
 		"type": "",
@@ -31184,6 +31711,7 @@
 		"name": "Shael"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 27,
 		"type": "",
@@ -31204,6 +31732,7 @@
 		"name": "Sol"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 25,
 		"type": "",
@@ -31224,6 +31753,7 @@
 		"name": "Amn"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 23,
 		"type": "",
@@ -31244,6 +31774,7 @@
 		"name": "Thul"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 21,
 		"type": "",
@@ -31264,6 +31795,7 @@
 		"name": "Ort"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 19,
 		"type": "",
@@ -31284,6 +31816,7 @@
 		"name": "Ral"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 17,
 		"type": "",
@@ -31304,6 +31837,7 @@
 		"name": "Tal"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 15,
 		"type": "",
@@ -31324,6 +31858,7 @@
 		"name": "Ith"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 15,
 		"type": "",
@@ -31344,6 +31879,7 @@
 		"name": "Eth"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 13,
 		"type": "",
@@ -31364,6 +31900,7 @@
 		"name": "Nef"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 13,
 		"type": "",
@@ -31384,6 +31921,7 @@
 		"name": "Tir"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 11,
 		"type": "",
@@ -31404,6 +31942,7 @@
 		"name": "Eld"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Runes",
 		"level": 11,
 		"type": "",
@@ -31424,6 +31963,7 @@
 		"name": "El"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Recipe",
 		"level": 0,
 		"type": "",
@@ -31435,6 +31975,7 @@
 		"name": "Twisted Essence of Suffering"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Recipe",
 		"level": 0,
 		"type": "",
@@ -31446,6 +31987,7 @@
 		"name": "Charged Essence of Hatred"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Recipe",
 		"level": 0,
 		"type": "",
@@ -31457,6 +31999,7 @@
 		"name": "Burning Essence of Terror"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Recipe",
 		"level": 0,
 		"type": "",
@@ -31468,6 +32011,7 @@
 		"name": "Festering Essence of Destruction"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Recipe",
 		"level": 0,
 		"type": "",
@@ -31479,6 +32023,7 @@
 		"name": "Key of Destruction"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Recipe",
 		"level": 0,
 		"type": "",
@@ -31490,6 +32035,7 @@
 		"name": "Key of Terror"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Recipe",
 		"level": 0,
 		"type": "",
@@ -31501,6 +32047,7 @@
 		"name": "Key of Hate"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Recipe",
 		"level": 0,
 		"type": "",
@@ -31512,6 +32059,7 @@
 		"name": "Small Charm"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Recipe",
 		"level": 0,
 		"type": "",
@@ -31523,6 +32071,7 @@
 		"name": "Large Charm"
 	},
 	{
+		"classSpecificSet": "",
 		"category": "Recipe",
 		"level": 0,
 		"type": "",
