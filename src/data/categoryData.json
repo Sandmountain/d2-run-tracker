@@ -4878,7 +4878,7 @@
 		]
 	},
 	{
-		"category": "Javelins & Throwing Wepons",
+		"category": "Javelins & Throwing Weapons",
 		"items": [
 			{
 				"classSpecificSet": "",
@@ -32213,42 +32213,6 @@
 				"setName": "",
 				"image": "key_of",
 				"name": "Key of Hate"
-			},
-			{
-				"classSpecificSet": "",
-				"category": "Recipe",
-				"level": 0,
-				"type": "",
-				"rarity": "magic",
-				"requirements": [],
-				"stats": [],
-				"setName": "",
-				"image": "small_charm",
-				"name": "Small Charm"
-			},
-			{
-				"classSpecificSet": "",
-				"category": "Recipe",
-				"level": 0,
-				"type": "",
-				"rarity": "magic",
-				"requirements": [],
-				"stats": [],
-				"setName": "",
-				"image": "large_charm",
-				"name": "Large Charm"
-			},
-			{
-				"classSpecificSet": "",
-				"category": "Recipe",
-				"level": 0,
-				"type": "",
-				"rarity": "magic",
-				"requirements": [],
-				"stats": [],
-				"setName": "",
-				"image": "grand_charm",
-				"name": "Grand Charm"
 			}
 		]
 	}
