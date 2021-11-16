@@ -3,25 +3,27 @@ import { Button, Fab } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import AutoComplete from "../../../components/AutoComplete/AutoComplete";
+import { getItemFromHolyGrail } from "../../../Firebase/firebase";
 import ReadExcel from "./ReadExcel/ReadExcel";
 
 export default function AddItemButtons(props) {
   const { itemsToAdd, setItemsToAdd } = props;
 
   const [showAutoComplete, setShowAutoComplete] = React.useState(false);
-
-  React.useEffect(() => {
-    console.log(itemsToAdd);
-  }, [itemsToAdd]);
+  const [tempItems, setTempItems] = React.useState([]);
 
   const handleSubmit = () => {
-    console.log("submitted");
-    setItemsToAdd([]);
+    setItemsToAdd(tempItems);
+    setTempItems([]);
   };
+
+  React.useEffect(() => {
+    //getItemFromHolyGrail(tempItems[0]);
+  }, [tempItems]);
 
   const handleGoBack = () => {
     setShowAutoComplete(false);
-    setItemsToAdd([]);
+    setTempItems([]);
   };
 
   return (
@@ -29,7 +31,7 @@ export default function AddItemButtons(props) {
       {!showAutoComplete ? (
         <Box sx={{ display: "flex", justifyContent: "center", margin: "15px" }}>
           <Button onClick={() => setShowAutoComplete(true)}>Add Items</Button>
-          <ReadExcel setItemsToAdd={setItemsToAdd} setShowAutoComplete={setShowAutoComplete} />
+          <ReadExcel setItemsToAdd={setTempItems} setShowAutoComplete={setShowAutoComplete} />
         </Box>
       ) : (
         <>
@@ -40,13 +42,13 @@ export default function AddItemButtons(props) {
               </Fab>
             </Box>
             <Box sx={{ width: "60%", position: "relative", margin: "0 auto" }}>
-              <AutoComplete handleSubmit={handleSubmit} customItems={false} dialogItems={itemsToAdd} setDialogItems={setItemsToAdd} />
+              <AutoComplete handleSubmit={handleSubmit} customItems={false} dialogItems={tempItems} setDialogItems={setTempItems} />
             </Box>
           </Box>
           <Box></Box>
         </>
       )}
-      {itemsToAdd.length > 0 && (
+      {tempItems.length > 0 && (
         <Box sx={{ display: "flex", justifyContent: "center" }}>
           <Button variant="contained" onClick={handleSubmit}>
             Add items to your Holy Grail

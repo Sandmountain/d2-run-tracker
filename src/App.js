@@ -37,15 +37,17 @@ function App() {
         <NavBar loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
         <Switch>
           <Route exact path={allTabs[0]}>
-            {loggedIn ? <RunLayout /> : <Redirect from="/" to={{ pathname: "/login" }} />}
+            {loggedIn ? <RunLayout /> : <Redirect push from="/" to={{ pathname: "/login" }} />}
           </Route>
-          <Route path={allTabs[1]}>{loggedIn ? <HolyGrailLayout /> : <Redirect from="/holy-grail" to={{ pathname: "/login" }} />}</Route>
+          <Route path={allTabs[1]}>
+            {loggedIn ? <HolyGrailLayout /> : <Redirect push from="/holy-grail" to={{ pathname: "/login" }} />}
+          </Route>
           <Route path={allTabs[2]} render={() => <DatabaseLayout />} />
           <Route exact path={"/login"}>
             {!loggedIn ? (
               <SignIn loggedIn={loggedIn} setLoggedIn={setLoggedIn}></SignIn>
             ) : (
-              <Redirect from="/login" to={{ pathname: "/" }} />
+              <Redirect from="/login" to={{ pathname: "/holy-grail" }} />
             )}
           </Route>
         </Switch>

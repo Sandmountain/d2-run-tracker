@@ -22,44 +22,42 @@ const collectionStructure = {
     history: [],
   },
   holyGrail: {
-    items: [
-      {
-        Rings: [],
-        Amulets: [],
-        Charms: [],
-        Jewels: [],
-        Helms: [],
-        "Class Specific Uniques": [],
-        "Javelins & Throwing Weapons": [],
-        Armor: [],
-        Shields: [],
-        Gloves: [],
-        Boots: [],
-        Belts: [],
-        Axes: [],
-        Bows: [],
-        Crossbows: [],
-        Daggers: [],
-        "Maces and Mauls": [],
-        Polearms: [],
-        Scepters: [],
-        Spears: [],
-        Staves: [],
-        Swords: [],
-        Wands: [],
-        "Starting Sets": [],
-        "Sorceress Set": [],
-        "Amazon Set": [],
-        "Barbarian Set": [],
-        "Necromancer Set": [],
-        "Paladin Set": [],
-        "Druid Set": [],
-        Sets: [],
-        "Assassin Set": [],
-        Runes: [],
-        Recipe: [],
-      },
-    ],
+    items: {
+      Rings: [],
+      Amulets: [],
+      Charms: [],
+      Jewels: [],
+      Helms: [],
+      "Class Specific Uniques": [],
+      "Javelins & Throwing Weapons": [],
+      Armor: [],
+      Shields: [],
+      Gloves: [],
+      Boots: [],
+      Belts: [],
+      Axes: [],
+      Bows: [],
+      Crossbows: [],
+      Daggers: [],
+      "Maces and Mauls": [],
+      Polearms: [],
+      Scepters: [],
+      Spears: [],
+      Staves: [],
+      Swords: [],
+      Wands: [],
+      "Starting Sets": [],
+      "Sorceress Set": [],
+      "Amazon Set": [],
+      "Barbarian Set": [],
+      "Necromancer Set": [],
+      "Paladin Set": [],
+      "Druid Set": [],
+      Sets: [],
+      "Assassin Set": [],
+      Runes: [],
+      Recipe: [],
+    },
   },
 };
 
@@ -101,6 +99,46 @@ const initDatabase = async (user) => {
 //     "runData.active": dataToUpdate,
 //   });
 // };
+
+const addItemToHolyGrail = async (item) => {
+  if (!Object.keys(item).length) {
+    console.log("nonno");
+    return;
+  }
+  const { uid } = auth.currentUser;
+
+  const dataRef = doc(db, "userData", uid);
+  console.log(item);
+  await updateDoc(dataRef, {
+    [`holyGrail.items.${item.category}`]: arrayUnion(item),
+  });
+};
+
+const getItemFromHolyGrail = async (item) => {
+  if (item && !Object.keys(item).length) {
+    console.log("nonno");
+    return;
+  }
+
+  const querySnapshot = await constructUserQuery();
+  console.log(item);
+  if (item && querySnapshot && querySnapshot.exists()) {
+    const categoryItems = querySnapshot.data().holyGrail.items;
+    const exists = categoryItems[item.category].filter((it) => it.name === item.name);
+
+    if (exists.length) {
+      console.log(exists);
+    }
+  } else {
+    return {};
+  }
+
+  // await getDoc(dataRef, {
+  //   "holyGrail.items": {
+  //     [item.category]: find(item),
+  //   },
+  // });
+};
 
 const addToHistory = async (dataToAdd) => {
   const { uid } = auth.currentUser;
@@ -174,9 +212,24 @@ const addToActiveRun = async (data) => {
 };
 
 const constructUserQuery = async () => {
-  const { uid } = auth.currentUser;
-  const dataRef = doc(db, "userData", uid);
-  return await getDoc(dataRef);
+  try {
+    const { uid } = auth.currentUser;
+    const dataRef = doc(db, "userData", uid);
+    return await getDoc(dataRef);
+  } catch (error) {
+    console.log(error);
+  }
 };
 
-export { app, initDatabase, addToActiveRun, addToHistory, fetchHistory, fetchActiveRun, clearActiveRun, deleteHistoryRun };
+export {
+  app,
+  initDatabase,
+  addToActiveRun,
+  addToHistory,
+  fetchHistory,
+  fetchActiveRun,
+  clearActiveRun,
+  deleteHistoryRun,
+  addItemToHolyGrail,
+  getItemFromHolyGrail,
+};
