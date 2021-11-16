@@ -6,7 +6,7 @@ export default function GenerateSocketImage(props) {
 
   return (
     <>
-      <div className="background-image">
+      <div className="background-image loot-image">
         {sockets > 0 && (
           <div className={`socket-container ${sockets === 6 && "rotate-on-six"}`}>
             {[...Array(sockets)].map((x, i) => (

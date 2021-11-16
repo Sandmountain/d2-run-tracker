@@ -128,11 +128,11 @@ export default function RunHistory(props) {
                               textOverflow: "ellipsis",
                             }}
                             secondary={
-                              <Box variant="span" sx={{ display: "flex" }}>
-                                <Box variant="span" sx={{ mr: "1em" }}>
+                              <Box component="span" sx={{ display: "flex" }}>
+                                <Box component="span" sx={{ mr: "1em" }}>
                                   {run.gameData.runType}
                                 </Box>{" "}
-                                <Box variant="span" sx={{ color: "gray" }}>
+                                <Box component="span" sx={{ color: "gray" }}>
                                   {run.runData.length + " runs"}
                                 </Box>
                               </Box>

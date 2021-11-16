@@ -103,7 +103,15 @@ export default function RunList(props) {
   const generateInfoLoot = (item, idx) => {
     return (
       <div key={idx} className="lootItem-container">
-        {item.image && <img loading="lazy" height="60" src={require(`../../../assets/item-art/${item.image}.png`).default} alt="" />}
+        {item.image && (
+          <img
+            loading="lazy"
+            className="loot-image"
+            height="60"
+            src={require(`../../../assets/item-art/${item.image}.png`).default}
+            alt=""
+          />
+        )}
         {!item.image ? <GenerateSocketImage sockets={item.sockets}></GenerateSocketImage> : <div></div>}
         <span className="lootItem-text" style={{ color: getColor(item) }}>
           {item.name}
