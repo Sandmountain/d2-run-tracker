@@ -9,7 +9,7 @@ import "./styles/App.css";
 import BackgroundImage from "./components/BackgroundImage/BackgroundImage.js";
 import DatabaseLayout from "./pages/Database/DatabaseLayout/DatabaseLayout.js";
 import HolyGrailLayout from "./pages/HolyGrail/HolyGrailLayout.js";
-
+import { HolyGrailProvider } from "./Context/HolyGrailContext.js";
 const theme = createTheme({
   palette: {
     mode: "dark",
@@ -30,32 +30,33 @@ function App() {
   const allTabs = ["/", "/holy-grail", "/database"];
 
   const [loggedIn, setLoggedIn] = useState(false);
+
   return (
     <BrowserRouter basename="/d2-run-tracker">
       <ThemeProvider theme={theme}>
         <BackgroundImage></BackgroundImage>
         <NavBar loggedIn={loggedIn} setLoggedIn={setLoggedIn} />
-        <Switch>
-          <Route exact path={allTabs[0]}>
-            {loggedIn ? <RunLayout /> : <Redirect push from="/" to={{ pathname: "/login" }} />}
-          </Route>
-          <Route path={allTabs[1]}>
-            {loggedIn ? <HolyGrailLayout /> : <Redirect push from="/holy-grail" to={{ pathname: "/login" }} />}
-          </Route>
-          <Route path={allTabs[2]} render={() => <DatabaseLayout />} />
-          <Route exact path={"/login"}>
-            {!loggedIn ? (
-              <SignIn loggedIn={loggedIn} setLoggedIn={setLoggedIn}></SignIn>
-            ) : (
-              <Redirect from="/login" to={{ pathname: "/holy-grail" }} />
-            )}
-          </Route>
-        </Switch>
+        <HolyGrailProvider loggedIn={loggedIn}>
+          <Switch>
+            <Route exact path={allTabs[0]}>
+              {loggedIn ? <RunLayout /> : <Redirect push from="/" to={{ pathname: "/login" }} />}
+            </Route>
+            <Route path={allTabs[1]} loading>
+              {loggedIn ? <HolyGrailLayout /> : <Redirect push from="/holy-grail" to={{ pathname: "/login" }} />}
+            </Route>
+            <Route path={allTabs[2]} render={() => <DatabaseLayout />} />
+            <Route exact path={"/login"}>
+              {!loggedIn ? (
+                <SignIn loggedIn={loggedIn} setLoggedIn={setLoggedIn}></SignIn>
+              ) : (
+                <Redirect from="/login" to={{ pathname: "/holy-grail" }} />
+              )}
+            </Route>
+          </Switch>
+        </HolyGrailProvider>
       </ThemeProvider>
     </BrowserRouter>
   );
 }
-
-// TODO: Logging in fine, but route back doesn't work. Line 103 is maybe the cause
 
 export default App;
