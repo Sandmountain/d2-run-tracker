@@ -3,23 +3,32 @@ import { Button, Fab } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import AutoComplete from "../../../components/AutoComplete/AutoComplete";
-import { getItemFromHolyGrail } from "../../../Firebase/firebase";
 import ReadExcel from "./ReadExcel/ReadExcel";
+
+import { useHolyGrail } from "../../../Context/HolyGrailContext";
+
+const data = require("../../../data/testdata.json");
 
 export default function AddItemButtons(props) {
   const { itemsToAdd, setItemsToAdd } = props;
 
+  //TODO: Not pretty with this, but had to be done since the original data gets mutated, and this is the only way to reset it.
+  const [templateData, setTemplateData] = React.useState(JSON.parse(JSON.stringify(data)));
+
   const [showAutoComplete, setShowAutoComplete] = React.useState(false);
   const [tempItems, setTempItems] = React.useState([]);
 
+  const [itemSubmitted, setItemSubmitted] = React.useState(false);
+
   const handleSubmit = () => {
-    setItemsToAdd(tempItems);
+    console.log(tempItems);
+
+    // Reset to an unedited version.
+    setTemplateData(JSON.parse(JSON.stringify(data)));
+
+    setItemSubmitted(true);
     setTempItems([]);
   };
-
-  React.useEffect(() => {
-    //getItemFromHolyGrail(tempItems[0]);
-  }, [tempItems]);
 
   const handleGoBack = () => {
     setShowAutoComplete(false);
@@ -42,7 +51,13 @@ export default function AddItemButtons(props) {
               </Fab>
             </Box>
             <Box sx={{ width: "60%", position: "relative", margin: "0 auto" }}>
-              <AutoComplete handleSubmit={handleSubmit} customItems={false} dialogItems={tempItems} setDialogItems={setTempItems} />
+              <AutoComplete
+                data={templateData}
+                itemSubmitted={itemSubmitted}
+                customItems={false}
+                dialogItems={tempItems}
+                setDialogItems={setTempItems}
+              />
             </Box>
           </Box>
           <Box></Box>

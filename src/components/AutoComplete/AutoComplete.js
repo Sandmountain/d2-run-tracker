@@ -6,11 +6,10 @@ import CustomItemList from "../../pages/RunAnalyze/CustomItemList/CustomItemList
 
 import ItemChip from "./ItemChip/ItemChip.js";
 
-const data = require("../../data/testdata.json");
+//const data = require("../../data/testdata.json");
 
 export default function AutoComplete(props) {
-  const { setDialogItems, dialogItems, useList = true, customItems = true } = props;
-
+  const { data, setDialogItems, dialogItems, useList = true, customItems = true } = props;
   const [inputValue, setInputValue] = React.useState("");
   const [noDataInput, setNoDataInput] = React.useState([]);
   const [open, setOpen] = React.useState(false);
