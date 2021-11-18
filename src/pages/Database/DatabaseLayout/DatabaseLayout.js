@@ -7,8 +7,7 @@ import ItemCard from "../../../components/ItemCard/ItemCard";
 import data from "../../../data/testdata.json";
 import "./database-layout.css";
 import SearchBar from "../../../components/SearchBar/SearchBar";
-
-// import { sortItems } from "../../../utils/utils";
+import LoadingSpinner from "../../../components/LoadingSpinner/LoadingSpinner";
 
 const breakpointColumnsObj = {
   default: 5,
@@ -35,6 +34,12 @@ export default function DatabaseLayout() {
     setSearchQuery(e.target.value);
   };
 
+  const [showSpinner, setShowSpinner] = React.useState(true);
+
+  const handleLoading = (val) => {
+    setShowSpinner(val);
+  };
+
   useEffect(() => {
     window.onscroll = () => {
       if (window.pageYOffset / document.documentElement.scrollHeight > 0.5) {
@@ -49,6 +54,13 @@ export default function DatabaseLayout() {
         setLoadAmount(50);
       }
     };
+
+    window.addEventListener("load", handleLoading(false));
+
+    return () => {
+      setShowSpinner(true);
+      window.removeEventListener("load", handleLoading());
+    };
   }, []);
 
   useEffect(() => {
@@ -62,22 +74,30 @@ export default function DatabaseLayout() {
   }, [sortBy]);
 
   return (
-    <Box>
-      <SearchBar onChange={onChange} text={searchQuery} scrollingSearch={scrollingSearch} setSortBy={setSortBy} sortBy={sortBy} />
-      {items.length > 1 ? (
-        <Masonry breakpointCols={breakpointColumnsObj} className="my-masonry-grid" columnClassName="my-masonry-grid_column">
-          {items.map((item, idx) => idx <= loadAmount && <ItemCard key={idx} item={item} />)}
-        </Masonry>
-      ) : items.length > 0 ? (
-        <Box className="sole-item">
-          <ItemCard item={items[0]} />
+    <Box sx={{ height: "100%" }}>
+      {showSpinner ? (
+        <Box sx={{ width: "100%", height: "100%", display: "flex", position: "relative", top: "30%", justifyContent: "center" }}>
+          <LoadingSpinner text="Loading Data" />
         </Box>
       ) : (
-        <Box className="sole-item">
-          <Alert severity="error" sx={{ backgroundColor: "#121212" }} elevation={2}>
-            {" "}
-            No items found ...
-          </Alert>
+        <Box>
+          <SearchBar onChange={onChange} text={searchQuery} scrollingSearch={scrollingSearch} setSortBy={setSortBy} sortBy={sortBy} />
+          {items.length > 1 ? (
+            <Masonry breakpointCols={breakpointColumnsObj} className="my-masonry-grid" columnClassName="my-masonry-grid_column">
+              {items.map((item, idx) => idx <= loadAmount && <ItemCard key={idx} item={item} />)}
+            </Masonry>
+          ) : items.length > 0 ? (
+            <Box className="sole-item">
+              <ItemCard item={items[0]} />
+            </Box>
+          ) : (
+            <Box className="sole-item">
+              <Alert severity="error" sx={{ backgroundColor: "#121212" }} elevation={2}>
+                {" "}
+                No items found ...
+              </Alert>
+            </Box>
+          )}
         </Box>
       )}
     </Box>

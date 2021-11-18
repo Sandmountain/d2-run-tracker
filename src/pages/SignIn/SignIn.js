@@ -7,6 +7,7 @@ import GithubIcon from "@mui/icons-material/GitHub";
 import { Box } from "@mui/system";
 
 import "./sign-in.css";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 
 const googleProvider = new GoogleAuthProvider();
 const githubProvider = new GithubAuthProvider();
@@ -55,12 +56,7 @@ export default function SignIn(props) {
   return (
     <Box sx={{ width: "100%", height: "100%", display: "flex", position: "relative", top: "30%", justifyContent: "center" }}>
       {!showButtons ? (
-        <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-          <CircularProgress />
-          <Typography color="gray" className="diablo-text caps">
-            Logging in...
-          </Typography>
-        </Box>
+        <LoadingSpinner text="Logging in..." />
       ) : (
         <Box sx={{ height: "fit-content", padding: "30px" }} className="paper-design">
           <Box sx={{ padding: "20px" }}>
