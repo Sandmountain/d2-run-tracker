@@ -74,3 +74,57 @@ export const resetCustomValue = (item) => {
     });
   }
 };
+
+export const compareCustomValues = (holyGrailItem, foundItem) => {
+  let item1Values = [];
+  let item2Values = [];
+
+  item1Values = holyGrailItem.requirements.reduce((prev, it) => {
+    if (it.varies) {
+      return [...prev, it.customValue];
+    }
+    return prev;
+  }, []);
+
+  item1Values = holyGrailItem.stats.reduce((prev, it) => {
+    if (it.varies) {
+      return [...prev, it.customValue];
+    }
+    return prev;
+  }, []);
+
+  item2Values = foundItem.requirements.reduce((prev, it) => {
+    if (it.varies) {
+      return [...prev, it.customValue];
+    }
+    return prev;
+  }, []);
+
+  item2Values = foundItem.stats.reduce((prev, it) => {
+    if (it.varies) {
+      return [...prev, it.customValue];
+    }
+    return prev;
+  }, []);
+
+  // Using counter to know if it's certanly better than the other item.
+  let counter = 0;
+  item2Values.forEach((value, index) => {
+    if (value >= item1Values[index]) {
+      counter++;
+    }
+  });
+
+  let isCertainlyBetter = false;
+  if (counter === item2Values.length) {
+    isCertainlyBetter = true;
+  }
+
+  // If counter is 0, all values were worse
+  let isCertainlyWorse = false;
+  if (!counter) {
+    isCertainlyWorse = true;
+  }
+
+  return { isCertainlyBetter, isCertainlyWorse };
+};
