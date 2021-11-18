@@ -102,112 +102,150 @@ const initDatabase = async (user) => {
 
 const addItemToHolyGrail = async (item) => {
   if (!Object.keys(item).length) {
-    console.log("nonno");
     return;
   }
-  const { uid } = auth.currentUser;
+  // When adding, search if it already exists, if it exists increment counter else add.
+  try {
+    const { uid } = auth.currentUser;
+    const dataRef = doc(db, "userData", uid);
 
-  const dataRef = doc(db, "userData", uid);
-  console.log(item);
-  await updateDoc(dataRef, {
-    [`holyGrail.items.${item.category}`]: arrayUnion(item),
-  });
+    await updateDoc(dataRef, {
+      [`holyGrail.items.${item.category}`]: arrayUnion(item),
+    });
+  } catch (error) {
+    console.log("Error when adding data. ", error);
+  }
 };
 
 const getItemFromHolyGrail = async (item) => {
   if (item && !Object.keys(item).length) {
-    console.log("nonno");
     return;
   }
+  try {
+    const querySnapshot = await constructUserQuery();
 
-  const querySnapshot = await constructUserQuery();
-  console.log(item);
-  if (item && querySnapshot && querySnapshot.exists()) {
-    const categoryItems = querySnapshot.data().holyGrail.items;
-    const exists = categoryItems[item.category].filter((it) => it.name === item.name);
+    if (item && querySnapshot && querySnapshot.exists()) {
+      const holyGrailItems = querySnapshot.data().holyGrail.items;
+      const existsInHolyGrail = holyGrailItems[item.category].filter((it) => it.name === item.name);
 
-    if (exists.length) {
-      console.log(exists);
+      if (existsInHolyGrail.length) {
+      } else {
+        return true;
+      }
     }
-  } else {
-    return {};
+  } catch (error) {
+    console.log("Error when fetching data. ", error);
   }
-
-  // await getDoc(dataRef, {
-  //   "holyGrail.items": {
-  //     [item.category]: find(item),
-  //   },
-  // });
 };
 
+const fetchUserHolyGrail = async () => {
+  try {
+    const querySnapshot = await constructUserQuery();
+
+    if (querySnapshot && querySnapshot.exists()) {
+      return querySnapshot.data().holyGrail.items;
+    } else {
+      return [];
+    }
+  } catch (error) {
+    console.log("Error when fetching user's holy grail", error);
+  }
+};
+
+// Finding an item and changing the values, if no changes, add imediatly.
+
 const addToHistory = async (dataToAdd) => {
-  const { uid } = auth.currentUser;
+  try {
+    const { uid } = auth.currentUser;
 
-  const dataRef = doc(db, "userData", uid);
+    const dataRef = doc(db, "userData", uid);
 
-  await updateDoc(dataRef, {
-    "runData.history": arrayUnion(dataToAdd),
-  });
+    await updateDoc(dataRef, {
+      "runData.history": arrayUnion(dataToAdd),
+    });
 
-  // When the run has been added to the history,
-  // The run is over and we remove the data from active.
-  await updateDoc(dataRef, {
-    "runData.active": [],
-  });
+    // When the run has been added to the history,
+    // The run is over and we remove the data from active.
+    await updateDoc(dataRef, {
+      "runData.active": [],
+    });
+  } catch (error) {
+    console.log("Error when adding history. ", error);
+  }
 };
 
 const deleteHistoryRun = async (itemToRemove) => {
-  const { uid } = auth.currentUser;
+  try {
+    const { uid } = auth.currentUser;
 
-  const dataRef = doc(db, "userData", uid);
+    const dataRef = doc(db, "userData", uid);
 
-  await updateDoc(dataRef, {
-    "runData.history": arrayRemove(itemToRemove),
-  });
+    await updateDoc(dataRef, {
+      "runData.history": arrayRemove(itemToRemove),
+    });
+  } catch (error) {
+    console.log("Error when deleting history. ", error);
+  }
 };
 
 const fetchHistory = async () => {
-  const querySnapshot = await constructUserQuery();
+  try {
+    const querySnapshot = await constructUserQuery();
 
-  if (querySnapshot.exists()) {
-    return querySnapshot.data().runData.history;
-  } else {
-    return [];
+    if (querySnapshot.exists()) {
+      return querySnapshot.data().runData.history;
+    } else {
+      return [];
+    }
+  } catch (error) {
+    console.log("Error when fetching history data. ", error);
   }
 };
 
 const fetchActiveRun = async () => {
-  const querySnapshot = await constructUserQuery();
+  try {
+    const querySnapshot = await constructUserQuery();
 
-  if (querySnapshot.exists()) {
-    return querySnapshot.data().runData.active;
-  } else {
-    return {};
+    if (querySnapshot.exists()) {
+      return querySnapshot.data().runData.active;
+    } else {
+      return {};
+    }
+  } catch (error) {
+    console.log("Error when fetching active run. ", error);
   }
 };
 
 const clearActiveRun = async () => {
-  const { uid } = auth.currentUser;
-  const dataRef = doc(db, "userData", uid);
+  try {
+    const { uid } = auth.currentUser;
+    const dataRef = doc(db, "userData", uid);
 
-  await updateDoc(dataRef, {
-    "runData.active": [],
-  });
+    await updateDoc(dataRef, {
+      "runData.active": [],
+    });
+  } catch (error) {
+    console.log("Error when clearing active run. ", error);
+  }
 };
 
 const addToActiveRun = async (data) => {
-  const { uid } = auth.currentUser;
-  const dataRef = doc(db, "userData", uid);
+  try {
+    const { uid } = auth.currentUser;
+    const dataRef = doc(db, "userData", uid);
 
-  if (data.runData.length > 1) {
-    await updateDoc(dataRef, {
-      "runData.active.runData": data.runData,
-    });
-  } else {
-    await updateDoc(dataRef, {
-      "runData.active.gameData": data.gameData,
-      "runData.active.runData": data.runData,
-    });
+    if (data.runData.length > 1) {
+      await updateDoc(dataRef, {
+        "runData.active.runData": data.runData,
+      });
+    } else {
+      await updateDoc(dataRef, {
+        "runData.active.gameData": data.gameData,
+        "runData.active.runData": data.runData,
+      });
+    }
+  } catch (error) {
+    console.log("Error when adding to active run", error);
   }
 };
 
@@ -232,4 +270,5 @@ export {
   deleteHistoryRun,
   addItemToHolyGrail,
   getItemFromHolyGrail,
+  fetchUserHolyGrail,
 };
