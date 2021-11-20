@@ -6,10 +6,10 @@ import NewReleasesOutlinedIcon from "@mui/icons-material/NewReleasesOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import ArrowCircleUpIcon from "@mui/icons-material/ArrowCircleUp";
 import ArrowCircleDownIcon from "@mui/icons-material/ArrowCircleDown";
+import { CircularProgress } from "@mui/material";
 
 export default function ItemChipIcon(props) {
   const { indication } = props;
-
   const generateIcon = () => {
     switch (indication) {
       case "unset":
@@ -40,6 +40,12 @@ export default function ItemChipIcon(props) {
         return (
           <Tooltip title="Compare values to decide">
             <HelpOutlineOutlinedIcon color="info" sx={{ verticalAlign: "middle", marginRight: "-6px" }} />
+          </Tooltip>
+        );
+      case "loading":
+        return (
+          <Tooltip title="Compare values to decide">
+            <CircularProgress color="info" sx={{ verticalAlign: "middle", marginRight: "-6px" }} />
           </Tooltip>
         );
       default:

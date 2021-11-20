@@ -7,54 +7,34 @@ import ItemCard from "../../ItemCard/ItemCard.js";
 import { compareCustomValues, getColor } from "../../../utils/utils.js";
 import ItemChipIcon from "./ItemChipIcon.js";
 import { useHolyGrail } from "../../../Context/HolyGrailContext.js";
+import CompareItemsDialog from "../../Dialogs/CompareItemsDialog.js";
 
 export default function ItemChip(props) {
-  const { getTagProps, item, setDialogItems, dialogItems, index } = props;
+  const { getTagProps, item, setDialogItems, dialogItems, index, chipStatus, processChip } = props;
   const { holyGrail } = useHolyGrail();
 
   const [symbolIndication, setSymbolIndication] = React.useState("");
+  const [showComparisonDialog, setShowComparisonDialog] = React.useState(false);
+
+  const [storedItem, setStoredItem] = React.useState({});
+  const [foundItem, setFoundItem] = React.useState({});
 
   const [open, setOpen] = React.useState(false);
 
   const updateItem = (item) => {
     const idx = dialogItems.findIndex((it) => it.name === item.name);
     setDialogItems((prev) => prev.map((it, i) => (i === idx ? item : it)));
+    handleCompareItems();
   };
 
-  const handleChipIcons = React.useCallback(() => {
-    if (holyGrail[item.category]?.length > 0 && (symbolIndication !== "unset" || symbolIndication === "")) {
-      // Using first index, because there will always only be one.
-      const holyGrailItem = holyGrail[item.category].filter((it) => it.name === item.name)[0];
-      if (holyGrailItem) {
-        const result = compareCustomValues(holyGrailItem, item);
-
-        if (result.isCertainlyBetter) {
-          // Upgrade!
-          // Add to Holy Grail
-          setSymbolIndication("upgrade");
-          return;
-        }
-
-        if (result.isCertainlyWorse) {
-          setSymbolIndication("downgrade");
-          return;
-        }
-        setSymbolIndication("uncertain");
-        // Show comparison Dialog and let user choose.
-      } else {
-        // New item!!
-        setSymbolIndication("new");
-      }
+  const handleChosenItem = (newItem) => {
+    if (newItem) {
+      processChip("upgrade", index, true);
     } else {
-      setSymbolIndication("new");
+      processChip("downgrade", index, true);
     }
-  }, [holyGrail, item, symbolIndication]);
-
-  // TODO: Every time a new item is added, the icon is lost. This will recalcuate the value for it.
-  // Could possibly store the value inside the item instead for performance reasons.
-  React.useEffect(() => {
-    handleChipIcons();
-  }, [handleChipIcons]);
+    setOpen(false);
+  };
 
   // Only disable the tooltip if the mouse leaves, not when losing focus (changing values).
   const handleCloseTooltip = (event) => {
@@ -62,40 +42,84 @@ export default function ItemChip(props) {
       return;
     } else {
       setOpen(false);
-      handleChipIcons();
+      handleCompareItems();
     }
   };
+
+  const handleCompareItems = React.useCallback(() => {
+    if (chipStatus[index].indicator !== "unset") {
+      if (holyGrail[item.category]?.length > 0) {
+        // Using first index, because there will always only be one.
+        const holyGrailItem = holyGrail[item.category].filter((it) => it.name === item.name)[0];
+        if (holyGrailItem) {
+          const result = compareCustomValues(holyGrailItem, item);
+
+          if (result.isCertainlyBetter) {
+            // Upgrade!
+            // Add to Holy Grail and show snackbar!
+            processChip("upgrade", index);
+            //setSymbolIndication("upgrade");
+            return;
+          }
+
+          if (result.isCertainlyWorse) {
+            processChip("downgrade", index);
+            //setSymbolIndication("downgrade");
+            return;
+          }
+          if (!chipStatus[index].decided) {
+            processChip("", index, true);
+            //setSymbolIndication("uncertain");
+            // Show comparison Dialog and let user choose.
+            setStoredItem(holyGrailItem);
+            setFoundItem(item);
+
+            setShowComparisonDialog(true);
+          }
+        } else {
+          // Add to Holy Grail and show snackbar!
+          processChip("new", index);
+          setSymbolIndication("new");
+        }
+      } else {
+        // Add to Holy Grail and show snackbar!
+        processChip("new", index);
+        setSymbolIndication("new");
+      }
+    }
+  }, [chipStatus, holyGrail, index, item, processChip]);
 
   React.useEffect(() => {
     // Don't do anything if dialog items are reset
     if (!dialogItems.length) {
       return;
     }
-    let indicatorType = "";
-    setSymbolIndication(indicatorType);
 
-    dialogItems[index].requirements?.length > 0 &&
-      dialogItems[index].requirements.forEach((req) => {
-        if (req.varies && req.customValue === 0) {
-          indicatorType = "unset";
-        }
-      });
-    dialogItems[index].stats?.length > 0 &&
-      dialogItems[index].stats.forEach((stat) => {
-        if (stat.varies && stat.customValue === 0) {
-          indicatorType = "unset";
-        }
-      });
-    if (indicatorType !== "") {
-      setSymbolIndication(indicatorType);
-      return;
+    if (chipStatus[index]?.indicator === "" || chipStatus[index]?.indicator === "unset") {
+      let indicatorType = "";
+      dialogItems[index].requirements?.length > 0 &&
+        dialogItems[index].requirements.forEach((req) => {
+          if (req.varies && req.customValue === 0) {
+            indicatorType = "unset";
+          }
+        });
+      dialogItems[index].stats?.length > 0 &&
+        dialogItems[index].stats.forEach((stat) => {
+          if (stat.varies && stat.customValue === 0) {
+            indicatorType = "unset";
+          }
+        });
+      if (indicatorType === "" && !chipStatus[index].decided) {
+        processChip(indicatorType, index);
+        handleCompareItems();
+      }
     }
-  }, [dialogItems, index]);
+  }, [dialogItems, index, chipStatus, processChip, item, handleCompareItems]);
 
   return (
     <>
       <Tooltip
-        open={open}
+        open={open && !showComparisonDialog}
         placement={"top"}
         componentsProps={{
           tooltip: {
@@ -118,7 +142,7 @@ export default function ItemChip(props) {
           variant="outlined"
           onMouseEnter={() => setOpen(true)}
           onClick={() => setOpen(true)}
-          icon={<ItemChipIcon indication={symbolIndication} />}
+          icon={<ItemChipIcon indication={chipStatus[index].indicator} />}
           style={{
             color: getColor(item),
             fontWeight: "bold",
@@ -128,6 +152,12 @@ export default function ItemChip(props) {
           {...getTagProps({ index })}
         />
       </Tooltip>
+      <CompareItemsDialog
+        showComparisonDialog={showComparisonDialog}
+        setShowComparisonDialog={setShowComparisonDialog}
+        storedItem={storedItem}
+        foundItem={foundItem}
+        handleChosenItem={handleChosenItem}></CompareItemsDialog>
     </>
   );
 }

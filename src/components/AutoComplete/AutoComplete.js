@@ -14,6 +14,8 @@ export default function AutoComplete(props) {
   const [noDataInput, setNoDataInput] = React.useState([]);
   const [open, setOpen] = React.useState(false);
 
+  const [chipStatus, setChipStatus] = React.useState([]);
+
   const handleDialogSubmit = (e) => {
     e.preventDefault();
   };
@@ -42,6 +44,29 @@ export default function AutoComplete(props) {
 
     setNoDataInput(theChoices.filter((choice) => choice.rarity === "normal"));
     setDialogItems(theChoices);
+
+    // When a new item is added or removed, we need to update the chip indicator.
+    setChipStatus((prev) => {
+      if (theChoices.length > 0) {
+        // Go through the choices and see if it is in the list
+        return theChoices.map((choice) => {
+          const choiceFound = prev.filter((prevItem) => prevItem.name === choice.name)[0];
+
+          // if it exists, use old value.
+          if (choiceFound) {
+            return choiceFound;
+          } else {
+            return {
+              name: choice.name,
+              indicator: choice.rarity === "normal" ? "" : "unset",
+              decided: false,
+            };
+          }
+        });
+      } else {
+        return [];
+      }
+    });
   };
 
   const handleOpen = (e) => {
@@ -68,6 +93,20 @@ export default function AutoComplete(props) {
     return (
       <CustomItemList key={index} newInputValue={newInputValue} dialogItems={dialogItems} setDialogItems={setDialogItems}></CustomItemList>
     );
+  };
+
+  const processChip = (chip, index, decided = false) => {
+    setChipStatus((prev) => {
+      return prev.map((prev, idx) => {
+        return idx === index
+          ? {
+              name: prev.name,
+              indicator: chip,
+              decided,
+            }
+          : prev;
+      });
+    });
   };
 
   return (
@@ -98,6 +137,8 @@ export default function AutoComplete(props) {
           renderTags={(value, getTagProps) =>
             value.map((option, index) => (
               <ItemChip
+                chipStatus={chipStatus}
+                processChip={processChip}
                 item={option}
                 key={index}
                 index={index}

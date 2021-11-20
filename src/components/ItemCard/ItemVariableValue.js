@@ -69,7 +69,16 @@ export default function ItemVariableValue(props) {
   return (
     <>
       <Button
-        sx={{ padding: 0, margin: 0, minWidth: 0, fontSize: "1em", verticalAlign: "baseline", color: "gray", cursor: "default" }}
+        className="glowing-text"
+        sx={{
+          padding: 0,
+          margin: 0,
+          minWidth: 0,
+          fontSize: "1em",
+          verticalAlign: "baseline",
+          color: "#b7b7b7 !important",
+          cursor: "default",
+        }}
         onClick={handleClick}
         disabled={!customizable}>
         {generateButtonText()}

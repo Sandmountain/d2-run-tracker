@@ -110,7 +110,7 @@ export const compareCustomValues = (holyGrailItem, foundItem) => {
   // Using counter to know if it's certanly better than the other item.
   let counter = 0;
   item2Values.forEach((value, index) => {
-    if (value >= item1Values[index]) {
+    if (value > item1Values[index]) {
       counter++;
     }
   });
