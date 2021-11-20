@@ -20,14 +20,6 @@ import { fetchActiveRun, clearActiveRun, fetchHistory } from "../../../Firebase/
 import RunTimer from "../RunTimer/RunTimer";
 import RunHistory from "../RunHistory/RunHistory";
 
-// const mockGameData = {
-//   name: "Random Name",
-//   class: "Sorceress",
-//   level: "67",
-//   runType: "Mephisto",
-//   cooldownTimer: 15,
-// };
-
 export default function RunLayout() {
   const [isActiveGame, setIsActiveGame] = React.useState(false);
   const [showSummary, setShowSummary] = React.useState(false);
@@ -130,6 +122,7 @@ export default function RunLayout() {
       setRunHistory(await fetchHistory());
     }
     getData();
+    return () => setRunHistory([]);
   }, []);
 
   const renderConditionalView = () => {

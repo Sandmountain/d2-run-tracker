@@ -5,12 +5,10 @@ import React from "react";
 import AutoComplete from "../../../components/AutoComplete/AutoComplete";
 import ReadExcel from "./ReadExcel/ReadExcel";
 
-import { useHolyGrail } from "../../../Context/HolyGrailContext";
-
 const data = require("../../../data/testdata.json");
 
 export default function AddItemButtons(props) {
-  const { itemsToAdd, setItemsToAdd } = props;
+  //const { itemsToAdd, setItemsToAdd } = props;
 
   //TODO: Not pretty with this, but had to be done since the original data gets mutated, and this is the only way to reset it.
   const [templateData, setTemplateData] = React.useState(JSON.parse(JSON.stringify(data)));
@@ -21,8 +19,6 @@ export default function AddItemButtons(props) {
   const [itemSubmitted, setItemSubmitted] = React.useState(false);
 
   const handleSubmit = () => {
-    console.log(tempItems);
-
     // Reset to an unedited version.
     setTemplateData(JSON.parse(JSON.stringify(data)));
 

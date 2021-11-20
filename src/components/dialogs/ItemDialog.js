@@ -4,7 +4,6 @@ import { Alert, Button, DialogActions, DialogContent, DialogContentText, DialogT
 
 import AutoComplete from "../AutoComplete/AutoComplete";
 import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
-import { resetCustomValue } from "../../utils/utils";
 
 const data = require("../../data/testdata.json");
 

@@ -13,7 +13,6 @@ export default function ItemChip(props) {
   const { getTagProps, item, setDialogItems, dialogItems, index, chipStatus, processChip } = props;
   const { holyGrail } = useHolyGrail();
 
-  const [symbolIndication, setSymbolIndication] = React.useState("");
   const [showComparisonDialog, setShowComparisonDialog] = React.useState(false);
 
   const [storedItem, setStoredItem] = React.useState({});
@@ -79,12 +78,10 @@ export default function ItemChip(props) {
         } else {
           // Add to Holy Grail and show snackbar!
           processChip("new", index);
-          setSymbolIndication("new");
         }
       } else {
         // Add to Holy Grail and show snackbar!
         processChip("new", index);
-        setSymbolIndication("new");
       }
     }
   }, [chipStatus, holyGrail, index, item, processChip]);

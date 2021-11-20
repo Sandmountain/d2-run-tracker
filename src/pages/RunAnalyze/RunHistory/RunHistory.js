@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Box } from "@mui/system";
-import { Collapse, Divider, IconButton, ListItemButton, List, ListItemText, Slide, Typography } from "@mui/material";
+import { Collapse, Divider, IconButton, ListItemButton, List, ListItemText, Slide } from "@mui/material";
 import { DeleteOutline, KeyboardArrowDown } from "@mui/icons-material";
 
 import { deleteHistoryRun } from "../../../Firebase/firebase";

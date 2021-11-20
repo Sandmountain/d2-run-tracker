@@ -1,4 +1,4 @@
-import { Button, Typography, CircularProgress } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { initDatabase } from "../../Firebase/firebase"; // This import makes sure that firebase is initialized.
 import { getAuth, signInWithPopup, GoogleAuthProvider, GithubAuthProvider } from "firebase/auth";

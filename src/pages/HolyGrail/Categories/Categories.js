@@ -1,11 +1,8 @@
-import { CircularProgress, Grid } from "@mui/material";
 import { Box } from "@mui/system";
-import React, { createRef, forwardRef, useRef } from "react";
+import React from "react";
 
 import categoryData from "../../../data/categoryData.json";
 import CategoryPanels from "./CategoryPanels/CategoryPanels";
-
-const halfLength = Math.round(categoryData.length / 2);
 
 const getCorrectColumns = () => {
   const arr1 = [];
