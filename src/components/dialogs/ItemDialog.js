@@ -6,15 +6,17 @@ import AutoComplete from "../AutoComplete/AutoComplete";
 import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
 import { resetCustomValue } from "../../utils/utils";
 
+const data = require("../../data/testdata.json");
+
 export default function ItemDialog(props) {
   const { openNewRunDialog, handleCloseNewRunDialog, setDialogItems, dialogItems } = props;
 
+  //TODO: Not pretty with this, but had to be done since the original data gets mutated, and this is the only way to reset it.
+  const [templateData, setTemplateData] = React.useState(JSON.parse(JSON.stringify(data)));
+
   // Resetting the items that have been overriden in memory.
   const handleClosing = () => {
-    // dialogItems.forEach((it) => {
-    //   resetCustomValue(it);
-    // });
-
+    setTemplateData(JSON.parse(JSON.stringify(data)));
     handleCloseNewRunDialog();
   };
 
@@ -29,7 +31,7 @@ export default function ItemDialog(props) {
           Search for an item down below, or add a custom one by pressing return.
         </DialogContentText>
 
-        <AutoComplete setDialogItems={setDialogItems} dialogItems={dialogItems}></AutoComplete>
+        <AutoComplete setDialogItems={setDialogItems} dialogItems={dialogItems} data={templateData}></AutoComplete>
       </DialogContent>
 
       <DialogActions>
