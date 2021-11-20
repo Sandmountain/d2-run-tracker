@@ -20,6 +20,16 @@
   text-overflow: ellipsis;
 }
 
+.item-notFound {
+  filter: grayscale(0.8);
+  opacity: 0.4;
+}
+
+.item-notFound:hover {
+  opacity: 0.6;
+  filter: grayscale(0.6);
+}
+
 .loot-container {
   display: flex;
   gap: 10px;

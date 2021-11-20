@@ -129,7 +129,7 @@ export default function ItemChip(props) {
         title={
           <>
             {item.image ? (
-              <ItemCard item={item} tooltip={true} handleUpdatedItem={(item) => updateItem(item)} />
+              <ItemCard item={item} customizable={true} handleUpdatedItem={(item) => updateItem(item)} />
             ) : (
               "No info for custom items"
             )}

@@ -4,7 +4,7 @@ import React from "react";
 import categoryData from "../../../data/categoryData.json";
 import CategoryPanels from "./CategoryPanels/CategoryPanels";
 
-const getCorrectColumns = () => {
+const createTwoColumns = () => {
   const arr1 = [];
   const arr2 = [];
   categoryData.forEach((cat, index) => {
@@ -18,7 +18,7 @@ const getCorrectColumns = () => {
 };
 
 export default function Categories() {
-  const [col1, col2] = getCorrectColumns();
+  const [col1, col2] = createTwoColumns();
 
   return (
     <Box sx={{ display: "flex", gap: "15px", padding: "15px", justifyContent: "center" }}>

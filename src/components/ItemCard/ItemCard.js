@@ -5,8 +5,7 @@ import "./item-card.css";
 import ItemVariableValue from "./ItemVariableValue";
 
 export default function ItemCard(props) {
-  const { item, tooltip = false, handleUpdatedItem } = props;
-
+  const { item, customizable = false, handleUpdatedItem } = props;
   const formatRequirementStats = (text, idx) => {
     let value;
     let property;
@@ -21,7 +20,7 @@ export default function ItemCard(props) {
           <span>{property}</span>
           <span className="magic list-shadow">
             <ItemVariableValue
-              customizable={tooltip}
+              customizable={customizable}
               low={text.requirement[0].low}
               high={text.requirement[1].high}
               handleUpdatedItem={handleUpdatedItem}
@@ -44,7 +43,7 @@ export default function ItemCard(props) {
           <span className="magic list-shadow">
             <span>{textBefore}</span>
             <ItemVariableValue
-              customizable={tooltip}
+              customizable={customizable}
               low={text.requirement.low}
               high={text.requirement.high}
               handleUpdatedItem={handleUpdatedItem}
@@ -99,7 +98,7 @@ export default function ItemCard(props) {
           <span className="magic list-shadow">
             <span>{textBefore}</span>
             <ItemVariableValue
-              customizable={tooltip}
+              customizable={customizable}
               low={stat.detail.low}
               high={stat.detail.high}
               handleUpdatedItem={handleUpdatedItem}
@@ -160,6 +159,13 @@ export default function ItemCard(props) {
                 </Typography>
               );
             })}
+          {item.count && (
+            <Box>
+              <Typography variant="caption" sx={{ textAlign: "center" }}>
+                {item.count}
+              </Typography>
+            </Box>
+          )}
         </Box>
       </Paper>
     </Box>

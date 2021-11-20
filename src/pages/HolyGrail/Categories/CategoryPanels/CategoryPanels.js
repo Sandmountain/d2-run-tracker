@@ -11,6 +11,7 @@ import { getColor } from "../../../../utils/utils.js";
 import { Tooltip } from "@mui/material";
 
 import ItemCard from "../../../../components/ItemCard/ItemCard";
+import { useHolyGrail } from "../../../../Context/HolyGrailContext";
 
 const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} square {...props} />)(({ theme }) => ({
   border: `1px solid rgba(143, 107, 50, 0.3)`,
@@ -43,90 +44,88 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
   borderTop: "1px solid rgba(143, 107, 50, .3)",
 }));
 
-const generateLootText = (loot) => {
-  const found = {
-    magic: 0,
-    unique: 0,
-    set: 0,
-    rune: 0,
-    crafting: 0,
-    normal: 0,
-  };
-
-  loot.forEach((item) => {
-    switch (item?.rarity) {
-      case "set":
-        found.set = found.set + 1;
-        break;
-      case "unique":
-        found.unique = found.unique + 1;
-        break;
-      case "magic":
-        found.magic = found.magic + 1;
-        break;
-      case "rune":
-        found.rune = found.rune + 1;
-        break;
-      case "crafting":
-        found.crafting = found.crafting + 1;
-        break;
-      default:
-        found.normal = found.normal + 1;
-        break;
-    }
-  });
-
-  return (
-    <span style={{ opacity: 0.6 }}>
-      {found.magic > 0 && <span className="magic">{found.magic} Magic </span>}
-      {found.set > 0 && <span className="set">{found.set} Set </span>}
-      {found.unique > 0 && <span className="unique">{found.unique} Unique </span>}
-      {found.rune > 0 && <span className="rune">{found.rune} Rune</span>}
-      {found.crafting > 0 && <span className="crafting">{found.crafting} Mat</span>}
-      {found.normal > 0 && <span className="normal">{found.normal} Base</span>}
-    </span>
-  );
-};
-
-const generateInfoLoot = (item, idx) => {
-  return (
-    <Tooltip
-      key={idx}
-      placement={"top"}
-      componentsProps={{
-        tooltip: {
-          sx: {
-            bgcolor: "rgba(0,0,0,0)",
-          },
-        },
-      }}
-      title={<ItemCard item={item} />}>
-      <div className="lootItem-container">
-        {item.image && (
-          <img
-            loading="lazy"
-            className="loot-image"
-            height="60"
-            src={require(`../../../../assets/item-art/${item.image}.png`).default}
-            alt=""
-          />
-        )}
-        <span className="lootItem-text" style={{ color: getColor(item) }}>
-          {item.name}
-        </span>
-      </div>
-    </Tooltip>
-  );
-};
-
 export default function CategoryPanels(props) {
   const { category, index } = props;
+  const hg = useHolyGrail();
 
   const [expanded, setExpanded] = React.useState(false);
+  const [foundItems, setFoundItems] = React.useState([]);
+
+  const generateLootText = (loot) => {
+    const found = {
+      unique: loot[0].rarity === "unique" ? loot.length : 0,
+      set: loot[0].rarity === "set" ? loot.length : 0,
+      rune: loot[0].rarity === "rune" ? loot.length : 0,
+      crafting: loot[0].rarity === "crafting" ? loot.length : 0,
+    };
+
+    return (
+      <span style={{ opacity: 0.6 }}>
+        {found.set > 0 && (
+          <>
+            <span className="set"> {foundItems.length}</span> / {found.set} Found
+          </>
+        )}
+        {found.unique > 0 && (
+          <>
+            <span className="unique"> {foundItems.length}</span> / {found.unique} Found
+          </>
+        )}
+        {found.rune > 0 && (
+          <>
+            <span className="rune"> {foundItems.length}</span> / {found.rune} Found
+          </>
+        )}
+        {found.crafting > 0 && (
+          <>
+            <span className="crafting"> {foundItems.length}</span> / {found.crafting} Found
+          </>
+        )}
+      </span>
+    );
+  };
+
+  const generateInfoLoot = (item, idx) => {
+    const foundItem = foundItems.filter((it) => it.name === item.name);
+    return (
+      <Tooltip
+        key={idx}
+        placement={"top"}
+        componentsProps={{
+          tooltip: {
+            sx: {
+              bgcolor: "rgba(0,0,0,0)",
+            },
+          },
+        }}
+        title={<ItemCard customizable={false} item={foundItem.length > 0 ? foundItem[0] : item} />}>
+        <div className={`lootItem-container ${foundItem.length > 0 ? "" : "item-notFound"}`}>
+          {item.image && (
+            <img
+              loading="lazy"
+              className="loot-image"
+              height="60"
+              src={require(`../../../../assets/item-art/${item.image}.png`).default}
+              alt=""
+            />
+          )}
+          <span className="lootItem-text" style={{ color: getColor(item) }}>
+            {item.name}
+          </span>
+        </div>
+      </Tooltip>
+    );
+  };
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
+
+  React.useEffect(() => {
+    if (hg.holyGrail[category.category]?.length > 0) {
+      setFoundItems(hg.holyGrail[category.category]);
+    }
+  }, [hg, category]);
 
   return (
     <Accordion key={index} expanded={expanded === category.category} onChange={handleChange(category.category)}>
