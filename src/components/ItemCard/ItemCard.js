@@ -87,7 +87,34 @@ export default function ItemCard(props) {
 
   const formatDetailStats = (stat, idx) => {
     if (Array.isArray(stat.detail)) {
-      return;
+      // TODO: These stats are generally not worth keeping note of,
+      // so we discard the varied value here beacuse we only keep track of
+      // one value as custom value.
+      return stat.detail.map((det, index) => {
+        if (index === 0) {
+          const [textBefore] = det.text.split("{1}");
+          const [text, textAfter] = textBefore.split("{0}");
+          return (
+            <span className="magic list-shadow">
+              <span>{text}</span>
+              <span>
+                {det.low}-{det.high}
+              </span>
+              <span>{textAfter}</span>
+            </span>
+          );
+        } else {
+          const textAfter = det.text.split("{1}")[1];
+          return (
+            <span className="magic list-shadow">
+              <span>
+                {det.low}-{det.high}
+              </span>
+              <span>{textAfter}</span>
+            </span>
+          );
+        }
+      });
     }
 
     if (stat.varies) {

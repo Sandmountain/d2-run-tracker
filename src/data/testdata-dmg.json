@@ -1406,8 +1406,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (214-247) To (316-361)",
-				"varies": false
+				"requirement": {
+					"low": "214",
+					"high": "361",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 114",
@@ -1479,8 +1484,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (130-151) To (305-353)",
-				"varies": false
+				"requirement": {
+					"low": "130",
+					"high": "353",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 115",
@@ -1558,8 +1568,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (72-82) To (152-173)",
-				"varies": false
+				"requirement": {
+					"low": "72",
+					"high": "173",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 73",
@@ -1633,12 +1648,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (70-79) To (185-212)",
-				"varies": false
+				"requirement": {
+					"low": "70",
+					"high": "212",
+					"text": "Throw Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "One-Hand Damage: (70-79) To (137-155)",
-				"varies": false
+				"requirement": {
+					"low": "70",
+					"high": "155",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -1720,12 +1745,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (87-105) To (165-198)",
-				"varies": false
+				"requirement": {
+					"low": "87",
+					"high": "198",
+					"text": "Throw Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "One-Hand Damage: (75-90) To (135-162)",
-				"varies": false
+				"requirement": {
+					"low": "75",
+					"high": "162",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 107",
@@ -1795,8 +1830,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (56-66) To (131-155)",
-				"varies": false
+				"requirement": {
+					"low": "56",
+					"high": "155",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 87",
@@ -1859,8 +1899,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Damage: (145-172) To (170-201)",
-				"varies": false
+				"requirement": {
+					"low": "145",
+					"high": "201",
+					"text": "Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 100",
@@ -1926,8 +1971,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Damage: (77-88) To (137-155)",
-				"varies": false
+				"requirement": {
+					"low": "77",
+					"high": "155",
+					"text": "Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 79",
@@ -2005,8 +2055,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Damage: (98-115) To (130-153)",
-				"varies": false
+				"requirement": {
+					"low": "98",
+					"high": "153",
+					"text": "Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 105",
@@ -2087,8 +2142,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Damage: (66-81) To (159-196)",
-				"varies": false
+				"requirement": {
+					"low": "66",
+					"high": "196",
+					"text": "Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 113",
@@ -11445,8 +11505,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (4-5) To (9-10)",
-				"varies": false
+				"requirement": {
+					"low": "4",
+					"high": "10",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Durability: 28",
@@ -11545,8 +11610,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (6-7) To (16-19)",
-				"varies": false
+				"requirement": {
+					"low": "6",
+					"high": "19",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 43",
@@ -11603,8 +11673,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (11-14) To (17-22)",
-				"varies": false
+				"requirement": {
+					"low": "11",
+					"high": "22",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 49",
@@ -11675,8 +11750,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (17-25) To (31-45)",
-				"varies": false
+				"requirement": {
+					"low": "17",
+					"high": "45",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 67",
@@ -11729,8 +11809,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (10-11) To (22-24)",
-				"varies": false
+				"requirement": {
+					"low": "10",
+					"high": "24",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 35",
@@ -11779,8 +11864,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (14-15) To (34-36)",
-				"varies": false
+				"requirement": {
+					"low": "14",
+					"high": "36",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 48",
@@ -11887,8 +11977,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (27-30) To (45-54)",
-				"varies": false
+				"requirement": {
+					"low": "27",
+					"high": "54",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 63",
@@ -11954,8 +12049,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (47-56) To (96-124)",
-				"varies": false
+				"requirement": {
+					"low": "47",
+					"high": "124",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 84",
@@ -12018,8 +12118,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (25-29) To (52-60)",
-				"varies": false
+				"requirement": {
+					"low": "25",
+					"high": "60",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -12088,8 +12193,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (55-60) To (132-149)",
-				"varies": false
+				"requirement": {
+					"low": "55",
+					"high": "149",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 68",
@@ -12146,8 +12256,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (35-37) To (102-110)",
-				"varies": false
+				"requirement": {
+					"low": "35",
+					"high": "110",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 85",
@@ -12212,8 +12327,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (33-37) To (81-91)",
-				"varies": false
+				"requirement": {
+					"low": "33",
+					"high": "91",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 94",
@@ -12274,8 +12394,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (40-44) To (132-146)",
-				"varies": false
+				"requirement": {
+					"low": "40",
+					"high": "146",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 121",
@@ -12537,8 +12662,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (50-57) To (196-224)",
-				"varies": false
+				"requirement": {
+					"low": "50",
+					"high": "224",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 115",
@@ -12616,8 +12746,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (123-149) To (234-285)",
-				"varies": false
+				"requirement": {
+					"low": "123",
+					"high": "285",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 125",
@@ -12687,8 +12822,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (90-107) To (159-188)",
-				"varies": false
+				"requirement": {
+					"low": "90",
+					"high": "188",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 125",
@@ -12745,8 +12885,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (105-122) To (211-244)",
-				"varies": false
+				"requirement": {
+					"low": "105",
+					"high": "244",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 145",
@@ -12804,8 +12949,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (102-120) To (163-192)",
-				"varies": false
+				"requirement": {
+					"low": "102",
+					"high": "192",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 133",
@@ -12871,8 +13021,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (79-91) To (234-269)",
-				"varies": false
+				"requirement": {
+					"low": "79",
+					"high": "269",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 138",
@@ -12934,8 +13089,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (232-260) To (412-462)",
-				"varies": false
+				"requirement": {
+					"low": "232",
+					"high": "462",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 156",
@@ -13139,8 +13299,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (204-234) To (421-483)",
-				"varies": false
+				"requirement": {
+					"low": "204",
+					"high": "483",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 164",
@@ -13246,8 +13411,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (3-4) To (11-12)",
-				"varies": false
+				"requirement": {
+					"low": "3",
+					"high": "12",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Dexterity: 28",
@@ -13296,8 +13466,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (4-5) To (16-17)",
-				"varies": false
+				"requirement": {
+					"low": "4",
+					"high": "17",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 22",
@@ -13350,8 +13525,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (5-6) To (11-12)",
-				"varies": false
+				"requirement": {
+					"low": "5",
+					"high": "12",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -13408,8 +13588,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (8-9) To (18-20)",
-				"varies": false
+				"requirement": {
+					"low": "8",
+					"high": "20",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 30",
@@ -13542,8 +13727,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (10-11) To (23-26)",
-				"varies": false
+				"requirement": {
+					"low": "10",
+					"high": "26",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 35",
@@ -13614,8 +13804,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (5-6) To (39-52)",
-				"varies": false
+				"requirement": {
+					"low": "5",
+					"high": "52",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 50",
@@ -13668,8 +13863,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (15-18) To (47-57)",
-				"varies": false
+				"requirement": {
+					"low": "15",
+					"high": "57",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -13730,8 +13930,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (22-25) To (61-70)",
-				"varies": false
+				"requirement": {
+					"low": "22",
+					"high": "70",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -13793,8 +13998,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (25-28) To (72-81)",
-				"varies": false
+				"requirement": {
+					"low": "25",
+					"high": "81",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 53",
@@ -13851,8 +14061,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (30-35) To (72-83)",
-				"varies": false
+				"requirement": {
+					"low": "30",
+					"high": "83",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 58",
@@ -13914,8 +14129,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (32-35) To (75-81)",
-				"varies": false
+				"requirement": {
+					"low": "32",
+					"high": "81",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 65",
@@ -13972,8 +14192,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (34-43) To (141-168)",
-				"varies": false
+				"requirement": {
+					"low": "34",
+					"high": "168",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 80",
@@ -14042,8 +14267,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (55-60) To (127-137)",
-				"varies": false
+				"requirement": {
+					"low": "55",
+					"high": "137",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 73",
@@ -14122,8 +14352,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (30-35) To (150-175)",
-				"varies": false
+				"requirement": {
+					"low": "30",
+					"high": "175",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 95",
@@ -14252,8 +14487,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (50-60) To (132-159)",
-				"varies": false
+				"requirement": {
+					"low": "50",
+					"high": "159",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 72",
@@ -14483,8 +14723,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (23-25) To (44-46)",
-				"varies": false
+				"requirement": {
+					"low": "23",
+					"high": "46",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 60",
@@ -14545,8 +14790,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (9-12) To (19-24)",
-				"varies": false
+				"requirement": {
+					"low": "9",
+					"high": "24",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 40",
@@ -14599,8 +14849,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (37-42) To (82-111)",
-				"varies": false
+				"requirement": {
+					"low": "37",
+					"high": "111",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 52",
@@ -14671,8 +14926,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (50-64) To (105-134)",
-				"varies": false
+				"requirement": {
+					"low": "50",
+					"high": "134",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 32",
@@ -14737,8 +14997,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (82-99) To (139-412)",
-				"varies": false
+				"requirement": {
+					"low": "82",
+					"high": "412",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 110",
@@ -14865,8 +15130,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (89-105) To (254-300)",
-				"varies": false
+				"requirement": {
+					"low": "89",
+					"high": "300",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 163",
@@ -14936,8 +15206,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (67-83) To (104-128)",
-				"varies": false
+				"requirement": {
+					"low": "67",
+					"high": "128",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 141",
@@ -15188,8 +15463,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (33-35) To (81-88)",
-				"varies": false
+				"requirement": {
+					"low": "33",
+					"high": "88",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength:  25",
@@ -15254,8 +15534,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (44-49) To (110-123)",
-				"varies": false
+				"requirement": {
+					"low": "44",
+					"high": "123",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -15491,8 +15776,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (45-60) To (174-228)",
-				"varies": false
+				"requirement": {
+					"low": "45",
+					"high": "228",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength:  42",
@@ -15557,8 +15847,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (133-156) To (203-238)",
-				"varies": false
+				"requirement": {
+					"low": "133",
+					"high": "238",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength:  55",
@@ -15624,12 +15919,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (104-124) To (161-192)",
-				"varies": false
+				"requirement": {
+					"low": "104",
+					"high": "192",
+					"text": "Throw Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "One-Hand Damage: (85-102) To (163-195)",
-				"varies": false
+				"requirement": {
+					"low": "85",
+					"high": "195",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 127",
@@ -15695,12 +16000,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (112-130) To (317-368)",
-				"varies": false
+				"requirement": {
+					"low": "112",
+					"high": "368",
+					"text": "Throw Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "One-Hand Damage: (70-81) To (225-261)",
-				"varies": false
+				"requirement": {
+					"low": "70",
+					"high": "261",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 79",
@@ -15762,12 +16077,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage:  (30-36) To (215-254)",
-				"varies": false
+				"requirement": {
+					"low": "30",
+					"high": "254",
+					"text": "Throw Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "One-Hand Damage:  (75-89) To (98-115)",
-				"varies": false
+				"requirement": {
+					"low": "75",
+					"high": "115",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 76",
@@ -16122,8 +16447,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (38-47) To (58-72)",
-				"varies": false
+				"requirement": {
+					"low": "38",
+					"high": "72",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 53",
@@ -16181,8 +16511,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (90-120) To (129-172)",
-				"varies": false
+				"requirement": {
+					"low": "90",
+					"high": "172",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 69",
@@ -16235,8 +16570,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (95-133) To (145-203)",
-				"varies": false
+				"requirement": {
+					"low": "95",
+					"high": "203",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 50",
@@ -16351,8 +16691,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (64-74) To (107-125)",
-				"varies": false
+				"requirement": {
+					"low": "64",
+					"high": "125",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 30",
@@ -16421,8 +16766,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (42-47) To (67-74)",
-				"varies": false
+				"requirement": {
+					"low": "42",
+					"high": "74",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 61",
@@ -16483,8 +16833,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (54-60) To (83-92)",
-				"varies": false
+				"requirement": {
+					"low": "54",
+					"high": "92",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 74",
@@ -16554,8 +16909,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (33-39) To (91-105)",
-				"varies": false
+				"requirement": {
+					"low": "33",
+					"high": "105",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 82",
@@ -16681,8 +17041,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (148-169) To (218-249)",
-				"varies": false
+				"requirement": {
+					"low": "148",
+					"high": "249",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 124",
@@ -16743,8 +17108,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (152-170) To (257-287)",
-				"varies": false
+				"requirement": {
+					"low": "152",
+					"high": "287",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 169",
@@ -16805,8 +17175,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (129-150) To (159-184)",
-				"varies": false
+				"requirement": {
+					"low": "129",
+					"high": "184",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 88",
@@ -16890,8 +17265,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (89-105) To (162-191)",
-				"varies": false
+				"requirement": {
+					"low": "89",
+					"high": "191",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 133",
@@ -17035,8 +17415,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (9-11) To (264-304)",
-				"varies": false
+				"requirement": {
+					"low": "9",
+					"high": "304",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 100",
@@ -17097,8 +17482,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (10-12) To (272-320)",
-				"varies": false
+				"requirement": {
+					"low": "10",
+					"high": "320",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 125",
@@ -17176,8 +17566,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (190-210) To (231-256)",
-				"varies": false
+				"requirement": {
+					"low": "190",
+					"high": "256",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 189",
@@ -17248,8 +17643,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (100-114) To (124-338)",
-				"varies": false
+				"requirement": {
+					"low": "100",
+					"high": "338",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 189",
@@ -17322,8 +17722,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (215-254) To (296-349)",
-				"varies": false
+				"requirement": {
+					"low": "215",
+					"high": "349",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 225",
@@ -17376,8 +17781,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (115-132) To (630-720)",
-				"varies": false
+				"requirement": {
+					"low": "115",
+					"high": "720",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 253",
@@ -17442,8 +17852,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (119-132) To (560-632)",
-				"varies": false
+				"requirement": {
+					"low": "119",
+					"high": "632",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 253",
@@ -17557,8 +17972,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage:  (9-10) To (33-37)",
-				"varies": false
+				"requirement": {
+					"low": "9",
+					"high": "37",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 50",
@@ -17616,8 +18036,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (12-15) To (30-38)",
-				"varies": false
+				"requirement": {
+					"low": "12",
+					"high": "38",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 41",
@@ -17678,8 +18103,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (27-30) To (58-66)",
-				"varies": false
+				"requirement": {
+					"low": "27",
+					"high": "66",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 62",
@@ -17737,8 +18167,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (14-16) To (54-62)",
-				"varies": false
+				"requirement": {
+					"low": "14",
+					"high": "62",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 75",
@@ -17860,8 +18295,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (15-18) To (145-174)",
-				"varies": false
+				"requirement": {
+					"low": "15",
+					"high": "174",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 80",
@@ -17918,8 +18358,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (28-33) To (107-250)",
-				"varies": false
+				"requirement": {
+					"low": "28",
+					"high": "250",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 72",
@@ -17976,8 +18421,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (45-50) To (113-224)",
-				"varies": false
+				"requirement": {
+					"low": "45",
+					"high": "224",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 82",
@@ -18043,8 +18493,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (100-120) To (215-260)",
-				"varies": false
+				"requirement": {
+					"low": "100",
+					"high": "260",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 113",
@@ -18114,8 +18569,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (53-59) To (253-287)",
-				"varies": false
+				"requirement": {
+					"low": "53",
+					"high": "287",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 133",
@@ -18181,8 +18641,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (72-84) To (168-196)",
-				"varies": false
+				"requirement": {
+					"low": "72",
+					"high": "196",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 70",
@@ -18260,8 +18725,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (103-117) To (536-609)",
-				"varies": false
+				"requirement": {
+					"low": "103",
+					"high": "609",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 195",
@@ -18322,8 +18792,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (34-40) To (408-479)",
-				"varies": false
+				"requirement": {
+					"low": "34",
+					"high": "479",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 114",
@@ -18393,8 +18868,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (99-125) To (450-570)",
-				"varies": false
+				"requirement": {
+					"low": "99",
+					"high": "570",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 165",
@@ -18501,8 +18981,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (100-140) To (285-399)",
-				"varies": false
+				"requirement": {
+					"low": "100",
+					"high": "399",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 188",
@@ -18709,8 +19194,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (18-22) To (30-37)",
-				"varies": false
+				"requirement": {
+					"low": "18",
+					"high": "37",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 55",
@@ -18780,8 +19270,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (36-41) To (67-76)",
-				"varies": false
+				"requirement": {
+					"low": "36",
+					"high": "76",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 58",
@@ -18854,8 +19349,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (51-55) To (118-129)",
-				"varies": false
+				"requirement": {
+					"low": "51",
+					"high": "129",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 76",
@@ -18925,8 +19425,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (56-61) To (132-143)",
-				"varies": false
+				"requirement": {
+					"low": "56",
+					"high": "143",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 103",
@@ -19003,8 +19508,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (140-160) To (182-208)",
-				"varies": false
+				"requirement": {
+					"low": "140",
+					"high": "208",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 125",
@@ -19092,8 +19602,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (140-160) To (182-208)",
-				"varies": false
+				"requirement": {
+					"low": "140",
+					"high": "208",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 50",
@@ -19190,8 +19705,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (125-144) To (146-167)",
-				"varies": false
+				"requirement": {
+					"low": "125",
+					"high": "167",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 97",
@@ -19337,8 +19857,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (11-13) To (19-22)",
-				"varies": false
+				"requirement": {
+					"low": "11",
+					"high": "22",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 38",
@@ -19399,8 +19924,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (10-11) To (25-28)",
-				"varies": false
+				"requirement": {
+					"low": "10",
+					"high": "28",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 40",
@@ -19511,8 +20041,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (25-28) To (113-126)",
-				"varies": false
+				"requirement": {
+					"low": "25",
+					"high": "126",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 60",
@@ -19577,8 +20112,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (24-27) To (88-99)",
-				"varies": false
+				"requirement": {
+					"low": "24",
+					"high": "99",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -19647,8 +20187,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (75-83) To (138-153)",
-				"varies": false
+				"requirement": {
+					"low": "75",
+					"high": "153",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 77",
@@ -19709,8 +20254,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (40-46) To (100-116)",
-				"varies": false
+				"requirement": {
+					"low": "40",
+					"high": "116",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 64",
@@ -19776,8 +20326,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (95-107) To (193-217)",
-				"varies": false
+				"requirement": {
+					"low": "95",
+					"high": "217",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 101",
@@ -19830,8 +20385,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (87-101) To (325-382)",
-				"varies": false
+				"requirement": {
+					"low": "87",
+					"high": "382",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 110",
@@ -19904,8 +20464,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (98-115) To (333-392)",
-				"varies": false
+				"requirement": {
+					"low": "98",
+					"high": "392",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 155",
@@ -19971,8 +20536,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (121-142) To (266-312)",
-				"varies": false
+				"requirement": {
+					"low": "121",
+					"high": "312",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 132",
@@ -20043,8 +20613,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (102-118) To (551-640)",
-				"varies": false
+				"requirement": {
+					"low": "102",
+					"high": "640",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 165",
@@ -20470,8 +21045,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (54-62) To (143-169)",
-				"varies": false
+				"requirement": {
+					"low": "54",
+					"high": "169",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -21042,8 +21622,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (14-18) To (27-34)",
-				"varies": false
+				"requirement": {
+					"low": "14",
+					"high": "34",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 33",
@@ -21100,8 +21685,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (12-15) To (25-30)",
-				"varies": false
+				"requirement": {
+					"low": "12",
+					"high": "30",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 48",
@@ -21232,8 +21822,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (13-14) To (34-36)",
-				"varies": false
+				"requirement": {
+					"low": "13",
+					"high": "36",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 71",
@@ -21355,12 +21950,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (8-10) To (20-24)",
-				"varies": false
+				"requirement": {
+					"low": "8",
+					"high": "24",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (22-26) To (51-60)",
-				"varies": false
+				"requirement": {
+					"low": "22",
+					"high": "60",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 47",
@@ -21418,12 +22023,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (5-6) To (28-32)",
-				"varies": false
+				"requirement": {
+					"low": "5",
+					"high": "32",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (16-18) To (50-56)",
-				"varies": false
+				"requirement": {
+					"low": "16",
+					"high": "56",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 56",
@@ -21490,12 +22105,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (10-11) To (28-30)",
-				"varies": false
+				"requirement": {
+					"low": "10",
+					"high": "30",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (30-32) To (42-44)",
-				"varies": false
+				"requirement": {
+					"low": "30",
+					"high": "44",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 62",
@@ -21548,12 +22173,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (16-18) To (42-45)",
-				"varies": false
+				"requirement": {
+					"low": "16",
+					"high": "45",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (23-26) To (61-67)",
-				"varies": false
+				"requirement": {
+					"low": "23",
+					"high": "67",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 70",
@@ -21606,12 +22241,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (24-26) To (40-44)",
-				"varies": false
+				"requirement": {
+					"low": "24",
+					"high": "44",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (50-55) To (84-92)",
-				"varies": false
+				"requirement": {
+					"low": "50",
+					"high": "92",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 100",
@@ -21743,8 +22388,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (24-28) To (63-73)",
-				"varies": false
+				"requirement": {
+					"low": "24",
+					"high": "73",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -21805,8 +22455,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (59-61) To (97-102)",
-				"varies": false
+				"requirement": {
+					"low": "59",
+					"high": "102",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 58",
@@ -21871,8 +22526,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (25-35) To (56-77)",
-				"varies": false
+				"requirement": {
+					"low": "25",
+					"high": "77",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 70",
@@ -21938,8 +22598,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage:  (26-32) To (70-87)",
-				"varies": false
+				"requirement": {
+					"low": "26",
+					"high": "87",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 85",
@@ -22111,8 +22776,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (54-63) To (129-150)",
-				"varies": false
+				"requirement": {
+					"low": "54",
+					"high": "150",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 127",
@@ -22177,12 +22847,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (20-24) To (67-78)",
-				"varies": false
+				"requirement": {
+					"low": "20",
+					"high": "78",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (46-54) To (104-120)",
-				"varies": false
+				"requirement": {
+					"low": "46",
+					"high": "120",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 73",
@@ -22243,12 +22923,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (29-33) To (69-78)",
-				"varies": false
+				"requirement": {
+					"low": "29",
+					"high": "78",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (59-67) To (140-158)",
-				"varies": false
+				"requirement": {
+					"low": "59",
+					"high": "158",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 64",
@@ -22309,12 +22999,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (25-30) To (92-111)",
-				"varies": false
+				"requirement": {
+					"low": "25",
+					"high": "111",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (47-57) To (145-174)",
-				"varies": false
+				"requirement": {
+					"low": "47",
+					"high": "174",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 104",
@@ -22363,12 +23063,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (35-42) To (100-120)",
-				"varies": false
+				"requirement": {
+					"low": "35",
+					"high": "120",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (97-117) To (150-180)",
-				"varies": false
+				"requirement": {
+					"low": "97",
+					"high": "180",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 113",
@@ -22441,12 +23151,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (41-49) To (77-91)",
-				"varies": false
+				"requirement": {
+					"low": "41",
+					"high": "91",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (63-75) To (118-140)",
-				"varies": false
+				"requirement": {
+					"low": "63",
+					"high": "140",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Durability: 50",
@@ -22511,12 +23231,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (64-67) To (108-112)",
-				"varies": false
+				"requirement": {
+					"low": "64",
+					"high": "112",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (126-131) To (216-224)",
-				"varies": false
+				"requirement": {
+					"low": "126",
+					"high": "224",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 85",
@@ -22594,8 +23324,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (75-88) To (133-156)",
-				"varies": false
+				"requirement": {
+					"low": "75",
+					"high": "156",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 138",
@@ -22685,8 +23420,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (102-118) To (139-162)",
-				"varies": false
+				"requirement": {
+					"low": "102",
+					"high": "162",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 109",
@@ -22753,8 +23493,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (87-103) To (117-135)",
-				"varies": false
+				"requirement": {
+					"low": "87",
+					"high": "135",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -22837,8 +23582,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (102-114) To (115-129)",
-				"varies": false
+				"requirement": {
+					"low": "102",
+					"high": "129",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 25",
@@ -22913,8 +23663,13 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (14-16) To (215-254)",
-				"varies": false
+				"requirement": {
+					"low": "14",
+					"high": "254",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 99",
@@ -22985,12 +23740,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (40-51) To (202-255)",
-				"varies": false
+				"requirement": {
+					"low": "40",
+					"high": "255",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (148-187) To (318-401)",
-				"varies": false
+				"requirement": {
+					"low": "148",
+					"high": "401",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 185",
@@ -23075,12 +23840,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (97-114) To (251-289)",
-				"varies": false
+				"requirement": {
+					"low": "97",
+					"high": "289",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (228-278) To (332-390)",
-				"varies": false
+				"requirement": {
+					"low": "228",
+					"high": "390",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 163",
@@ -23146,12 +23921,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (62-87) To (164-474)",
-				"varies": false
+				"requirement": {
+					"low": "62",
+					"high": "474",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "Two-Hand Damage: (145-203) To (289-649)",
-				"varies": false
+				"requirement": {
+					"low": "145",
+					"high": "649",
+					"text": "Two-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 189",
@@ -23208,12 +23993,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (25-30) To (55-67)",
-				"varies": false
+				"requirement": {
+					"low": "25",
+					"high": "67",
+					"text": "Throw Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "One-Hand Damage: (18-22) To (36-44)",
-				"varies": false
+				"requirement": {
+					"low": "18",
+					"high": "44",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength:  25",
@@ -23289,12 +24084,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (45-54) To (82-99)",
-				"varies": false
+				"requirement": {
+					"low": "45",
+					"high": "99",
+					"text": "Throw Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "One-Hand Damage: (27-33) To (55-66)",
-				"varies": false
+				"requirement": {
+					"low": "27",
+					"high": "66",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength:  25",
@@ -23364,12 +24169,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (69-80) To (117-136)",
-				"varies": false
+				"requirement": {
+					"low": "69",
+					"high": "136",
+					"text": "Throw Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "One-Hand Damage: (81-94) To (105-122)",
-				"varies": false
+				"requirement": {
+					"low": "81",
+					"high": "122",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 45",
@@ -23430,12 +24245,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (39-46) To (171-204)",
-				"varies": false
+				"requirement": {
+					"low": "39",
+					"high": "204",
+					"text": "Throw Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "One-Hand Damage: (44-52) To (169-201)",
-				"varies": false
+				"requirement": {
+					"low": "44",
+					"high": "201",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 88",
@@ -23496,12 +24321,22 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (17-21) To (150-186)",
-				"varies": false
+				"requirement": {
+					"low": "17",
+					"high": "186",
+					"text": "Throw Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
-				"requirement": "One-Hand Damage: (27-34) To (140-173)",
-				"varies": false
+				"requirement": {
+					"low": "27",
+					"high": "173",
+					"text": "One-Hand Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 96",
@@ -27903,8 +28738,13 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "Damage: (111-125) To (129-186)",
-				"varies": false
+				"requirement": {
+					"low": "111",
+					"high": "186",
+					"text": "Damage: {0} To {1}"
+				},
+				"varies": true,
+				"customValue": 0
 			},
 			{
 				"requirement": "Required Strength: 78",

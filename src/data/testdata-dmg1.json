@@ -427,16 +427,15 @@
 					{
 						"low": "1",
 						"high": "2",
-						"text": "Adds ({0}) to ({0}) Cold Damage"
+						"text": "Adds ({0}) to ({1}) Cold Damage"
 					},
 					{
 						"low": "3",
 						"high": "5",
-						"text": "Adds ({0}) to ({0}) Cold Damage"
+						"text": "Adds ({0}) to ({1}) Cold Damage"
 					}
 				],
-				"varies": true,
-				"customValue": 0
+				"varies": false
 			},
 			{
 				"detail": {
@@ -1406,7 +1405,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (214-247) To (316-361)",
+				"requirement": "Two-Hand Damage: 214-361",
 				"varies": false
 			},
 			{
@@ -1479,7 +1478,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (130-151) To (305-353)",
+				"requirement": "Two-Hand Damage: 130-353",
 				"varies": false
 			},
 			{
@@ -1558,7 +1557,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (72-82) To (152-173)",
+				"requirement": "Two-Hand Damage: 72-173",
 				"varies": false
 			},
 			{
@@ -1633,11 +1632,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (70-79) To (185-212)",
+				"requirement": "Throw Damage: 70-212",
 				"varies": false
 			},
 			{
-				"requirement": "One-Hand Damage: (70-79) To (137-155)",
+				"requirement": "One-Hand Damage: 70-155",
 				"varies": false
 			},
 			{
@@ -1720,11 +1719,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (87-105) To (165-198)",
+				"requirement": "Throw Damage: 87-198",
 				"varies": false
 			},
 			{
-				"requirement": "One-Hand Damage: (75-90) To (135-162)",
+				"requirement": "One-Hand Damage: 75-162",
 				"varies": false
 			},
 			{
@@ -1795,7 +1794,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (56-66) To (131-155)",
+				"requirement": "Two-Hand Damage: 56-155",
 				"varies": false
 			},
 			{
@@ -1859,7 +1858,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Damage: (145-172) To (170-201)",
+				"requirement": "Damage: 145-201",
 				"varies": false
 			},
 			{
@@ -1926,7 +1925,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Damage: (77-88) To (137-155)",
+				"requirement": "Damage: 77-155",
 				"varies": false
 			},
 			{
@@ -2005,7 +2004,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Damage: (98-115) To (130-153)",
+				"requirement": "Damage: 98-153",
 				"varies": false
 			},
 			{
@@ -2087,7 +2086,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Damage: (66-81) To (159-196)",
+				"requirement": "Damage: 66-196",
 				"varies": false
 			},
 			{
@@ -2751,7 +2750,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 18 To 42",
+				"requirement": "One-Hand Damage: 18-42",
 				"varies": false
 			},
 			{
@@ -2812,7 +2811,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 18 To 50",
+				"requirement": "One-Hand Damage: 18-50",
 				"varies": false
 			},
 			{
@@ -2877,7 +2876,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 30 To 53",
+				"requirement": "One-Hand Damage: 30-53",
 				"varies": false
 			},
 			{
@@ -3261,7 +3260,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Smite Damage: 35 To 58",
+				"requirement": "Smite Damage: 35-58",
 				"varies": false
 			},
 			{
@@ -3356,7 +3355,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Smite Damage: 20 To 28",
+				"requirement": "Smite Damage: 20-28",
 				"varies": false
 			}
 		],
@@ -3435,7 +3434,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Smite Damage: 46 To 46",
+				"requirement": "Smite Damage: 46-46",
 				"varies": false
 			}
 		],
@@ -7266,7 +7265,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 1 To 3",
+				"requirement": "Paladin Smite Damage: 1-3",
 				"varies": false
 			}
 		],
@@ -7342,7 +7341,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 2 To 3",
+				"requirement": "Paladin Smite Damage: 2-3",
 				"varies": false
 			}
 		],
@@ -7427,7 +7426,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 2 To 4",
+				"requirement": "Paladin Smite Damage: 2-4",
 				"varies": false
 			}
 		],
@@ -7503,7 +7502,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 2 To 5",
+				"requirement": "Paladin Smite Damage: 2-5",
 				"varies": false
 			}
 		],
@@ -7578,7 +7577,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 5 To 9",
+				"requirement": "Paladin Smite Damage: 5-9",
 				"varies": false
 			}
 		],
@@ -7646,7 +7645,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 1 To 5",
+				"requirement": "Paladin Smite Damage: 1-5",
 				"varies": false
 			}
 		],
@@ -7713,7 +7712,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 3 To 6",
+				"requirement": "Paladin Smite Damage: 3-6",
 				"varies": false
 			}
 		],
@@ -7775,7 +7774,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 2 To 6",
+				"requirement": "Paladin Smite Damage: 2-6",
 				"varies": false
 			}
 		],
@@ -7842,7 +7841,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 8 To 12",
+				"requirement": "Paladin Smite Damage: 8-12",
 				"varies": false
 			}
 		],
@@ -7905,7 +7904,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 7 To 14",
+				"requirement": "Paladin Smite Damage: 7-14",
 				"varies": false
 			}
 		],
@@ -7968,7 +7967,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 11 To 15",
+				"requirement": "Paladin Smite Damage: 11-15",
 				"varies": false
 			}
 		],
@@ -8047,7 +8046,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 15 To 24",
+				"requirement": "Paladin Smite Damage: 15-24",
 				"varies": false
 			}
 		],
@@ -8127,7 +8126,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 18 To 35",
+				"requirement": "Paladin Smite Damage: 18-35",
 				"varies": false
 			}
 		],
@@ -8194,7 +8193,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 10 To 17",
+				"requirement": "Paladin Smite Damage: 10-17",
 				"varies": false
 			}
 		],
@@ -8276,7 +8275,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 14 To 20",
+				"requirement": "Paladin Smite Damage: 14-20",
 				"varies": false
 			}
 		],
@@ -8352,7 +8351,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 12 To 16",
+				"requirement": "Paladin Smite Damage: 12-16",
 				"varies": false
 			}
 		],
@@ -8419,7 +8418,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 17 To 29",
+				"requirement": "Paladin Smite Damage: 17-29",
 				"varies": false
 			},
 			{
@@ -8497,7 +8496,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 12 To 34",
+				"requirement": "Paladin Smite Damage: 12-34",
 				"varies": false
 			}
 		],
@@ -8571,7 +8570,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 26 To 40",
+				"requirement": "Paladin Smite Damage: 26-40",
 				"varies": false
 			}
 		],
@@ -8639,7 +8638,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 18 To 28",
+				"requirement": "Paladin Smite Damage: 18-28",
 				"varies": false
 			}
 		],
@@ -8716,7 +8715,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 24 To 38",
+				"requirement": "Paladin Smite Damage: 24-38",
 				"varies": false
 			}
 		],
@@ -8804,7 +8803,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 11 To 35",
+				"requirement": "Paladin Smite Damage: 11-35",
 				"varies": false
 			}
 		],
@@ -11445,7 +11444,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (4-5) To (9-10)",
+				"requirement": "One-Hand Damage: 4-10",
 				"varies": false
 			},
 			{
@@ -11545,7 +11544,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (6-7) To (16-19)",
+				"requirement": "One-Hand Damage: 6-19",
 				"varies": false
 			},
 			{
@@ -11603,7 +11602,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (11-14) To (17-22)",
+				"requirement": "One-Hand Damage: 11-22",
 				"varies": false
 			},
 			{
@@ -11675,7 +11674,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (17-25) To (31-45)",
+				"requirement": "One-Hand Damage: 17-45",
 				"varies": false
 			},
 			{
@@ -11729,7 +11728,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (10-11) To (22-24)",
+				"requirement": "Two-Hand Damage: 10-24",
 				"varies": false
 			},
 			{
@@ -11779,7 +11778,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (14-15) To (34-36)",
+				"requirement": "Two-Hand Damage: 14-36",
 				"varies": false
 			},
 			{
@@ -11833,7 +11832,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 24 To 64",
+				"requirement": "Two-Hand Damage: 24-64",
 				"varies": false
 			},
 			{
@@ -11887,7 +11886,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (27-30) To (45-54)",
+				"requirement": "Two-Hand Damage: 27-54",
 				"varies": false
 			},
 			{
@@ -11954,7 +11953,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (47-56) To (96-124)",
+				"requirement": "Two-Hand Damage: 47-124",
 				"varies": false
 			},
 			{
@@ -12018,7 +12017,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (25-29) To (52-60)",
+				"requirement": "One-Hand Damage: 25-60",
 				"varies": false
 			},
 			{
@@ -12088,7 +12087,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (55-60) To (132-149)",
+				"requirement": "One-Hand Damage: 55-149",
 				"varies": false
 			},
 			{
@@ -12146,7 +12145,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (35-37) To (102-110)",
+				"requirement": "One-Hand Damage: 35-110",
 				"varies": false
 			},
 			{
@@ -12212,7 +12211,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (33-37) To (81-91)",
+				"requirement": "One-Hand Damage: 33-91",
 				"varies": false
 			},
 			{
@@ -12274,7 +12273,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (40-44) To (132-146)",
+				"requirement": "One-Hand Damage: 40-146",
 				"varies": false
 			},
 			{
@@ -12336,7 +12335,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 38 To 93",
+				"requirement": "Two-Hand Damage: 38-93",
 				"varies": false
 			},
 			{
@@ -12393,7 +12392,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 55 To 129",
+				"requirement": "Two-Hand Damage: 55-129",
 				"varies": false
 			},
 			{
@@ -12471,7 +12470,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 83 To 229",
+				"requirement": "Two-Hand Damage: 83-229",
 				"varies": false
 			},
 			{
@@ -12537,7 +12536,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (50-57) To (196-224)",
+				"requirement": "Two-Hand Damage: 50-224",
 				"varies": false
 			},
 			{
@@ -12616,7 +12615,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (123-149) To (234-285)",
+				"requirement": "Two-Hand Damage: 123-285",
 				"varies": false
 			},
 			{
@@ -12687,7 +12686,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (90-107) To (159-188)",
+				"requirement": "One-Hand Damage: 90-188",
 				"varies": false
 			},
 			{
@@ -12745,7 +12744,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (105-122) To (211-244)",
+				"requirement": "One-Hand Damage: 105-244",
 				"varies": false
 			},
 			{
@@ -12804,7 +12803,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (102-120) To (163-192)",
+				"requirement": "One-Hand Damage: 102-192",
 				"varies": false
 			},
 			{
@@ -12871,7 +12870,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (79-91) To (234-269)",
+				"requirement": "One-Hand Damage: 79-269",
 				"varies": false
 			},
 			{
@@ -12934,7 +12933,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (232-260) To (412-462)",
+				"requirement": "Two-Hand Damage: 232-462",
 				"varies": false
 			},
 			{
@@ -13139,7 +13138,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (204-234) To (421-483)",
+				"requirement": "Two-Hand Damage: 204-483",
 				"varies": false
 			},
 			{
@@ -13197,7 +13196,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 2 To 8",
+				"requirement": "Two-Hand Damage: 2-8",
 				"varies": false
 			},
 			{
@@ -13246,7 +13245,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (3-4) To (11-12)",
+				"requirement": "Two-Hand Damage: 3-12",
 				"varies": false
 			},
 			{
@@ -13296,7 +13295,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (4-5) To (16-17)",
+				"requirement": "Two-Hand Damage: 4-17",
 				"varies": false
 			},
 			{
@@ -13350,7 +13349,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (5-6) To (11-12)",
+				"requirement": "Two-Hand Damage: 5-12",
 				"varies": false
 			},
 			{
@@ -13408,7 +13407,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (8-9) To (18-20)",
+				"requirement": "Two-Hand Damage: 8-20",
 				"varies": false
 			},
 			{
@@ -13542,7 +13541,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (10-11) To (23-26)",
+				"requirement": "Two-Hand Damage: 10-26",
 				"varies": false
 			},
 			{
@@ -13614,7 +13613,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (5-6) To (39-52)",
+				"requirement": "Two-Hand Damage: 5-52",
 				"varies": false
 			},
 			{
@@ -13668,7 +13667,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (15-18) To (47-57)",
+				"requirement": "Two-Hand Damage: 15-57",
 				"varies": false
 			},
 			{
@@ -13730,7 +13729,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (22-25) To (61-70)",
+				"requirement": "Two-Hand Damage: 22-70",
 				"varies": false
 			},
 			{
@@ -13793,7 +13792,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (25-28) To (72-81)",
+				"requirement": "Two-Hand Damage: 25-81",
 				"varies": false
 			},
 			{
@@ -13851,7 +13850,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (30-35) To (72-83)",
+				"requirement": "Two-Hand Damage: 30-83",
 				"varies": false
 			},
 			{
@@ -13914,7 +13913,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (32-35) To (75-81)",
+				"requirement": "Two-Hand Damage: 32-81",
 				"varies": false
 			},
 			{
@@ -13972,7 +13971,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (34-43) To (141-168)",
+				"requirement": "Two-Hand Damage: 34-168",
 				"varies": false
 			},
 			{
@@ -14003,12 +14002,12 @@
 					{
 						"low": "5",
 						"high": "10",
-						"text": "Adds ({0})-({0}) Damage"
+						"text": "Adds ({0})-({1}) Damage"
 					},
 					{
 						"low": "20",
 						"high": "30",
-						"text": "Adds ({0})-({0}) Damage"
+						"text": "Adds ({0})-({1}) Damage"
 					}
 				],
 				"varies": true,
@@ -14042,7 +14041,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (55-60) To (127-137)",
+				"requirement": "Two-Hand Damage: 55-137",
 				"varies": false
 			},
 			{
@@ -14122,7 +14121,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (30-35) To (150-175)",
+				"requirement": "Two-Hand Damage: 30-175",
 				"varies": false
 			},
 			{
@@ -14252,7 +14251,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (50-60) To (132-159)",
+				"requirement": "Two-Hand Damage: 50-159",
 				"varies": false
 			},
 			{
@@ -14377,7 +14376,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 10 To 15",
+				"requirement": "Two-Hand Damage: 10-15",
 				"varies": false
 			},
 			{
@@ -14430,7 +14429,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 13 To 24",
+				"requirement": "Two-Hand Damage: 13-24",
 				"varies": false
 			},
 			{
@@ -14483,7 +14482,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (23-25) To (44-46)",
+				"requirement": "Two-Hand Damage: 23-46",
 				"varies": false
 			},
 			{
@@ -14545,7 +14544,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (9-12) To (19-24)",
+				"requirement": "Two-Hand Damage: 9-24",
 				"varies": false
 			},
 			{
@@ -14599,7 +14598,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (37-42) To (82-111)",
+				"requirement": "Two-Hand Damage: 37-111",
 				"varies": false
 			},
 			{
@@ -14671,7 +14670,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (50-64) To (105-134)",
+				"requirement": "Two-Hand Damage: 50-134",
 				"varies": false
 			},
 			{
@@ -14737,7 +14736,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (82-99) To (139-412)",
+				"requirement": "Two-Hand Damage: 82-412",
 				"varies": false
 			},
 			{
@@ -14808,7 +14807,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 31 To 137",
+				"requirement": "Two-Hand Damage: 31-137",
 				"varies": false
 			},
 			{
@@ -14865,7 +14864,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (89-105) To (254-300)",
+				"requirement": "Two-Hand Damage: 89-300",
 				"varies": false
 			},
 			{
@@ -14936,7 +14935,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (67-83) To (104-128)",
+				"requirement": "Two-Hand Damage: 67-128",
 				"varies": false
 			},
 			{
@@ -14995,7 +14994,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 2 To 19",
+				"requirement": "One-Hand Damage: 2-19",
 				"varies": false
 			},
 			{
@@ -15032,7 +15031,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 4 To 13",
+				"requirement": "One-Hand Damage: 4-13",
 				"varies": false
 			},
 			{
@@ -15085,7 +15084,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 2 To 11",
+				"requirement": "One-Hand Damage: 2-11",
 				"varies": false
 			},
 			{
@@ -15139,7 +15138,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 4 To 15",
+				"requirement": "One-Hand Damage: 4-15",
 				"varies": false
 			},
 			{
@@ -15188,7 +15187,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (33-35) To (81-88)",
+				"requirement": "One-Hand Damage: 33-88",
 				"varies": false
 			},
 			{
@@ -15254,7 +15253,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (44-49) To (110-123)",
+				"requirement": "One-Hand Damage: 44-123",
 				"varies": false
 			},
 			{
@@ -15320,7 +15319,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 30 To 76",
+				"requirement": "One-Hand Damage: 30-76",
 				"varies": false
 			},
 			{
@@ -15385,7 +15384,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 47 To 90",
+				"requirement": "One-Hand Damage: 47-90",
 				"varies": false
 			},
 			{
@@ -15438,7 +15437,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 23 To 49",
+				"requirement": "One-Hand Damage: 23-49",
 				"varies": false
 			},
 			{
@@ -15491,7 +15490,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (45-60) To (174-228)",
+				"requirement": "One-Hand Damage: 45-228",
 				"varies": false
 			},
 			{
@@ -15557,7 +15556,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (133-156) To (203-238)",
+				"requirement": "One-Hand Damage: 133-238",
 				"varies": false
 			},
 			{
@@ -15624,11 +15623,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (104-124) To (161-192)",
+				"requirement": "Throw Damage: 104-192",
 				"varies": false
 			},
 			{
-				"requirement": "One-Hand Damage: (85-102) To (163-195)",
+				"requirement": "One-Hand Damage: 85-195",
 				"varies": false
 			},
 			{
@@ -15695,11 +15694,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (112-130) To (317-368)",
+				"requirement": "Throw Damage: 112-368",
 				"varies": false
 			},
 			{
-				"requirement": "One-Hand Damage: (70-81) To (225-261)",
+				"requirement": "One-Hand Damage: 70-261",
 				"varies": false
 			},
 			{
@@ -15762,11 +15761,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage:  (30-36) To (215-254)",
+				"requirement": "Throw Damage: 30-254",
 				"varies": false
 			},
 			{
-				"requirement": "One-Hand Damage:  (75-89) To (98-115)",
+				"requirement": "One-Hand Damage: 75-115",
 				"varies": false
 			},
 			{
@@ -15829,7 +15828,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 1 To 10",
+				"requirement": "One-Hand Damage: 1-10",
 				"varies": false
 			},
 			{
@@ -15883,7 +15882,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 10 To 16",
+				"requirement": "One-Hand Damage: 10-16",
 				"varies": false
 			},
 			{
@@ -15995,7 +15994,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 15 To 35",
+				"requirement": "One-Hand Damage: 15-35",
 				"varies": false
 			},
 			{
@@ -16122,7 +16121,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (38-47) To (58-72)",
+				"requirement": "One-Hand Damage: 38-72",
 				"varies": false
 			},
 			{
@@ -16181,7 +16180,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (90-120) To (129-172)",
+				"requirement": "Two-Hand Damage: 90-172",
 				"varies": false
 			},
 			{
@@ -16235,7 +16234,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (95-133) To (145-203)",
+				"requirement": "Two-Hand Damage: 95-203",
 				"varies": false
 			},
 			{
@@ -16289,7 +16288,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 17 To 61",
+				"requirement": "One-Hand Damage: 17-61",
 				"varies": false
 			},
 			{
@@ -16351,7 +16350,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (64-74) To (107-125)",
+				"requirement": "One-Hand Damage: 64-125",
 				"varies": false
 			},
 			{
@@ -16421,7 +16420,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (42-47) To (67-74)",
+				"requirement": "One-Hand Damage: 42-74",
 				"varies": false
 			},
 			{
@@ -16483,7 +16482,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (54-60) To (83-92)",
+				"requirement": "One-Hand Damage: 54-92",
 				"varies": false
 			},
 			{
@@ -16554,7 +16553,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (33-39) To (91-105)",
+				"requirement": "One-Hand Damage: 33-105",
 				"varies": false
 			},
 			{
@@ -16624,7 +16623,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 98 To 162",
+				"requirement": "One-Hand Damage: 98-162",
 				"varies": false
 			},
 			{
@@ -16681,7 +16680,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (148-169) To (218-249)",
+				"requirement": "Two-Hand Damage: 148-249",
 				"varies": false
 			},
 			{
@@ -16743,7 +16742,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (152-170) To (257-287)",
+				"requirement": "Two-Hand Damage: 152-287",
 				"varies": false
 			},
 			{
@@ -16805,7 +16804,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (129-150) To (159-184)",
+				"requirement": "One-Hand Damage: 129-184",
 				"varies": false
 			},
 			{
@@ -16890,7 +16889,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (89-105) To (162-191)",
+				"requirement": "One-Hand Damage: 89-191",
 				"varies": false
 			},
 			{
@@ -16966,7 +16965,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 129 To 159",
+				"requirement": "One-Hand Damage: 129-159",
 				"varies": false
 			},
 			{
@@ -17035,7 +17034,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (9-11) To (264-304)",
+				"requirement": "One-Hand Damage: 9-304",
 				"varies": false
 			},
 			{
@@ -17097,7 +17096,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (10-12) To (272-320)",
+				"requirement": "One-Hand Damage: 10-320",
 				"varies": false
 			},
 			{
@@ -17176,7 +17175,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (190-210) To (231-256)",
+				"requirement": "One-Hand Damage: 190-256",
 				"varies": false
 			},
 			{
@@ -17248,7 +17247,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (100-114) To (124-338)",
+				"requirement": "One-Hand Damage: 100-338",
 				"varies": false
 			},
 			{
@@ -17322,7 +17321,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (215-254) To (296-349)",
+				"requirement": "Two-Hand Damage: 215-349",
 				"varies": false
 			},
 			{
@@ -17376,7 +17375,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (115-132) To (630-720)",
+				"requirement": "Two-Hand Damage: 115-720",
 				"varies": false
 			},
 			{
@@ -17442,7 +17441,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (119-132) To (560-632)",
+				"requirement": "Two-Hand Damage: 119-632",
 				"varies": false
 			},
 			{
@@ -17512,7 +17511,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 2 To 54",
+				"requirement": "Two-Hand Damage: 2-54",
 				"varies": false
 			},
 			{
@@ -17557,7 +17556,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage:  (9-10) To (33-37)",
+				"requirement": "Two-Hand Damage: 9-37",
 				"varies": false
 			},
 			{
@@ -17616,7 +17615,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (12-15) To (30-38)",
+				"requirement": "Two-Hand Damage: 12-38",
 				"varies": false
 			},
 			{
@@ -17678,7 +17677,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (27-30) To (58-66)",
+				"requirement": "Two-Hand Damage: 27-66",
 				"varies": false
 			},
 			{
@@ -17737,7 +17736,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (14-16) To (54-62)",
+				"requirement": "Two-Hand Damage: 14-62",
 				"varies": false
 			},
 			{
@@ -17807,7 +17806,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 33 To 43",
+				"requirement": "Two-Hand Damage: 33-43",
 				"varies": false
 			},
 			{
@@ -17860,7 +17859,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (15-18) To (145-174)",
+				"requirement": "Two-Hand Damage: 15-174",
 				"varies": false
 			},
 			{
@@ -17918,7 +17917,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (28-33) To (107-250)",
+				"requirement": "Two-Hand Damage: 28-250",
 				"varies": false
 			},
 			{
@@ -17976,7 +17975,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (45-50) To (113-224)",
+				"requirement": "Two-Hand Damage: 45-224",
 				"varies": false
 			},
 			{
@@ -18043,7 +18042,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (100-120) To (215-260)",
+				"requirement": "Two-Hand Damage: 100-260",
 				"varies": false
 			},
 			{
@@ -18114,7 +18113,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (53-59) To (253-287)",
+				"requirement": "Two-Hand Damage: 53-287",
 				"varies": false
 			},
 			{
@@ -18181,7 +18180,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (72-84) To (168-196)",
+				"requirement": "Two-Hand Damage: 72-196",
 				"varies": false
 			},
 			{
@@ -18260,7 +18259,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (103-117) To (536-609)",
+				"requirement": "Two-Hand Damage: 103-609",
 				"varies": false
 			},
 			{
@@ -18322,7 +18321,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (34-40) To (408-479)",
+				"requirement": "Two-Hand Damage: 34-479",
 				"varies": false
 			},
 			{
@@ -18393,7 +18392,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (99-125) To (450-570)",
+				"requirement": "Two-Hand Damage: 99-570",
 				"varies": false
 			},
 			{
@@ -18501,7 +18500,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (100-140) To (285-399)",
+				"requirement": "Two-Hand Damage: 100-399",
 				"varies": false
 			},
 			{
@@ -18709,7 +18708,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (18-22) To (30-37)",
+				"requirement": "One-Hand Damage: 18-37",
 				"varies": false
 			},
 			{
@@ -18780,7 +18779,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (36-41) To (67-76)",
+				"requirement": "One-Hand Damage: 36-76",
 				"varies": false
 			},
 			{
@@ -18854,7 +18853,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (51-55) To (118-129)",
+				"requirement": "One-Hand Damage: 51-129",
 				"varies": false
 			},
 			{
@@ -18925,7 +18924,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (56-61) To (132-143)",
+				"requirement": "One-Hand Damage: 56-143",
 				"varies": false
 			},
 			{
@@ -19003,7 +19002,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (140-160) To (182-208)",
+				"requirement": "One-Hand Damage: 140-208",
 				"varies": false
 			},
 			{
@@ -19092,7 +19091,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (140-160) To (182-208)",
+				"requirement": "One-Hand Damage: 140-208",
 				"varies": false
 			},
 			{
@@ -19190,7 +19189,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (125-144) To (146-167)",
+				"requirement": "One-Hand Damage: 125-167",
 				"varies": false
 			},
 			{
@@ -19288,7 +19287,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 13 To 15",
+				"requirement": "Two-Hand Damage: 13-15",
 				"varies": false
 			},
 			{
@@ -19337,7 +19336,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (11-13) To (19-22)",
+				"requirement": "Two-Hand Damage: 11-22",
 				"varies": false
 			},
 			{
@@ -19399,7 +19398,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (10-11) To (25-28)",
+				"requirement": "Two-Hand Damage: 10-28",
 				"varies": false
 			},
 			{
@@ -19462,7 +19461,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 15 To 23",
+				"requirement": "Two-Hand Damage: 15-23",
 				"varies": false
 			},
 			{
@@ -19511,7 +19510,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (25-28) To (113-126)",
+				"requirement": "Two-Hand Damage: 25-126",
 				"varies": false
 			},
 			{
@@ -19577,7 +19576,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (24-27) To (88-99)",
+				"requirement": "Two-Hand Damage: 24-99",
 				"varies": false
 			},
 			{
@@ -19647,7 +19646,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (75-83) To (138-153)",
+				"requirement": "Two-Hand Damage: 75-153",
 				"varies": false
 			},
 			{
@@ -19709,7 +19708,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (40-46) To (100-116)",
+				"requirement": "Two-Hand Damage: 40-116",
 				"varies": false
 			},
 			{
@@ -19776,7 +19775,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (95-107) To (193-217)",
+				"requirement": "Two-Hand Damage: 95-217",
 				"varies": false
 			},
 			{
@@ -19830,7 +19829,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (87-101) To (325-382)",
+				"requirement": "Two-Hand Damage: 87-382",
 				"varies": false
 			},
 			{
@@ -19904,7 +19903,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (98-115) To (333-392)",
+				"requirement": "Two-Hand Damage: 98-392",
 				"varies": false
 			},
 			{
@@ -19971,7 +19970,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (121-142) To (266-312)",
+				"requirement": "Two-Hand Damage: 121-312",
 				"varies": false
 			},
 			{
@@ -20043,7 +20042,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (102-118) To (551-640)",
+				"requirement": "Two-Hand Damage: 102-640",
 				"varies": false
 			},
 			{
@@ -20230,7 +20229,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 4 To 12",
+				"requirement": "Two-Hand Damage: 4-12",
 				"varies": false
 			},
 			{
@@ -20295,7 +20294,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 6 To 13",
+				"requirement": "Two-Hand Damage: 6-13",
 				"varies": false
 			},
 			{
@@ -20348,7 +20347,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 24 To 56",
+				"requirement": "Two-Hand Damage: 24-56",
 				"varies": false
 			},
 			{
@@ -20409,7 +20408,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 6 To 21",
+				"requirement": "Two-Hand Damage: 6-21",
 				"varies": false
 			},
 			{
@@ -20470,7 +20469,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: (54-62) To (143-169)",
+				"requirement": "Two-Hand Damage: 54-169",
 				"varies": false
 			},
 			{
@@ -20540,7 +20539,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 11 To 32",
+				"requirement": "Two-Hand Damage: 11-32",
 				"varies": false
 			},
 			{
@@ -20615,7 +20614,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 14 To 34",
+				"requirement": "Two-Hand Damage: 14-34",
 				"varies": false
 			},
 			{
@@ -20672,7 +20671,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 24 To 58",
+				"requirement": "Two-Hand Damage: 24-58",
 				"varies": false
 			},
 			{
@@ -20721,7 +20720,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 80 To 93",
+				"requirement": "Two-Hand Damage: 80-93",
 				"varies": false
 			},
 			{
@@ -20802,7 +20801,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Two-Hand Damage: 83 To 99",
+				"requirement": "Two-Hand Damage: 83-99",
 				"varies": false
 			},
 			{
@@ -20874,7 +20873,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 9 To 14",
+				"requirement": "One-Hand Damage: 9-14",
 				"varies": false
 			},
 			{
@@ -20985,7 +20984,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 7 To 19",
+				"requirement": "One-Hand Damage: 7-19",
 				"varies": false
 			},
 			{
@@ -21042,7 +21041,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (14-18) To (27-34)",
+				"requirement": "One-Hand Damage: 14-34",
 				"varies": false
 			},
 			{
@@ -21100,7 +21099,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (12-15) To (25-30)",
+				"requirement": "One-Hand Damage: 12-30",
 				"varies": false
 			},
 			{
@@ -21131,12 +21130,12 @@
 					{
 						"low": "10",
 						"high": "12",
-						"text": "Adds ({0}) to ({0}) Fire Damage"
+						"text": "Adds ({0}) to ({1}) Fire Damage"
 					},
 					{
 						"low": "15",
 						"high": "25",
-						"text": "Adds ({0}) to ({0}) Fire Damage"
+						"text": "Adds ({0}) to ({1}) Fire Damage"
 					}
 				],
 				"varies": true,
@@ -21232,7 +21231,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (13-14) To (34-36)",
+				"requirement": "One-Hand Damage: 13-36",
 				"varies": false
 			},
 			{
@@ -21294,11 +21293,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 4 To 18",
+				"requirement": "One-Hand Damage: 4-18",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: 16 To 34",
+				"requirement": "Two-Hand Damage: 16-34",
 				"varies": false
 			},
 			{
@@ -21355,11 +21354,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (8-10) To (20-24)",
+				"requirement": "One-Hand Damage: 8-24",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (22-26) To (51-60)",
+				"requirement": "Two-Hand Damage: 22-60",
 				"varies": false
 			},
 			{
@@ -21418,11 +21417,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (5-6) To (28-32)",
+				"requirement": "One-Hand Damage: 5-32",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (16-18) To (50-56)",
+				"requirement": "Two-Hand Damage: 16-56",
 				"varies": false
 			},
 			{
@@ -21490,11 +21489,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (10-11) To (28-30)",
+				"requirement": "One-Hand Damage: 10-30",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (30-32) To (42-44)",
+				"requirement": "Two-Hand Damage: 30-44",
 				"varies": false
 			},
 			{
@@ -21548,11 +21547,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (16-18) To (42-45)",
+				"requirement": "One-Hand Damage: 16-45",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (23-26) To (61-67)",
+				"requirement": "Two-Hand Damage: 23-67",
 				"varies": false
 			},
 			{
@@ -21606,11 +21605,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (24-26) To (40-44)",
+				"requirement": "One-Hand Damage: 24-44",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (50-55) To (84-92)",
+				"requirement": "Two-Hand Damage: 50-92",
 				"varies": false
 			},
 			{
@@ -21672,7 +21671,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 31 To 97",
+				"requirement": "One-Hand Damage: 31-97",
 				"varies": false
 			},
 			{
@@ -21743,7 +21742,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (24-28) To (63-73)",
+				"requirement": "One-Hand Damage: 24-73",
 				"varies": false
 			},
 			{
@@ -21805,7 +21804,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (59-61) To (97-102)",
+				"requirement": "One-Hand Damage: 59-102",
 				"varies": false
 			},
 			{
@@ -21871,7 +21870,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (25-35) To (56-77)",
+				"requirement": "One-Hand Damage: 25-77",
 				"varies": false
 			},
 			{
@@ -21938,7 +21937,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage:  (26-32) To (70-87)",
+				"requirement": "One-Hand Damage: 26-87",
 				"varies": false
 			},
 			{
@@ -22054,7 +22053,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 35 To 150",
+				"requirement": "One-Hand Damage: 35-150",
 				"varies": false
 			},
 			{
@@ -22111,7 +22110,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (54-63) To (129-150)",
+				"requirement": "One-Hand Damage: 54-150",
 				"varies": false
 			},
 			{
@@ -22177,11 +22176,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (20-24) To (67-78)",
+				"requirement": "One-Hand Damage: 20-78",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (46-54) To (104-120)",
+				"requirement": "Two-Hand Damage: 46-120",
 				"varies": false
 			},
 			{
@@ -22243,11 +22242,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (29-33) To (69-78)",
+				"requirement": "One-Hand Damage: 29-78",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (59-67) To (140-158)",
+				"requirement": "Two-Hand Damage: 59-158",
 				"varies": false
 			},
 			{
@@ -22309,11 +22308,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (25-30) To (92-111)",
+				"requirement": "One-Hand Damage: 25-111",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (47-57) To (145-174)",
+				"requirement": "Two-Hand Damage: 47-174",
 				"varies": false
 			},
 			{
@@ -22363,11 +22362,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (35-42) To (100-120)",
+				"requirement": "One-Hand Damage: 35-120",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (97-117) To (150-180)",
+				"requirement": "Two-Hand Damage: 97-180",
 				"varies": false
 			},
 			{
@@ -22441,11 +22440,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (41-49) To (77-91)",
+				"requirement": "One-Hand Damage: 41-91",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (63-75) To (118-140)",
+				"requirement": "Two-Hand Damage: 63-140",
 				"varies": false
 			},
 			{
@@ -22511,11 +22510,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (64-67) To (108-112)",
+				"requirement": "One-Hand Damage: 64-112",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (126-131) To (216-224)",
+				"requirement": "Two-Hand Damage: 126-224",
 				"varies": false
 			},
 			{
@@ -22594,7 +22593,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (75-88) To (133-156)",
+				"requirement": "One-Hand Damage: 75-156",
 				"varies": false
 			},
 			{
@@ -22685,7 +22684,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (102-118) To (139-162)",
+				"requirement": "One-Hand Damage: 102-162",
 				"varies": false
 			},
 			{
@@ -22753,7 +22752,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (87-103) To (117-135)",
+				"requirement": "One-Hand Damage: 87-135",
 				"varies": false
 			},
 			{
@@ -22837,7 +22836,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (102-114) To (115-129)",
+				"requirement": "One-Hand Damage: 102-129",
 				"varies": false
 			},
 			{
@@ -22913,7 +22912,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (14-16) To (215-254)",
+				"requirement": "One-Hand Damage: 14-254",
 				"varies": false
 			},
 			{
@@ -22985,11 +22984,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (40-51) To (202-255)",
+				"requirement": "One-Hand Damage: 40-255",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (148-187) To (318-401)",
+				"requirement": "Two-Hand Damage: 148-401",
 				"varies": false
 			},
 			{
@@ -23075,11 +23074,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (97-114) To (251-289)",
+				"requirement": "One-Hand Damage: 97-289",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (228-278) To (332-390)",
+				"requirement": "Two-Hand Damage: 228-390",
 				"varies": false
 			},
 			{
@@ -23146,11 +23145,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: (62-87) To (164-474)",
+				"requirement": "One-Hand Damage: 62-474",
 				"varies": false
 			},
 			{
-				"requirement": "Two-Hand Damage: (145-203) To (289-649)",
+				"requirement": "Two-Hand Damage: 145-649",
 				"varies": false
 			},
 			{
@@ -23208,11 +23207,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (25-30) To (55-67)",
+				"requirement": "Throw Damage: 25-67",
 				"varies": false
 			},
 			{
-				"requirement": "One-Hand Damage: (18-22) To (36-44)",
+				"requirement": "One-Hand Damage: 18-44",
 				"varies": false
 			},
 			{
@@ -23289,11 +23288,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (45-54) To (82-99)",
+				"requirement": "Throw Damage: 45-99",
 				"varies": false
 			},
 			{
-				"requirement": "One-Hand Damage: (27-33) To (55-66)",
+				"requirement": "One-Hand Damage: 27-66",
 				"varies": false
 			},
 			{
@@ -23364,11 +23363,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (69-80) To (117-136)",
+				"requirement": "Throw Damage: 69-136",
 				"varies": false
 			},
 			{
-				"requirement": "One-Hand Damage: (81-94) To (105-122)",
+				"requirement": "One-Hand Damage: 81-122",
 				"varies": false
 			},
 			{
@@ -23430,11 +23429,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (39-46) To (171-204)",
+				"requirement": "Throw Damage: 39-204",
 				"varies": false
 			},
 			{
-				"requirement": "One-Hand Damage: (44-52) To (169-201)",
+				"requirement": "One-Hand Damage: 44-201",
 				"varies": false
 			},
 			{
@@ -23496,11 +23495,11 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "Throw Damage: (17-21) To (150-186)",
+				"requirement": "Throw Damage: 17-186",
 				"varies": false
 			},
 			{
-				"requirement": "One-Hand Damage: (27-34) To (140-173)",
+				"requirement": "One-Hand Damage: 27-173",
 				"varies": false
 			},
 			{
@@ -23566,7 +23565,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 2 To 4",
+				"requirement": "One-Hand Damage: 2-4",
 				"varies": false
 			},
 			{
@@ -23619,7 +23618,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 2 To 8",
+				"requirement": "One-Hand Damage: 2-8",
 				"varies": false
 			},
 			{
@@ -23700,7 +23699,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 3 To 7",
+				"requirement": "One-Hand Damage: 3-7",
 				"varies": false
 			},
 			{
@@ -23758,7 +23757,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 5 To 11",
+				"requirement": "One-Hand Damage: 5-11",
 				"varies": false
 			},
 			{
@@ -23811,7 +23810,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 8 To 18",
+				"requirement": "One-Hand Damage: 8-18",
 				"varies": false
 			},
 			{
@@ -23868,7 +23867,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 8 To 24",
+				"requirement": "One-Hand Damage: 8-24",
 				"varies": false
 			},
 			{
@@ -23929,7 +23928,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 10 To 22",
+				"requirement": "One-Hand Damage: 10-22",
 				"varies": false
 			},
 			{
@@ -24002,7 +24001,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 13 To 29",
+				"requirement": "One-Hand Damage: 13-29",
 				"varies": false
 			},
 			{
@@ -24067,7 +24066,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 10 To 31",
+				"requirement": "One-Hand Damage: 10-31",
 				"varies": false
 			},
 			{
@@ -24153,7 +24152,7 @@
 		"rarity": "unique",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 22 To 28",
+				"requirement": "One-Hand Damage: 22-28",
 				"varies": false
 			},
 			{
@@ -26266,7 +26265,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 15 To 25",
+				"requirement": "One-Hand Damage: 15-25",
 				"varies": false
 			},
 			{
@@ -27207,7 +27206,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "One-Hand Damage: 60 To 93",
+				"requirement": "One-Hand Damage: 60-93",
 				"varies": false
 			},
 			{
@@ -27285,11 +27284,11 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "One Handed Damage: 75 To 195",
+				"requirement": "One Handed Damage: 75-195",
 				"varies": false
 			},
 			{
-				"requirement": "Two Handed Damage: 174 To 345",
+				"requirement": "Two Handed Damage: 174-345",
 				"varies": false
 			},
 			{
@@ -27342,7 +27341,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "One Handed Damage: 120 To 150",
+				"requirement": "One Handed Damage: 120-150",
 				"varies": false
 			},
 			{
@@ -27903,7 +27902,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "Damage: (111-125) To (129-186)",
+				"requirement": "Damage: 111-186",
 				"varies": false
 			},
 			{
@@ -27999,7 +27998,7 @@
 				"varies": false
 			},
 			{
-				"requirement": "Paladin Smite Damage: 5 To 87",
+				"requirement": "Paladin Smite Damage: 5-87",
 				"varies": false
 			}
 		],
@@ -28300,7 +28299,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "Damage: 42 To 159",
+				"requirement": "Damage: 42-159",
 				"varies": false
 			},
 			{
@@ -28503,7 +28502,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "Damage: 231 To 318",
+				"requirement": "Damage: 231-318",
 				"varies": false
 			},
 			{
@@ -28911,7 +28910,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "Damage: 40 To 207",
+				"requirement": "Damage: 40-207",
 				"varies": false
 			},
 			{
@@ -29233,7 +29232,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "Damage: 120 To 153",
+				"requirement": "Damage: 120-153",
 				"varies": false
 			},
 			{
@@ -29531,7 +29530,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "Damage: 200 To 232",
+				"requirement": "Damage: 200-232",
 				"varies": false
 			},
 			{
@@ -29829,7 +29828,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "Damage: 5 To 12",
+				"requirement": "Damage: 5-12",
 				"varies": false
 			},
 			{
@@ -30026,7 +30025,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "Damage: 12 To 192",
+				"requirement": "Damage: 12-192",
 				"varies": false
 			},
 			{
@@ -30138,7 +30137,7 @@
 		"rarity": "set",
 		"requirements": [
 			{
-				"requirement": "Damage: 18 To 42",
+				"requirement": "Damage: 18-42",
 				"varies": false
 			},
 			{
