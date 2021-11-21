@@ -5,7 +5,7 @@ import "./item-card.css";
 import ItemVariableValue from "./ItemVariableValue";
 
 export default function ItemCard(props) {
-  const { item, customizable = false, handleUpdatedItem } = props;
+  const { item, customizable = false, handleUpdatedItem, tooltip = false } = props;
   const formatRequirementStats = (text, idx) => {
     let value;
     let property;
@@ -131,13 +131,11 @@ export default function ItemCard(props) {
         }}
         square>
         <img loading="lazy" width="35px" src={require(`../../assets/item-art/${item.image}.png`).default} alt="" className="item-image" />
-        <Typography
-          className={`${item.rarity} diablo-text caps shadow`}
-          sx={{ marginTop: "10px", maxWidth: "80%", textAlign: "center", mb: "5px" }}>
+        <Typography className={`${item.rarity} diablo-text caps shadow`} sx={{ marginTop: "10px", maxWidth: "80%", textAlign: "center" }}>
           {item.name}
         </Typography>
 
-        <Typography variant="caption" sx={{ lineHeight: "1" }}>
+        <Typography variant="caption" sx={{ lineHeight: "1", color: "gray", mb: "5px" }}>
           {item.type && item.type}
         </Typography>
 
@@ -159,10 +157,10 @@ export default function ItemCard(props) {
                 </Typography>
               );
             })}
-          {item.count && (
+          {item.counter && !tooltip && (
             <Box>
-              <Typography variant="caption" sx={{ textAlign: "center" }}>
-                {item.count}
+              <Typography className="diablo-text caps" sx={{ textAlign: "center", fontSize: "10px", lineHeight: 1, mt: "5px" }}>
+                Found: {item.counter} time{item.counter > 1 ? "s" : ""}
               </Typography>
             </Box>
           )}

@@ -129,7 +129,7 @@ export default function ItemChip(props) {
         title={
           <>
             {item.image ? (
-              <ItemCard item={item} customizable={true} handleUpdatedItem={(item) => updateItem(item)} />
+              <ItemCard item={item} customizable={true} tooltip={true} handleUpdatedItem={(item) => updateItem(item)} />
             ) : (
               "No info for custom items"
             )}
@@ -139,7 +139,7 @@ export default function ItemChip(props) {
           variant="outlined"
           onMouseEnter={() => setOpen(true)}
           onClick={() => setOpen(true)}
-          icon={<ItemChipIcon indication={chipStatus[index].indicator} />}
+          icon={<ItemChipIcon indication={chipStatus[index]?.indicator} />}
           style={{
             color: getColor(item),
             fontWeight: "bold",

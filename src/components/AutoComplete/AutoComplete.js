@@ -7,12 +7,10 @@ import CustomItemList from "../../pages/RunAnalyze/CustomItemList/CustomItemList
 import ItemChip from "./ItemChip/ItemChip.js";
 
 export default function AutoComplete(props) {
-  const { data, setDialogItems, dialogItems, useList = true, customItems = true } = props;
+  const { data, setDialogItems, dialogItems, useList = true, customItems = true, chipStatus, setChipStatus } = props;
   const [inputValue, setInputValue] = React.useState("");
   const [noDataInput, setNoDataInput] = React.useState([]);
   const [open, setOpen] = React.useState(false);
-
-  const [chipStatus, setChipStatus] = React.useState([]);
 
   const handleDialogSubmit = (e) => {
     e.preventDefault();
