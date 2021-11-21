@@ -1,7 +1,6 @@
 import { Button, Typography } from "@mui/material";
-import React, { useEffect, useState } from "react";
-import { initDatabase } from "../../Firebase/firebase"; // This import makes sure that firebase is initialized.
-import { getAuth, signInWithPopup, GoogleAuthProvider, GithubAuthProvider } from "firebase/auth";
+import React from "react";
+import { GoogleAuthProvider, GithubAuthProvider } from "firebase/auth";
 import GoogleIcon from "@mui/icons-material/Google";
 import GithubIcon from "@mui/icons-material/GitHub";
 import { Box } from "@mui/system";
@@ -9,7 +8,6 @@ import { Box } from "@mui/system";
 import "./sign-in.css";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
 import { useAuth } from "../../Context/AuthContext";
-import { useHistory, useLocation } from "react-router-dom";
 
 const googleProvider = new GoogleAuthProvider();
 const githubProvider = new GithubAuthProvider();
@@ -17,20 +15,11 @@ const githubProvider = new GithubAuthProvider();
 export default function SignIn() {
   const { loggedIn, signIn } = useAuth();
 
-  const [showButtons, setShowButtons] = useState(false);
-
   // Used to redirect back to the page that was routed from.
 
   const signInWith3dParty = (provider) => {
     signIn(provider);
-    setShowButtons(false);
   };
-
-  React.useEffect(() => {
-    if (!loggedIn) {
-      setShowButtons(true);
-    }
-  }, [loggedIn]);
 
   return (
     <Box sx={{ width: "100%", height: "100%", display: "flex", position: "relative", top: "30%", justifyContent: "center" }}>

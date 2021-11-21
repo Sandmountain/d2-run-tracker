@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import RunLayout from "./pages/RunAnalyze/RunLayout/RunLayout.js";
-import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
+import { Switch, Route, BrowserRouter } from "react-router-dom";
 import SignIn from "./pages/SignIn/SignIn";
 import NavBar from "./components/NavBar/NavBar";
 
@@ -13,7 +13,6 @@ import BackgroundImage from "./components/BackgroundImage/BackgroundImage.js";
 import DatabaseLayout from "./pages/Database/DatabaseLayout/DatabaseLayout.js";
 import HolyGrailLayout from "./pages/HolyGrail/HolyGrailLayout.js";
 import { PrivateRoute } from "./components/PrivateRoute/PrivateRoute";
-import SummaryViewById from "./pages/RunAnalyze/SummaryViewById/SummaryViewById.js";
 
 const theme = createTheme({
   palette: {
@@ -51,9 +50,6 @@ function App() {
               <PrivateRoute path={allTabs[2]}>
                 <DatabaseLayout />
               </PrivateRoute>
-              <Route exact path={"/summary"}>
-                <SummaryViewById />
-              </Route>
               <Route path={"/"}>
                 <SignIn></SignIn>
               </Route>

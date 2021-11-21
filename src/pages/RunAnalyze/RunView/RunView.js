@@ -20,9 +20,9 @@ import "./run-view.css";
 let cooldownRef = undefined;
 
 export default function RunView(props) {
-  const { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset } = useTimer(0);
-
   const { setRunData, runData, gameData, setShowSummary, setIsActiveGame, openExitDialog } = props;
+
+  const { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset } = useTimer(0);
   const [isBlocking, setIsBlocking] = useState(false);
   const [currentRun, setCurrentRun] = useState(!runData.length ? 1 : runData.length + 1);
   const [totaltTime, setTotalTime] = useState(0);
@@ -206,7 +206,8 @@ export default function RunView(props) {
         setIsActiveGame={setIsActiveGame}
         handleStart={handleStart}
       />
-      <Prompt when={isBlocking && !openExitDialog} message="Are you sure you want to leave?" />
+
+      <Prompt when={isBlocking && !openExitDialog && !openEndRunDialog} message="Are you sure you want to leave?" />
     </Box>
   );
 }

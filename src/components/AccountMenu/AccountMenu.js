@@ -13,7 +13,6 @@ import Logout from "@mui/icons-material/Logout";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import LogoutDialog from "../Dialogs/LogoutDialog";
 
-import { getAuth } from "firebase/auth";
 import { Typography } from "@mui/material";
 import { useAuth } from "../../Context/AuthContext";
 

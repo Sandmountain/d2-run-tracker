@@ -1,5 +1,5 @@
-import { ArrowBack, Close } from "@mui/icons-material";
-import { Button, Card, Fab, Typography, Snackbar, Alert } from "@mui/material";
+import { ArrowBack } from "@mui/icons-material";
+import { Button, Card, Fab, Typography, Alert } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import AutoComplete from "../../../components/AutoComplete/AutoComplete";

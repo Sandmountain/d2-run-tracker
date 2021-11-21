@@ -73,18 +73,8 @@ export default function NavBar() {
                       disabled={!loggedIn}
                     />
 
-                    {location.pathname === "/login" && (
-                      <CustomTab className="diablo-text shadow" label="Login" value="/login" component={Link} to={"/login"} disabled />
-                    )}
-                    {location.pathname === "/summary" && (
-                      <CustomTab
-                        className="diablo-text shadow"
-                        label="Summary"
-                        value="/summary"
-                        component={Link}
-                        to={"/summary"}
-                        disabled
-                      />
+                    {location.pathname === "/" && (
+                      <CustomTab className="diablo-text shadow" label="Login" value="/" component={Link} to={"/"} disabled />
                     )}
                   </Tabs>
                 </>

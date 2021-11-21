@@ -42,11 +42,12 @@ export function AuthProvider({ children }) {
   React.useEffect(() => {
     if (!user) {
       const auth = getAuth();
-      auth.onAuthStateChanged(async (user) => {
-        if (user) {
-          await initDatabase(user);
-          setUser(user);
+      auth.onAuthStateChanged(async (res) => {
+        if (res) {
+          await initDatabase(res);
+          setUser(res);
           setLoggedIn(true);
+
           history.push("/run-analyze");
         }
       });
