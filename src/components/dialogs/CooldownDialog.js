@@ -3,7 +3,7 @@ import { Typography, DialogTitle, DialogContent, Button, DialogActions } from "@
 import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
 
 export default function CooldownDialog(props) {
-  const { openCooldownDialog, timeleft, handleShowSummary } = props;
+  const { openCooldownDialog, timeleft, handleShowSummary, stopCooldown } = props;
 
   return (
     <RockDialog open={openCooldownDialog}>
@@ -14,6 +14,9 @@ export default function CooldownDialog(props) {
         </Typography>
       </DialogContent>
       <DialogActions>
+        <Button variant="text" size="small" onClick={() => stopCooldown()}>
+          Stop Cooldown
+        </Button>
         <Button variant="text" size="small" onClick={() => handleShowSummary()}>
           End Run?
         </Button>
