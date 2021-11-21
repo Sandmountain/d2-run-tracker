@@ -46,7 +46,7 @@ export default function ItemChip(props) {
   };
 
   const handleCompareItems = React.useCallback(() => {
-    if (chipStatus[index].indicator !== "unset") {
+    if (chipStatus[index]?.indicator !== "unset") {
       if (holyGrail[item.category]?.length > 0) {
         // Using first index, because there will always only be one.
         const holyGrailItem = holyGrail[item.category].filter((it) => it.name === item.name)[0];

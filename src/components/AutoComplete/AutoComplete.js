@@ -40,7 +40,6 @@ export default function AutoComplete(props) {
 
     setNoDataInput(theChoices.filter((choice) => choice.rarity === "normal"));
     setDialogItems(theChoices);
-
     // When a new item is added or removed, we need to update the chip indicator.
     setChipStatus((prev) => {
       if (theChoices.length > 0) {
@@ -105,6 +104,32 @@ export default function AutoComplete(props) {
     });
   };
 
+  React.useEffect(() => {
+    if (!chipStatus.length && dialogItems.length > 0) {
+      setChipStatus((prev) => {
+        if (dialogItems.length > 0) {
+          // Go through the choices and see if it is in the list
+          return dialogItems.map((choice) => {
+            const choiceFound = prev.filter((prevItem) => prevItem.name === choice.name)[0];
+
+            // if it exists, use old value.
+            if (choiceFound) {
+              return choiceFound;
+            } else {
+              return {
+                name: choice.name,
+                indicator: choice.rarity === "normal" ? "" : "unset",
+                decided: false,
+              };
+            }
+          });
+        } else {
+          return [];
+        }
+      });
+    }
+  }, [chipStatus, dialogItems, setChipStatus]);
+
   return (
     <>
       <form onSubmit={handleDialogSubmit} style={{ marginTop: 10, overflow: "hidden" }}>
@@ -144,7 +169,7 @@ export default function AutoComplete(props) {
             ))
           }
           renderInput={(params) => (
-            <Box className="autoComplete-container" sx={!customItems ? { padding: "15px" } : {}}>
+            <Box className="autoComplete-container" sx={!customItems ? { padding: dialogItems.length < 5 ? "15px" : "45px" } : {}}>
               <TextField autoFocus color="primary" {...params} label="Add Items" />
             </Box>
           )}
