@@ -15,9 +15,10 @@ import LogoutDialog from "../Dialogs/LogoutDialog";
 
 import { getAuth } from "firebase/auth";
 import { Typography } from "@mui/material";
+import { useAuth } from "../../Context/AuthContext";
 
-export default function AccountMenu(props) {
-  const { setLoggedIn } = props;
+export default function AccountMenu() {
+  const { user, signOut } = useAuth();
 
   const [openLogoutDialog, setOpenLogoutDialog] = React.useState(false);
   const [currentUser, setCurrentUser] = React.useState({});
@@ -33,17 +34,15 @@ export default function AccountMenu(props) {
   };
 
   const logoutUser = () => {
-    const auth = getAuth();
-    auth.signOut().then(() => {
-      setLoggedIn(false);
+    signOut(() => {
       setOpenLogoutDialog(false);
     });
   };
 
   React.useEffect(() => {
-    const auth = getAuth();
-    setCurrentUser(auth.currentUser.providerData[0]);
-  }, []);
+    //const auth = getAuth();
+    setCurrentUser(user && user);
+  }, [user]);
 
   return (
     <>

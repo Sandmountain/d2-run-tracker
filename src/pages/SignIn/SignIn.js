@@ -8,54 +8,33 @@ import { Box } from "@mui/system";
 
 import "./sign-in.css";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
+import { useAuth } from "../../Context/AuthContext";
+import { useHistory, useLocation } from "react-router-dom";
 
 const googleProvider = new GoogleAuthProvider();
 const githubProvider = new GithubAuthProvider();
 
-export default function SignIn(props) {
-  const { loggedIn, setLoggedIn } = props;
+export default function SignIn() {
+  const { loggedIn, signIn } = useAuth();
+
   const [showButtons, setShowButtons] = useState(false);
 
-  const signInWith3dParty = (provider) => {
-    const auth = getAuth();
-    signInWithPopup(auth, provider)
-      .then((result) => {
-        // This gives you a Google Access Token. You can use it to access the Google API.
-        // const credential = GoogleAuthProvider.credentialFromResult(result);
-        // const token = credential.accessToken;
-        // // The signed-in user info.
-        // const user = result.user;
-        //console.log("setting it to true!");
-        setLoggedIn(true);
-        setShowButtons(false);
+  // Used to redirect back to the page that was routed from.
 
-        // ...
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+  const signInWith3dParty = (provider) => {
+    signIn(provider);
+    setShowButtons(false);
   };
 
-  useEffect(() => {
-    if (!loggedIn) {
-      const auth = getAuth();
-      auth.onAuthStateChanged(async (user) => {
-        if (user) {
-          console.log(user);
-          await initDatabase(user);
-          setShowButtons(false);
-          setLoggedIn(true);
-          return;
-        } else {
-          setShowButtons(true);
-        }
-      });
-    }
-  }, [loggedIn, setLoggedIn]);
+  // React.useEffect(() => {
+  //   if (!loggedIn) {
+  //     setShowButtons(true);
+  //   }
+  // }, [loggedIn]);
 
   return (
     <Box sx={{ width: "100%", height: "100%", display: "flex", position: "relative", top: "30%", justifyContent: "center" }}>
-      {!showButtons ? (
+      {!loggedIn ? (
         <LoadingSpinner text="Logging in..." />
       ) : (
         <Box sx={{ height: "fit-content", padding: "30px" }} className="paper-design">

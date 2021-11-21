@@ -6,6 +6,7 @@ import { withStyles } from "@mui/styles";
 import { Route, Link } from "react-router-dom";
 
 import AccountMenu from "../AccountMenu/AccountMenu";
+import { useAuth } from "../../Context/AuthContext";
 
 const CustomTab = withStyles({
   selected: {
@@ -17,8 +18,8 @@ const CustomTab = withStyles({
 })(Tab);
 const allTabs = ["/", "/holy-grail", "/database"];
 
-export default function NavBar(props) {
-  const { loggedIn, setLoggedIn } = props;
+export default function NavBar() {
+  const { loggedIn } = useAuth();
 
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -72,7 +73,7 @@ export default function NavBar(props) {
             />
           </Box>
           <Box sx={{ flexGrow: 1 }} />
-          {loggedIn && <AccountMenu setLoggedIn={setLoggedIn} />}
+          {loggedIn && <AccountMenu />}
         </Toolbar>
       </AppBar>
     </Box>
