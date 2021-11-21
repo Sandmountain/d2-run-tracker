@@ -1,15 +1,15 @@
 import { ArrowBack } from "@mui/icons-material";
-import { Button, Fab } from "@mui/material";
+import { Button, Card, Fab, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import AutoComplete from "../../../components/AutoComplete/AutoComplete";
+import { useHolyGrail } from "../../../Context/HolyGrailContext";
 import ReadExcel from "./ReadExcel/ReadExcel";
 
 const data = require("../../../data/testdata.json");
 
-export default function AddItemButtons(props) {
-  //const { itemsToAdd, setItemsToAdd } = props;
-
+export default function AddItemButtons() {
+  const { holyGrail, addToHolyGrail } = useHolyGrail();
   //TODO: Not pretty with this, but had to be done since the original data gets mutated, and this is the only way to reset it.
   const [templateData, setTemplateData] = React.useState(JSON.parse(JSON.stringify(data)));
 
@@ -17,13 +17,16 @@ export default function AddItemButtons(props) {
   const [tempItems, setTempItems] = React.useState([]);
 
   const [itemSubmitted, setItemSubmitted] = React.useState(false);
+  const [chipStatus, setChipStatus] = React.useState([]);
 
   const handleSubmit = () => {
+    addToHolyGrail(tempItems, chipStatus);
+
     // Reset to an unedited version.
     setTemplateData(JSON.parse(JSON.stringify(data)));
-
     setItemSubmitted(true);
     setTempItems([]);
+    setChipStatus([]);
   };
 
   const handleGoBack = () => {
@@ -31,12 +34,27 @@ export default function AddItemButtons(props) {
     setTempItems([]);
   };
 
+  const calculateFoundItems = () => {
+    return Object.values(holyGrail).reduce((prev, items) => {
+      items.length > 0 &&
+        items.forEach((it) => {
+          prev += 1;
+        });
+      return prev;
+    }, 0);
+  };
+
   return (
-    <Box>
+    <Card>
       {!showAutoComplete ? (
-        <Box sx={{ display: "flex", justifyContent: "center", margin: "15px" }}>
-          <Button onClick={() => setShowAutoComplete(true)}>Add Items</Button>
-          <ReadExcel setItemsToAdd={setTempItems} setShowAutoComplete={setShowAutoComplete} />
+        <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <Box sx={{ display: "flex", justifyContent: "center", margin: "15px" }}>
+            <Button onClick={() => setShowAutoComplete(true)}>Add Items</Button>
+            <ReadExcel setItemsToAdd={setTempItems} setShowAutoComplete={setShowAutoComplete} />
+          </Box>
+          <Box sx={{ p: "15px" }}>
+            <Typography className="diablo-text caps">Holy Grail: {calculateFoundItems()} / 548</Typography>
+          </Box>
         </Box>
       ) : (
         <>
@@ -48,6 +66,8 @@ export default function AddItemButtons(props) {
             </Box>
             <Box sx={{ width: "60%", position: "relative", margin: "0 auto" }}>
               <AutoComplete
+                chipStatus={chipStatus}
+                setChipStatus={setChipStatus}
                 data={templateData}
                 itemSubmitted={itemSubmitted}
                 customItems={false}
@@ -66,6 +86,6 @@ export default function AddItemButtons(props) {
           </Button>
         </Box>
       )}
-    </Box>
+    </Card>
   );
 }

@@ -46,7 +46,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 export default function CategoryPanels(props) {
   const { category, index } = props;
-  const hg = useHolyGrail();
+  const { holyGrail } = useHolyGrail();
 
   const [expanded, setExpanded] = React.useState(false);
   const [foundItems, setFoundItems] = React.useState([]);
@@ -62,24 +62,24 @@ export default function CategoryPanels(props) {
     return (
       <span style={{ opacity: 0.6 }}>
         {found.set > 0 && (
-          <>
-            <span className="set"> {foundItems.length}</span> / {found.set} Found
-          </>
+          <span className={` ${foundItems.length === found.set && "glowing-text"} `}>
+            <span className="set list-shadow"> {foundItems.length}</span> / {found.set} Found
+          </span>
         )}
         {found.unique > 0 && (
-          <>
-            <span className="unique"> {foundItems.length}</span> / {found.unique} Found
-          </>
+          <span className={` ${foundItems.length === found.unique && "glowing-text"} `}>
+            <span className="unique list-shadow"> {foundItems.length}</span> / {found.unique} Found
+          </span>
         )}
         {found.rune > 0 && (
-          <>
+          <span className={` ${foundItems.length === found.rune && "glowing-text"} `}>
             <span className="rune"> {foundItems.length}</span> / {found.rune} Found
-          </>
+          </span>
         )}
         {found.crafting > 0 && (
-          <>
+          <span className={` ${foundItems.length === found.crafting && "glowing-text"} `}>
             <span className="crafting"> {foundItems.length}</span> / {found.crafting} Found
-          </>
+          </span>
         )}
       </span>
     );
@@ -90,7 +90,7 @@ export default function CategoryPanels(props) {
     return (
       <Tooltip
         key={idx}
-        placement={"top"}
+        placement={"bottom"}
         componentsProps={{
           tooltip: {
             sx: {
@@ -98,7 +98,7 @@ export default function CategoryPanels(props) {
             },
           },
         }}
-        title={<ItemCard customizable={false} item={foundItem.length > 0 ? foundItem[0] : item} />}>
+        title={<ItemCard customizable={false} tooltip={true} item={foundItem.length > 0 ? foundItem[0] : item} />}>
         <div className={`lootItem-container ${foundItem.length > 0 ? "" : "item-notFound"}`}>
           {item.image && (
             <img
@@ -117,15 +117,23 @@ export default function CategoryPanels(props) {
     );
   };
 
+  const generateFoundItems = () => {
+    return foundItems.map((item, index) => generateInfoLoot(item, index));
+  };
+  const generateNotFoundItems = () => {
+    const notFoundItems = category.items.filter((it) => foundItems.every((item) => it.name !== item.name));
+    return notFoundItems.map((item, index) => generateInfoLoot(item, index));
+  };
+
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
 
   React.useEffect(() => {
-    if (hg.holyGrail[category.category]?.length > 0) {
-      setFoundItems(hg.holyGrail[category.category]);
+    if (holyGrail[category.category]?.length > 0) {
+      setFoundItems(holyGrail[category.category]);
     }
-  }, [hg, category]);
+  }, [holyGrail, category]);
 
   return (
     <Accordion key={index} expanded={expanded === category.category} onChange={handleChange(category.category)}>
@@ -148,7 +156,10 @@ export default function CategoryPanels(props) {
       <AccordionDetails>
         <div className="accordation-details-container">
           <div>
-            <div className="loot-container">{category.items.map((item, idx) => generateInfoLoot(item, idx))}</div>
+            <div className="loot-container">
+              {generateFoundItems()}
+              {generateNotFoundItems()}
+            </div>
           </div>
         </div>
       </AccordionDetails>
