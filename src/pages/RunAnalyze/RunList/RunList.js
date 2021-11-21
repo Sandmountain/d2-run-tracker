@@ -12,6 +12,8 @@ import texture from "../../../assets/graphic-assets/button-texture.png";
 
 import { formatTime, getColor } from "../../../utils/utils.js";
 import GenerateSocketImage from "../../../components/GenerateSocketImage/GenerateSocketImage";
+import { Tooltip } from "@mui/material";
+import ItemCard from "../../../components/ItemCard/ItemCard";
 
 const Accordion = styled((props) => <MuiAccordion disableGutters elevation={0} square {...props} />)(({ theme }) => ({
   border: `1px solid rgba(143, 107, 50, 0.3)`,
@@ -102,21 +104,33 @@ export default function RunList(props) {
 
   const generateInfoLoot = (item, idx) => {
     return (
-      <div key={idx} className="lootItem-container">
-        {item.image && (
-          <img
-            loading="lazy"
-            className="loot-image"
-            height="60"
-            src={require(`../../../assets/item-art/${item.image}.png`).default}
-            alt=""
-          />
-        )}
-        {!item.image ? <GenerateSocketImage sockets={item.sockets}></GenerateSocketImage> : <div></div>}
-        <span className="lootItem-text" style={{ color: getColor(item) }}>
-          {item.name}
-        </span>
-      </div>
+      <Tooltip
+        key={idx}
+        placement={"top"}
+        componentsProps={{
+          tooltip: {
+            sx: {
+              bgcolor: "rgba(0,0,0,0)",
+            },
+          },
+        }}
+        title={item.image ? <ItemCard customizable={false} tooltip={true} item={item} /> : "no extra information for custom items"}>
+        <div key={idx} className="lootItem-container">
+          {item.image && (
+            <img
+              loading="lazy"
+              className="loot-image"
+              height="60"
+              src={require(`../../../assets/item-art/${item.image}.png`).default}
+              alt=""
+            />
+          )}
+          {!item.image ? <GenerateSocketImage sockets={item.sockets}></GenerateSocketImage> : <div></div>}
+          <span className="lootItem-text" style={{ color: getColor(item) }}>
+            {item.name}
+          </span>
+        </div>
+      </Tooltip>
     );
   };
 
