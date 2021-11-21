@@ -41,7 +41,7 @@ function App() {
         <AuthProvider>
           <BackgroundImage></BackgroundImage>
           <NavBar />
-          <HolyGrailProvider loggedIn={loggedIn}>
+          <HolyGrailProvider>
             <Switch>
               <PrivateRoute exact path={allTabs[0]}>
                 <RunLayout />

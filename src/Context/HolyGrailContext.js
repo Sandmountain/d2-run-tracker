@@ -1,5 +1,6 @@
 import React, { useContext, useState } from "react";
 import { fetchUserHolyGrail, updateUserholyGrail } from "../Firebase/firebase";
+import { useAuth } from "./AuthContext";
 
 const HolyGrailContext = React.createContext();
 
@@ -7,8 +8,9 @@ export function useHolyGrail() {
   return useContext(HolyGrailContext);
 }
 
-export function HolyGrailProvider({ loggedIn, children }) {
+export function HolyGrailProvider({ children }) {
   const [holyGrail, setHolyGrail] = useState({});
+  const { loggedIn } = useAuth();
 
   React.useEffect(() => {
     async function fetchHolyGrail() {
