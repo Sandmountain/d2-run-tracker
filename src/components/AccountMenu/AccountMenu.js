@@ -15,11 +15,13 @@ import LogoutDialog from "../Dialogs/LogoutDialog";
 
 import { Typography } from "@mui/material";
 import { useAuth } from "../../Context/AuthContext";
+import UserSettingsDialog from "../Dialogs/UserSettingsDialog";
 
 export default function AccountMenu() {
   const { user, signOut } = useAuth();
 
   const [openLogoutDialog, setOpenLogoutDialog] = React.useState(false);
+  const [openUserSettingsDialog, setOpenUserSettingsDialog] = React.useState(false);
   const [currentUser, setCurrentUser] = React.useState({});
 
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -103,7 +105,7 @@ export default function AccountMenu() {
           </Box>
         </MenuItem>
         <Divider />
-        <MenuItem>
+        <MenuItem onClick={() => setOpenUserSettingsDialog(true)}>
           <ListItemIcon>
             <Settings fontSize="small" />
           </ListItemIcon>
@@ -117,6 +119,7 @@ export default function AccountMenu() {
         </MenuItem>
       </Menu>
       <LogoutDialog setOpenLogoutDialog={setOpenLogoutDialog} openLogoutDialog={openLogoutDialog} logoutUser={logoutUser} />
+      <UserSettingsDialog setOpenUserSettingsDialog={setOpenUserSettingsDialog} openUserSettingsDialog={openUserSettingsDialog} />
     </>
   );
 }

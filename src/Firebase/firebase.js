@@ -113,6 +113,20 @@ const fetchUserHolyGrail = async () => {
   }
 };
 
+const deleteHolyGrail = async () => {
+  try {
+    const { uid } = auth.currentUser;
+
+    const dataRef = doc(db, "userData", uid);
+
+    await updateDoc(dataRef, {
+      "holyGrail.items": collectionStructure.holyGrail.items,
+    });
+  } catch (error) {
+    console.log("Error when deleting Holy Grail: ", error);
+  }
+};
+
 const updateUserholyGrail = async (holyGrail) => {
   try {
     const { uid } = auth.currentUser;
@@ -158,6 +172,20 @@ const deleteHistoryRun = async (itemToRemove) => {
     });
   } catch (error) {
     console.log("Error when deleting history. ", error);
+  }
+};
+
+const deleteAllHistory = async () => {
+  try {
+    const { uid } = auth.currentUser;
+
+    const dataRef = doc(db, "userData", uid);
+
+    await updateDoc(dataRef, {
+      "runData.history": [],
+    });
+  } catch (error) {
+    console.log("Error when removing all history data: ", error);
   }
 };
 
@@ -239,9 +267,11 @@ export {
   addToHistory,
   fetchHistory,
   deleteHistoryRun,
+  deleteAllHistory,
   fetchActiveRun,
   clearActiveRun,
   updateUserholyGrail,
   fetchUserHolyGrail,
   replaceHolyGrail,
+  deleteHolyGrail,
 };
