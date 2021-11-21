@@ -26313,6 +26313,53 @@
 			{
 				"classSpecificSet": "",
 				"category": "",
+				"level": 25,
+				"type": "War Hat",
+				"rarity": "set",
+				"requirements": [
+					{
+						"requirement": {
+							"low": "120",
+							"high": "128",
+							"text": "Defense : {0}"
+						},
+						"varies": true,
+						"customValue": 0
+					},
+					{
+						"requirement": "Required Strength: 20",
+						"varies": false
+					},
+					{
+						"requirement": "Durability: 12",
+						"varies": false
+					}
+				],
+				"stats": [
+					{
+						"detail": "+75 Defense",
+						"varies": false
+					},
+					{
+						"detail": "Half Freeze Duration",
+						"varies": false
+					},
+					{
+						"detail": "Attacker Takes Damage of 10",
+						"varies": false
+					},
+					{
+						"detail": "35% Damage Taken Goes To Mana",
+						"varies": false
+					}
+				],
+				"setName": "Cow King's Leathers",
+				"image": "cow_kings_horns",
+				"name": "Cow King's Horns"
+			},
+			{
+				"classSpecificSet": "",
+				"category": "",
 				"level": 18,
 				"type": "Studded Leather",
 				"rarity": "set",
@@ -26411,57 +26458,6 @@
 				"setName": "Cow King's Leathers",
 				"image": "cow_kings_hooves",
 				"name": "Cow King's Hooves"
-			},
-			{
-				"classSpecificSet": "",
-				"category": "",
-				"level": 20,
-				"type": "Heavy Boots",
-				"rarity": "set",
-				"requirements": [
-					{
-						"requirement": {
-							"low": "5",
-							"high": "6",
-							"text": "Defense: {0}"
-						},
-						"varies": true,
-						"customValue": 0
-					},
-					{
-						"requirement": "Required Strength: 18",
-						"varies": false
-					},
-					{
-						"requirement": "Durability: 14",
-						"varies": false
-					},
-					{
-						"requirement": "Assassin Kick Damage: 4-10",
-						"varies": false
-					}
-				],
-				"stats": [
-					{
-						"detail": "+40% Faster Run/Walk",
-						"varies": false
-					},
-					{
-						"detail": "+100 To Attack Rating",
-						"varies": false
-					},
-					{
-						"detail": "+10 To Dexterity",
-						"varies": false
-					},
-					{
-						"detail": "+5 To Strength",
-						"varies": false
-					}
-				],
-				"setName": "Sander's Folly",
-				"image": "sanders_riprap",
-				"name": "Sander's Riprap"
 			}
 		]
 	},
@@ -29947,53 +29943,6 @@
 			{
 				"classSpecificSet": "",
 				"category": "",
-				"level": 25,
-				"type": "War Hat",
-				"rarity": "set",
-				"requirements": [
-					{
-						"requirement": {
-							"low": "120",
-							"high": "128",
-							"text": "Defense : {0}"
-						},
-						"varies": true,
-						"customValue": 0
-					},
-					{
-						"requirement": "Required Strength: 20",
-						"varies": false
-					},
-					{
-						"requirement": "Durability: 12",
-						"varies": false
-					}
-				],
-				"stats": [
-					{
-						"detail": "+75 Defense",
-						"varies": false
-					},
-					{
-						"detail": "Half Freeze Duration",
-						"varies": false
-					},
-					{
-						"detail": "Attacker Takes Damage of 10",
-						"varies": false
-					},
-					{
-						"detail": "35% Damage Taken Goes To Mana",
-						"varies": false
-					}
-				],
-				"setName": "Cow King's Leathers",
-				"image": "cow_kings_horns",
-				"name": "Cow King's Horns"
-			},
-			{
-				"classSpecificSet": "",
-				"category": "",
 				"level": 30,
 				"type": "Amulet",
 				"rarity": "set",
@@ -30978,6 +30927,57 @@
 				"setName": "Sander's Folly",
 				"image": "sanders_taboo",
 				"name": "Sander's Taboo"
+			},
+			{
+				"classSpecificSet": "",
+				"category": "",
+				"level": 20,
+				"type": "Heavy Boots",
+				"rarity": "set",
+				"requirements": [
+					{
+						"requirement": {
+							"low": "5",
+							"high": "6",
+							"text": "Defense: {0}"
+						},
+						"varies": true,
+						"customValue": 0
+					},
+					{
+						"requirement": "Required Strength: 18",
+						"varies": false
+					},
+					{
+						"requirement": "Durability: 14",
+						"varies": false
+					},
+					{
+						"requirement": "Assassin Kick Damage: 4-10",
+						"varies": false
+					}
+				],
+				"stats": [
+					{
+						"detail": "+40% Faster Run/Walk",
+						"varies": false
+					},
+					{
+						"detail": "+100 To Attack Rating",
+						"varies": false
+					},
+					{
+						"detail": "+10 To Dexterity",
+						"varies": false
+					},
+					{
+						"detail": "+5 To Strength",
+						"varies": false
+					}
+				],
+				"setName": "Sander's Folly",
+				"image": "sanders_riprap",
+				"name": "Sander's Riprap"
 			},
 			{
 				"classSpecificSet": "",

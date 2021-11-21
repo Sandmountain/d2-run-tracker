@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { fetchUserHolyGrail } from "../Firebase/firebase";
+import { fetchUserHolyGrail, updateUserholyGrail } from "../Firebase/firebase";
 
 const HolyGrailContext = React.createContext();
 
@@ -9,6 +9,7 @@ export function useHolyGrail() {
 
 export function HolyGrailProvider({ loggedIn, children }) {
   const [holyGrail, setHolyGrail] = useState({});
+
   React.useEffect(() => {
     async function fetchHolyGrail() {
       const data = await fetchUserHolyGrail();
@@ -21,15 +22,41 @@ export function HolyGrailProvider({ loggedIn, children }) {
     return () => fetchUserHolyGrail();
   }, [holyGrail, loggedIn]);
 
-  const updateHolyGrail = (item) => {
-    // compare to the items in the holy grail
-    // Come up with a solution if there is a conflict. Maybe use a modal here comparing the 2 items,
-    // or have another value that is being updated to display a component down the tree. Like another hook,
-    // that gets changed to true (or the items), to display a conflict modal.
-    setHolyGrail(item);
+  const addToHolyGrail = (items, itemsStatuses) => {
+    setHolyGrail((prev) => {
+      let newHolyGrail = { ...prev };
+      // Go through all the keys in the holy grail
+      Object.keys(prev).forEach((key) => {
+        // For each key, see if the items are part of them
+        const itemsInCategory = items.filter((item) => item.category === key);
+
+        // If there was any items for this key to add
+        if (itemsInCategory.length > 0) {
+          // go through all the items that are in this category
+          itemsInCategory.forEach((itemInCategory, index) => {
+            // Get status of the item, itemInCategory.
+            const getStatus = itemsStatuses.filter((status) => itemInCategory.name === status.name)[0];
+
+            if (getStatus.indicator === "upgrade") {
+              let newValue = {};
+              newValue = itemInCategory;
+              newValue.counter = prev[key][index].counter + 1;
+              newHolyGrail[key][index] = newValue;
+            } else if (getStatus.indicator === "downgrade") {
+              newHolyGrail[key][index].counter = newHolyGrail[key][index].counter + 1;
+            } else if (getStatus.indicator === "new") {
+              let newValue = {};
+              newValue = itemInCategory;
+              newValue.counter = 1;
+              newHolyGrail[key].push(newValue);
+            }
+          });
+        }
+      });
+      return newHolyGrail;
+    });
+    updateUserholyGrail(holyGrail);
   };
 
-  // Probably use useEffect to fetch the holy grail on start
-
-  return <HolyGrailContext.Provider value={{ holyGrail, updateHolyGrail }}>{children}</HolyGrailContext.Provider>;
+  return <HolyGrailContext.Provider value={{ holyGrail, addToHolyGrail }}>{children}</HolyGrailContext.Provider>;
 }

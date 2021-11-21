@@ -91,51 +91,13 @@ const initDatabase = async (user) => {
   }
 };
 
-// const updateRunData = async (dataToUpdate) => {
-//   const { uid } = auth.currentUser;
-//   const dataRef = doc(db, "userData", uid);
+const replaceHolyGrail = async () => {
+  const { uid } = auth.currentUser;
+  const dataRef = doc(db, "userData", uid);
 
-//   await updateDoc(dataRef, {
-//     "runData.active": dataToUpdate,
-//   });
-// };
-
-const addItemToHolyGrail = async (item) => {
-  if (!Object.keys(item).length) {
-    return;
-  }
-  // When adding, search if it already exists, if it exists increment counter else add.
-  try {
-    const { uid } = auth.currentUser;
-    const dataRef = doc(db, "userData", uid);
-
-    await updateDoc(dataRef, {
-      [`holyGrail.items.${item.category}`]: arrayUnion(item),
-    });
-  } catch (error) {
-    console.log("Error when adding data. ", error);
-  }
-};
-
-const getItemFromHolyGrail = async (item) => {
-  if (item && !Object.keys(item).length) {
-    return;
-  }
-  try {
-    const querySnapshot = await constructUserQuery();
-
-    if (item && querySnapshot && querySnapshot.exists()) {
-      const holyGrailItems = querySnapshot.data().holyGrail.items;
-      const existsInHolyGrail = holyGrailItems[item.category].filter((it) => it.name === item.name);
-
-      if (existsInHolyGrail.length) {
-      } else {
-        return true;
-      }
-    }
-  } catch (error) {
-    console.log("Error when fetching data. ", error);
-  }
+  await updateDoc(dataRef, {
+    [`holyGrail`]: collectionStructure.holyGrail,
+  });
 };
 
 const fetchUserHolyGrail = async () => {
@@ -149,6 +111,19 @@ const fetchUserHolyGrail = async () => {
     }
   } catch (error) {
     console.log("Error when fetching user's holy grail", error);
+  }
+};
+
+const updateUserholyGrail = async (holyGrail) => {
+  try {
+    const { uid } = auth.currentUser;
+    const dataRef = doc(db, "userData", uid);
+
+    await updateDoc(dataRef, {
+      [`holyGrail.items`]: holyGrail,
+    });
+  } catch (error) {
+    console.log("Error updating holy grail", error);
   }
 };
 
@@ -268,7 +243,7 @@ export {
   fetchActiveRun,
   clearActiveRun,
   deleteHistoryRun,
-  addItemToHolyGrail,
-  getItemFromHolyGrail,
+  updateUserholyGrail,
   fetchUserHolyGrail,
+  replaceHolyGrail,
 };

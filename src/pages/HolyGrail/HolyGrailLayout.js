@@ -3,28 +3,22 @@ import { Box } from "@mui/system";
 import AddItemButtons from "./AddItemButtons/AddItemButtons";
 import Categories from "./Categories/Categories";
 
-import { addItemToHolyGrail } from "../../Firebase/firebase.js";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
+import { Card } from "@mui/material";
 
 export default function HolyGrailLayout() {
-  const [itemsToAdd, setItemsToAdd] = React.useState([]);
   const [showSpinner, setShowSpinner] = React.useState(true);
-
   const handleLoading = (val) => {
     setShowSpinner(val);
   };
 
   React.useEffect(() => {
-    if (itemsToAdd.length > 0) {
-      addItemToHolyGrail(itemsToAdd[0]);
-    }
-
     window.addEventListener("load", handleLoading(false));
 
     return () => {
       window.removeEventListener("load", handleLoading(true));
     };
-  }, [itemsToAdd]);
+  }, []);
 
   return (
     <>
@@ -34,7 +28,8 @@ export default function HolyGrailLayout() {
         </Box>
       ) : (
         <Box sx={{ height: "100%" }}>
-          <AddItemButtons itemsToAdd={itemsToAdd} setItemsToAdd={setItemsToAdd} />
+          <AddItemButtons />
+
           <Categories />
         </Box>
       )}
