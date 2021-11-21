@@ -4,7 +4,7 @@ import useTimer from "../../../hooks/useTimer.js";
 import { formatTime } from "../../../utils/utils.js";
 import Typography from "@mui/material/Typography";
 
-export default function RunTimer(props) {
+export default function GameTimer(props) {
   const { setGameTime, showSummary, isActiveGame } = props;
 
   const { timer, isActive, handleStart, handlePause } = useTimer(0);

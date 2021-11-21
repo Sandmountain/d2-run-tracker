@@ -19,23 +19,16 @@ export default function ItemDialog(props) {
 
   // Resetting the items that have been overriden in memory.
   const handleClosing = () => {
-    //addToHolyGrail(tempItems, chipStatus);
-    // Reset to an unedited version.
-
-    console.log(dialogItems);
     if (chipStatus.filter((it) => it.indicator === "unset").length > 0) {
       if (unsetError) {
-        handleCloseNewRunDialog();
         addToHolyGrail(dialogItems, chipStatus);
-        setTemplateData(JSON.parse(JSON.stringify(data)));
-        setChipStatus([]);
+        handleCloseNewRunDialog();
       }
       setUnsetError(true);
     } else {
       addToHolyGrail(dialogItems, chipStatus);
-      handleCloseNewRunDialog();
       setTemplateData(JSON.parse(JSON.stringify(data)));
-      setChipStatus([]);
+      handleCloseNewRunDialog();
     }
   };
 

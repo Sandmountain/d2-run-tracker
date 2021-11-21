@@ -177,13 +177,14 @@ export default function RunView(props) {
           {formatTime(timer)}
         </Typography>
       </Box>
-
-      <ItemDialog
-        openNewRunDialog={openNewRunDialog}
-        handleCloseNewRunDialog={handleCloseNewRunDialog}
-        setDialogItems={setDialogItems}
-        dialogItems={dialogItems}
-      />
+      {openNewRunDialog && (
+        <ItemDialog
+          openNewRunDialog={openNewRunDialog}
+          handleCloseNewRunDialog={handleCloseNewRunDialog}
+          setDialogItems={setDialogItems}
+          dialogItems={dialogItems}
+        />
+      )}
       <CooldownDialog openCooldownDialog={openCooldownDialog} timeleft={timeleft} handleShowSummary={handleShowSummary} />
       <EndRunDialog
         openEndRunDialog={openEndRunDialog}
@@ -194,10 +195,7 @@ export default function RunView(props) {
         setIsActiveGame={setIsActiveGame}
         handleStart={handleStart}
       />
-      <Prompt
-        when={isBlocking} // <-- blocking condition
-        message="Are you sure you want to leave?"
-      />
+      <Prompt when={isBlocking} message="Are you sure you want to leave?" />
     </Box>
   );
 }
