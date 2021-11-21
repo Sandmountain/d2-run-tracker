@@ -75,7 +75,6 @@ const initDatabase = async (user) => {
     const userSnap = await getDoc(userRef);
 
     if (userSnap.exists()) {
-      console.log("Document data:", userSnap.data());
       fetchHistory();
     } else {
       setDoc(userRef, collectionStructure)
@@ -128,7 +127,6 @@ const updateUserholyGrail = async (holyGrail) => {
 };
 
 // Finding an item and changing the values, if no changes, add imediatly.
-
 const addToHistory = async (dataToAdd) => {
   try {
     const { uid } = auth.currentUser;

@@ -15,12 +15,13 @@ export default function EndRunDialog(props) {
     openCooldownDialog,
     handleStart,
   } = props;
+
   const history = useHistory();
 
   const handleShowSummary = () => {
     setIsActiveGame(false);
     setShowSummary(true);
-    //history.push("/")
+    history.push(`/run-analyze/summary`);
   };
 
   const handleGoBack = () => {

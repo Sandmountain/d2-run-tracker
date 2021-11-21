@@ -100,14 +100,15 @@ export default function RunLayout() {
     setRunData(oldRunData.runData);
     setStructuredLoot(oldRunData.loot);
     setShowSummary(true);
+    history.push(`${path}/summary`);
   };
 
   React.useEffect(() => {
-    if (gameData && Object.entries(gameData).length > 0) {
+    if (gameData && !showSummary && Object.entries(gameData).length > 0) {
       setIsActiveGame(true);
-      history.push(`${url}/active`);
+      history.push(`run-analyze/active`);
     }
-  }, [gameData, history, url]);
+  }, [gameData, history, showSummary]);
 
   React.useEffect(() => {
     async function getHistoryData() {
@@ -167,18 +168,21 @@ export default function RunLayout() {
               </div>
             )}
           </Box>
+          <Tooltip title={"Exit and end run"}>
+            <Fab color="primary" onClick={handleOpenExitDialog} style={{ position: "absolute", top: 63, right: 15 }}>
+              <ExitToAppIcon></ExitToAppIcon>
+            </Fab>
+          </Tooltip>
         </Route>
-        <Route path={`/summary/:id`}>
+        <Route path={`${path}/summary`}>
           <SummaryView runData={runData} gameData={gameData} gameTime={gameTime} loot={structuredLoot}></SummaryView>
+          <Tooltip title={"Exit to Main Screen"}>
+            <Fab color="primary" onClick={handleOpenExitDialog} style={{ position: "absolute", top: 63, right: 15 }}>
+              <ExitToAppIcon></ExitToAppIcon>
+            </Fab>
+          </Tooltip>
         </Route>
       </Switch>
-      {(isActiveGame || showSummary) && (
-        <Tooltip title={isActiveGame ? "Exit and end run" : "Exit to Main Screen"}>
-          <Fab color="primary" onClick={handleOpenExitDialog} style={{ position: "absolute", top: 63, right: 15 }}>
-            <ExitToAppIcon></ExitToAppIcon>
-          </Fab>
-        </Tooltip>
-      )}
 
       <div className="totalRunTime">
         <GameTimer setGameTime={setGameTime} showSummary={showSummary} isActiveGame={isActiveGame} />

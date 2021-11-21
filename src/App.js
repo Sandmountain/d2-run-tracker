@@ -13,6 +13,7 @@ import BackgroundImage from "./components/BackgroundImage/BackgroundImage.js";
 import DatabaseLayout from "./pages/Database/DatabaseLayout/DatabaseLayout.js";
 import HolyGrailLayout from "./pages/HolyGrail/HolyGrailLayout.js";
 import { PrivateRoute } from "./components/PrivateRoute/PrivateRoute";
+import SummaryViewById from "./pages/RunAnalyze/SummaryViewById/SummaryViewById.js";
 
 const theme = createTheme({
   palette: {
@@ -31,7 +32,7 @@ const theme = createTheme({
 });
 
 function App() {
-  const allTabs = ["/run-analyze", "/holy-grail", "/database", "active"];
+  const allTabs = ["/run-analyze", "/holy-grail", "/database"];
 
   return (
     <BrowserRouter basename="/d2-run-tracker">
@@ -50,6 +51,9 @@ function App() {
               <PrivateRoute path={allTabs[2]}>
                 <DatabaseLayout />
               </PrivateRoute>
+              <Route exact path={"/summary"}>
+                <SummaryViewById />
+              </Route>
               <Route path={"/"}>
                 <SignIn></SignIn>
               </Route>

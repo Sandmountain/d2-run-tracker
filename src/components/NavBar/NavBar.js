@@ -22,7 +22,7 @@ export default function NavBar() {
   const { loggedIn } = useAuth();
 
   const handleNestedPaths = (pathName) => {
-    if (pathName === "/active" || pathName === "/summary") {
+    if (pathName === "/run-analyze/active" || pathName === "/run-analyze/summary") {
       return "/run-analyze";
     } else {
       return pathName;
@@ -75,6 +75,16 @@ export default function NavBar() {
 
                     {location.pathname === "/login" && (
                       <CustomTab className="diablo-text shadow" label="Login" value="/login" component={Link} to={"/login"} disabled />
+                    )}
+                    {location.pathname === "/summary" && (
+                      <CustomTab
+                        className="diablo-text shadow"
+                        label="Summary"
+                        value="/summary"
+                        component={Link}
+                        to={"/summary"}
+                        disabled
+                      />
                     )}
                   </Tabs>
                 </>
