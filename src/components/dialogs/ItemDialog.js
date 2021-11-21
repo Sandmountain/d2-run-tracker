@@ -6,7 +6,7 @@ import AutoComplete from "../AutoComplete/AutoComplete";
 import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
 import { useHolyGrail } from "../../Context/HolyGrailContext";
 
-const data = require("../../data/testdata.json");
+const data = require("../../data/data.json");
 
 export default function ItemDialog(props) {
   const { openNewRunDialog, handleCloseNewRunDialog, setDialogItems, dialogItems } = props;

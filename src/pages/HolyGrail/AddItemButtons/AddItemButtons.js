@@ -7,7 +7,7 @@ import { RockSnackbar } from "../../../components/overriden-mui-components/Snack
 import { useHolyGrail } from "../../../Context/HolyGrailContext";
 import ReadExcel from "./ReadExcel/ReadExcel";
 
-const data = require("../../../data/testdata.json");
+const data = require("../../../data/data.json");
 
 export default function AddItemButtons() {
   const { holyGrail, addToHolyGrail } = useHolyGrail();

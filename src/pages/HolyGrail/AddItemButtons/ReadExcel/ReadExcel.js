@@ -3,7 +3,7 @@ import { Button, CircularProgress, Tooltip } from "@mui/material";
 import React from "react";
 import * as XLSX from "xlsx";
 
-import data from "../../../../data/testdata.json";
+import data from "../../../../data/data.json";
 
 export default function ReadExcel(props) {
   const { setItemsToAdd, setShowAutoComplete } = props;

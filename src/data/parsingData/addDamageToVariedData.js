@@ -37,6 +37,6 @@ const newData = data.map((item, index) => {
 
 console.log(newData[457].requirements[0]);
 
-FileSystem.writeFile("testdata-dmg1.json", JSON.stringify(newData), (error) => {
+FileSystem.writeFile("data.json", JSON.stringify(newData), (error) => {
   if (error) throw error;
 });
