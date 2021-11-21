@@ -57,9 +57,6 @@ export default function ItemDialog(props) {
       </DialogContent>
 
       <DialogActions>
-        <Button style={{ color: "gray" }} onClick={handleClosing}>
-          Continue
-        </Button>
         <Button style={{ color: "white" }} onClick={handleClosing}>
           Add items
         </Button>

@@ -31,9 +31,7 @@ const theme = createTheme({
 });
 
 function App() {
-  const allTabs = ["/", "/holy-grail", "/database"];
-
-  const [loggedIn, setLoggedIn] = useState(false);
+  const allTabs = ["/run-analyze", "/holy-grail", "/database", "active"];
 
   return (
     <BrowserRouter basename="/d2-run-tracker">
@@ -43,14 +41,16 @@ function App() {
           <NavBar />
           <HolyGrailProvider>
             <Switch>
-              <PrivateRoute exact path={allTabs[0]}>
+              <PrivateRoute path={`${allTabs[0]}`}>
                 <RunLayout />
               </PrivateRoute>
               <PrivateRoute path={allTabs[1]}>
                 <HolyGrailLayout />
               </PrivateRoute>
-              <Route path={allTabs[2]} render={() => <DatabaseLayout />} />
-              <Route exact path={"/login"}>
+              <PrivateRoute path={allTabs[2]}>
+                <DatabaseLayout />
+              </PrivateRoute>
+              <Route path={"/"}>
                 <SignIn></SignIn>
               </Route>
             </Switch>

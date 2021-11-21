@@ -17,9 +17,9 @@ import ExitSummaryDialog from "../../../components/Dialogs/ExitSummaryDialog";
 import UnfinshiedRunDialog from "../../../components/Dialogs/UnfinishedRunDialog";
 
 import { fetchActiveRun, clearActiveRun, fetchHistory } from "../../../Firebase/firebase.js";
-import RunTimer from "../RunTimer/RunTimer";
+import GameTimer from "../RunTimer/GameTimer";
 import RunHistory from "../RunHistory/RunHistory";
-import { Switch, Route, useRouteMatch } from "react-router-dom";
+import { Switch, Route, useRouteMatch, useHistory } from "react-router-dom";
 
 export default function RunLayout() {
   const [isActiveGame, setIsActiveGame] = React.useState(false);
@@ -38,11 +38,12 @@ export default function RunLayout() {
   const [runHistory, setRunHistory] = React.useState([]);
 
   let { path, url } = useRouteMatch();
+  const history = useHistory();
 
   const handleExitGame = () => {
     setOpenExitDialog(false);
     setIsActiveGame(false);
-
+    history.push("/run-analyze");
     setGameData(undefined);
     setRunData([]);
     clearActiveRun();
@@ -51,6 +52,7 @@ export default function RunLayout() {
   const handleLeaveSummary = () => {
     setOpenExitSummaryDialog(false);
     setIsActiveGame(false);
+    history.push("/run-analyze");
     setShowSummary(false);
 
     // Reset data
@@ -87,6 +89,7 @@ export default function RunLayout() {
     setGameData(retrivedData.gameData);
     setRunData(retrivedData.runData);
     setIsActiveGame(true);
+    history.push(`${url}/active`);
   };
 
   // When opening an old run from history menu
@@ -102,8 +105,9 @@ export default function RunLayout() {
   React.useEffect(() => {
     if (gameData && Object.entries(gameData).length > 0) {
       setIsActiveGame(true);
+      history.push(`${url}/active`);
     }
-  }, [gameData]);
+  }, [gameData, history, url]);
 
   React.useEffect(() => {
     async function getHistoryData() {
@@ -131,7 +135,7 @@ export default function RunLayout() {
   return (
     <>
       <Switch>
-        <Route path={"/test"}>
+        <Route exact path={path}>
           <div className="container">
             <h2 className="diablo-text" style={{ position: "absolute", bottom: "70%", color: "white" }}>
               START NEW RUN
@@ -140,7 +144,7 @@ export default function RunLayout() {
             {<RunHistory runHistory={runHistory} openOldSummary={openOldSummary} setRunHistory={setRunHistory}></RunHistory>}
           </div>
         </Route>
-        <Route path={`${path}/active-run`}>
+        <Route path={`${path}/active`}>
           <Box
             sx={{
               position: "absolute",
@@ -155,7 +159,8 @@ export default function RunLayout() {
               runData={runData}
               gameData={gameData}
               setShowSummary={setShowSummary}
-              setIsActiveGame={setIsActiveGame}></RunView>
+              setIsActiveGame={setIsActiveGame}
+              openExitDialog={openExitDialog}></RunView>
             {runData.length > 0 && (
               <div className="runList-container">
                 <RunList runData={runData}></RunList>
@@ -163,7 +168,7 @@ export default function RunLayout() {
             )}
           </Box>
         </Route>
-        <Route path={`${path}/:id`}>
+        <Route path={`/summary/:id`}>
           <SummaryView runData={runData} gameData={gameData} gameTime={gameTime} loot={structuredLoot}></SummaryView>
         </Route>
       </Switch>
@@ -176,7 +181,7 @@ export default function RunLayout() {
       )}
 
       <div className="totalRunTime">
-        <RunTimer setGameTime={setGameTime} showSummary={showSummary} isActiveGame={isActiveGame} />
+        <GameTimer setGameTime={setGameTime} showSummary={showSummary} isActiveGame={isActiveGame} />
       </div>
 
       <ExitRunDialog

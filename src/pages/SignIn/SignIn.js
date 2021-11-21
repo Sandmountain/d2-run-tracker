@@ -26,11 +26,11 @@ export default function SignIn() {
     setShowButtons(false);
   };
 
-  // React.useEffect(() => {
-  //   if (!loggedIn) {
-  //     setShowButtons(true);
-  //   }
-  // }, [loggedIn]);
+  React.useEffect(() => {
+    if (!loggedIn) {
+      setShowButtons(true);
+    }
+  }, [loggedIn]);
 
   return (
     <Box sx={{ width: "100%", height: "100%", display: "flex", position: "relative", top: "30%", justifyContent: "center" }}>

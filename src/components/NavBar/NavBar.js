@@ -16,10 +16,18 @@ const CustomTab = withStyles({
     opacity: 0.3,
   },
 })(Tab);
-const allTabs = ["/", "/holy-grail", "/database"];
 
 export default function NavBar() {
+  const allTabs = ["/run-analyze", "/holy-grail", "/database", "/active"];
   const { loggedIn } = useAuth();
+
+  const handleNestedPaths = (pathName) => {
+    if (pathName === "/active" || pathName === "/summary") {
+      return "/run-analyze";
+    } else {
+      return pathName;
+    }
+  };
 
   return (
     <Box sx={{ flexGrow: 1 }}>
@@ -38,7 +46,7 @@ export default function NavBar() {
               path="/"
               render={({ location }) => (
                 <>
-                  <Tabs value={location.pathname} centered>
+                  <Tabs value={handleNestedPaths(location.pathname)} centered>
                     <CustomTab
                       className="diablo-text shadow"
                       label="Run Analyze"
@@ -47,10 +55,11 @@ export default function NavBar() {
                       to={allTabs[0]}
                       disabled={!loggedIn}
                     />
+
                     <CustomTab
                       className="diablo-text shadow"
                       label="Holy Grail"
-                      value="/holy-grail"
+                      value={allTabs[1]}
                       component={Link}
                       to={allTabs[1]}
                       disabled={!loggedIn}
@@ -58,7 +67,7 @@ export default function NavBar() {
                     <CustomTab
                       className="diablo-text shadow"
                       label="Database"
-                      value="/database"
+                      value={allTabs[2]}
                       component={Link}
                       to={allTabs[2]}
                       disabled={!loggedIn}

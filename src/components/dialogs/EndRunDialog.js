@@ -3,6 +3,7 @@ import React from "react";
 import { Button, DialogActions, DialogTitle, DialogContent, Alert } from "@mui/material";
 import { DoubleArrow } from "@mui/icons-material";
 import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
+import { useHistory } from "react-router-dom";
 
 export default function EndRunDialog(props) {
   const {
@@ -14,10 +15,12 @@ export default function EndRunDialog(props) {
     openCooldownDialog,
     handleStart,
   } = props;
+  const history = useHistory();
 
   const handleShowSummary = () => {
     setIsActiveGame(false);
     setShowSummary(true);
+    //history.push("/")
   };
 
   const handleGoBack = () => {

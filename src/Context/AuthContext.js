@@ -17,13 +17,13 @@ export function AuthProvider({ children }) {
   const [loggedIn, setLoggedIn] = useState(false);
   let { from } = location.state || { from: { pathname: "/" } };
 
-  const signIn = (provider, cb) => {
+  const signIn = (provider) => {
     const auth = getAuth();
     signInWithPopup(auth, provider)
       .then(async (result) => {
         setLoggedIn(true);
         setUser(result);
-        console.log(result);
+        history.push("/run-analyze");
       })
       .catch((error) => {
         console.log(error);
@@ -47,7 +47,7 @@ export function AuthProvider({ children }) {
           await initDatabase(user);
           setUser(user);
           setLoggedIn(true);
-          history.replace(from);
+          history.push("/run-analyze");
         }
       });
     }
