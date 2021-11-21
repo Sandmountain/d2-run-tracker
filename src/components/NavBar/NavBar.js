@@ -46,8 +46,22 @@ export default function NavBar(props) {
                       to={allTabs[0]}
                       disabled={!loggedIn}
                     />
-                    <CustomTab className="diablo-text shadow" label="Holy Grail" value="/holy-grail" component={Link} to={allTabs[1]} />
-                    <CustomTab className="diablo-text shadow" label="Database" value="/database" component={Link} to={allTabs[2]} />
+                    <CustomTab
+                      className="diablo-text shadow"
+                      label="Holy Grail"
+                      value="/holy-grail"
+                      component={Link}
+                      to={allTabs[1]}
+                      disabled={!loggedIn}
+                    />
+                    <CustomTab
+                      className="diablo-text shadow"
+                      label="Database"
+                      value="/database"
+                      component={Link}
+                      to={allTabs[2]}
+                      disabled={!loggedIn}
+                    />
 
                     {location.pathname === "/login" && (
                       <CustomTab className="diablo-text shadow" label="Login" value="/login" component={Link} to={"/login"} disabled />
