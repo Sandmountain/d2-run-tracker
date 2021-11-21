@@ -11,6 +11,7 @@ import { formatTime } from "../../../utils/utils.js";
 import ItemDialog from "../../../components/Dialogs/ItemDialog";
 import CooldownDialog from "../../../components/Dialogs/CooldownDialog";
 import EndRunDialog from "../../../components/Dialogs/EndRunDialog";
+import { Prompt } from "react-router-dom";
 
 import { addToActiveRun } from "../../../Firebase/firebase.js";
 
@@ -22,7 +23,7 @@ export default function RunView(props) {
   const { timer, isActive, isPaused, handleStart, handlePause, handleResume, handleReset } = useTimer(0);
 
   const { setRunData, runData, gameData, setShowSummary, setIsActiveGame } = props;
-
+  const [isBlocking, setIsBlocking] = useState(false);
   const [currentRun, setCurrentRun] = useState(!runData.length ? 1 : runData.length + 1);
   const [totaltTime, setTotalTime] = useState(0);
 
@@ -60,6 +61,7 @@ export default function RunView(props) {
         time: timer,
       },
     ]);
+    setIsBlocking(true);
   };
 
   React.useEffect(() => {
@@ -191,6 +193,10 @@ export default function RunView(props) {
         setShowSummary={setShowSummary}
         setIsActiveGame={setIsActiveGame}
         handleStart={handleStart}
+      />
+      <Prompt
+        when={isBlocking} // <-- blocking condition
+        message="Are you sure you want to leave?"
       />
     </Box>
   );
