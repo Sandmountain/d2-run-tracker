@@ -4,7 +4,6 @@ import AddItemButtons from "./AddItemButtons/AddItemButtons";
 import Categories from "./Categories/Categories";
 
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner";
-import { Card } from "@mui/material";
 
 export default function HolyGrailLayout() {
   const [showSpinner, setShowSpinner] = React.useState(true);
@@ -29,7 +28,6 @@ export default function HolyGrailLayout() {
       ) : (
         <Box sx={{ height: "100%" }}>
           <AddItemButtons />
-
           <Categories />
         </Box>
       )}
