@@ -4,7 +4,7 @@ import { Alert } from "@mui/material";
 import { Box } from "@mui/system";
 
 import ItemCard from "../../../components/ItemCard/ItemCard";
-import data from "../../../data/testdata.json";
+import data from "../../../data/testdata-dmg1.json";
 import "./database-layout.css";
 import SearchBar from "../../../components/SearchBar/SearchBar";
 import LoadingSpinner from "../../../components/LoadingSpinner/LoadingSpinner";

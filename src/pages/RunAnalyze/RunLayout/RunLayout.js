@@ -19,6 +19,7 @@ import UnfinshiedRunDialog from "../../../components/Dialogs/UnfinishedRunDialog
 import { fetchActiveRun, clearActiveRun, fetchHistory } from "../../../Firebase/firebase.js";
 import RunTimer from "../RunTimer/RunTimer";
 import RunHistory from "../RunHistory/RunHistory";
+import { Switch, Route, useRouteMatch } from "react-router-dom";
 
 export default function RunLayout() {
   const [isActiveGame, setIsActiveGame] = React.useState(false);
@@ -35,6 +36,8 @@ export default function RunLayout() {
 
   const [retrivedData, setRetrivedData] = React.useState({});
   const [runHistory, setRunHistory] = React.useState([]);
+
+  let { path, url } = useRouteMatch();
 
   const handleExitGame = () => {
     setOpenExitDialog(false);
@@ -125,52 +128,45 @@ export default function RunLayout() {
     return () => setRunHistory([]);
   }, []);
 
-  const renderConditionalView = () => {
-    if (showSummary) {
-      return <SummaryView runData={runData} gameData={gameData} gameTime={gameTime} loot={structuredLoot}></SummaryView>;
-    }
-
-    if (isActiveGame) {
-      return (
-        <Box
-          sx={{
-            position: "absolute",
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-            width: "100%",
-            height: "calc(100% - 48px)",
-          }}>
-          <RunView
-            setRunData={setRunData}
-            runData={runData}
-            gameData={gameData}
-            setShowSummary={setShowSummary}
-            setIsActiveGame={setIsActiveGame}></RunView>
-          {runData.length > 0 && (
-            <div className="runList-container">
-              <RunList runData={runData}></RunList>
-            </div>
-          )}
-        </Box>
-      );
-    } else {
-      return (
-        <div className="container">
-          <h2 className="diablo-text" style={{ position: "absolute", bottom: "70%", color: "white" }}>
-            START NEW RUN
-          </h2>
-
-          <RunCreator setGameData={setGameData}></RunCreator>
-          {<RunHistory runHistory={runHistory} openOldSummary={openOldSummary} setRunHistory={setRunHistory}></RunHistory>}
-        </div>
-      );
-    }
-  };
-
   return (
     <>
-      {renderConditionalView()}
+      <Switch>
+        <Route path={"/test"}>
+          <div className="container">
+            <h2 className="diablo-text" style={{ position: "absolute", bottom: "70%", color: "white" }}>
+              START NEW RUN
+            </h2>
+            <RunCreator setGameData={setGameData}></RunCreator>
+            {<RunHistory runHistory={runHistory} openOldSummary={openOldSummary} setRunHistory={setRunHistory}></RunHistory>}
+          </div>
+        </Route>
+        <Route path={`${path}/active-run`}>
+          <Box
+            sx={{
+              position: "absolute",
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              width: "100%",
+              height: "calc(100% - 48px)",
+            }}>
+            <RunView
+              setRunData={setRunData}
+              runData={runData}
+              gameData={gameData}
+              setShowSummary={setShowSummary}
+              setIsActiveGame={setIsActiveGame}></RunView>
+            {runData.length > 0 && (
+              <div className="runList-container">
+                <RunList runData={runData}></RunList>
+              </div>
+            )}
+          </Box>
+        </Route>
+        <Route path={`${path}/:id`}>
+          <SummaryView runData={runData} gameData={gameData} gameTime={gameTime} loot={structuredLoot}></SummaryView>
+        </Route>
+      </Switch>
       {(isActiveGame || showSummary) && (
         <Tooltip title={isActiveGame ? "Exit and end run" : "Exit to Main Screen"}>
           <Fab color="primary" onClick={handleOpenExitDialog} style={{ position: "absolute", top: 63, right: 15 }}>

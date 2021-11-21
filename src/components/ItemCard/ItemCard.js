@@ -95,7 +95,7 @@ export default function ItemCard(props) {
           const [textBefore] = det.text.split("{1}");
           const [text, textAfter] = textBefore.split("{0}");
           return (
-            <span className="magic list-shadow">
+            <span key={index} className="magic list-shadow">
               <span>{text}</span>
               <span>
                 {det.low}-{det.high}
@@ -106,7 +106,7 @@ export default function ItemCard(props) {
         } else {
           const textAfter = det.text.split("{1}")[1];
           return (
-            <span className="magic list-shadow">
+            <span key={index} className="magic list-shadow">
               <span>
                 {det.low}-{det.high}
               </span>

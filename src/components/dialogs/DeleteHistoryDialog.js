@@ -1,11 +1,11 @@
 import React from "react";
 
-import { Button, DialogActions, DialogTitle, DialogContent, Alert, DialogContentText, Typography, Box } from "@mui/material";
+import { Button, DialogActions, DialogTitle, DialogContent, Alert, DialogContentText, Typography } from "@mui/material";
 import { RockDialog } from "../overriden-mui-components/Dialog/Dialog";
 
 export default function DeleteHistoryDialog(props) {
   const { openDeleteHistory, setOpenDeleteHistory, deleteEntry, runToDelete } = props;
-  console.log(runToDelete);
+
   return (
     <RockDialog
       open={openDeleteHistory}
@@ -21,7 +21,9 @@ export default function DeleteHistoryDialog(props) {
         </Alert>
         <Typography sx={{ marginTop: "15px" }}>
           You are about to delete the run: <br />
-          <Box sx={{ mt: "15px", textAlign: "center", display: "block", fontWeight: "bold" }}>{runToDelete.gameData.name}</Box>
+          <Typography component="span" sx={{ mt: "15px", textAlign: "center", display: "block", fontWeight: "bold" }}>
+            {runToDelete.gameData.name}
+          </Typography>
         </Typography>
         <DialogContentText sx={{ marginTop: "15px" }}>Are you sure you wish to continue?</DialogContentText>
       </DialogContent>
