@@ -95,12 +95,12 @@ export default function AccountMenu() {
         transformOrigin={{ horizontal: "right", vertical: "top" }}
         anchorOrigin={{ horizontal: "right", vertical: "bottom" }}>
         <MenuItem>
-          <Avatar src={currentUser.photoURL} />
+          <Avatar src={currentUser?.photoURL} />
           <Box sx={{ display: "flex", flexDirection: "column" }}>
-            {currentUser.displayName}
+            {currentUser?.displayName}
             <Typography sx={{ margin: 0, color: "gray", lineHeight: "1em" }} variant="caption">
               {" "}
-              Signed in with {currentUser.providerId}
+              Signed in with {currentUser?.providerId}
             </Typography>
           </Box>
         </MenuItem>

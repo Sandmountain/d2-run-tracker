@@ -15,15 +15,19 @@ export function AuthProvider({ children }) {
 
   const [user, setUser] = useState(null);
   const [loggedIn, setLoggedIn] = useState(false);
+  const [loggingIn, setLogginIn] = useState(false);
+
   let { from } = location.state || { from: { pathname: "/" } };
 
   const signIn = (provider) => {
+    setLogginIn(true);
     const auth = getAuth();
     signInWithPopup(auth, provider)
       .then(async (result) => {
         setLoggedIn(true);
         setUser(result);
         history.push("/run-analyze");
+        setLogginIn(false);
       })
       .catch((error) => {
         console.log(error);
@@ -41,18 +45,21 @@ export function AuthProvider({ children }) {
 
   React.useEffect(() => {
     if (!user) {
+      setLogginIn(true);
       const auth = getAuth();
       auth.onAuthStateChanged(async (res) => {
         if (res) {
           await initDatabase(res);
           setUser(res);
           setLoggedIn(true);
-
           history.push("/run-analyze");
+          setLogginIn(false);
+        } else {
+          setLogginIn(false);
         }
       });
     }
   }, [user, setUser, history, from]);
 
-  return <AuthContext.Provider value={{ user, loggedIn, signIn, signOut }}>{children}</AuthContext.Provider>;
+  return <AuthContext.Provider value={{ user, loggedIn, loggingIn, signIn, signOut }}>{children}</AuthContext.Provider>;
 }
