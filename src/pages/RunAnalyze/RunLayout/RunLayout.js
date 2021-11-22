@@ -142,7 +142,9 @@ export default function RunLayout() {
               START NEW RUN
             </h2>
             <RunCreator setGameData={setGameData}></RunCreator>
-            {<RunHistory runHistory={runHistory} openOldSummary={openOldSummary} setRunHistory={setRunHistory}></RunHistory>}
+            {runHistory.length > 0 && (
+              <RunHistory runHistory={runHistory} openOldSummary={openOldSummary} setRunHistory={setRunHistory}></RunHistory>
+            )}
           </div>
         </Route>
         <Route path={`${path}/active`}>
