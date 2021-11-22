@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Paper, Typography } from "@mui/material";
+import { Paper, Tooltip, Typography } from "@mui/material";
 
 import GenerateSocketImage from "../../../components/GenerateSocketImage/GenerateSocketImage";
 import { formatTime, getColor } from "../../../utils/utils.js";
@@ -9,6 +9,7 @@ import "./summary-view.css";
 import { Box } from "@mui/system";
 import { addToHistory } from "../../../Firebase/firebase";
 import { v4 as uuidv4 } from "uuid";
+import ItemCard from "../../../components/ItemCard/ItemCard";
 
 export default function SummaryView(props) {
   const { gameData, runData, gameTime, loot = {} } = props;
@@ -77,16 +78,28 @@ export default function SummaryView(props) {
 
   const generateLootItem = (item, run, index) => {
     return (
-      <div key={index} id={index} className="lootItem-container">
-        {item.image && <img loading="lazy" height="40" src={require(`../../../assets/item-art/${item.image}.png`).default} alt="" />}
-        {!item.image ? <GenerateSocketImage sockets={item.sockets} summary={true} /> : <div />}
-        <span className="lootItem-text summary-text" style={{ color: getColor(item) }}>
-          {item.name}
-        </span>
-        <Typography variant="overline" className="diablo-text" sx={{ lineHeight: 1 }}>
-          {run}
-        </Typography>
-      </div>
+      <Tooltip
+        key={index}
+        placement={"top"}
+        componentsProps={{
+          tooltip: {
+            sx: {
+              bgcolor: "rgba(0,0,0,0)",
+            },
+          },
+        }}
+        title={item.image ? <ItemCard customizable={false} tooltip={true} item={item} /> : "no extra information for custom items"}>
+        <div key={index} id={index} className="lootItem-container">
+          {item.image && <img loading="lazy" height="40" src={require(`../../../assets/item-art/${item.image}.png`).default} alt="" />}
+          {!item.image ? <GenerateSocketImage sockets={item.sockets} summary={true} /> : <div />}
+          <span className="lootItem-text summary-text" style={{ color: getColor(item) }}>
+            {item.name}
+          </span>
+          <Typography variant="overline" className="diablo-text" sx={{ lineHeight: 1 }}>
+            {run}
+          </Typography>
+        </div>
+      </Tooltip>
     );
   };
 
