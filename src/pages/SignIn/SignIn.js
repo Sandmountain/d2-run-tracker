@@ -16,7 +16,6 @@ export default function SignIn() {
   const { loggingIn, signIn } = useAuth();
 
   // Used to redirect back to the page that was routed from.
-  console.log(loggingIn);
   const signInWith3dParty = (provider) => {
     signIn(provider);
   };

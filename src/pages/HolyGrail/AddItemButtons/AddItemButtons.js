@@ -51,10 +51,6 @@ export default function AddItemButtons() {
     }, 0);
   };
 
-  React.useEffect(() => {
-    console.log(tempItems);
-  }, [tempItems]);
-
   return (
     <>
       <Card>

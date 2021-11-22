@@ -119,7 +119,6 @@ export default function ItemCard(props) {
 
     if (stat.varies) {
       const [textBefore, textAfter] = stat.detail.text.split("{0}");
-      //console.log(item);
       return (
         <>
           <span className="magic list-shadow">

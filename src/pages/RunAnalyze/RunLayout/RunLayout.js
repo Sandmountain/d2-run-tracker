@@ -94,7 +94,6 @@ export default function RunLayout() {
 
   // When opening an old run from history menu
   const openOldSummary = (oldRunData) => {
-    console.log(oldRunData);
     setGameTime(oldRunData.gameTime);
     setGameData(oldRunData.gameData);
     setRunData(oldRunData.runData);
