@@ -106,10 +106,11 @@ const fetchUserHolyGrail = async () => {
     if (querySnapshot && querySnapshot.exists()) {
       return querySnapshot.data().holyGrail.items;
     } else {
-      return [];
+      return collectionStructure.holyGrail;
     }
   } catch (error) {
     console.log("Error when fetching user's holy grail", error);
+    return collectionStructure.holyGrail;
   }
 };
 
@@ -200,6 +201,7 @@ const fetchHistory = async () => {
     }
   } catch (error) {
     console.log("Error when fetching history data. ", error);
+    return [];
   }
 };
 

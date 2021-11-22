@@ -110,25 +110,16 @@ export default function RunLayout() {
   }, [gameData, history, showSummary]);
 
   React.useEffect(() => {
-    async function getHistoryData() {
-      if (!isActiveGame) {
-        setRunHistory(await fetchHistory());
-      }
-    }
-    getHistoryData();
-  }, [isActiveGame]);
-
-  React.useEffect(() => {
     async function getData() {
       const activeRun = await fetchActiveRun();
-      if (Object.keys(activeRun).length > 0) {
+      if (activeRun && !Object.keys(activeRun).length) {
         setRetrivedData(activeRun);
         setOpenUnfishiedRunDialog(true);
       }
-
       setRunHistory(await fetchHistory());
     }
     getData();
+
     return () => setRunHistory([]);
   }, []);
 
@@ -141,7 +132,7 @@ export default function RunLayout() {
               START NEW RUN
             </h2>
             <RunCreator setGameData={setGameData}></RunCreator>
-            {runHistory.length > 0 && (
+            {runHistory?.length > 0 && (
               <RunHistory runHistory={runHistory} openOldSummary={openOldSummary} setRunHistory={setRunHistory}></RunHistory>
             )}
           </div>

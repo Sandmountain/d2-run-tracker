@@ -112,44 +112,48 @@ export default function RunHistory(props) {
                     overflowY: "auto",
                     bgcolor: "rgba(24, 24, 24, 0.8)",
                   }}>
-                  {runHistory
-                    .map((run, index) => {
-                      return (
-                        <ListItemButton key={index} sx={{ py: "2px", pr: 1, minHeight: 32, color: "rgba(255,255,255,.8)" }}>
-                          <ListItemText
-                            onClick={(_, e) => openOldSummary(run)}
-                            primary={<span className="diablo-text caps">{run.gameData.name}</span>}
-                            primaryTypographyProps={{
-                              fontSize: 14,
-                              fontWeight: "medium",
-                              maxWidth: "160px",
-                              overflow: "hidden",
-                              whiteSpace: "nowrap",
-                              textOverflow: "ellipsis",
-                            }}
-                            secondary={
-                              <Box component="span" sx={{ display: "flex" }}>
-                                <Box component="span" sx={{ mr: "1em" }}>
-                                  {run.gameData.runType}
-                                </Box>{" "}
-                                <Box component="span" sx={{ color: "gray" }}>
-                                  {run.runData.length + " runs"}
+                  {runHistory &&
+                    runHistory.length > 0 &&
+                    runHistory
+                      .map((run, index) => {
+                        return (
+                          <ListItemButton key={index} sx={{ py: "2px", pr: 1, minHeight: 32, color: "rgba(255,255,255,.8)" }}>
+                            <ListItemText
+                              onClick={(_, e) => openOldSummary(run)}
+                              primary={<span className="diablo-text caps">{run.gameData.name}</span>}
+                              primaryTypographyProps={{
+                                fontSize: 14,
+                                fontWeight: "medium",
+                                maxWidth: "160px",
+                                overflow: "hidden",
+                                whiteSpace: "nowrap",
+                                textOverflow: "ellipsis",
+                              }}
+                              secondary={
+                                <Box component="span" sx={{ display: "flex" }}>
+                                  <Box component="span" sx={{ mr: "1em" }}>
+                                    {run.gameData?.runType}
+                                  </Box>{" "}
+                                  <Box component="span" sx={{ color: "gray" }}>
+                                    {run.runData?.length + " runs"}
+                                  </Box>
                                 </Box>
-                              </Box>
-                            }
-                            secondaryTypographyProps={{ fontSize: 10, fontWeight: "thin" }}>
-                            {run.gameData.name}
-                          </ListItemText>
-                          <ListItemText primary={run.label} primaryTypographyProps={{ fontSize: 12, fontWeight: "thin", textAlign: "end" }}>
-                            {itemsFound(run)}
-                          </ListItemText>
-                          <IconButton edge="end" size="small" onClick={() => handleDelete(run)}>
-                            <DeleteOutline></DeleteOutline>
-                          </IconButton>
-                        </ListItemButton>
-                      );
-                    })
-                    .reverse()}
+                              }
+                              secondaryTypographyProps={{ fontSize: 10, fontWeight: "thin" }}>
+                              {run.gameData.name}
+                            </ListItemText>
+                            <ListItemText
+                              primary={run.label}
+                              primaryTypographyProps={{ fontSize: 12, fontWeight: "thin", textAlign: "end" }}>
+                              {itemsFound(run)}
+                            </ListItemText>
+                            <IconButton edge="end" size="small" onClick={() => handleDelete(run)}>
+                              <DeleteOutline></DeleteOutline>
+                            </IconButton>
+                          </ListItemButton>
+                        );
+                      })
+                      .reverse()}
                 </Box>
               </Collapse>
             </Box>
