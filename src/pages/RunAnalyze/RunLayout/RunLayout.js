@@ -119,8 +119,6 @@ export default function RunLayout() {
       setRunHistory(await fetchHistory());
     }
     getData();
-
-    return () => setRunHistory([]);
   }, []);
 
   return (

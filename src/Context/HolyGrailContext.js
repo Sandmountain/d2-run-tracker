@@ -21,7 +21,6 @@ export function HolyGrailProvider({ children }) {
     if (Object.keys(holyGrail).length === 0 && loggedIn) {
       fetchHolyGrail();
     }
-    return () => fetchUserHolyGrail();
   }, [holyGrail, loggedIn]);
 
   const addToHolyGrail = (items, itemsStatuses) => {

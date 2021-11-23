@@ -79,7 +79,7 @@ const initDatabase = async (user) => {
     } else {
       setDoc(userRef, collectionStructure)
         .then(() => {
-          console.log("collection created");
+          // Collection Created
         })
         .catch((err) => {
           console.log(err);
@@ -194,7 +194,7 @@ const fetchHistory = async () => {
   try {
     const querySnapshot = await constructUserQuery();
 
-    if (querySnapshot.exists()) {
+    if (querySnapshot && querySnapshot.exists()) {
       return querySnapshot.data().runData.history;
     } else {
       return [];
@@ -254,9 +254,11 @@ const addToActiveRun = async (data) => {
 
 const constructUserQuery = async () => {
   try {
-    const { uid } = auth.currentUser;
-    const dataRef = doc(db, "userData", uid);
-    return await getDoc(dataRef);
+    if (auth?.currentUser) {
+      const { uid } = auth.currentUser;
+      const dataRef = doc(db, "userData", uid);
+      return await getDoc(dataRef);
+    }
   } catch (error) {
     console.log(error);
   }

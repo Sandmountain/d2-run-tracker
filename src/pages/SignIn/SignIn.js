@@ -13,7 +13,7 @@ const googleProvider = new GoogleAuthProvider();
 const githubProvider = new GithubAuthProvider();
 
 export default function SignIn() {
-  const { loggingIn, signIn } = useAuth();
+  const { loadingAuth, signIn } = useAuth();
 
   // Used to redirect back to the page that was routed from.
   const signInWith3dParty = (provider) => {
@@ -22,7 +22,7 @@ export default function SignIn() {
 
   return (
     <Box sx={{ width: "100%", display: "flex", position: "absolute", top: "20%", justifyContent: "center" }}>
-      {loggingIn ? (
+      {loadingAuth ? (
         <LoadingSpinner text="Logging in..." />
       ) : (
         <Box sx={{ height: "fit-content", padding: "30px" }} className="paper-design">
