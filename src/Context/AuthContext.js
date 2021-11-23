@@ -17,8 +17,6 @@ export function AuthProvider({ children }) {
   const [loggedIn, setLoggedIn] = useState(false);
   const [loadingAuth, setLoadingAuth] = useState(false);
 
-  let { from } = location.state || { from: { pathname: "/" } };
-
   const signIn = (provider) => {
     const auth = getAuth();
     setLoadingAuth(true);
@@ -46,7 +44,7 @@ export function AuthProvider({ children }) {
   };
 
   React.useEffect(() => {
-    if (!user && !loggedIn && !loadingAuth) {
+    if (!user && !loggedIn) {
       setLoadingAuth(true);
       const auth = getAuth();
       auth.onAuthStateChanged(async (res) => {
@@ -61,7 +59,7 @@ export function AuthProvider({ children }) {
         }
       });
     }
-  }, [user, setUser, history, from, loggedIn, loadingAuth]);
+  }, [user, history, loggedIn]);
 
   return <AuthContext.Provider value={{ user, loggedIn, loadingAuth, signIn, signOut }}>{children}</AuthContext.Provider>;
 }
