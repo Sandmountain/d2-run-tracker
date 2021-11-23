@@ -20,7 +20,6 @@ export default function SignIn() {
     signIn(provider);
   };
 
-  console.log(loadingAuth);
   return (
     <Box sx={{ width: "100%", display: "flex", position: "absolute", top: "20%", justifyContent: "center" }}>
       {loadingAuth ? (
